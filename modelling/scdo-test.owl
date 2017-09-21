@@ -1,0 +1,1341 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-355 "http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355#"
+     xml:base="http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-355="http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/synonym -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-355;synonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://urigen_local_uri/05f1c2c5-cf33-45ba-a668-3a99b71d1292/results_in_phenotype -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/05f1c2c5-cf33-45ba-a668-3a99b71d1292/results_in_phenotype"/>
+    
+
+
+    <!-- http://urigen_local_uri/0b1d1480-37c6-41ec-99e1-53b2496ff868/has_subject -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/0b1d1480-37c6-41ec-99e1-53b2496ff868/has_subject"/>
+    
+
+
+    <!-- http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+    
+
+
+    <!-- http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+    
+
+
+    <!-- http://urigen_local_uri/27bb27ab-e75f-4b4b-831a-84322d3be7a2/has_object -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/27bb27ab-e75f-4b4b-831a-84322d3be7a2/has_object"/>
+    
+
+
+    <!-- http://urigen_local_uri/2f1cff4a-4dc1-48c9-b464-0ff7da062dbf/hasModeOfInheritance -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/2f1cff4a-4dc1-48c9-b464-0ff7da062dbf/hasModeOfInheritance"/>
+    
+
+
+    <!-- http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by">
+        <owl:inverseOf rdf:resource="http://urigen_local_uri/8d125ef6-73ee-42d0-8d2d-fe45a1d96b98/causes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://urigen_local_uri/8d125ef6-73ee-42d0-8d2d-fe45a1d96b98/causes -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/8d125ef6-73ee-42d0-8d2d-fe45a1d96b98/causes"/>
+    
+
+
+    <!-- http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from -->
+
+    <owl:ObjectProperty rdf:about="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hasProduct -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-355;hasProduct"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/has_phenotype -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-355;has_phenotype"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/has_quality -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-355;has_quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/has_variant -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-355;has_variant">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/is_product_of -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-355;is_product_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/lacks_part -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-355;lacks_part"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/part_of -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-355;part_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://urigen_local_uri/10e9ed6d-19aa-474f-b941-8a185741fae1/molecular_phenotype -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/10e9ed6d-19aa-474f-b941-8a185741fae1/molecular_phenotype">
+        <rdfs:label>abnormal phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/c7d6fe87-4678-41d4-8334-2292ec769ded/phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/19b2e402-b2f5-44cb-9944-bb4511700540/protein_molecule -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/19b2e402-b2f5-44cb-9944-bb4511700540/protein_molecule">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/97501c74-4225-474f-8bb2-badd065bd9d5/molecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/1c4b836e-6346-452e-9e25-3819bddef865/human_life_cycle_stage -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/1c4b836e-6346-452e-9e25-3819bddef865/human_life_cycle_stage"/>
+    
+
+
+    <!-- http://urigen_local_uri/1cae953c-0446-4481-bc95-68be627e8cae/globin_gene -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/1cae953c-0446-4481-bc95-68be627e8cae/globin_gene">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/a00a10e3-576b-4715-9b28-3bd0ccd91b0a/gene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/1e60a1b9-8b9d-4a80-ab49-cce3dd1c609d/DiseaseSeverityModifierAssociation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/1e60a1b9-8b9d-4a80-ab49-cce3dd1c609d/DiseaseSeverityModifierAssociation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/878374a8-bb1b-486b-9f88-c9b415e2e8aa/DiseaseModifierAssociation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/0b1d1480-37c6-41ec-99e1-53b2496ff868/has_subject"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://urigen_local_uri/c7d6fe87-4678-41d4-8334-2292ec769ded/phenotype"/>
+                            <rdf:Description rdf:about="http://urigen_local_uri/d4fa028c-bb52-44d3-b8d0-deb346e4e58f/disease"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/25237745-6ea5-4d3f-a85d-d92772c6d164/hba2 -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/25237745-6ea5-4d3f-a85d-d92772c6d164/hba2">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/271c4959-4de4-4c0f-8bf3-340494b3c03c/beta_globin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/271c4959-4de4-4c0f-8bf3-340494b3c03c/beta_globin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/f3ffcad5-e041-4002-b872-92a109271f60/globin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/31f8216d-b003-4e97-bb3e-7a04a721ffe5/epsilon_globin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/31f8216d-b003-4e97-bb3e-7a04a721ffe5/epsilon_globin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/1cae953c-0446-4481-bc95-68be627e8cae/globin_gene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd">
+        <rdfs:label>Sickle cell disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/362d1552-a988-4005-9521-61fd640868dc/homozygous_beta_s_mutation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/362d1552-a988-4005-9521-61fd640868dc/homozygous_beta_s_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/df44bd1f-8853-45c8-b117-9db1670c8868/beta_S_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/3903d57a-8992-43d8-8db8-52a067a2cd49/beta_C_mutation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/3903d57a-8992-43d8-8db8-52a067a2cd49/beta_C_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/de2fa72f-8154-42ae-ad04-2eee78b8ced2/point_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/3cd74a15-e6e8-4e00-bace-8691451d868f/fetal_hemoglobin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/3cd74a15-e6e8-4e00-bace-8691451d868f/fetal_hemoglobin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+                <owl:someValuesFrom rdf:resource="&untitled-ontology-355;gamma_globin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <untitled-ontology-355:synonym>HbF</untitled-ontology-355:synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/3cef7cd4-268f-460e-bc9d-f281340ed7da/genetic_variation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/3cef7cd4-268f-460e-bc9d-f281340ed7da/genetic_variation"/>
+    
+
+
+    <!-- http://urigen_local_uri/41176c98-615d-4466-ad1d-066c9eea7d00/delta_globin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/41176c98-615d-4466-ad1d-066c9eea7d00/delta_globin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/1cae953c-0446-4481-bc95-68be627e8cae/globin_gene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/c25f1462-2dcf-43ed-a377-8660bbc06541/genetic_disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/4e22c7a3-a87b-4eb9-8144-d728856537ae/Association -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/4e22c7a3-a87b-4eb9-8144-d728856537ae/Association"/>
+    
+
+
+    <!-- http://urigen_local_uri/54484e17-f75d-49da-b005-a362a086c155/hbsc -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/54484e17-f75d-49da-b005-a362a086c155/hbsc">
+        <rdfs:label>Sickle Cell-Hemoglobin C Disease</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://urigen_local_uri/a76c1073-49c8-4fb4-bb02-e9e43ca21173/polymerisation_of_hemoglobin"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&untitled-ontology-355;heterozygous_beta_s_mutation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&untitled-ontology-355;crytalisation_of_hemoglobin"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&untitled-ontology-355;heterozygous_beta_c_mutation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/3903d57a-8992-43d8-8db8-52a067a2cd49/beta_C_mutation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/df44bd1f-8853-45c8-b117-9db1670c8868/beta_S_mutation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <untitled-ontology-355:synonym>hbsc</untitled-ontology-355:synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/554e82c5-5934-40f8-af33-fd4b44bff9d2/hemoglobin_bart_hydrop_fetalis_syndrome -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/554e82c5-5934-40f8-af33-fd4b44bff9d2/hemoglobin_bart_hydrop_fetalis_syndrome">
+        <rdfs:label>hemoglobin bart hydrop fetalis syndrome</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&untitled-ontology-355;haemoglobin_bart_synthesis_ratio"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&untitled-ontology-355;homozygous_deletion_of_hba1_and_hba2"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="&untitled-ontology-355;hasProduct"/>
+                                                                <owl:someValuesFrom>
+                                                                    <owl:Class>
+                                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                                            <rdf:Description rdf:about="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin"/>
+                                                                            <owl:Restriction>
+                                                                                <owl:onProperty rdf:resource="&untitled-ontology-355;lacks_part"/>
+                                                                                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/5a663a9d-8b62-4bd7-8525-124df97f85cd/alpha_globin"/>
+                                                                            </owl:Restriction>
+                                                                            <owl:Restriction>
+                                                                                <owl:onProperty rdf:resource="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+                                                                                <owl:allValuesFrom rdf:resource="&untitled-ontology-355;gamma_globin"/>
+                                                                            </owl:Restriction>
+                                                                        </owl:intersectionOf>
+                                                                    </owl:Class>
+                                                                </owl:someValuesFrom>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/d668309d-cb84-42af-a309-15fa231df431/alpha_thalassemia"/>
+        <untitled-ontology-355:synonym>homozygous alpha thalassemia</untitled-ontology-355:synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/56a8528a-1ebe-4c1e-ab07-67df4fafdc64/DiseaseSeverityAssociation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/56a8528a-1ebe-4c1e-ab07-67df4fafdc64/DiseaseSeverityAssociation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4e22c7a3-a87b-4eb9-8144-d728856537ae/Association"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/5a663a9d-8b62-4bd7-8525-124df97f85cd/alpha_globin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/5a663a9d-8b62-4bd7-8525-124df97f85cd/alpha_globin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/f3ffcad5-e041-4002-b872-92a109271f60/globin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/623324ad-f828-476c-bbb8-ec6818c20641/hbh_disease -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/623324ad-f828-476c-bbb8-ec6818c20641/hbh_disease">
+        <rdfs:label>hemoglobin H disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/d668309d-cb84-42af-a309-15fa231df431/alpha_thalassemia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/f3ffcad5-e041-4002-b872-92a109271f60/globin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/75d4bb83-a8e6-4bdd-ac0f-a8dd164e8c9b/quantitative_change_in_globin_synthesis -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/75d4bb83-a8e6-4bdd-ac0f-a8dd164e8c9b/quantitative_change_in_globin_synthesis">
+        <rdfs:label>imbalanced globin synthesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;abnormal_hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/7a32e596-fcf2-45ac-8e03-28b7f1545108/mutation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/7a32e596-fcf2-45ac-8e03-28b7f1545108/mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3cef7cd4-268f-460e-bc9d-f281340ed7da/genetic_variation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/878374a8-bb1b-486b-9f88-c9b415e2e8aa/DiseaseModifierAssociation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/878374a8-bb1b-486b-9f88-c9b415e2e8aa/DiseaseModifierAssociation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4e22c7a3-a87b-4eb9-8144-d728856537ae/Association"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/8997a7c9-8f34-4614-833c-2601df1d8c1e/homozygous_deletions_of_hba2 -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/8997a7c9-8f34-4614-833c-2601df1d8c1e/homozygous_deletions_of_hba2">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/ebbf6952-2e14-4962-a037-fad4446c29d4/deletion_in_alpha_globin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/25237745-6ea5-4d3f-a85d-d92772c6d164/hba2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/8def7de6-3e3c-46f6-891f-eefc262a0ab9/inheritance -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/8def7de6-3e3c-46f6-891f-eefc262a0ab9/inheritance"/>
+    
+
+
+    <!-- http://urigen_local_uri/97327b27-27f6-4e8a-bc18-3fda18d5c9de/adult_hemoglobin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/97327b27-27f6-4e8a-bc18-3fda18d5c9de/adult_hemoglobin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/97501c74-4225-474f-8bb2-badd065bd9d5/molecule -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/97501c74-4225-474f-8bb2-badd065bd9d5/molecule"/>
+    
+
+
+    <!-- http://urigen_local_uri/99e5c50d-7221-4d64-9aae-22a088fe3613/hbss -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/99e5c50d-7221-4d64-9aae-22a088fe3613/hbss">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/9b636077-73e0-4eed-928b-4752c2a5a634/gamma_globin_gene -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/9b636077-73e0-4eed-928b-4752c2a5a634/gamma_globin_gene">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/1cae953c-0446-4481-bc95-68be627e8cae/globin_gene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/1cae953c-0446-4481-bc95-68be627e8cae/globin_gene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/a00a10e3-576b-4715-9b28-3bd0ccd91b0a/gene -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/a00a10e3-576b-4715-9b28-3bd0ccd91b0a/gene"/>
+    
+
+
+    <!-- http://urigen_local_uri/a76c1073-49c8-4fb4-bb02-e9e43ca21173/polymerisation_of_hemoglobin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/a76c1073-49c8-4fb4-bb02-e9e43ca21173/polymerisation_of_hemoglobin">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;abnormal_hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/b7ff4f0d-e0e1-47e9-9a38-01bae8bf0ec3/homozygous_deletion_of_hba1 -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/b7ff4f0d-e0e1-47e9-9a38-01bae8bf0ec3/homozygous_deletion_of_hba1">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/ebbf6952-2e14-4962-a037-fad4446c29d4/deletion_in_alpha_globin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/f4931bde-b25d-4967-9064-14a78a37ad1b/hba1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/c25f1462-2dcf-43ed-a377-8660bbc06541/genetic_disease -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/c25f1462-2dcf-43ed-a377-8660bbc06541/genetic_disease">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/d4fa028c-bb52-44d3-b8d0-deb346e4e58f/disease"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/10e9ed6d-19aa-474f-b941-8a185741fae1/molecular_phenotype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/c7d6fe87-4678-41d4-8334-2292ec769ded/phenotype -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/c7d6fe87-4678-41d4-8334-2292ec769ded/phenotype"/>
+    
+
+
+    <!-- http://urigen_local_uri/cbc88d24-c257-4842-9794-0ea1d80ef00c/reduction_in_alpha-globin_synthesis -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/cbc88d24-c257-4842-9794-0ea1d80ef00c/reduction_in_alpha-globin_synthesis">
+        <rdfs:label>reduced alpha/beta synthesis ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/75d4bb83-a8e6-4bdd-ac0f-a8dd164e8c9b/quantitative_change_in_globin_synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/d2cbd90e-46a4-4c63-b9ca-34842dfd2624/deletion -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/d2cbd90e-46a4-4c63-b9ca-34842dfd2624/deletion">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/7a32e596-fcf2-45ac-8e03-28b7f1545108/mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/d3c4decb-1904-4987-a9aa-4d9e12678b8d/thalassemia -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/d3c4decb-1904-4987-a9aa-4d9e12678b8d/thalassemia">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/d4fa028c-bb52-44d3-b8d0-deb346e4e58f/disease -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/d4fa028c-bb52-44d3-b8d0-deb346e4e58f/disease"/>
+    
+
+
+    <!-- http://urigen_local_uri/d5a742cc-59a9-4167-9ed7-711f230d561a/autosomal_recessive -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/d5a742cc-59a9-4167-9ed7-711f230d561a/autosomal_recessive">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/8def7de6-3e3c-46f6-891f-eefc262a0ab9/inheritance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/d668309d-cb84-42af-a309-15fa231df431/alpha_thalassemia -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/d668309d-cb84-42af-a309-15fa231df431/alpha_thalassemia">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/d3c4decb-1904-4987-a9aa-4d9e12678b8d/thalassemia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/cbc88d24-c257-4842-9794-0ea1d80ef00c/reduction_in_alpha-globin_synthesis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/de2fa72f-8154-42ae-ad04-2eee78b8ced2/point_mutation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/de2fa72f-8154-42ae-ad04-2eee78b8ced2/point_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/7a32e596-fcf2-45ac-8e03-28b7f1545108/mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/df44bd1f-8853-45c8-b117-9db1670c8868/beta_S_mutation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/df44bd1f-8853-45c8-b117-9db1670c8868/beta_S_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/de2fa72f-8154-42ae-ad04-2eee78b8ced2/point_mutation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/05f1c2c5-cf33-45ba-a668-3a99b71d1292/results_in_phenotype"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/a76c1073-49c8-4fb4-bb02-e9e43ca21173/polymerisation_of_hemoglobin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/ebbf6952-2e14-4962-a037-fad4446c29d4/deletion_in_alpha_globin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/ebbf6952-2e14-4962-a037-fad4446c29d4/deletion_in_alpha_globin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/d2cbd90e-46a4-4c63-b9ca-34842dfd2624/deletion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/05f1c2c5-cf33-45ba-a668-3a99b71d1292/results_in_phenotype"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/cbc88d24-c257-4842-9794-0ea1d80ef00c/reduction_in_alpha-globin_synthesis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/edd3ad6f-d0fa-4421-8825-a0e4bcd0f4ec/AgeOfOnsetAssociation -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/edd3ad6f-d0fa-4421-8825-a0e4bcd0f4ec/AgeOfOnsetAssociation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4e22c7a3-a87b-4eb9-8144-d728856537ae/Association"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/27bb27ab-e75f-4b4b-831a-84322d3be7a2/has_object"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/1c4b836e-6346-452e-9e25-3819bddef865/human_life_cycle_stage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/0b1d1480-37c6-41ec-99e1-53b2496ff868/has_subject"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://urigen_local_uri/c7d6fe87-4678-41d4-8334-2292ec769ded/phenotype"/>
+                            <rdf:Description rdf:about="http://urigen_local_uri/d4fa028c-bb52-44d3-b8d0-deb346e4e58f/disease"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/f3ffcad5-e041-4002-b872-92a109271f60/globin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/f3ffcad5-e041-4002-b872-92a109271f60/globin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/19b2e402-b2f5-44cb-9944-bb4511700540/protein_molecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/f4931bde-b25d-4967-9064-14a78a37ad1b/hba1 -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/f4931bde-b25d-4967-9064-14a78a37ad1b/hba1">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/f93a56e1-a3ad-4ece-a44e-87692548b2a4/sca -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/f93a56e1-a3ad-4ece-a44e-87692548b2a4/sca">
+        <rdfs:label>Sickle cell aneamia</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://urigen_local_uri/10e9ed6d-19aa-474f-b941-8a185741fae1/molecular_phenotype"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://urigen_local_uri/362d1552-a988-4005-9521-61fd640868dc/homozygous_beta_s_mutation"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/2f1cff4a-4dc1-48c9-b464-0ff7da062dbf/hasModeOfInheritance"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/d5a742cc-59a9-4167-9ed7-711f230d561a/autosomal_recessive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin">
+        <rdfs:label>alpha globin gene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/1cae953c-0446-4481-bc95-68be627e8cae/globin_gene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://urigen_local_uri/ff972510-a3f3-47bd-97dd-068f9ff93bf3/reduction_in_beta-globin_synthesis -->
+
+    <owl:Class rdf:about="http://urigen_local_uri/ff972510-a3f3-47bd-97dd-068f9ff93bf3/reduction_in_beta-globin_synthesis">
+        <rdfs:label>reduced beta/alpha synthesis ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/75d4bb83-a8e6-4bdd-ac0f-a8dd164e8c9b/quantitative_change_in_globin_synthesis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/Sickle_cell_hemoglobin_D_disease -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;Sickle_cell_hemoglobin_D_disease">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/Sickle_cell_hemoglobin_E_disease -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;Sickle_cell_hemoglobin_E_disease">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://urigen_local_uri/a76c1073-49c8-4fb4-bb02-e9e43ca21173/polymerisation_of_hemoglobin"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://urigen_local_uri/362d1552-a988-4005-9521-61fd640868dc/homozygous_beta_s_mutation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://urigen_local_uri/ff972510-a3f3-47bd-97dd-068f9ff93bf3/reduction_in_beta-globin_synthesis"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&untitled-ontology-355;homozygous_beta_E_mutation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&untitled-ontology-355;unstable_hemoglobin"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&untitled-ontology-355;homozygous_beta_E_mutation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/Sickle_cell_hemoglobin_O_disease -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;Sickle_cell_hemoglobin_O_disease">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/abnormal_hemoglobin -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;abnormal_hemoglobin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/10e9ed6d-19aa-474f-b941-8a185741fae1/molecular_phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/beta_E_mutation -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;beta_E_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/de2fa72f-8154-42ae-ad04-2eee78b8ced2/point_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/beta_thalasseima -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;beta_thalasseima">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/d3c4decb-1904-4987-a9aa-4d9e12678b8d/thalassemia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/beta_thalassemia_intermediate -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;beta_thalassemia_intermediate">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;beta_thalasseima"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/beta_thalassemia_major -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;beta_thalassemia_major">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;beta_thalasseima"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/beta_thalassemia_minor -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;beta_thalassemia_minor">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;beta_thalasseima"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/crytalisation_of_hemoglobin -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;crytalisation_of_hemoglobin">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;abnormal_hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/gamma_globin -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;gamma_globin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/f3ffcad5-e041-4002-b872-92a109271f60/globin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/haemoglobin_bart_synthesis_ratio -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;haemoglobin_bart_synthesis_ratio">
+        <rdfs:label>absence of alpha globin synthesis with gamma globin synthesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;reduced_alpha/gamma_synthesis_ratio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hemoglobin_C -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hemoglobin_C">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://urigen_local_uri/5a663a9d-8b62-4bd7-8525-124df97f85cd/alpha_globin"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://urigen_local_uri/271c4959-4de4-4c0f-8bf3-340494b3c03c/beta_globin"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&untitled-ontology-355;is_product_of"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+                                                        <owl:someValuesFrom rdf:resource="&untitled-ontology-355;homozygous_beta_c_mutation"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hemoglobin_C_disease -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hemoglobin_C_disease">
+        <rdfs:label>hemoglobin C disease</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom rdf:resource="&untitled-ontology-355;crytalisation_of_hemoglobin"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&untitled-ontology-355;abnormal_hemoglobin"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&untitled-ontology-355;homozygous_beta_c_mutation"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="&untitled-ontology-355;hasProduct"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="http://urigen_local_uri/271c4959-4de4-4c0f-8bf3-340494b3c03c/beta_globin"/>
+                                                                                    <owl:Restriction>
+                                                                                        <owl:onProperty rdf:resource="&untitled-ontology-355;part_of"/>
+                                                                                        <owl:someValuesFrom rdf:resource="&untitled-ontology-355;hemoglobin_C"/>
+                                                                                    </owl:Restriction>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hemoglobin_D -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hemoglobin_D">
+        <rdfs:label>hemoglobin D disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hemoglobin_E -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hemoglobin_E">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hemoglobin_E_disease -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hemoglobin_E_disease">
+        <rdfs:label>hemoglobin E disease</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/834e5d05-d73b-4600-8199-a537eb8d86f7/is_caused_by"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&untitled-ontology-355;abnormal_hemoglobin"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://urigen_local_uri/a7145d1d-a7b3-439d-ac86-4b54aa9cbd46/results_from"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&untitled-ontology-355;homozygous_beta_E_mutation"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://urigen_local_uri/9d59fc01-6ba9-4582-a134-61403427224f/beta-globin_gene"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="&untitled-ontology-355;hasProduct"/>
+                                                                <owl:someValuesFrom>
+                                                                    <owl:Class>
+                                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                                            <rdf:Description rdf:about="http://urigen_local_uri/271c4959-4de4-4c0f-8bf3-340494b3c03c/beta_globin"/>
+                                                                            <owl:Restriction>
+                                                                                <owl:onProperty rdf:resource="&untitled-ontology-355;part_of"/>
+                                                                                <owl:someValuesFrom rdf:resource="&untitled-ontology-355;hemoglobin_E"/>
+                                                                            </owl:Restriction>
+                                                                        </owl:intersectionOf>
+                                                                    </owl:Class>
+                                                                </owl:someValuesFrom>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hemoglobin_O -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hemoglobin_O">
+        <rdfs:label>hemoglobin O disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hemoglobin_bart -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hemoglobin_bart">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/68001e00-aac7-4e8b-adf8-eee2b9f59c8d/hemoglobin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1c6ec51c-9985-4647-b104-f52807c5f021/has_part"/>
+                <owl:allValuesFrom rdf:resource="&untitled-ontology-355;gamma_globin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&untitled-ontology-355;lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/5a663a9d-8b62-4bd7-8525-124df97f85cd/alpha_globin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/heterozygous_beta_E_mutation -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;heterozygous_beta_E_mutation">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;beta_E_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/heterozygous_beta_c_mutation -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;heterozygous_beta_c_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3903d57a-8992-43d8-8db8-52a067a2cd49/beta_C_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/heterozygous_beta_s_mutation -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;heterozygous_beta_s_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/df44bd1f-8853-45c8-b117-9db1670c8868/beta_S_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/homozygous_beta_E_mutation -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;homozygous_beta_E_mutation">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;beta_E_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/homozygous_beta_c_mutation -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;homozygous_beta_c_mutation">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3903d57a-8992-43d8-8db8-52a067a2cd49/beta_C_mutation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/homozygous_deletion_of_hba1_and_hba2 -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;homozygous_deletion_of_hba1_and_hba2">
+        <rdfs:label>homozygous deletion of hba1 and hba2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/ebbf6952-2e14-4962-a037-fad4446c29d4/deletion_in_alpha_globin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/f4931bde-b25d-4967-9064-14a78a37ad1b/hba1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://urigen_local_uri/fe4300e4-cb30-489e-80d7-c85b6df01f40/alpha_globin"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&untitled-ontology-355;hasProduct"/>
+                                <owl:someValuesFrom rdf:resource="&untitled-ontology-355;hemoglobin_bart"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/05f1c2c5-cf33-45ba-a668-3a99b71d1292/results_in_phenotype"/>
+                <owl:someValuesFrom rdf:resource="&untitled-ontology-355;haemoglobin_bart_synthesis_ratio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://urigen_local_uri/1baa4fb2-3d7b-407b-a0a9-c11d8aaed543/is_variant_in"/>
+                <owl:someValuesFrom rdf:resource="http://urigen_local_uri/25237745-6ea5-4d3f-a85d-d92772c6d164/hba2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/hydrops_fetalis -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;hydrops_fetalis">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/10e9ed6d-19aa-474f-b941-8a185741fae1/molecular_phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/sickle_cell_-_hereditary_persistance_of_fetal_haemoglobin -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;sickle_cell_-_hereditary_persistance_of_fetal_haemoglobin">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/3429b2f4-a8b5-4a8c-ab8e-685453119a45/scd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/sickle_cell_beta_plus_thalaasemia -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;sickle_cell_beta_plus_thalaasemia">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;sickle_cell_beta_thalassemia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/sickle_cell_beta_thalassemia -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;sickle_cell_beta_thalassemia">
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/4b27d478-262b-477d-81f8-df379dabbcad/hemoglobinopathies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/sickle_cell_beta_zero_thalassemia -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;sickle_cell_beta_zero_thalassemia">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;sickle_cell_beta_thalassemia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/unstable_hemoglobin -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;unstable_hemoglobin">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-355;abnormal_hemoglobin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jupp/ontologies/2017/6/untitled-ontology-355/reduced_alpha/gamma_synthesis_ratio -->
+
+    <owl:Class rdf:about="&untitled-ontology-355;reduced_alpha/gamma_synthesis_ratio">
+        <rdfs:label>reduced alpha/gamma synthesis ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://urigen_local_uri/75d4bb83-a8e6-4bdd-ac0f-a8dd164e8c9b/quantitative_change_in_globin_synthesis"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
