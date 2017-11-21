@@ -8,8 +8,8 @@ ONT=scdo
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
-ROBOT= robot
-OWLTOOLS= owltools
+ROBOT= ../../bin/robot
+OWLTOOLS= ../../bin/owltools
 USECAT= --use-catalog
 SPARQLDIR = ../sparql
 
@@ -33,8 +33,8 @@ prepare_release: all
 
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-$(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+$(ONT).owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
+	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m true -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
@@ -44,6 +44,16 @@ $(ONT).obo: $(ONT).owl
 # Most ontologies are modularly constructed using portions of other ontologies
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
+
+imports/hp_import.txt: $(SRC) imports/hp.owl
+	$(ROBOT) query --input $(SRC) --select $(SPARQLDIR)/get_hpo_mappings.sparql imports/hp_import.txt 
+
+results/hp_module.owl: imports/hp_import.txt
+	$(ROBOT) extract  --method BOT --input imports/hp.owl --term-file imports/hp_import.txt --output results/hp_module.owl
+
+scdo_hp_bridge.owl: $(SRC)
+	$(ROBOT) query --format ttl --input $(SRC) --construct $(SPARQLDIR)/construct_hpo_bridge.sparql scdo_hp_bridge.owl
+
 
 IMPORTS = 
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
@@ -83,7 +93,7 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference xref-synt
 # run all violation checks
 VQUERIES = $(foreach V,$(VCHECKS),$(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
-	robot verify -i $< --queries $(VQUERIES) -O reports/
+	$(ROBOT) verify -i $< --queries $(VQUERIES) -O reports/
 
 # ----------------------------------------
 # Sparql queries: Reports
@@ -92,4 +102,4 @@ sparql_test: $(SRC)
 REPORTS = basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
 all_reports: $(SRC)
-	robot query -f tsv -i $< $(REPORT_ARGS)
+	$(ROBOT) query -f tsv -i $< $(REPORT_ARGS)
