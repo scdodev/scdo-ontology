@@ -12,19 +12,19 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl">
         <dc:LicenseDocument>LicenseDocument</dc:LicenseDocument>
-        <dc:abstract>abstract for SCDO</dc:abstract>
-        <dc:accessRights>description of SCDO&apos;s access rights</dc:accessRights>
-        <dc:accrualMethod>accrualMethod</dc:accrualMethod>
-        <dc:accrualPeriodicity>accrualPeriodicity</dc:accrualPeriodicity>
-        <dc:accrualPolicy>accrualPolicy</dc:accrualPolicy>
         <dc:audience>description of SCDO&apos;s audience</dc:audience>
-        <dc:available>available</dc:available>
-        <dc:conformsTo>the standard(s) to which the SCDO conforms</dc:conformsTo>
         <dc:coverage>coverage of SCDO</dc:coverage>
-        <dc:isReferencedBy>isReferencedBy</dc:isReferencedBy>
-        <dc:issued>issued</dc:issued>
         <dc:language>language</dc:language>
+        <dc:accrualPolicy>accrualPolicy</dc:accrualPolicy>
         <dc:license>license</dc:license>
+        <dc:abstract>abstract for SCDO</dc:abstract>
+        <dc:accrualPeriodicity>accrualPeriodicity</dc:accrualPeriodicity>
+        <dc:conformsTo>the standard(s) to which the SCDO conforms</dc:conformsTo>
+        <dc:accrualMethod>accrualMethod</dc:accrualMethod>
+        <dc:available>available</dc:available>
+        <dc:issued>issued</dc:issued>
+        <dc:accessRights>description of SCDO&apos;s access rights</dc:accessRights>
+        <dc:isReferencedBy>isReferencedBy</dc:isReferencedBy>
     </owl:Ontology>
     
 
@@ -14217,6 +14217,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A standardized tool designed to assess an individual’s cognitive abilities. It consists of a battery of tests that allow an investigator to conduct a comprehensive cognitive evaluation of IQ.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820501"/>
+        <ontology:SCDO_0000303>Life stage: Adolescent, Adult</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WAIS-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WAIS-IV and the WISC-V for guidance on selecting an age-appropriate test for individuals.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820501"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - 16 to 90 years #820501</ontology:SCDO_0000479>
@@ -14225,8 +14227,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>WAIS-IV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Adult Intelligence Scale, Fourth Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Adult Intelligence Scale, Fourth Edition (WAIS-IV)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Life stage: Adolescent, Adult</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WAIS-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WAIS-IV and the WISC-V for guidance on selecting an age-appropriate test for individuals.</rdfs:comment>
         <rdfs:label>Intelligence Scale - 16 to 90 years</rdfs:label>
     </owl:Class>
     
@@ -14244,6 +14244,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A standardized tool designed to assess the cognitive development in preschool and young children (up to age 7 years and 7 months). It consists of a battery of tests that allow an investigator to conduct a comprehensive evaluation of IQ.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820502"/>
+        <ontology:SCDO_0000303>Life stage: Toddler, Child</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WPPSI-IV and the Bayley Scales of Infant and Toddler Development, Third Edition (Bayley-III) and between the WPPSI-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WPPSI-IV, Bayley-III, and the WISC-V for guidance on selecting an age-appropriate test.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820502"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - 2 years, 6 months to 7 years, 7 months #820502</ontology:SCDO_0000479>
@@ -14252,8 +14254,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>WPPSI-IV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Preschool and Primary Scale of Intelligenc-Fourth Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Preschool and Primary Scale of Intelligenc-Fourth Edition (WPPSI-IV)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Life stage: Toddler, Child</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WPPSI-IV and the Bayley Scales of Infant and Toddler Development, Third Edition (Bayley-III) and between the WPPSI-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WPPSI-IV, Bayley-III, and the WISC-V for guidance on selecting an age-appropriate test.</rdfs:comment>
         <rdfs:label>Intelligence Scale - 2 years, 6 months to 7 years, 7 months</rdfs:label>
     </owl:Class>
     
@@ -14271,6 +14271,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A battery of tests that allow an investigator to conduct a comprehensive evaluation of a child or adolescent’s cognitive ability.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820503"/>
+        <ontology:SCDO_0000303>It consists of a core battery of subtests, which focus on five specific domains (verbal comprehension, processing speed, visual spatial, working memory, and fluid reasoning), as well as optional ancillary subtests. These ancillary subtests measure areas that are important to areas of academic achievement.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>Life stage: Child, Adolescent</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Wechsler Intelligence Scale for Children®-Fifth Edition (WISC-V) and Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI-IV), as well as between the WISC-V and the Wechsler Adult Intelligence Scale, Fourth Edition (WAIS-IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for WISC-V, WPPSI-IV, and WAIS-IV for guidance on selecting an age-appropriate test.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820503"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - 6 to 16 years 11 months #820503</ontology:SCDO_0000479>
@@ -14280,9 +14283,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>WISC-V</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Intelligence Scale for Children-Fifth Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>It consists of a core battery of subtests, which focus on five specific domains (verbal comprehension, processing speed, visual spatial, working memory, and fluid reasoning), as well as optional ancillary subtests. These ancillary subtests measure areas that are important to areas of academic achievement.</rdfs:comment>
-        <rdfs:comment>Life stage: Child, Adolescent</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Wechsler Intelligence Scale for Children®-Fifth Edition (WISC-V) and Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI-IV), as well as between the WISC-V and the Wechsler Adult Intelligence Scale, Fourth Edition (WAIS-IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for WISC-V, WPPSI-IV, and WAIS-IV for guidance on selecting an age-appropriate test.</rdfs:comment>
         <rdfs:label>Intelligence Scale - 6 to 16 years 11 months</rdfs:label>
     </owl:Class>
     
@@ -14300,6 +14300,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A standardized tool designed to assess a child’s development as compared to same-age peers. It has components that involve both direct observation and interaction with a child as well as caregiver questionnaires. It consists of five domains (cognitive, motor, language, social-emotional, and adaptive behavior).</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820504"/>
+        <ontology:SCDO_0000303>Life stage: Infant, Toddler, Child</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Bayley-III and the Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI - IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for Bayley-III and the WPPSI-IV for guidance on selecting an age-appropriate test.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820504"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - Birth to 3.5 years #820504</ontology:SCDO_0000479>
@@ -14308,8 +14310,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>Bayley Scales of Infant and Toddler Development, Third Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bayley Scales of Infant and Toddler Development, Third Edition (Bayley-III)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bayley-III</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Life stage: Infant, Toddler, Child</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Bayley-III and the Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI - IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for Bayley-III and the WPPSI-IV for guidance on selecting an age-appropriate test.</rdfs:comment>
         <rdfs:label>Intelligence Scale - Birth to 3.5 years</rdfs:label>
     </owl:Class>
     
@@ -18678,6 +18678,15 @@ Move/copy below Infection?</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A disease where there is cellular death (necrosis) of bone components due to interruption of the blood supply.</dc:description>
         <dc:source rdf:resource="http://purl.bioontology.org/ontology/MEDLINEPLUS/C0029445"/>
+        <ontology:SCDO_0000303>No one is sure what causes the disease. Risk factors include:
+
+Long-term steroid treatment
+Alcohol abuse
+Joint injuries
+Having certain diseases, including arthritis and cancer
+Doctors use imaging tests and other tests to diagnose osteonecrosis. 
+
+Treatments include medicines, using crutches, limiting activities that put weight on the affected joints, electrical stimulation and surgery.</ontology:SCDO_0000303>
         <ontology:SCDO_0000303>This term replaced &quot;Avascular Necrosis&quot; in QoL.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/MEDLINEPLUS/C0029445"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
@@ -18693,15 +18702,6 @@ Move/copy below Infection?</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>Ischemic Bone Necrosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Osteochondronecrosis</oboInOwl:hasExactSynonym>
         <rdfs:comment>It is most common in the upper leg. Other common sites are your upper arm and your knees, shoulders and ankles.</rdfs:comment>
-        <rdfs:comment>No one is sure what causes the disease. Risk factors include:
-
-Long-term steroid treatment
-Alcohol abuse
-Joint injuries
-Having certain diseases, including arthritis and cancer
-Doctors use imaging tests and other tests to diagnose osteonecrosis. 
-
-Treatments include medicines, using crutches, limiting activities that put weight on the affected joints, electrical stimulation and surgery.</rdfs:comment>
         <rdfs:label>Osteonecrosis</rdfs:label>
     </owl:Class>
     
@@ -19239,6 +19239,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <dc:description>A physical assessment of the various symptoms associated with a stroke, consisting of eleven categories. The PedNIHSS was developed by a panel of pediatric and adult stroke experts and is a modification of the adult NIH stroke scale (NIHSS). Modifications were made to allow individuals age 18 or younger to be assessed and are identified in the PedNIHSS by bold italic text.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820802"/>
         <ontology:SCDO_0000004>PedNIHSS</ontology:SCDO_0000004>
+        <ontology:SCDO_0000303>For each category of the PedNIHSS, the examiner asks the respondent to perform an activity or respond to an action by the provider. Respondents receive a score for each category based upon their ability to complete the activity or respond to the action. Each score typically ranges from 0 to 3. Each category of the PedNIHSS is designed to determine the respondent’s level of consciousness (LOC), visual, motor, or language ability.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>Life stage: Toddler, Child, Adolescent</ontology:SCDO_0000303>
         <ontology:SCDO_0000335>PX820802</ontology:SCDO_0000335>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820802"/>
         <ontology:SCDO_0000479>PhenX protocol: Pediatric NIH Stroke Scale (PedNIHSS) #820802</ontology:SCDO_0000479>
@@ -19246,8 +19248,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0001335>Examiners must be trained to administer, score, and interpret the NIHSS. The National Institute of Neurological Disorders and Stroke (NINDS) provides a comprehensive interactive training DVD for the National Institutes of Health Stroke Scale (NIHSS). Information and purchasing details for this training is available on the NINDS website.</ontology:SCDO_0001335>
         <oboInOwl:hasExactSynonym>PedNIHSS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pediatric NIH Stroke Scale</oboInOwl:hasExactSynonym>
-        <rdfs:comment>For each category of the PedNIHSS, the examiner asks the respondent to perform an activity or respond to an action by the provider. Respondents receive a score for each category based upon their ability to complete the activity or respond to the action. Each score typically ranges from 0 to 3. Each category of the PedNIHSS is designed to determine the respondent’s level of consciousness (LOC), visual, motor, or language ability.</rdfs:comment>
-        <rdfs:comment>Life stage: Toddler, Child, Adolescent</rdfs:comment>
         <rdfs:label>Pediatric NIH Stroke Scale (PedNIHSS)</rdfs:label>
     </owl:Class>
     
@@ -19363,7 +19363,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000482>Clinic Patients (Children with SCD)</ontology:SCDO_0000482>
         <ontology:SCDO_0001222>Ages 2 to 18</ontology:SCDO_0001222>
         <ontology:SCDO_0001335>The PedsQL™ Sickle Cell Disease Module is a proprietary instrument and administration requires permission and a license from the MAPI Research Trust.</ontology:SCDO_0001335>
-        <rdfs:comment>Life Stage: Toddler, Child, Adolescent</rdfs:comment>
         <rdfs:comment>Life stage: Toddler; Child; Adolescent</rdfs:comment>
         <rdfs:label>PedsQL Sickle Cell Disease Module</rdfs:label>
     </owl:Class>
@@ -29817,15 +29816,15 @@ Perhaps have parent class Hemoglobinopathy Genotype, with Hemoglobinopathy Trait
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most common Hemoglobin Lepore type and the only type of the three known variants  described in association with HbS. This abnormal hemoglobin consists of two normal alpha globin chains (HBA) and two deltabeta globin fusion chains which occur due to a &quot;crossover&quot; between the delta (HBD) and beta globin (HBB) gene loci during meiosis.</dc:description>
         <dc:source rdf:resource="http://globin.cse.psu.edu/html/huisman/variants/hybrid/Lepore-Boston-Washington.html"/>
         <dc:source rdf:resource="http://www.enerca.org/anaemias/48/haemoglobin-lepore"/>
+        <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore is produced at a reduced rate and this is why the disease is related to the Β-thalassemic syndromes.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantity in heterozygotes 7-13%; found in combination with Hb S, Hb C, beta+-thal, and in the homozygous state.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the most common Hb Lepore type; found mainly in Italian families; it has also been observed in families from Rumania, Yugoslavia, Turkey, Cyprus, Jamaica, Cuba, Greece, England, Australia, Mexico, etc</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://en.wikipedia.org/wiki/Hemoglobin_Lepore_syndrome#Homozygous_Hb_Lepore"/>
         <ontology:SCDO_0000340 rdf:resource="http://globin.cse.psu.edu/html/huisman/variants/hybrid/Lepore-Boston-Washington.html"/>
         <ontology:SCDO_0000363 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</ontology:SCDO_0000363>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore-B-W</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore-Boston-Washington</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemoglobin Lepore-Boston-Washington</oboInOwl:hasExactSynonym>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore is produced at a reduced rate and this is why the disease is related to the Β-thalassemic syndromes.</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantity in heterozygotes 7-13%; found in combination with Hb S, Hb C, beta+-thal, and in the homozygous state.</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the most common Hb Lepore type; found mainly in Italian families; it has also been observed in families from Rumania, Yugoslavia, Turkey, Cyprus, Jamaica, Cuba, Greece, England, Australia, Mexico, etc</rdfs:comment>
         <rdfs:label>Hemoglobin Lepore Boston</rdfs:label>
     </owl:Class>
     
@@ -30054,13 +30053,13 @@ Other tests: Some of the other tests you may have to help diagnose ataxia and de
         <rdfs:label>Surgery</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/R7hfSAL5e64WUzmSuK5ucF9">
-        <rdfs:label> main treatments are lifestyle changes to ensure you remain as healthy as possible
+        <rdfs:label>main treatments are lifestyle changes to ensure you remain as healthy as possible
 medication to control associated problems such as high blood pressure and high cholesterol
 dialysis – treatment to replicate some of the kidney&apos;s functions; this may be necessary in advanced CKD
 kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/R8B2yn4Tm7qG7n6WsVD7ncC">
-        <rdfs:label>Cancer can be caused by genetic factors; lifestyle factors such as tobacco use, diet, and physical activity; certain types of infections; and environmental exposures to different types of chemicals and radiation. </rdfs:label>
+        <rdfs:label>Cancer can be caused by genetic factors; lifestyle factors such as tobacco use, diet, and physical activity; certain types of infections; and environmental exposures to different types of chemicals and radiation.</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/R9ijIu7YgcYBvna4HiMaCxd">
         <rdfs:label>Severely Increased Albuminuria</rdfs:label>
@@ -30073,8 +30072,8 @@ kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RBDtE1RHmetAXdKBzIYzJB9">
         <rdfs:label>Scintigraphy</rdfs:label>
         <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
-        <ontology:SCDO_0000335>D011877</ontology:SCDO_0000335>
         <ontology:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/MESH/D011877"/>
+        <ontology:SCDO_0000335>D011877</ontology:SCDO_0000335>
         <dc:description>The production of an image obtained by cameras that detect the radioactive emissions of an injected radionuclide as it has distributed differentially throughout tissues in the body. The image obtained from a moving detector is called a scan, while the image obtained from a stationary camera device is called a scintiphotograph.</dc:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RBMlnFgoeN3XCYFd9ZHC2O6">
@@ -30097,7 +30096,7 @@ dialysis – treatment to replicate some of the kidney&apos;s functions; this ma
 kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RBz3vjzQ1Bli4AOzvKzRV0K">
-        <rdfs:label> main treatments are:
+        <rdfs:label>main treatments are:
 lifestyle changes to ensure you remain as healthy as possible
 medication to control associated problems such as high blood pressure and high cholesterol
 dialysis – treatment to replicate some of the kidney&apos;s functions; this may be necessary in advanced CKD
@@ -30110,7 +30109,7 @@ kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
         <rdfs:label>Pain Management</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RCSthRzlPCPteW56cLbXFWs">
-        <rdfs:label>Biologic therapy, Antibody therapy, Stem-cell transplantation, Splenectomy, Steroid treatment, Radioimmunotherapy, Surgery, chemotherapy, and radiation therapy, </rdfs:label>
+        <rdfs:label>Biologic therapy, Antibody therapy, Stem-cell transplantation, Splenectomy, Steroid treatment, Radioimmunotherapy, Surgery, chemotherapy, and radiation therapy,</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RCkXVNX5OeyWgsNeYoQp8VL">
         <dc:description>A list of essential measures, measures that are critical to the collection of the measure at hand or are necessary for the interpretation of results for the measure at hand. Without such information, the data collected would be incomplete or misleading.</dc:description>
@@ -30136,7 +30135,7 @@ kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
         <rdfs:label>Test for Stroke Risk in Children with Sickle Cell Disease - TCDi</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RKnp1T8Z6lnu0iMAhHgIiG">
-        <rdfs:label>Peritonitis, intraabdominal abscess, or sepsis, necrotizing myometritis, necrotizing fasciitis of the abdominal wall, septic pelvic thrombophlebitis, and toxic shock syndrome are rare complications, death. Amy be associated to secondary infertility.  </rdfs:label>
+        <rdfs:label>Peritonitis, intraabdominal abscess, or sepsis, necrotizing myometritis, necrotizing fasciitis of the abdominal wall, septic pelvic thrombophlebitis, and toxic shock syndrome are rare complications, death. Amy be associated to secondary infertility.</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RQubaRAap6eVUQ0Po5yQHd">
         <rdfs:label>Visit your GP if you or your child have unexplained symptomssuch as balance and co-ordination problems or difficulty walking, talking or swallowing.
@@ -30151,8 +30150,8 @@ Other tests: Some of the other tests you may have to help diagnose ataxia and de
     <rdf:Description rdf:about="http://webprotege.stanford.edu/Rl7Bppx8EVih65HcfLeX3K">
         <oboInOwl:hasNarrowSynonym>Neurological disorders</oboInOwl:hasNarrowSynonym>
         <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
-        <rdfs:label>Neurology</rdfs:label>
         <dc:source rdf:resource="http://edamontology.org/topic_3334"/>
+        <rdfs:label>Neurology</rdfs:label>
         <dc:description>The branch of medicine that deals with the anatomy, functions and disorders of the nervous system.</dc:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RvIcisEXG98Q51y6ipFFUi">
@@ -30163,5 +30162,5 @@ Other tests: Some of the other tests you may have to help diagnose ataxia and de
 
 
 
-<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 

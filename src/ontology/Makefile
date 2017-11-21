@@ -35,8 +35,8 @@ prepare_release: all
 # after that we annotate the ontology with the release versionInfo
 $(ONT).owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
 	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m true -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-$(ONT).obo: $(ONT).owl
-	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
+#$(ONT).obo: $(ONT).owl
+#	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 # ----------------------------------------
 # Import modules
