@@ -8155,6 +8155,26 @@ any may comprise pain, weakness, sensory loss, incontinence, and impotence. The 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0005507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011902"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Normal adult hemoglobin is composed of two chains each of alpha and beta globin. Hb Barts (Hemoglobin Barts) is a tetramer with four gamma globin chains, and is essentially pathognomonic for one or another form of alpha thalassemia. Hb Barts has an extremely high affinity for oxygen, resulting in almost no oxygen delivery to the tissues.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C3539063</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0005507</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Bart is normally not present in adult blood. It makes up about 85-90 percent of hemoglobin in Hb Bart hydrops fetalis syndrome, and about 2-5 percent in HbH disease.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemoglobin Barts</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0005507"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Normal adult hemoglobin is composed of two chains each of alpha and beta globin. Hb Barts (Hemoglobin Barts) is a tetramer with four gamma globin chains, and is essentially pathognomonic for one or another form of alpha thalassemia. Hb Barts has an extremely high affinity for oxygen, resulting in almost no oxygen delivery to the tissues.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0005561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005561">
@@ -10406,6 +10426,29 @@ any may comprise pain, weakness, sensory loss, incontinence, and impotence. The 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anomaly in the level or the function of hemoglobin, the oxygen-carrying protein of erythrocytes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011903">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011902"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemoglobin H (HbH) contains four beta-globin chains. It is normally not present at all in blood, but may make up about 1-40 percent of all hemoglobin in HbH disease, a subform of alpha thalassemia.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-03T04:59:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:48553001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C3161174</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011903</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemoglobin H</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0011903"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemoglobin H (HbH) contains four beta-globin chains. It is normally not present at all in blood, but may make up about 1-40 percent of all hemoglobin in HbH disease, a subform of alpha thalassemia.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmid:21345100</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

@@ -9,8 +9,10 @@ CONSTRUCT {
 ?phenotype owl:equivalentClass ?uri
 }
 WHERE { 
-?phenotype rdfs:subClassOf* scdo:SCDO_0000893 .
-?phenotype scdo:SCDO_0000335 ?xref .
-FILTER regex( ?xref, "^HP.*") 
-BIND ( iri(concat ("http://purl.obolibrary.org/obo/", replace(?xref, "HP:", "HP_") )) as ?uri)
+
+  ?phenotype scdo:SCDO_0000335 ?xref .
+  FILTER regex( str(?phenotype), "SCDO_.*") 
+  FILTER regex( ?xref, "^HP.*") 
+  BIND ( iri(concat ("http://purl.obolibrary.org/obo/", replace(?xref, "HP:", "HP_") )) as ?uri)
+
 }

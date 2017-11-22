@@ -12,19 +12,18 @@ ROBOT= ../../bin/robot
 OWLTOOLS= ../../bin/owltools
 USECAT= --use-catalog
 SPARQLDIR = ../sparql
-
+PREFIX="SCDO: http://scdontology.h3abionet.org/ontology/SCDO_"
 # ----------------------------------------
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports $(ONT).owl $(ONT).obo
+all: sparql_test $(ONT).owl $(ONT).obo $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	cp $(ONT).owl $(ONT).obo scdo_hpo_merged.owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
-	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
-	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
-	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
+	cp imports/*.owl $(RELEASEDIR)/imports &&\
+	git add $(RELEASEDIR)/imports/*.owl &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 # ----------------------------------------
@@ -33,8 +32,14 @@ prepare_release: all
 
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-$(ONT).owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
-	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m true -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+$(ONT).owl: $(SRC) 
+	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv template  --merge-before --prefix $(PREFIX) --template templates/disease_modifiers.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+
+$(ONT)_hpo_merged.owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
+	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)_hpo_merged.owl -o $@
+
+
+
 #$(ONT).obo: $(ONT).owl
 #	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
@@ -46,34 +51,14 @@ $(ONT).owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
 # These can be regenerated with make all_imports
 
 imports/hp_import.txt: $(SRC) imports/hp.owl
-	$(ROBOT) query --input $(SRC) --select $(SPARQLDIR)/get_hpo_mappings.sparql imports/hp_import.txt 
+	$(ROBOT) merge --input imports/hp.owl --input $(SRC) query --select $(SPARQLDIR)/get_hpo_mappings.sparql imports/hp_import.txt 
 
 results/hp_module.owl: imports/hp_import.txt
 	$(ROBOT) extract  --method BOT --input imports/hp.owl --term-file imports/hp_import.txt --output results/hp_module.owl
 
-scdo_hp_bridge.owl: $(SRC)
-	$(ROBOT) query --format ttl --input $(SRC) --construct $(SPARQLDIR)/construct_hpo_bridge.sparql scdo_hp_bridge.owl
+scdo_hp_bridge.owl: $(SRC) imports/hp.owl
+	$(ROBOT) query --input $(SRC) --format ttl --construct $(SPARQLDIR)/construct_hpo_bridge.sparql scdo_hp_bridge.owl
 
-
-IMPORTS = 
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
-
-# Make this target to regenerate ALL
-all_imports: $(IMPORTS_OWL)
-
-# Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
-.PRECIOUS: imports/%_import.owl
-
-# we use owltools for making the obo file until: https://github.com/ontodev/robot/issues/64
-imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
-
-# clone remote ontology locally, perfoming some excision of relations and annotations
-mirror/%.owl: $(SRC)
-	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
-.PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
 # Release
