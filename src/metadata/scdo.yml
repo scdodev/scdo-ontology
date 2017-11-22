@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/scdo
+
+idspace: SCDO
+base_url: /obo/scdo
+
+products:
+- scdo.owl: https://raw.githubusercontent.com/obophenotype/scdo/master/scdo.owl
+- scdo.obo: https://raw.githubusercontent.com/obophenotype/scdo/master/scdo.obo
+
+term_browser: ontobee
+example_terms:
+- SCDO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/obophenotype/scdo/v
+
+- prefix: /tracker/
+  replacement: https://github.com/obophenotype/scdo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/SCDO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/obophenotype/scdo/master/
