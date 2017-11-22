@@ -20,7 +20,7 @@ PREFIX="SCDO: http://scdontology.h3abionet.org/ontology/SCDO_"
 all: sparql_test $(ONT).owl $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo scdo_hpo_merged.owl $(RELEASEDIR) &&\
+	cp $(ONT).owl scdo_hpo_merged.owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*.owl $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
@@ -64,7 +64,7 @@ scdo_hp_bridge.owl: $(SRC) imports/hp.owl
 # Release
 # ----------------------------------------
 # copy from staging area (this directory) to top-level
-release: $(ONT).owl $(ONT).obo
+release: $(ONT).owl
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
 
 # ----------------------------------------
