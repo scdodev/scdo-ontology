@@ -1,2 +1,4 @@
 .DS_Store
 *~
+src/ontology/scdo.owl
+src/ontology/scdo.obo
