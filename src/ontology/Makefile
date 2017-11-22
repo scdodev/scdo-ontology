@@ -17,7 +17,7 @@ PREFIX="SCDO: http://scdontology.h3abionet.org/ontology/SCDO_"
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test $(ONT).owl $(ONT).obo $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt
+all: sparql_test $(ONT).owl $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt
 test: sparql_test all
 prepare_release: all
 	cp $(ONT).owl $(ONT).obo scdo_hpo_merged.owl $(RELEASEDIR) &&\
