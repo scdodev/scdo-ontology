@@ -265,10 +265,10 @@
     <owl:AnnotationProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000004">
         <dc:description>A shortened form of a word or phrase, in this case a class/term. It consists of a group of letters taken from the word or phrase.</dc:description>
         <dc:source rdf:resource="http://www.ontobee.org/ontology/UBERON?iri=http://purl.obolibrary.org/obo/uberon/core%23ABBREVIATION"/>
-        <ontology:SCDO_0000335 rdf:resource="http://www.ontobee.org/ontology/UBERON?iri=http://purl.obolibrary.org/obo/uberon/core%23ABBREVIATION"/>
         <ontology:SCDO_0000340 rdf:resource="http://en.wikipedia.org/wiki/Abbreviation"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000929>metadata complete - requires restrictions and relationships</ontology:SCDO_0000929>
+        <oboInOwl:hasDbXref rdf:resource="http://www.ontobee.org/ontology/UBERON?iri=http://purl.obolibrary.org/obo/uberon/core%23ABBREVIATION"/>
         <rdfs:label>abbreviation</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -278,29 +278,11 @@
 
     <owl:AnnotationProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000303">
         <dc:description>An administrative note of use for a curator but of no use for a user.</dc:description>
-        <ontology:SCDO_0000335>IAO:0000232</ontology:SCDO_0000335>
         <ontology:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000232"/>
         <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
         <ontology:SCDO_0000929>organizational term</ontology:SCDO_0000929>
+        <oboInOwl:hasDbXref>IAO:0000232</oboInOwl:hasDbXref>
         <rdfs:label>curator note</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000335 -->
-
-    <owl:AnnotationProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000335">
-        <dc:description>A database cross-reference. An annotation which directs one to information contained within a database.</dc:description>
-        <ontology:SCDO_0000335>SBO:0000554</ontology:SCDO_0000335>
-        <ontology:SCDO_0000340 rdf:resource="http://www.ebi.ac.uk/sbo/main/SBO:0000554"/>
-        <ontology:SCDO_0000929>metadata complete - requires restrictions and relationships</ontology:SCDO_0000929>
-        <oboInOwl:hasExactSynonym>DbXref</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Xref</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>database cross-reference</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>database_cross_reference</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>db xref</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>hasDbXref</oboInOwl:hasExactSynonym>
-        <rdfs:label>database cross reference</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -309,10 +291,10 @@
 
     <owl:AnnotationProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000340">
         <dc:description>A source from where the formal description was derived. This can be in the form of a link to a relevant webpage, the IRI of a term in an existing ontology, a reference to specific literature, etc.</dc:description>
-        <ontology:SCDO_0000335>IAO:0000119</ontology:SCDO_0000335>
         <ontology:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000929>metadata complete - requires restrictions and relationships</ontology:SCDO_0000929>
+        <oboInOwl:hasDbXref>IAO:0000119</oboInOwl:hasDbXref>
         <rdfs:label>definition source</rdfs:label>
         <skos:prefLabel>description source</skos:prefLabel>
     </owl:AnnotationProperty>
@@ -466,10 +448,10 @@ Should be restricted to all measure/questionnaire classes.</ontology:SCDO_000030
 
     <owl:AnnotationProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000624">
         <dc:description>For external terms/classes, the ontology from which the term was imported.</dc:description>
-        <ontology:SCDO_0000335>IAO:0000412</ontology:SCDO_0000335>
         <ontology:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000412"/>
         <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
         <ontology:SCDO_0000929>metadata complete - requires restrictions and relationships</ontology:SCDO_0000929>
+        <oboInOwl:hasDbXref>IAO:0000412</oboInOwl:hasDbXref>
         <rdfs:label>imported from</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -571,6 +553,24 @@ Should be restricted to all measure/questionnaire classes.</ontology:SCDO_000030
         <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
         <ontology:SCDO_0000929>pending vetting by the SCDO developers</ontology:SCDO_0000929>
         <rdfs:label>hasBroadSynonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <dc:description>A database cross-reference. An annotation which directs one to information contained within a database.</dc:description>
+        <ontology:SCDO_0000340 rdf:resource="http://www.ebi.ac.uk/sbo/main/SBO:0000554"/>
+        <ontology:SCDO_0000929>metadata complete - requires restrictions and relationships</ontology:SCDO_0000929>
+        <oboInOwl:hasDbXref>SBO:0000554</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>DbXref</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Xref</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>database cross-reference</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>database_cross_reference</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>db xref</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hasDbXref</oboInOwl:hasExactSynonym>
+        <rdfs:label>database cross reference</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -689,8 +689,8 @@ Should be restricted to all measure/questionnaire classes.</ontology:SCDO_000030
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Description inherent in name (not provided by source).</dc:description>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/IAO_0000114"/>
         <ontology:SCDO_0000303>Every class must have this property.</ontology:SCDO_0000303>
-        <ontology:SCDO_0000335>IAO:0000114</ontology:SCDO_0000335>
         <ontology:SCDO_0000929>organizational term</ontology:SCDO_0000929>
+        <oboInOwl:hasDbXref>IAO:0000114</oboInOwl:hasDbXref>
         <rdfs:comment>Used only for classes, not properties. 
 
 For properties, use &quot;property has curation status&quot; annotation property.</rdfs:comment>
@@ -825,8 +825,8 @@ If required later, specify as inverse of &quot;treats&quot; in Protege.</ontolog
         <ontology:SCDO_0000303>This property is to be split up into two other properties: &quot;has consequences&quot; and &quot;has symptoms&quot;.
 
 [Could request that the Infectious Disease Ontology (IDO) defines this term explicitly.]</ontology:SCDO_0000303>
-        <ontology:SCDO_0000335>IDO:0000660</ontology:SCDO_0000335>
         <ontology:SCDO_0000929>metadata complete - requires restrictions and relationships</ontology:SCDO_0000929>
+        <oboInOwl:hasDbXref>IDO:0000660</oboInOwl:hasDbXref>
         <rdfs:label>results_in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1171,7 +1171,7 @@ kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
         <rdfs:label>Scintigraphy</rdfs:label>
         <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
         <ontology:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/MESH/D011877"/>
-        <ontology:SCDO_0000335>D011877</ontology:SCDO_0000335>
+        <oboInOwl:hasDbXref>D011877</oboInOwl:hasDbXref>
         <dc:description>The production of an image obtained by cameras that detect the radioactive emissions of an injected radionuclide as it has distributed differentially throughout tissues in the body. The image obtained from a moving detector is called a scan, while the image obtained from a stationary camera device is called a scintiphotograph.</dc:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RBMlnFgoeN3XCYFd9ZHC2O6">

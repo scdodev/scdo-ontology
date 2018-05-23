@@ -1,5 +1,5 @@
 id	Term	Description	Source	XRef	Comment (source)	Comment (SCDO)	Exact Syn	Broad Syn	Related Syn	Narrow Syn
-ID	A rdfs:label	A obo:IAO_0000115	A SCDO:0000340	A SCDO:0000335	A rdfs:comment	A SCDO:0000303	A oboInOwl:hasExactSynonym	A oboInOwl:hasBroadSynonym	A oboInOwl:hasRelatedSynonym	A oboInOwl:hasNarrowSynonym
+ID	A rdfs:label	A obo:IAO_0000115	A SCDO:0000340	A oboInOwl:hasDbXref SPLIT=,	A rdfs:comment	A SCDO:0000303	A oboInOwl:hasExactSynonym	A oboInOwl:hasBroadSynonym	A oboInOwl:hasRelatedSynonym	A oboInOwl:hasNarrowSynonym
 SCDO:0000005	Abdominal Ultrasound	"'A type of imaging test used to look at organs in the abdomen, including the liver, gallbladder, spleen, pancreas, and kidneys. The blood vessels that lead to some of these organs, such as the inferior vena cava and aorta, can also be examined with ultrasound. [Curator team: []]'"	http://www.nlm.nih.gov/medlineplus/ency/article/003777.htm				Abdominal Sonogram			
 SCDO:0000006	Ability to Carry Out Activities of Daily Living	"'The performance of the basic activities of self care, such as dressing, ambulation, or eating. [Curator team: []]'"	http://purl.bioontology.org/ontology/MESH/D000203	MESH:D000203			ADL			
 SCDO:0000006	Ability to Carry Out Activities of Daily Living						Daily Living Activities			
@@ -938,7 +938,7 @@ SCDO:0000547	Hemoglobin Profile Assay						Hemoglobin Fractionation
 SCDO:0000547	Hemoglobin Profile Assay						Hemoglobinopathy Evaluation Profile Blood Test			
 SCDO:0000547	Hemoglobin Profile Assay						Hemoglobinopathy Fractionation Profile Blood Test			
 SCDO:0000548	Hemoglobin S Test	'A test to quantify the presence of hemoglobin S in the blood and therefore determine whether a person has sickle cell trait or sickle cell disease. Source: CLAIR [Curator team: []]'	http://www.questdiagnostics.com/testcenter/TestDetail.action?ntc=31852			"In SNOMED CT this term is ""Sickle cell identification"""	Sickle cell identification			
-SCDO:0000549	Sickle Cell Disease-SS	"'A disease characterized by chronic hemolytic anemia, episodic painful crises, and pathologic involvement of many organs. It is the clinical expression of homozygosity for hemoglobin S. [Curator team: []]'"	http://purl.bioontology.org/ontology/MESH/D000755	MESH:D000755			Hb SS Disease			
+SCDO:0000549	Sickle Cell Disease-SS	"'A disease characterized by chronic hemolytic anemia, episodic painful crises, and pathologic involvement of many organs. It is the clinical expression of homozygosity for hemoglobin S. [Curator team: []]'"	http://purl.bioontology.org/ontology/MESH/D000755	MESH:D000755, DOID:10923			Hb SS Disease			
 SCDO:0000549	Sickle Cell Disease-SS						Hb SS-Disease			
 SCDO:0000549	Sickle Cell Disease-SS						Hemoglobin SS Disease			
 SCDO:0000549	Sickle Cell Disease-SS						Homozygous Sickle Cell Disease			
