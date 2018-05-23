@@ -1,0 +1,2522 @@
+id	Term	Parent Class
+ID		C %
+SCDO:0000005	Abdominal Ultrasound	Ultrasonography Test
+SCDO:0000006	Ability to Carry Out Activities of Daily Living	Physical Health
+SCDO:0000006	Ability to Carry Out Activities of Daily Living	
+SCDO:0000006	Ability to Carry Out Activities of Daily Living	
+SCDO:0000006	Ability to Carry Out Activities of Daily Living	
+SCDO:0000006	Ability to Carry Out Activities of Daily Living	
+SCDO:0000007	Abnormal Hemoglobin Structure Present in SCD	Abnormality of Erythrocytes
+SCDO:0000007	Abnormal Hemoglobin Structure Present in SCD	SCD Molecular Phenotype
+SCDO:0000008	Abnormality of Erythrocytes	Phenotype
+SCDO:0000008	Abnormality of Erythrocytes	
+SCDO:0000008	Abnormality of Erythrocytes	
+SCDO:0000010	Acetaminophen	Non Opioid
+SCDO:0000012	Acne	Phenotype
+SCDO:0000012	Acne	
+SCDO:0000012	Acne	
+SCDO:0000013	Acquired Methemoglobinemia	Methemoglobinemia
+SCDO:0000014	Activated Partial Thromboplastin Time	Blood Coagulation Measurement
+SCDO:0000015	Acute Chest Syndrome	Phenotype
+SCDO:0000015	Acute Chest Syndrome	
+SCDO:0000016	Acute Complications of Sickle Cell Disease	Phenotype of Sickle Cell Disease
+SCDO:0000016	Acute Complications of Sickle Cell Disease	
+SCDO:0000017	Acute Kidney Injury	Kidney Failure
+SCDO:0000017	Acute Kidney Injury	
+SCDO:0000017	Acute Kidney Injury	
+SCDO:0000018	Acute Non-Specific Wheezing Episode	Phenotype
+SCDO:0000019	Acute Sickle Cell Pain Management	Sickle Cell Pain Management
+SCDO:0000020	Acute Tubular Necrosis	Phenotype
+SCDO:0000020	Acute Tubular Necrosis	
+SCDO:0000020	Acute Tubular Necrosis	
+SCDO:0000021	Acute Upper Respiratory Tract Infection	Infection
+SCDO:0000024	Adherence	Mental Health
+SCDO:0000024	Adherence	
+SCDO:0000024	Adherence	
+SCDO:0000024	Adherence	
+SCDO:0000025	Adjuvant	Therapeutics
+SCDO:0000026	Adult Migraine Questionnaire	Migraine Questionnaire
+SCDO:0000027	Adult Sickle Cell Quality-of-Life Measurement Information System (ASCQ-Me)	Quality of Life and Care Measure
+SCDO:0000027	Adult Sickle Cell Quality-of-Life Measurement Information System (ASCQ-Me)	
+SCDO:0000028	Adverse Drug Event	Disease Modifier
+SCDO:0000028	Adverse Drug Event	
+SCDO:0000028	Adverse Drug Event	
+SCDO:0000028	Adverse Drug Event	
+SCDO:0000029	Agarose Gel Electrophoresis	Electrophoresis
+SCDO:0000030	Age	Personal Attribute
+SCDO:0000030	Age	
+SCDO:0000030	Age	
+SCDO:0000032	Agenesis of Corpus Callosum	Phenotype
+SCDO:0000034	Alanine Transaminase Blood Test	Blood Test
+SCDO:0000034	Alanine Transaminase Blood Test	Diagnostic Device
+SCDO:0000034	Alanine Transaminase Blood Test	Liver Function Assay
+SCDO:0000034	Alanine Transaminase Blood Test	Phenotype
+SCDO:0000035	Alanine Transaminase Level	Blood Chemistry Measurement
+SCDO:0000035	Alanine Transaminase Level	Diagnostic Device
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000035	Alanine Transaminase Level	
+SCDO:0000036	Albinism	Phenotype
+SCDO:0000036	Albinism	
+SCDO:0000036	Albinism	
+SCDO:0000037	Albuminuria	Proteinuria
+SCDO:0000037	Albuminuria	
+SCDO:0000038	Alcohol - Lifetime Use	Alcohol Use History
+SCDO:0000038	Alcohol - Lifetime Use	Measurement
+SCDO:0000038	Alcohol - Lifetime Use	Quality of Life and Care
+SCDO:0000038	Alcohol - Lifetime Use	Diagnostic Tool
+SCDO:0000039	Alcohol Intake	Lifestyle
+SCDO:0000040	Alcohol Use History	Personal Medical History
+SCDO:0000042	Alpha Thalassemia	Constitutional Genetic Disorder
+SCDO:0000042	Alpha Thalassemia	
+SCDO:0000043	Alpha Thalassemia Silent Carrier	"Hemoglobin Trait Other than C,D,E,S,O-Arab"
+SCDO:0000044	Alpha Thalassemia Trait	"Hemoglobin Trait Other than C,D,E,S,O-Arab"
+SCDO:0000045	Alpha-Adrenergic Agents	Antihypertensive Agents
+SCDO:0000045	Alpha-Adrenergic Agents	
+SCDO:0000046	Alpha-Globins	Globin Loci
+SCDO:0000048	Amniotic Fluid Testing	Prenatal Screening for Sickle Cell
+SCDO:0000049	Analgesia	Symptomatic Therapeutics
+SCDO:0000049	Analgesia	
+SCDO:0000049	Analgesia	
+SCDO:0000050	Analgesics	Symptomatic Therapeutics
+SCDO:0000050	Analgesics	
+SCDO:0000050	Analgesics	
+SCDO:0000050	Analgesics	
+SCDO:0000050	Analgesics	
+SCDO:0000050	Analgesics	
+SCDO:0000053	Anesthetic Complication AE	Adverse Drug Event
+SCDO:0000054	Angioid Streaks	Ophthalmologic Complication
+SCDO:0000055	Angiotensin-Converting Enzyme Inhibitors	Antihypertensive Agents
+SCDO:0000055	Angiotensin-Converting Enzyme Inhibitors	
+SCDO:0000055	Angiotensin-Converting Enzyme Inhibitors	
+SCDO:0000055	Angiotensin-Converting Enzyme Inhibitors	
+SCDO:0000056	Annual Family Income	Measurement
+SCDO:0000056	Annual Family Income	Personal Attribute
+SCDO:0000056	Annual Family Income	Quality of Life and Care
+SCDO:0000056	Annual Family Income	Diagnostic Tool
+SCDO:0000057	Anti-Inflammatory Agent	Non Opioid
+SCDO:0000057	Anti-Inflammatory Agent	
+SCDO:0000057	Anti-Inflammatory Agent	
+SCDO:0000057	Anti-Inflammatory Agent	
+SCDO:0000057	Anti-Inflammatory Agent	
+SCDO:0000057	Anti-Inflammatory Agent	
+SCDO:0000057	Anti-Inflammatory Agent	
+SCDO:0000059	Antibiotic	Symptomatic Therapeutics
+SCDO:0000059	Antibiotic	
+SCDO:0000059	Antibiotic	
+SCDO:0000059	Antibiotic	
+SCDO:0000059	Antibiotic	
+SCDO:0000066	Antihistamine	Symptomatic Therapeutics
+SCDO:0000067	Antihypertensive Agents	Supportive Therapeutics
+SCDO:0000067	Antihypertensive Agents	
+SCDO:0000067	Antihypertensive Agents	
+SCDO:0000068	Anxiety	Behavioral Abnormality
+SCDO:0000068	Anxiety	Mental Health
+SCDO:0000068	Anxiety	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000069	Apolipoprotein L1	Non-Globin Loci
+SCDO:0000070	Aquatic Rehabilitation	Rehabilitation
+SCDO:0000070	Aquatic Rehabilitation	
+SCDO:0000071	Arterial Blood Gas Test	Blood Test
+SCDO:0000071	Arterial Blood Gas Test	Diagnostic Device
+SCDO:0000071	Arterial Blood Gas Test	Phenotype
+SCDO:0000072	Arteriovenous Malformation	Phenotype
+SCDO:0000072	Arteriovenous Malformation	
+SCDO:0000073	Artesunate	Malaria Prophylaxis
+SCDO:0000073	Artesunate	Supportive Therapeutics
+SCDO:0000074	Arthralgia	Phenotype
+SCDO:0000074	Arthralgia	
+SCDO:0000074	Arthralgia	
+SCDO:0000075	Arthritis	Phenotype
+SCDO:0000075	Arthritis	
+SCDO:0000075	Arthritis	
+SCDO:0000078	ASCQ-Me - Quality of Life in SCD	Adult Sickle Cell Quality-of-Life Measurement Information System (ASCQ-Me)
+SCDO:0000078	ASCQ-Me - Quality of Life in SCD	Measurement
+SCDO:0000078	ASCQ-Me - Quality of Life in SCD	Personal Attribute
+SCDO:0000078	ASCQ-Me - Quality of Life in SCD	Diagnostic Tool
+SCDO:0000079	Aspartate Aminotransferase Blood Test	Blood Test
+SCDO:0000079	Aspartate Aminotransferase Blood Test	Diagnostic Device
+SCDO:0000079	Aspartate Aminotransferase Blood Test	Heart Function Test
+SCDO:0000079	Aspartate Aminotransferase Blood Test	Liver Function Assay
+SCDO:0000079	Aspartate Aminotransferase Blood Test	Phenotype
+SCDO:0000080	Aspartate Aminotransferase Level	Blood Chemistry Measurement
+SCDO:0000080	Aspartate Aminotransferase Level	Diagnostic Device
+SCDO:0000080	Aspartate Aminotransferase Level	Personal Attribute
+SCDO:0000080	Aspartate Aminotransferase Level	Quality of Life and Care
+SCDO:0000080	Aspartate Aminotransferase Level	Diagnostic Tool
+SCDO:0000080	Aspartate Aminotransferase Level	
+SCDO:0000080	Aspartate Aminotransferase Level	
+SCDO:0000080	Aspartate Aminotransferase Level	
+SCDO:0000081	ASQE-Me - Quality of Care in SCD	Adult Sickle Cell Quality-of-Life Measurement Information System (ASCQ-Me)
+SCDO:0000081	ASQE-Me - Quality of Care in SCD	Measurement
+SCDO:0000081	ASQE-Me - Quality of Care in SCD	Personal Attribute
+SCDO:0000081	ASQE-Me - Quality of Care in SCD	Diagnostic Tool
+SCDO:0000082	"Diagnostic Technique, Method, Test or Assay"	Diagnostic Tool
+SCDO:0000084	Assessment of Short-Axis Cardiac Function by MRI	Diagnostic Instrument
+SCDO:0000086	Asthma	Phenotype
+SCDO:0000086	Asthma	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000087	Ataxia	Phenotype
+SCDO:0000087	Ataxia	
+SCDO:0000088	Atopic Dermatitis	Phenotype
+SCDO:0000088	Atopic Dermatitis	
+SCDO:0000088	Atopic Dermatitis	
+SCDO:0000089	Atrophic Brain	Phenotype
+SCDO:0000090	Attention Deficit Hyperactivity Disorder	Behavioral Abnormality
+SCDO:0000090	Attention Deficit Hyperactivity Disorder	
+SCDO:0000090	Attention Deficit Hyperactivity Disorder	
+SCDO:0000092	Azoospermia	Phenotype
+SCDO:0000092	Azoospermia	
+SCDO:0000092	Azoospermia	
+SCDO:0000093	Azotaemia	Phenotype
+SCDO:0000093	Azotaemia	
+SCDO:0000094	B-cell CLL/lymphoma 11A	Non-Globin Loci
+SCDO:0000095	Back Pain	Pain
+SCDO:0000095	Back Pain	
+SCDO:0000095	Back Pain	
+SCDO:0000098	Bacteria	Infectious Agent
+SCDO:0000099	Bacterial Endocarditis	Bacterial Infection
+SCDO:0000099	Bacterial Endocarditis	
+SCDO:0000099	Bacterial Endocarditis	
+SCDO:0000100	Bacterial Infection	Infection
+SCDO:0000102	Beck Anxiety Inventory (BAI)	Quality of Life and Care Measure
+SCDO:0000102	Beck Anxiety Inventory (BAI)	
+SCDO:0000103	Beck Depression Inventory-II (BDI-II)	Quality of Life and Care Measure
+SCDO:0000103	Beck Depression Inventory-II (BDI-II)	
+SCDO:0000104	Behavior Rating Inventory of Executive Function	Executive Function Measure
+SCDO:0000105	Behavioral Abnormality	Phenotype
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000105	Behavioral Abnormality	
+SCDO:0000106	Behavioural	Mental Health
+SCDO:0000107	Beliefs About Causes of Illness	Health Beliefs
+SCDO:0000108	Beliefs About Remedies and Treatment	Health Beliefs
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000108	Beliefs About Remedies and Treatment	
+SCDO:0000110	Beta Plus Thalassemia	Beta Thalassemia
+SCDO:0000110	Beta Plus Thalassemia	
+SCDO:0000110	Beta Plus Thalassemia	
+SCDO:0000110	Beta Plus Thalassemia	
+SCDO:0000111	Beta Thalassemia	Constitutional Genetic Disorder
+SCDO:0000111	Beta Thalassemia	Phenotype
+SCDO:0000111	Beta Thalassemia	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000111	Beta Thalassemia	
+SCDO:0000111	Beta Thalassemia	
+SCDO:0000111	Beta Thalassemia	
+SCDO:0000112	Beta Thalassemia Intermedia	Clinical Phenotype of Beta Thalassemia
+SCDO:0000112	Beta Thalassemia Intermedia	
+SCDO:0000112	Beta Thalassemia Intermedia	
+SCDO:0000112	Beta Thalassemia Intermedia	
+SCDO:0000113	Beta Thalassemia Major	Clinical Phenotype of Beta Thalassemia
+SCDO:0000113	Beta Thalassemia Major	
+SCDO:0000113	Beta Thalassemia Major	
+SCDO:0000113	Beta Thalassemia Major	
+SCDO:0000113	Beta Thalassemia Major	
+SCDO:0000113	Beta Thalassemia Major	
+SCDO:0000114	Beta Thalassemia Trait	Clinical Phenotype of Beta Thalassemia
+SCDO:0000114	Beta Thalassemia Trait	"Hemoglobin Trait Other than C,D,E,S,O-Arab"
+SCDO:0000114	Beta Thalassemia Trait	
+SCDO:0000114	Beta Thalassemia Trait	
+SCDO:0000114	Beta Thalassemia Trait	
+SCDO:0000114	Beta Thalassemia Trait	
+SCDO:0000115	Beta zero thalassemia	Beta Thalassemia
+SCDO:0000115	Beta zero thalassemia	
+SCDO:0000115	Beta zero thalassemia	
+SCDO:0000115	Beta zero thalassemia	
+SCDO:0000115	Beta zero thalassemia	
+SCDO:0000115	Beta zero thalassemia	
+SCDO:0000116	Beta-Globins	Globin Loci
+SCDO:0000117	Beta-Globin Haplotype	Beta-Globins
+SCDO:0000117	Beta-Globin Haplotype	
+SCDO:0000117	Beta-Globin Haplotype	
+SCDO:0000117	Beta-Globin Haplotype	
+SCDO:0000117	Beta-Globin Haplotype	
+SCDO:0000118	Biconcave Vertebral Bodies	Phenotype
+SCDO:0000118	Biconcave Vertebral Bodies	
+SCDO:0000118	Biconcave Vertebral Bodies	
+SCDO:0000118	Biconcave Vertebral Bodies	
+SCDO:0000119	Bilirubin Blood Test	Blood Test
+SCDO:0000119	Bilirubin Blood Test	Diagnostic Device
+SCDO:0000119	Bilirubin Blood Test	Liver Function Assay
+SCDO:0000119	Bilirubin Blood Test	Measurement
+SCDO:0000119	Bilirubin Blood Test	Personal Attribute
+SCDO:0000119	Bilirubin Blood Test	Phenotype
+SCDO:0000119	Bilirubin Blood Test	Quality of Life and Care
+SCDO:0000120	Biochemical Assay	Chemical Assay
+SCDO:0000122	Biological Disease Modifier	Disease Modifier
+SCDO:0000123	Birthplace	Personal Attribute
+SCDO:0000124	Birthplace of Biological Father	Birthplace of Parents
+SCDO:0000125	Birthplace of Biological Mother	Birthplace of Parents
+SCDO:0000126	Birthplace of Grandparents	Personal Attribute
+SCDO:0000127	Birthplace of Maternal Grandfather	Birthplace of Grandparents
+SCDO:0000128	Birthplace of Maternal Grandmother	Birthplace of Grandparents
+SCDO:0000129	Birthplace of Parents	Personal Attribute
+SCDO:0000130	Birthplace of Paternal Grandfather	Birthplace of Grandparents
+SCDO:0000131	Birthplace of Paternal Grandmother	Birthplace of Grandparents
+SCDO:0000132	Black Sunburst Lesion	Ophthalmologic Complication
+SCDO:0000133	Blood Test	Physiological Assay
+SCDO:0000133	Blood Test	
+SCDO:0000133	Blood Test	
+SCDO:0000133	Blood Test	
+SCDO:0000133	Blood Test	
+SCDO:0000134	Blood Bilirubin Level	Blood Chemistry Measurement
+SCDO:0000134	Blood Bilirubin Level	Diagnostic Device
+SCDO:0000134	Blood Bilirubin Level	Personal Attribute
+SCDO:0000134	Blood Bilirubin Level	Quality of Life and Care
+SCDO:0000134	Blood Bilirubin Level	Diagnostic Tool
+SCDO:0000135	Blood Cell Measurement	Blood Measurement
+SCDO:0000136	Blood Chemistry Measurement	Blood Measurement
+SCDO:0000137	Blood Coagulation Measurement	Blood Measurement
+SCDO:0000138	Blood Component Transfusion	Blood Transfusion
+SCDO:0000139	Blood Culture	Blood Test
+SCDO:0000139	Blood Culture	
+SCDO:0000139	Blood Culture	
+SCDO:0000139	Blood Culture	
+SCDO:0000140	Blood Differential White Blood Cell Count	White Blood Cell Count
+SCDO:0000140	Blood Differential White Blood Cell Count	
+SCDO:0000140	Blood Differential White Blood Cell Count	
+SCDO:0000141	Blood Flow Assay	Blood Test
+SCDO:0000142	Blood Flow Measurement	Blood Measurement
+SCDO:0000143	Blood Measurement	Measurement
+SCDO:0000144	Blood Pressure Measurement	Blood Measurement
+SCDO:0000144	Blood Pressure Measurement	Therapeutics
+SCDO:0000144	Blood Pressure Measurement	Diagnostic Tool
+SCDO:0000147	Blood Transfusion	Phenotype
+SCDO:0000147	Blood Transfusion	Preventative Therapeutics
+SCDO:0000147	Blood Transfusion	Symptomatic Therapeutics
+SCDO:0000149	Body Height	Whole Body Morphological Measurement
+SCDO:0000149	Body Height	
+SCDO:0000150	Body Morphological Measurement	Measurement
+SCDO:0000150	Body Morphological Measurement	
+SCDO:0000150	Body Morphological Measurement	
+SCDO:0000151	Body Temperature	Measurement
+SCDO:0000151	Body Temperature	Personal Attribute
+SCDO:0000151	Body Temperature	Quality of Life and Care
+SCDO:0000151	Body Temperature	Diagnostic Tool
+SCDO:0000152	Body Weight	Whole Body Morphological Measurement
+SCDO:0000153	Bone Fragility	Phenotype
+SCDO:0000153	Bone Fragility	
+SCDO:0000154	Bone Pain	Pain
+SCDO:0000154	Bone Pain	
+SCDO:0000154	Bone Pain	
+SCDO:0000155	Bone Sclerosis	Phenotype
+SCDO:0000156	Brachial Artery Ultrasound Imaging	Ultrasonography Test
+SCDO:0000156	Brachial Artery Ultrasound Imaging	Vascular Endothelial Function Test
+SCDO:0000158	Bradykinesia	Phenotype
+SCDO:0000158	Bradykinesia	
+SCDO:0000158	Bradykinesia	
+SCDO:0000159	Brain Abscess	Phenotype
+SCDO:0000159	Brain Abscess	
+SCDO:0000159	Brain Abscess	
+SCDO:0000161	Brain Electrical Activity	Measurement
+SCDO:0000161	Brain Electrical Activity	Therapeutics
+SCDO:0000161	Brain Electrical Activity	Diagnostic Tool
+SCDO:0000162	Breakthrough Pain	Chronic Sickle Cell Pain
+SCDO:0000163	Brief Illness Perception Questionnaire (B-IPQ)	Quality of Life and Care Measure
+SCDO:0000163	Brief Illness Perception Questionnaire (B-IPQ)	
+SCDO:0000164	Brief RCOPE	Quality of Life and Care Measure
+SCDO:0000165	Bronchodilator Responsiveness	Diagnostic Device
+SCDO:0000165	Bronchodilator Responsiveness	Personal Attribute
+SCDO:0000165	Bronchodilator Responsiveness	Quality of Life and Care
+SCDO:0000165	Bronchodilator Responsiveness	Respiratory System Measurement
+SCDO:0000165	Bronchodilator Responsiveness	Diagnostic Tool
+SCDO:0000166	Bronchodilator Responsiveness Test	Diagnostic Device
+SCDO:0000166	Bronchodilator Responsiveness Test	Measurement
+SCDO:0000166	Bronchodilator Responsiveness Test	Personal Attribute
+SCDO:0000166	Bronchodilator Responsiveness Test	Phenotype
+SCDO:0000166	Bronchodilator Responsiveness Test	Pulmonary Function Test
+SCDO:0000166	Bronchodilator Responsiveness Test	Quality of Life and Care
+SCDO:0000167	Built Environment	Physical Environment
+SCDO:0000168	Caesarian Section	Phenotype
+SCDO:0000168	Caesarian Section	
+SCDO:0000168	Caesarian Section	
+SCDO:0000180	Cancer	Comorbid Disease
+SCDO:0000180	Cancer	
+SCDO:0000180	Cancer	
+SCDO:0000180	Cancer	
+SCDO:0000180	Cancer	
+SCDO:0000182	Capillary Electrophoresis	Electrophoresis
+SCDO:0000182	Capillary Electrophoresis	
+SCDO:0000182	Capillary Electrophoresis	
+SCDO:0000183	Cardioscope	Diagnostic Device
+SCDO:0000183	Cardioscope	Measurement
+SCDO:0000186	Cardiovascular Measurement	Measurement
+SCDO:0000187	Cardiovascular System	from phenotype
+SCDO:0000188	Case Reports	Publication Type
+SCDO:0000188	Case Reports	
+SCDO:0000188	Case Reports	
+SCDO:0000189	Case-Control Studies	Epidemiologic Studies
+SCDO:0000190	Catheter	Diagnostic Device
+SCDO:0000190	Catheter	Measurement
+SCDO:0000190	Catheter	Therapeutic Device
+SCDO:0000191	Causal Adverse Drug Event	Adverse Drug Event
+SCDO:0000192	Causal Adverse Drug Event Due to Drug-Drug Interaction	Causal Adverse Drug Event
+SCDO:0000193	Causal Adverse Drug Event Due to Food-Drug Interaction	Causal Adverse Drug Event
+SCDO:0000194	Causal Adverse Drug Event Due to Genetic Predisposition	Causal Adverse Drug Event
+SCDO:0000195	Causal Adverse Drug Event Due to SNP	Causal Adverse Drug Event Due to Genetic Predisposition
+SCDO:0000198	Cell Free Hemoglobin Blood Test	Blood Test
+SCDO:0000198	Cell Free Hemoglobin Blood Test	Diagnostic Device
+SCDO:0000198	Cell Free Hemoglobin Blood Test	Phenotype
+SCDO:0000199	Cell Free Hemoglobin Level	Blood Chemistry Measurement
+SCDO:0000199	Cell Free Hemoglobin Level	Diagnostic Device
+SCDO:0000199	Cell Free Hemoglobin Level	
+SCDO:0000199	Cell Free Hemoglobin Level	
+SCDO:0000199	Cell Free Hemoglobin Level	
+SCDO:0000199	Cell Free Hemoglobin Level	
+SCDO:0000199	Cell Free Hemoglobin Level	
+SCDO:0000200	Central Sleep Apnea	Phenotype
+SCDO:0000200	Central Sleep Apnea	
+SCDO:0000200	Central Sleep Apnea	
+SCDO:0000201	Cerebellar Hemorrhage	Intracranial Hemorrhage
+SCDO:0000202	Cerebral Aneurysm	Phenotype
+SCDO:0000202	Cerebral Aneurysm	
+SCDO:0000202	Cerebral Aneurysm	
+SCDO:0000203	Cerebral Atrophy	Phenotype
+SCDO:0000203	Cerebral Atrophy	
+SCDO:0000203	Cerebral Atrophy	
+SCDO:0000204	Cerebral Blood Flow Assay	Blood Flow Assay
+SCDO:0000205	Cerebral Blood Flow Velocity	Cerebrovascular Hemodynamics
+SCDO:0000205	Cerebral Blood Flow Velocity	Diagnostic Device
+SCDO:0000206	Cerebral Collateral Flow	Cerebrovascular Hemodynamics
+SCDO:0000206	Cerebral Collateral Flow	Diagnostic Device
+SCDO:0000207	Cerebral Edema	Edema
+SCDO:0000207	Cerebral Edema	
+SCDO:0000207	Cerebral Edema	
+SCDO:0000208	Cerebral Function Assay	Physiological Assay
+SCDO:0000209	Cerebral Hemorrhage	Intracranial Hemorrhage
+SCDO:0000209	Cerebral Hemorrhage	
+SCDO:0000209	Cerebral Hemorrhage	
+SCDO:0000210	Cerebral Vasculitis	Phenotype
+SCDO:0000210	Cerebral Vasculitis	
+SCDO:0000210	Cerebral Vasculitis	
+SCDO:0000211	Cerebral Venous Sinus Thrombosis	Phenotype
+SCDO:0000211	Cerebral Venous Sinus Thrombosis	
+SCDO:0000211	Cerebral Venous Sinus Thrombosis	
+SCDO:0000211	Cerebral Venous Sinus Thrombosis	
+SCDO:0000212	Cerebrospinal Fluid Pleocytosis	Phenotype
+SCDO:0000212	Cerebrospinal Fluid Pleocytosis	
+SCDO:0000213	Cerebrovascular Hemodynamics	Blood Flow Measurement
+SCDO:0000214	Cervical Cord Compression	Phenotype
+SCDO:0000214	Cervical Cord Compression	
+SCDO:0000214	Cervical Cord Compression	
+SCDO:0000216	Chemical Assay	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000217	Chest X-Ray	Radiography
+SCDO:0000218	Child Health Questionnaire (CHQ)	Quality of Life and Care Measure
+SCDO:0000218	Child Health Questionnaire (CHQ)	
+SCDO:0000219	Child-Reported Parental Education Attainment	Measurement
+SCDO:0000219	Child-Reported Parental Education Attainment	Personal Attribute
+SCDO:0000219	Child-Reported Parental Education Attainment	Quality of Life and Care
+SCDO:0000219	Child-Reported Parental Education Attainment	Socioeconomic Status
+SCDO:0000219	Child-Reported Parental Education Attainment	Diagnostic Tool
+SCDO:0000220	Children's Depression Inventory 2 (CDI 2)	Quality of Life and Care Measure
+SCDO:0000220	Children's Depression Inventory 2 (CDI 2)	
+SCDO:0000220	Children's Depression Inventory 2 (CDI 2)	
+SCDO:0000220	Children's Depression Inventory 2 (CDI 2)	
+SCDO:0000221	Children's Health Locus of Control Scale (CHLC)	Quality of Life and Care Measure
+SCDO:0000221	Children's Health Locus of Control Scale (CHLC)	
+SCDO:0000222	Cholecystectomy	Supportive Therapeutics
+SCDO:0000223	Chorionic Villus Sampling	Prenatal Screening for Sickle Cell
+SCDO:0000225	Chronic Complications of Sickle Cell Disease	Phenotype of Sickle Cell Disease
+SCDO:0000225	Chronic Complications of Sickle Cell Disease	
+SCDO:0000226	Chronic Kidney Disease	Diagnostic Device
+SCDO:0000226	Chronic Kidney Disease	Phenotype
+SCDO:0000226	Chronic Kidney Disease	Diagnostic Tool
+SCDO:0000227	Chronic Kidney Injury	Kidney Failure
+SCDO:0000228	Chronic Neuropathic Pain	Chronic Sickle Cell Pain
+SCDO:0000229	Chronic Pain in a Specific Tissue or Organ	Chronic Sickle Cell Pain
+SCDO:0000230	Chronic Pain often of Unclear Etiology	Chronic Sickle Cell Pain
+SCDO:0000232	Chronic Restrictive Lung Disease	Phenotype
+SCDO:0000232	Chronic Restrictive Lung Disease	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000233	Chronic Sickle Cell Pain	SCD Related Pain
+SCDO:0000233	Chronic Sickle Cell Pain	
+SCDO:0000234	Chronic Sickle Cell Pain Management	Sickle Cell Pain Management
+SCDO:0000235	Cigarette Smoking Status	Measurement
+SCDO:0000235	Cigarette Smoking Status	Quality of Life and Care
+SCDO:0000235	Cigarette Smoking Status	Smoking History
+SCDO:0000235	Cigarette Smoking Status	Diagnostic Tool
+SCDO:0000236	Climate	Physical Environment
+SCDO:0000245	Clinical Coding	Medical Records
+SCDO:0000246	Clinical Competence	Quality of Health Care
+SCDO:0000246	Clinical Competence	
+SCDO:0000246	Clinical Competence	
+SCDO:0000246	Clinical Competence	
+SCDO:0000246	Clinical Competence	
+SCDO:0000246	Clinical Competence	
+SCDO:0000246	Clinical Competence	
+SCDO:0000247	Clinical Conference	Publication Type
+SCDO:0000247	Clinical Conference	
+SCDO:0000249	Clinical Diagnostic Questionnaire	Questionnaire
+SCDO:0000250	Clinical Neuropathy Assessment	Diagnostic Instrument
+SCDO:0000251	Clinical Phenotype of Beta Thalassemia	Beta Thalassemia
+SCDO:0000252	Clinical Study	Publication Type
+SCDO:0000253	Clinical Studies as Topic	Study Design
+SCDO:0000254	Clinical Trial	Clinical Study
+SCDO:0000255	"Clinical Trial, Phase I"	Clinical Trial
+SCDO:0000256	"Clinical Trial, Phase II"	Clinical Trial
+SCDO:0000257	"Clinical Trial, Phase IV"	Clinical Trial
+SCDO:0000258	"Clinical Trial, Phase III"	Clinical Trial
+SCDO:0000259	Clinical Trials as Topic	Clinical Studies as Topic
+SCDO:0000262	Cognitive Therapy	Behavior Therapy
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000262	Cognitive Therapy	
+SCDO:0000263	Cohort Studies	Epidemiologic Studies
+SCDO:0000264	Colorimetric Test	Biochemical Assay
+SCDO:0000265	Coma	Phenotype
+SCDO:0000265	Coma	
+SCDO:0000265	Coma	
+SCDO:0000266	Community	Social Environment
+SCDO:0000267	Comorbid Disease	Phenotype
+SCDO:0000267	Comorbid Disease	
+SCDO:0000267	Comorbid Disease	
+SCDO:0000268	Comparative Study	Publication Type
+SCDO:0000270	Complete Blood Count	Blood Cell Measurement
+SCDO:0000270	Complete Blood Count	Diagnostic Device
+SCDO:0000270	Complete Blood Count	Personal Attribute
+SCDO:0000270	Complete Blood Count	Quality of Life and Care
+SCDO:0000270	Complete Blood Count	Diagnostic Tool
+SCDO:0000271	Complementary Therapy	Therapeutics
+SCDO:0000272	Compound Heterozygous Hemoglobinopathy	from phenotype
+SCDO:0000273	Confusion	Phenotype
+SCDO:0000275	Conjugate Pneumococcal Vaccine	Streptococcus Pneumoniae Vaccine
+SCDO:0000276	Conjunctival Comma Sign	Ophthalmologic Complication
+SCDO:0000277	Consensus Development Conference	Publication Type
+SCDO:0000278	"Consensus Development Conference, NIH"	Consensus Development Conference
+SCDO:0000279	Constitutional Genetic Disorder	Genetic Disorder
+SCDO:0000280	Consumer Assessment of Healthcare Providers and Systems (CAHPS) Health Plan Survey 4.0 Child Medicaid Questionnaire	Measurement
+SCDO:0000280	Consumer Assessment of Healthcare Providers and Systems (CAHPS) Health Plan Survey 4.0 Child Medicaid Questionnaire	Personal Attribute
+SCDO:0000280	Consumer Assessment of Healthcare Providers and Systems (CAHPS) Health Plan Survey 4.0 Child Medicaid Questionnaire	Quality of Life and Care Measure
+SCDO:0000280	Consumer Assessment of Healthcare Providers and Systems (CAHPS) Health Plan Survey 4.0 Child Medicaid Questionnaire	Diagnostic Tool
+SCDO:0000281	Continuous Ambulatory ECG	Heart Function Test
+SCDO:0000281	Continuous Ambulatory ECG	Measurement
+SCDO:0000281	Continuous Ambulatory ECG	Therapeutics
+SCDO:0000282	Controlled Before-After Studies	Epidemiologic Studies
+SCDO:0000283	Controlled Clinical Trial	Clinical Trial
+SCDO:0000284	Controlled Clinical Trials as Topic	Clinical Trials as Topic
+SCDO:0000286	Coping Skill	Mental Health
+SCDO:0000286	Coping Skill	
+SCDO:0000286	Coping Skill	
+SCDO:0000286	Coping Skill	
+SCDO:0000286	Coping Skill	
+SCDO:0000286	Coping Skill	
+SCDO:0000286	Coping Skill	
+SCDO:0000287	Coping Strategies Questionnaire revised for Sickle Cell Disease (CSQ-SCD)	Quality of Life and Care Measure
+SCDO:0000287	Coping Strategies Questionnaire revised for Sickle Cell Disease (CSQ-SCD)	
+SCDO:0000288	Coping Strategies Questionnaire revised for Sickle Cell Disease Children (CSQ-SCD Children)	Quality of Life and Care Measure
+SCDO:0000291	Corticosteroid-Induced Adverse Event	Causal Adverse Drug Event
+SCDO:0000292	Corticostroid-Induced Vaso-Occlusive Adverse Event	Corticosteroid-Induced Adverse Event
+SCDO:0000294	Cost of Illness	Healthcare Access
+SCDO:0000294	Cost of Illness	Mental Health
+SCDO:0000294	Cost of Illness	
+SCDO:0000294	Cost of Illness	
+SCDO:0000294	Cost of Illness	
+SCDO:0000294	Cost of Illness	
+SCDO:0000294	Cost of Illness	
+SCDO:0000294	Cost of Illness	
+SCDO:0000295	Cost-Effectiveness of Healthcare	Health Utility
+SCDO:0000296	Creatinine Blood Test	Blood Test
+SCDO:0000296	Creatinine Blood Test	Kidney Function Test
+SCDO:0000296	Creatinine Blood Test	Measurement
+SCDO:0000296	Creatinine Blood Test	Personal Attribute
+SCDO:0000296	Creatinine Blood Test	Quality of Life and Care
+SCDO:0000297	Crisis Intervention	Psychotherapy
+SCDO:0000297	Crisis Intervention	
+SCDO:0000298	Cross-Sectional Studies	Epidemiologic Studies
+SCDO:0000299	Culture	Quality of Life
+SCDO:0000299	Culture	
+SCDO:0000301	Curative Therapeutics	Therapeutics
+SCDO:0000304	Current Age	Age
+SCDO:0000305	Current Educational Attainment	Measurement
+SCDO:0000305	Current Educational Attainment	Personal Attribute
+SCDO:0000305	Current Educational Attainment	Quality of Life and Care
+SCDO:0000305	Current Educational Attainment	Diagnostic Tool
+SCDO:0000306	Current Employment Status	Measurement
+SCDO:0000306	Current Employment Status	Personal Attribute
+SCDO:0000306	Current Employment Status	Quality of Life and Care
+SCDO:0000306	Current Employment Status	Diagnostic Tool
+SCDO:0000307	Current Marital Status	Measurement
+SCDO:0000307	Current Marital Status	Personal Attribute
+SCDO:0000307	Current Marital Status	Quality of Life and Care
+SCDO:0000307	Current Marital Status	Diagnostic Tool
+SCDO:0000308	Cutaneous Hyperpigmentation	Phenotype
+SCDO:0000308	Cutaneous Hyperpigmentation	
+SCDO:0000309	Cyanosis	Phenotype
+SCDO:0000309	Cyanosis	
+SCDO:0000309	Cyanosis	
+SCDO:0000310	Cystatin C Measurement	Blood Chemistry Measurement
+SCDO:0000310	Cystatin C Measurement	
+SCDO:0000310	Cystatin C Measurement	
+SCDO:0000310	Cystatin C Measurement	
+SCDO:0000310	Cystatin C Measurement	
+SCDO:0000310	Cystatin C Measurement	
+SCDO:0000311	D57 Sickle-cell disorders	ICD-10-CM Diagnosis Codes
+SCDO:0000312	D57.0 Hb-SS disease with crisis	D57 Sickle-cell disorders
+SCDO:0000313	D57.01 Hb-SS disease with acute chest syndrome	D57.0 Hb-SS disease with crisis
+SCDO:0000314	D57.02 Hb-SS disease with splenic sequestration	D57.0 Hb-SS disease with crisis
+SCDO:0000315	D57.1 Sickle-cell disease without crisis	D57 Sickle-cell disorders
+SCDO:0000316	D57.2 Sickle-cell/Hb-C disease	D57 Sickle-cell disorders
+SCDO:0000317	D57.20 Sickle-cell/Hb-C disease without crisis	D57.2 Sickle-cell/Hb-C disease
+SCDO:0000318	D57.21 Sickle-cell/Hb-C disease with crisis	D57.2 Sickle-cell/Hb-C disease
+SCDO:0000319	D57.211 Sickle-cell/Hb-C disease with acute chest syndrome	D57.21 Sickle-cell/Hb-C disease with crisis
+SCDO:0000320	D57.212 Sickle-cell/Hb-C disease with splenic sequestration	D57.21 Sickle-cell/Hb-C disease with crisis
+SCDO:0000321	"D57.219 Sickle-cell/Hb-C disease with crisis, unspecified"	D57.21 Sickle-cell/Hb-C disease with crisis
+SCDO:0000322	D57.3 Sickle-cell trait	D57 Sickle-cell disorders
+SCDO:0000323	D57.41 Sickle-cell thalassemia	D57 Sickle-cell disorders
+SCDO:0000324	D57.40 Sickle-cell thalassemia without crisis	D57.41 Sickle-cell thalassemia
+SCDO:0000325	D57.41 Sickle-cell thalassemia with crisis	D57.41 Sickle-cell thalassemia
+SCDO:0000326	D57.411 Sickle-cell thalassemia with acute chest syndrome	D57.41 Sickle-cell thalassemia with crisis
+SCDO:0000327	D57.412 Sickle-cell thalassemia with splenic sequestration	D57.41 Sickle-cell thalassemia
+SCDO:0000328	"D57.419 Sickle-cell thalassemia with crisis, unspecified"	D57.41 Sickle-cell thalassemia
+SCDO:0000329	D57.8 Other sickle-cell disorders	D57 Sickle-cell disorders
+SCDO:0000329	D57.8 Other sickle-cell disorders	
+SCDO:0000330	D57.80 Other sickle-cell disorders without crisis	D57.8 Other sickle-cell disorders
+SCDO:0000330	D57.80 Other sickle-cell disorders without crisis	
+SCDO:0000331	D57.81 Other sickle-cell disorders with crisis	D57.8 Other sickle-cell disorders
+SCDO:0000331	D57.81 Other sickle-cell disorders with crisis	
+SCDO:0000332	D57.811 Other sickle-cell disorders with acute chest syndrome	D57.81 Other sickle-cell disorders with crisis
+SCDO:0000332	D57.811 Other sickle-cell disorders with acute chest syndrome	
+SCDO:0000333	D57.812 Other sickle-cell disorders with splenic sequestration	D57.81 Other sickle-cell disorders with crisis
+SCDO:0000333	D57.812 Other sickle-cell disorders with splenic sequestration	
+SCDO:0000334	"D57.819 Other sickle-cell disorders with crisis, unspecified"	D57.81 Other sickle-cell disorders with crisis
+SCDO:0000334	"D57.819 Other sickle-cell disorders with crisis, unspecified"	
+SCDO:0000338	Protein Molecule	Gene
+SCDO:0000338	Protein Molecule	Molecule
+SCDO:0000342	Delayed Puberty	Phenotype
+SCDO:0000342	Delayed Puberty	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000342	Delayed Puberty	
+SCDO:0000342	Delayed Puberty	
+SCDO:0000342	Delayed Puberty	
+SCDO:0000342	Delayed Puberty	
+SCDO:0000343	Delta Beta Thalassaemia	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000344	Delta Thalassaemia	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000344	Delta Thalassaemia	
+SCDO:0000344	Delta Thalassaemia	
+SCDO:0000345	Dementia	Phenotype
+SCDO:0000345	Dementia	
+SCDO:0000345	Dementia	
+SCDO:0000346	Dengue Fever	Viral Infection
+SCDO:0000346	Dengue Fever	
+SCDO:0000346	Dengue Fever	
+SCDO:0000346	Dengue Fever	
+SCDO:0000347	Dental System	from phenotype
+SCDO:0000360	Depression	Behavioral Abnormality
+SCDO:0000360	Depression	Mental Health
+SCDO:0000360	Depression	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000365	Dexterity	Physical Health
+SCDO:0000366	Diabetes Insipidus	Phenotype
+SCDO:0000366	Diabetes Insipidus	
+SCDO:0000366	Diabetes Insipidus	
+SCDO:0000367	Diabetes Mellitus	Comorbid Disease
+SCDO:0000367	Diabetes Mellitus	
+SCDO:0000367	Diabetes Mellitus	
+SCDO:0000369	Diabetic Ketoacidosis	Phenotype
+SCDO:0000369	Diabetic Ketoacidosis	
+SCDO:0000369	Diabetic Ketoacidosis	
+SCDO:0000376	Diagnostic Device	Diagnostics
+SCDO:0000379	Diagnostics	SCDO
+SCDO:0000380	Diclofenac	Anti-Inflammatory Agent
+SCDO:0000380	Diclofenac	
+SCDO:0000380	Diclofenac	
+SCDO:0000382	"Diet, Food, and Nutrition"	Lifestyle
+SCDO:0000383	Diffusion Capacity by Biochemical Methods	Diffusion Capacity Test
+SCDO:0000384	Diffusion Capacity of Lung	Personal Attribute
+SCDO:0000384	Diffusion Capacity of Lung	Quality of Life and Care
+SCDO:0000384	Diffusion Capacity of Lung	Respiratory System Measurement
+SCDO:0000384	Diffusion Capacity of Lung	Diagnostic Tool
+SCDO:0000384	Diffusion Capacity of Lung	
+SCDO:0000385	Diffusion Capacity Test	Diagnostic Device
+SCDO:0000385	Diffusion Capacity Test	Measurement
+SCDO:0000385	Diffusion Capacity Test	Personal Attribute
+SCDO:0000385	Diffusion Capacity Test	Phenotype
+SCDO:0000385	Diffusion Capacity Test	Pulmonary Function Test
+SCDO:0000385	Diffusion Capacity Test	Quality of Life and Care
+SCDO:0000386	Disability-Adjusted Life Year (DALY)	Quality of Life and Care Measure
+SCDO:0000387	Disability-Adjusted Life Year (DALY) - removed - see Quality of Life and Care Measure	Health Utility
+SCDO:0000388	Disaster	Physical Environment
+SCDO:0000388	Disaster	
+SCDO:0000388	Disaster	
+SCDO:0000391	Disease Modifier	SCDO
+SCDO:0000395	Diuresis	Phenotype
+SCDO:0000395	Diuresis	
+SCDO:0000395	Diuresis	
+SCDO:0000396	Doppler Ultrasound Machine - 2 Megahertz	Ultrasound Machine
+SCDO:0000397	Drug Clearance Decreased AE	Adverse Drug Event
+SCDO:0000398	Drug Dependence AE	Adverse Drug Event
+SCDO:0000399	Drug Intake	Lifestyle
+SCDO:0000400	Drug Intolerance AE	Adverse Drug Event
+SCDO:0000401	Drug Withdrawal Syndrome AE	Adverse Drug Event
+SCDO:0000402	Drug-Induced Neuropathy AE	Causal Adverse Drug Event
+SCDO:0000403	Dysarthria	Phenotype
+SCDO:0000403	Dysarthria	
+SCDO:0000403	Dysarthria	
+SCDO:0000404	Dyslipidemia	Phenotype
+SCDO:0000405	"Ear, Nose and Throat"	from phenotype
+SCDO:0000407	Ecchymosis	Phenotype
+SCDO:0000407	Ecchymosis	
+SCDO:0000407	Ecchymosis	
+SCDO:0000408	ECG Abnormalities	Phenotype
+SCDO:0000408	ECG Abnormalities	
+SCDO:0000409	Echocardiogram	Ultrasonography Test
+SCDO:0000409	Echocardiogram	
+SCDO:0000409	Echocardiogram	
+SCDO:0000409	Echocardiogram	
+SCDO:0000409	Echocardiogram	
+SCDO:0000409	Echocardiogram	
+SCDO:0000409	Echocardiogram	
+SCDO:0000409	Echocardiogram	
+SCDO:0000409	Echocardiogram	
+SCDO:0000410	Echocardiography Machine	Diagnostic Device
+SCDO:0000410	Echocardiography Machine	Measurement
+SCDO:0000411	Eclampsia	Phenotype
+SCDO:0000411	Eclampsia	
+SCDO:0000411	Eclampsia	
+SCDO:0000413	Ectopic Pregnancy	Phenotype
+SCDO:0000413	Ectopic Pregnancy	
+SCDO:0000414	Education	Quality of Life
+SCDO:0000415	Electrocardiogram	Electrocardiograph
+SCDO:0000415	Electrocardiogram	
+SCDO:0000416	Electrocardiographic Monitor	Diagnostic Device
+SCDO:0000416	Electrocardiographic Monitor	
+SCDO:0000417	Electrocardiography	Heart Function Test
+SCDO:0000417	Electrocardiography	Measurement
+SCDO:0000417	Electrocardiography	Therapeutics
+SCDO:0000418	Electroencephalogram	Electroencephalograph
+SCDO:0000419	Electroencephalograph	Diagnostic Device
+SCDO:0000420	Electroencephalography	Cerebral Function Assay
+SCDO:0000420	Electroencephalography	Diagnostic Device
+SCDO:0000420	Electroencephalography	Measurement
+SCDO:0000420	Electroencephalography	Phenotype
+SCDO:0000420	Electroencephalography	Therapeutics
+SCDO:0000422	Electron Microscope	Microscope
+SCDO:0000423	Electronic Health Records	Health Records
+SCDO:0000423	Electronic Health Records	
+SCDO:0000423	Electronic Health Records	
+SCDO:0000424	Electrophoresis	Chemical Assay
+SCDO:0000425	Elevated Hepatic Iron Concentration	Phenotype
+SCDO:0000425	Elevated Hepatic Iron Concentration	
+SCDO:0000425	Elevated Hepatic Iron Concentration	
+SCDO:0000428	EMG Abnormality	Phenotype
+SCDO:0000429	Encephalopathy	Phenotype
+SCDO:0000429	Encephalopathy	
+SCDO:0000429	Encephalopathy	
+SCDO:0000430	End Stage Kidney Disease	Phenotype
+SCDO:0000430	End Stage Kidney Disease	
+SCDO:0000430	End Stage Kidney Disease	
+SCDO:0000431	Endocrine and Metabolic	from phenotype
+SCDO:0000432	Endometriosis	Phenotype
+SCDO:0000432	Endometriosis	
+SCDO:0000432	Endometriosis	
+SCDO:0000433	Endometritis	Phenotype
+SCDO:0000433	Endometritis	
+SCDO:0000434	Enuresis	Phenotype
+SCDO:0000434	Enuresis	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000434	Enuresis	
+SCDO:0000435	Environmental Disease Modifier	Disease Modifier
+SCDO:0000436	Enzymatic Assay	Biochemical Assay
+SCDO:0000437	Epidemiologic Studies	Study Design
+SCDO:0000438	Epidemiologic Study Characteristics as Topic	Research Activity
+SCDO:0000439	Epigenetic Disorder	Genetic Disease Modifier
+SCDO:0000440	Epilepsy Screener	Diagnostic Instrument
+SCDO:0000441	General Health Questionnaire (GHQ)	Quality of Life and Care Measure
+SCDO:0000442	Generalised Anxiety Disorder Questionnaire (GAD-7)	Quality of Life and Care Measure
+SCDO:0000442	Generalised Anxiety Disorder Questionnaire (GAD-7)	
+SCDO:0000443	Genetic Counseling	Genetic Service
+SCDO:0000444	Genetic Disease Modifier	Biological Disease Modifier
+SCDO:0000445	Genetic Disorder	Genetic Disease Modifier
+SCDO:0000445	Genetic Disorder	Disease
+SCDO:0000446	Genetic Screening	Genetic Testing
+SCDO:0000447	Genetic Service	Preventative Therapeutics
+SCDO:0000448	Genetic Technique	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000448	Genetic Technique	
+SCDO:0000448	Genetic Technique	
+SCDO:0000449	Genetic Testing	Genetic Technique
+SCDO:0000449	Genetic Testing	
+SCDO:0000449	Genetic Testing	
+SCDO:0000450	Genome Wide Association Study	Genetic Technique
+SCDO:0000451	Geographic Location	Physical Environment
+SCDO:0000452	Gingival Bleeding	Phenotype
+SCDO:0000452	Gingival Bleeding	
+SCDO:0000452	Gingival Bleeding	
+SCDO:0000454	Glaucoma (Secondary to Presence of Blood in the Anterior Chamber of the Eye)	Ophthalmologic Complication
+SCDO:0000455	Global Mental Status Screener	Diagnostic Instrument
+SCDO:0000456	Globin Loci	Gene Product
+SCDO:0000457	Glomerular Filtration Rate	Blood Chemistry Measurement
+SCDO:0000458	Glomerulonephritis	Phenotype
+SCDO:0000459	Glomerulopathy	Phenotype
+SCDO:0000459	Glomerulopathy	
+SCDO:0000459	Glomerulopathy	
+SCDO:0000460	Glomerulosclerosis	Phenotype
+SCDO:0000460	Glomerulosclerosis	
+SCDO:0000460	Glomerulosclerosis	
+SCDO:0000462	Glucose-6-Phosphate Dehydrogenase	Non-Globin Loci
+SCDO:0000464	Granulomatosis	Infection
+SCDO:0000464	Granulomatosis	
+SCDO:0000464	Granulomatosis	
+SCDO:0000465	Growth Delay	Phenotype
+SCDO:0000465	Growth Delay	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000465	Growth Delay	
+SCDO:0000465	Growth Delay	
+SCDO:0000465	Growth Delay	
+SCDO:0000465	Growth Delay	
+SCDO:0000466	Haptoglobin Blood Test	Blood Test
+SCDO:0000466	Haptoglobin Blood Test	Diagnostic Device
+SCDO:0000466	Haptoglobin Blood Test	Phenotype
+SCDO:0000467	Haptoglobin Level	Blood Chemistry Measurement
+SCDO:0000467	Haptoglobin Level	Diagnostic Device
+SCDO:0000467	Haptoglobin Level	Personal Attribute
+SCDO:0000467	Haptoglobin Level	Quality of Life and Care
+SCDO:0000467	Haptoglobin Level	Diagnostic Tool
+SCDO:0000477	Sickle Cell Dactylitis	Pain
+SCDO:0000487	Health Behaviour	Environmental Disease Modifier
+SCDO:0000488	Health Beliefs	Culture
+SCDO:0000489	Health Financing	Health System
+SCDO:0000489	Health Financing	
+SCDO:0000489	Health Financing	
+SCDO:0000489	Health Financing	
+SCDO:0000490	Health Insurance Coverage	Measurement
+SCDO:0000490	Health Insurance Coverage	Personal Attribute
+SCDO:0000490	Health Insurance Coverage	Quality of Life and Care
+SCDO:0000490	Health Insurance Coverage	Diagnostic Tool
+SCDO:0000491	Health Literacy	Coping Skill
+SCDO:0000492	Health Records	Medical Records
+SCDO:0000492	Health Records	
+SCDO:0000492	Health Records	
+SCDO:0000492	Health Records	
+SCDO:0000492	Health Records	
+SCDO:0000492	Health Records	
+SCDO:0000493	Health Service Utilization	Quality of Health Care
+SCDO:0000493	Health Service Utilization	
+SCDO:0000494	Health System	Quality of Health Care
+SCDO:0000494	Health System	
+SCDO:0000494	Health System	
+SCDO:0000495	Health Utility	Quality of Health Care
+SCDO:0000496	Healthcare Access	Quality of Health Care
+SCDO:0000496	Healthcare Access	
+SCDO:0000497	Healthy Diet	Healthy Lifestyle
+SCDO:0000497	Healthy Diet	Lifestyle Therapy
+SCDO:0000498	Healthy Lifestyle	Health Behaviour
+SCDO:0000498	Healthy Lifestyle	Lifestyle
+SCDO:0000499	Heart Contraction Pressure	Cardiovascular Measurement
+SCDO:0000500	Heart Function Test	Physiological Assay
+SCDO:0000500	Heart Function Test	
+SCDO:0000501	Heart Rate	Cardiovascular Measurement
+SCDO:0000501	Heart Rate	
+SCDO:0000501	Heart Rate	
+SCDO:0000502	Heart Valve Function Measure	Diagnostic Device
+SCDO:0000502	Heart Valve Function Measure	Heart Function Test
+SCDO:0000502	Heart Valve Function Measure	Measurement
+SCDO:0000502	Heart Valve Function Measure	Therapeutics
+SCDO:0000503	Hematocrit	Red Blood Cell Measurement
+SCDO:0000503	Hematocrit	
+SCDO:0000503	Hematocrit	
+SCDO:0000504	Hematology Analyzer	Diagnostic Device
+SCDO:0000504	Hematology Analyzer	Phenotype
+SCDO:0000504	Hematology Analyzer	Diagnostic Tool
+SCDO:0000505	Hematology Screening Test	Blood Test
+SCDO:0000506	Hematopoietic Stem Cell Transplantation	Curative Therapeutics
+SCDO:0000506	Hematopoietic Stem Cell Transplantation	
+SCDO:0000507	Hematopoietic System	Hemic and Immune Systems
+SCDO:0000508	Hematuria	Phenotype
+SCDO:0000508	Hematuria	
+SCDO:0000510	Heme Oxygenase 1	Non-Globin Loci
+SCDO:0000510	Heme Oxygenase 1	
+SCDO:0000510	Heme Oxygenase 1	
+SCDO:0000510	Heme Oxygenase 1	
+SCDO:0000511	Hemic and Immune Systems	from phenotype
+SCDO:0000512	Hemochromatosis	Phenotype
+SCDO:0000512	Hemochromatosis	
+SCDO:0000512	Hemochromatosis	
+SCDO:0000512	Hemochromatosis	
+SCDO:0000513	Hemoglobin C	Abnormal Hemoglobin Structure Present in SCD
+SCDO:0000513	Hemoglobin C	
+SCDO:0000514	Hemoglobin S	Abnormal Hemoglobin Structure Present in SCD
+SCDO:0000514	Hemoglobin S	
+SCDO:0000514	Hemoglobin S	
+SCDO:0000515	Hemoglobin H	Phenotype
+SCDO:0000515	Hemoglobin H	Gene Product
+SCDO:0000515	Hemoglobin H	
+SCDO:0000515	Hemoglobin H	
+SCDO:0000516	Hemoglobin A2 Profile	Hemoglobin Profile Assay
+SCDO:0000517	Hemoglobin Bart's	Phenotype
+SCDO:0000517	Hemoglobin Bart's	from phenotype
+SCDO:0000518	Haemoglobin Bart Hydrops Fetalis	Alpha Thalassemia
+SCDO:0000518	Haemoglobin Bart Hydrops Fetalis	Phenotype
+SCDO:0000518	Haemoglobin Bart Hydrops Fetalis	
+SCDO:0000518	Haemoglobin Bart Hydrops Fetalis	
+SCDO:0000519	Haemoglobin C disease	Phenotype
+SCDO:0000519	Haemoglobin C disease	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000520	Hemoglobin C Trait	Hemoglobin Trait
+SCDO:0000520	Hemoglobin C Trait	Phenotype
+SCDO:0000520	Hemoglobin C Trait	
+SCDO:0000521	Hemoglobin C-Beta Thalassemia	Compound Heterozygous Hemoglobinopathy
+SCDO:0000521	Hemoglobin C-Beta Thalassemia	Phenotype
+SCDO:0000522	Hemoglobin Characterization	Blood Test
+SCDO:0000522	Hemoglobin Characterization	Measurement
+SCDO:0000522	Hemoglobin Characterization	Personal Attribute
+SCDO:0000522	Hemoglobin Characterization	Quality of Life and Care
+SCDO:0000522	Hemoglobin Characterization	
+SCDO:0000522	Hemoglobin Characterization	
+SCDO:0000523	Hemoglobin Concentration	Hemoglobin Measurement
+SCDO:0000523	Hemoglobin Concentration	
+SCDO:0000524	Hemoglobin D Disease	Phenotype
+SCDO:0000524	Hemoglobin D Disease	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000525	Hemoglobin D Trait	Hemoglobin Trait
+SCDO:0000525	Hemoglobin D Trait	Phenotype
+SCDO:0000526	Hemoglobin D-Beta Thalassemia	Compound Heterozygous Hemoglobinopathy
+SCDO:0000526	Hemoglobin D-Beta Thalassemia	Phenotype
+SCDO:0000527	Hemoglobin D-Ibadan	Phenotype
+SCDO:0000527	Hemoglobin D-Ibadan	from phenotype
+SCDO:0000528	Hemoglobin D-Punjab	Abnormal Hemoglobin Structure Present in SCD
+SCDO:0000528	Hemoglobin D-Punjab	
+SCDO:0000528	Hemoglobin D-Punjab	
+SCDO:0000528	Hemoglobin D-Punjab	
+SCDO:0000528	Hemoglobin D-Punjab	
+SCDO:0000528	Hemoglobin D-Punjab	
+SCDO:0000528	Hemoglobin D-Punjab	
+SCDO:0000529	"Hemoglobin Disease Other than C,D,E,F,H,O-Arab,S"	from phenotype
+SCDO:0000529	"Hemoglobin Disease Other than C,D,E,F,H,O-Arab,S"	
+SCDO:0000530	haemoglobin E disease	Phenotype
+SCDO:0000530	haemoglobin E disease	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000531	Hemoglobin E Trait	Hemoglobin Trait
+SCDO:0000531	Hemoglobin E Trait	Phenotype
+SCDO:0000532	Haemoglobin E-Beta Thalassemia	Compound Heterozygous Hemoglobinopathy
+SCDO:0000532	Haemoglobin E-Beta Thalassemia	Phenotype
+SCDO:0000533	Hemoglobin F Profile	Hemoglobin Profile Assay
+SCDO:0000534	Haemoglobin H Disease	Alpha Thalassemia
+SCDO:0000534	Haemoglobin H Disease	Phenotype
+SCDO:0000535	Hemoglobin Lepore Baltimore	from phenotype
+SCDO:0000536	Hemoglobin Lepore Boston Disease	Hemoglobin Lepore Syndrome
+SCDO:0000536	Hemoglobin Lepore Boston Disease	
+SCDO:0000536	Hemoglobin Lepore Boston Disease	
+SCDO:0000536	Hemoglobin Lepore Boston Disease	
+SCDO:0000536	Hemoglobin Lepore Boston Disease	
+SCDO:0000537	Hemoglobin Lepore Hollandia	from phenotype
+SCDO:0000538	Hemoglobin Lepore Syndrome	Delta Beta Thalassaemia
+SCDO:0000538	Hemoglobin Lepore Syndrome	
+SCDO:0000538	Hemoglobin Lepore Syndrome	
+SCDO:0000538	Hemoglobin Lepore Syndrome	
+SCDO:0000539	Hemoglobin Lepore Trait	"Hemoglobin Trait Other than C,D,E,S,O-Arab"
+SCDO:0000540	Hemoglobin Lepore-Beta Thalassaemia	Compound Heterozygous Hemoglobinopathy
+SCDO:0000540	Hemoglobin Lepore-Beta Thalassaemia	Phenotype
+SCDO:0000540	Hemoglobin Lepore-Beta Thalassaemia	
+SCDO:0000541	Hemoglobin M Disease	Hereditary Methemoglobinemia
+SCDO:0000541	Hemoglobin M Disease	Phenotype
+SCDO:0000542	Hemoglobin M Trait	"Hemoglobin Trait Other than C,D,E,S,O-Arab"
+SCDO:0000543	Hemoglobin Measurement	Blood Cell Measurement
+SCDO:0000544	Hemoglobin O-Arab Disease	Phenotype
+SCDO:0000544	Hemoglobin O-Arab Disease	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000544	Hemoglobin O-Arab Disease	
+SCDO:0000545	Hemoglobin O-Arab Trait	Hemoglobin Trait
+SCDO:0000545	Hemoglobin O-Arab Trait	
+SCDO:0000545	Hemoglobin O-Arab Trait	
+SCDO:0000546	Hemoglobin Profile	Diagnostic Device
+SCDO:0000546	Hemoglobin Profile	Hemoglobin Measurement
+SCDO:0000547	Hemoglobin Profile Assay	Diagnostic Device
+SCDO:0000547	Hemoglobin Profile Assay	Measurement
+SCDO:0000547	Hemoglobin Profile Assay	Molecular Profiling Assay
+SCDO:0000547	Hemoglobin Profile Assay	
+SCDO:0000547	Hemoglobin Profile Assay	
+SCDO:0000547	Hemoglobin Profile Assay	
+SCDO:0000547	Hemoglobin Profile Assay	
+SCDO:0000548	Hemoglobin S Test	Hemoglobin Characterization
+SCDO:0000549	Sickle Cell Disease-SS	Phenotype
+SCDO:0000549	Sickle Cell Disease-SS	Sickle cell disease
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000549	Sickle Cell Disease-SS	
+SCDO:0000550	Hemoglobin Trait	Hemoglobinopathy
+SCDO:0000551	"Hemoglobin Trait Other than C,D,E,S,O-Arab"	Hemoglobin Trait
+SCDO:0000552	Hemoglobinopathy	SCDO
+SCDO:0000553	Hemoglobinopathy Toms River	from phenotype
+SCDO:0000553	Hemoglobinopathy Toms River	
+SCDO:0000554	Hemoglobinuria	Phenotype
+SCDO:0000554	Hemoglobinuria	
+SCDO:0000554	Hemoglobinuria	
+SCDO:0000555	Hepatic Iron Concentration	Diagnostic Device
+SCDO:0000555	Hepatic Iron Concentration	Measurement
+SCDO:0000555	Hepatic Iron Concentration	
+SCDO:0000556	Hepatic Span	Body Morphological Measurement
+SCDO:0000556	Hepatic Span	Diagnostic Device
+SCDO:0000557	Hepatitis B Test	Immunochemical Assay
+SCDO:0000558	Hepatitis C Test	Immunochemical Assay
+SCDO:0000559	Hereditary Methemoglobinemia	Methemoglobinemia
+SCDO:0000560	Hereditary Persistence of Fetal Hemoglobin	Phenotype
+SCDO:0000560	Hereditary Persistence of Fetal Hemoglobin	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants
+SCDO:0000563	High-Performance Liquid Chromatography	Chemical Assay
+SCDO:0000563	High-Performance Liquid Chromatography	
+SCDO:0000563	High-Performance Liquid Chromatography	
+SCDO:0000563	High-Performance Liquid Chromatography	
+SCDO:0000564	Hip Replacement Arthroplasty	Supportive Therapeutics
+SCDO:0000564	Hip Replacement Arthroplasty	Symptomatic Therapeutics
+SCDO:0000564	Hip Replacement Arthroplasty	
+SCDO:0000564	Hip Replacement Arthroplasty	
+SCDO:0000564	Hip Replacement Arthroplasty	
+SCDO:0000565	Historically Controlled Study	Epidemiologic Studies
+SCDO:0000566	History of Head Trauma	Diagnostic Instrument
+SCDO:0000567	History of Kidney Failure	Measurement
+SCDO:0000567	History of Kidney Failure	Personal Attribute
+SCDO:0000567	History of Kidney Failure	Quality of Life and Care
+SCDO:0000567	History of Kidney Failure	Diagnostic Instrument
+SCDO:0000568	History of Stroke - Ischemic Infarction and Hemorrhage	Diagnostic Instrument
+SCDO:0000569	History of Transfusion	Measurement
+SCDO:0000569	History of Transfusion	Personal Attribute
+SCDO:0000569	History of Transfusion	Quality of Life and Care
+SCDO:0000569	History of Transfusion	Diagnostic Instrument
+SCDO:0000570	History of Type I and Type 2 Diabetes	Measurement
+SCDO:0000570	History of Type I and Type 2 Diabetes	Personal Attribute
+SCDO:0000570	History of Type I and Type 2 Diabetes	Quality of Life and Care
+SCDO:0000570	History of Type I and Type 2 Diabetes	Diagnostic Instrument
+SCDO:0000571	HIV Test	Blood Test
+SCDO:0000572	Hospital Anxiety and Depression Scale (HADS)	Quality of Life and Care Measure
+SCDO:0000572	Hospital Anxiety and Depression Scale (HADS)	
+SCDO:0000573	Hospitalization	Health Service Utilization
+SCDO:0000573	Hospitalization	
+SCDO:0000573	Hospitalization	
+SCDO:0000573	Hospitalization	
+SCDO:0000574	Household Roster-Relationships	Measurement
+SCDO:0000574	Household Roster-Relationships	Personal Attribute
+SCDO:0000574	Household Roster-Relationships	Quality of Life and Care
+SCDO:0000574	Household Roster-Relationships	Diagnostic Tool
+SCDO:0000576	Hydration	Preventative Therapeutics
+SCDO:0000576	Hydration	Lifestyle Therapy
+SCDO:0000577	Hydromorphone	Opioid
+SCDO:0000578	Hydrops Fetalis	Phenotype
+SCDO:0000578	Hydrops Fetalis	
+SCDO:0000578	Hydrops Fetalis	
+SCDO:0000580	Hydroxyurea	Preventative Therapeutics
+SCDO:0000581	Hydroxyurea-Induced Adverse Event	Causal Adverse Drug Event
+SCDO:0000582	Hydroxyurea-Induced Cutaneous Adverse Event	Hydroxyurea-Induced Adverse Event
+SCDO:0000583	Hydroxyurea-Induced Splenomegaly Adverse Event	Hydroxyurea-Induced Adverse Event
+SCDO:0000586	Hypergonadotropic Hypogonadism	Phenotype
+SCDO:0000586	Hypergonadotropic Hypogonadism	
+SCDO:0000586	Hypergonadotropic Hypogonadism	
+SCDO:0000587	Hyperinsulinemia	Phenotype
+SCDO:0000587	Hyperinsulinemia	
+SCDO:0000587	Hyperinsulinemia	
+SCDO:0000588	Hyperkalemia	Phenotype
+SCDO:0000588	Hyperkalemia	
+SCDO:0000588	Hyperkalemia	
+SCDO:0000588	Hyperkalemia	
+SCDO:0000589	Hyperkeratosis	Phenotype
+SCDO:0000589	Hyperkeratosis	
+SCDO:0000589	Hyperkeratosis	
+SCDO:0000590	Hyperlipidemia	Phenotype
+SCDO:0000590	Hyperlipidemia	
+SCDO:0000590	Hyperlipidemia	
+SCDO:0000591	Hyperostosis	Phenotype
+SCDO:0000591	Hyperostosis	
+SCDO:0000591	Hyperostosis	
+SCDO:0000592	Hyperparathyroidism	Phenotype
+SCDO:0000592	Hyperparathyroidism	
+SCDO:0000592	Hyperparathyroidism	
+SCDO:0000593	Hyperpigmentation	Phenotype
+SCDO:0000595	Hyperthyroidism	Phenotype
+SCDO:0000595	Hyperthyroidism	
+SCDO:0000595	Hyperthyroidism	
+SCDO:0000596	Hyperuricemia	Phenotype
+SCDO:0000596	Hyperuricemia	
+SCDO:0000596	Hyperuricemia	
+SCDO:0000597	Hyphema	Ophthalmologic Complication
+SCDO:0000597	Hyphema	
+SCDO:0000597	Hyphema	
+SCDO:0000598	Hypnotics and Sedatives	Supportive Therapeutics
+SCDO:0000599	Hypoglycemia	Phenotype
+SCDO:0000599	Hypoglycemia	
+SCDO:0000599	Hypoglycemia	
+SCDO:0000601	Hypopigmentation	Phenotype
+SCDO:0000601	Hypopigmentation	
+SCDO:0000602	Hyporeflexia	Phenotype
+SCDO:0000602	Hyporeflexia	
+SCDO:0000602	Hyporeflexia	
+SCDO:0000603	Hypothyroidism	Phenotype
+SCDO:0000603	Hypothyroidism	
+SCDO:0000603	Hypothyroidism	
+SCDO:0000604	Hypoxemia	Phenotype
+SCDO:0000604	Hypoxemia	
+SCDO:0000604	Hypoxemia	
+SCDO:0000606	Ibuprofen	Anti-Inflammatory Agent
+SCDO:0000607	ICD-10-CM Diagnosis Codes	Clinical Coding
+SCDO:0000611	Illness Perception Questionnaire Revised (IPQ-R)	Quality of Life and Care Measure
+SCDO:0000611	Illness Perception Questionnaire Revised (IPQ-R)	
+SCDO:0000612	Imaging Assay	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000613	Imaging Transcranial Doppler Ultrasonography	Cerebral Blood Flow Assay
+SCDO:0000613	Imaging Transcranial Doppler Ultrasonography	Ultrasonography Test
+SCDO:0000614	Ultrasonography Test	Imaging Assay
+SCDO:0000614	Ultrasonography Test	Measurement
+SCDO:0000614	Ultrasonography Test	Therapeutics
+SCDO:0000615	Immune System	Hemic and Immune Systems
+SCDO:0000616	Immunochemical Assay	Immunological Assay
+SCDO:0000617	Immunological Assay	Biochemical Assay
+SCDO:0000617	Immunological Assay	
+SCDO:0000617	Immunological Assay	
+SCDO:0000618	Immunosuppressant Drug Level Decreased AE	Adverse Drug Event
+SCDO:0000619	Immunoturbidimetry Assay	Immunological Assay
+SCDO:0000621	Impaired Urinary Concentration	Phenotype
+SCDO:0000621	Impaired Urinary Concentration	
+SCDO:0000622	Impaired Wound Healing	Phenotype
+SCDO:0000622	Impaired Wound Healing	
+SCDO:0000629	Increased Bone Mineral Density	Phenotype
+SCDO:0000629	Increased Bone Mineral Density	
+SCDO:0000629	Increased Bone Mineral Density	
+SCDO:0000630	Increased Hemoglobin A2	Abnormal Hemoglobin Level Present in SCD
+SCDO:0000630	Increased Hemoglobin A2	
+SCDO:0000632	Increased Susceptibility to Bacterial Infection	Infection
+SCDO:0000635	Infection	Phenotype
+SCDO:0000638	Infectious Agent	Environmental Disease Modifier
+SCDO:0000639	Infertility	Phenotype
+SCDO:0000639	Infertility	
+SCDO:0000642	Influenza Virus Vaccine	Vaccine
+SCDO:0000643	Insect Repellents	Malaria Prophylaxis
+SCDO:0000644	Insulin Resistance	Phenotype
+SCDO:0000644	Insulin Resistance	
+SCDO:0000644	Insulin Resistance	
+SCDO:0000645	Intelligence Scale	Measurement
+SCDO:0000645	Intelligence Scale	Personal Attribute
+SCDO:0000645	Intelligence Scale	Quality of Life and Care
+SCDO:0000645	Intelligence Scale	Diagnostic Instrument
+SCDO:0000646	Intelligence Scale - 16 to 90 years	Intelligence Scale
+SCDO:0000646	Intelligence Scale - 16 to 90 years	
+SCDO:0000646	Intelligence Scale - 16 to 90 years	
+SCDO:0000647	"Intelligence Scale - 2 years, 6 months to 7 years, 7 months"	Intelligence Scale
+SCDO:0000647	"Intelligence Scale - 2 years, 6 months to 7 years, 7 months"	
+SCDO:0000647	"Intelligence Scale - 2 years, 6 months to 7 years, 7 months"	
+SCDO:0000648	Intelligence Scale - 6 to 16 years 11 months	Intelligence Scale
+SCDO:0000648	Intelligence Scale - 6 to 16 years 11 months	
+SCDO:0000648	Intelligence Scale - 6 to 16 years 11 months	
+SCDO:0000649	Intelligence Scale - Birth to 3.5 years	Intelligence Scale
+SCDO:0000649	Intelligence Scale - Birth to 3.5 years	
+SCDO:0000649	Intelligence Scale - Birth to 3.5 years	
+SCDO:0000650	Intentional Drug Misuse AE	Adverse Drug Event
+SCDO:0000651	Interrupted Time Series Analysis	Epidemiologic Studies
+SCDO:0000652	Interstitial Nephritis	Nephritis
+SCDO:0000652	Interstitial Nephritis	
+SCDO:0000652	Interstitial Nephritis	
+SCDO:0000653	Intracerebral Haemorrhage	Intracranial Hemorrhage
+SCDO:0000654	Intracranial Hemorrhage	Phenotype
+SCDO:0000655	Intracranial Hypertension	Phenotype
+SCDO:0000655	Intracranial Hypertension	
+SCDO:0000655	Intracranial Hypertension	
+SCDO:0000656	Intracranial Hypotension	Phenotype
+SCDO:0000657	Intraosseous Pressure	Measurement
+SCDO:0000657	Intraosseous Pressure	
+SCDO:0000658	Intrauterine Growth Restriction	Phenotype
+SCDO:0000658	Intrauterine Growth Restriction	
+SCDO:0000658	Intrauterine Growth Restriction	
+SCDO:0000658	Intrauterine Growth Restriction	
+SCDO:0000658	Intrauterine Growth Restriction	
+SCDO:0000665	Ischemia	Phenotype
+SCDO:0000665	Ischemia	
+SCDO:0000666	Isoeletcric Focusing	Electrophoresis
+SCDO:0000667	Isosthenuria	Impaired Urinary Concentration
+SCDO:0000667	Isosthenuria	
+SCDO:0000671	Jaundice	Phenotype
+SCDO:0000671	Jaundice	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000671	Jaundice	
+SCDO:0000672	Joint Hypermobility	Phenotype
+SCDO:0000672	Joint Hypermobility	
+SCDO:0000672	Joint Hypermobility	
+SCDO:0000673	Kernicterus	Phenotype
+SCDO:0000674	Kidney Failure	Phenotype
+SCDO:0000674	Kidney Failure	
+SCDO:0000676	Kidney Function Test	Physiological Assay
+SCDO:0000676	Kidney Function Test	
+SCDO:0000676	Kidney Function Test	
+SCDO:0000677	Kinesiotherapy	Rehabilitation
+SCDO:0000678	Knowledge about Sickle Cell Disease	Clinical Competence
+SCDO:0000678	Knowledge about Sickle Cell Disease	
+SCDO:0000679	Kyphosis	Phenotype
+SCDO:0000679	Kyphosis	
+SCDO:0000679	Kyphosis	
+SCDO:0000679	Kyphosis	
+SCDO:0000682	Lactate Dehydrogenase Level	Blood Chemistry Measurement
+SCDO:0000682	Lactate Dehydrogenase Level	Diagnostic Device
+SCDO:0000682	Lactate Dehydrogenase Level	Personal Attribute
+SCDO:0000682	Lactate Dehydrogenase Level	Quality of Life and Care
+SCDO:0000682	Lactate Dehydrogenase Level	Diagnostic Tool
+SCDO:0000683	Lactate Dehydrogenase Test	Blood Test
+SCDO:0000683	Lactate Dehydrogenase Test	Diagnostic Device
+SCDO:0000683	Lactate Dehydrogenase Test	Measurement
+SCDO:0000683	Lactate Dehydrogenase Test	Personal Attribute
+SCDO:0000683	Lactate Dehydrogenase Test	Phenotype
+SCDO:0000683	Lactate Dehydrogenase Test	Quality of Life and Care
+SCDO:0000685	Leg Ulcer	Skin Ulcer
+SCDO:0000686	Leg Weakness	Phenotype
+SCDO:0000687	Leukaemia	Cancer
+SCDO:0000687	Leukaemia	
+SCDO:0000689	Lifestyle	Environmental Disease Modifier
+SCDO:0000691	Light Coagulation	Ophthalmologic Surgical Procedure
+SCDO:0000693	Liver Biopsy	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000694	Liver Examination	Physical Examination
+SCDO:0000695	Liver Function Assay	Physiological Assay
+SCDO:0000698	Locus of Control	Health Beliefs
+SCDO:0000699	Longitudinal Studies	Cohort Studies
+SCDO:0000702	Lot Quality Assurance Sampling	Sampling Studies
+SCDO:0000703	Low LDL-Cholestrol Levels	Phenotype
+SCDO:0000704	Lung Volume Measurement	Diagnostic Device
+SCDO:0000704	Lung Volume Measurement	Personal Attribute
+SCDO:0000704	Lung Volume Measurement	Quality of Life and Care
+SCDO:0000704	Lung Volume Measurement	Respiratory System Measurement
+SCDO:0000704	Lung Volume Measurement	Diagnostic Tool
+SCDO:0000705	Lung Volume Test	Diagnostic Device
+SCDO:0000705	Lung Volume Test	Measurement
+SCDO:0000705	Lung Volume Test	Personal Attribute
+SCDO:0000705	Lung Volume Test	Phenotype
+SCDO:0000705	Lung Volume Test	Pulmonary Function Test
+SCDO:0000705	Lung Volume Test	Quality of Life and Care
+SCDO:0000705	Lung Volume Test	Therapeutics
+SCDO:0000706	Lymphoid System	from phenotype
+SCDO:0000707	Lymphoma	Cancer
+SCDO:0000707	Lymphoma	
+SCDO:0000707	Lymphoma	
+SCDO:0000708	Magnetic Resonance Imaging	Imaging Assay
+SCDO:0000708	Magnetic Resonance Imaging	
+SCDO:0000708	Magnetic Resonance Imaging	
+SCDO:0000708	Magnetic Resonance Imaging	
+SCDO:0000708	Magnetic Resonance Imaging	
+SCDO:0000708	Magnetic Resonance Imaging	
+SCDO:0000709	Malaria Prophylaxis	Infection Prophylaxis
+SCDO:0000710	Manometer	Diagnostic Device
+SCDO:0000710	Manometer	Phenotype
+SCDO:0000710	Manometer	Diagnostic Tool
+SCDO:0000711	Marital Status of Primary Caregiver	Measurement
+SCDO:0000711	Marital Status of Primary Caregiver	Personal Attribute
+SCDO:0000711	Marital Status of Primary Caregiver	Quality of Life and Care
+SCDO:0000711	Marital Status of Primary Caregiver	Diagnostic Tool
+SCDO:0000721	Mean Corpuscular Hemoglobin Concentration	Red Blood Cell Measurement
+SCDO:0000721	Mean Corpuscular Hemoglobin Concentration	
+SCDO:0000722	Mean Corpuscular Hemoglobin Level	Red Blood Cell Measurement
+SCDO:0000722	Mean Corpuscular Hemoglobin Level	
+SCDO:0000722	Mean Corpuscular Hemoglobin Level	
+SCDO:0000722	Mean Corpuscular Hemoglobin Level	
+SCDO:0000723	Mean Corpuscular Volume	Red Blood Cell Measurement
+SCDO:0000723	Mean Corpuscular Volume	
+SCDO:0000725	Measure of Frequency of Sickle Cell Pain Episodes	Measurement
+SCDO:0000725	Measure of Frequency of Sickle Cell Pain Episodes	Personal Attribute
+SCDO:0000725	Measure of Frequency of Sickle Cell Pain Episodes	Quality of Life and Care
+SCDO:0000725	Measure of Frequency of Sickle Cell Pain Episodes	Diagnostic Instrument
+SCDO:0000726	Measure of Sickle Cell Stigma (MoSCS)	Quality of Life and Care Measure
+SCDO:0000726	Measure of Sickle Cell Stigma (MoSCS)	
+SCDO:0000727	Measured Weight	Body Weight
+SCDO:0000728	Measurement	Diagnostics
+SCDO:0000737	Medical Outcomes Study (MOS) Social Support Survey	Quality of Life and Care Measure
+SCDO:0000737	Medical Outcomes Study (MOS) Social Support Survey	
+SCDO:0000738	Medical Records	Quality of Health Care
+SCDO:0000739	Medication Adherence	Patient Compliance
+SCDO:0000740	Medication Inventory	Measurement
+SCDO:0000740	Medication Inventory	Personal Attribute
+SCDO:0000740	Medication Inventory	Quality of Life and Care
+SCDO:0000740	Medication Inventory	Diagnostic Tool
+SCDO:0000741	Meditation	Behavior Therapy
+SCDO:0000742	Mefloquine	Malaria Prophylaxis
+SCDO:0000743	Membranous Nephropathy	Nephropathy
+SCDO:0000743	Membranous Nephropathy	
+SCDO:0000743	Membranous Nephropathy	
+SCDO:0000744	Meningitis	Phenotype
+SCDO:0000745	Menorrhagia	Phenotype
+SCDO:0000745	Menorrhagia	
+SCDO:0000745	Menorrhagia	
+SCDO:0000746	Mental Health	Quality of Life
+SCDO:0000746	Mental Health	
+SCDO:0000747	Meta-Analysis	Publication Type
+SCDO:0000748	Metabolic State	Biological Disease Modifier
+SCDO:0000752	Methadone	Opioid
+SCDO:0000753	Methemoglobinemia	Genetic Disorder
+SCDO:0000753	Methemoglobinemia	
+SCDO:0000754	Diagnostic Method	from diagnostics
+SCDO:0000755	Microbiome	Biological Disease Modifier
+SCDO:0000756	MicroRNA	Gene Product
+SCDO:0000757	Microscope	Diagnostic Device
+SCDO:0000758	Mid Upper Arm Circumference	Body Morphological Measurement
+SCDO:0000758	Mid Upper Arm Circumference	
+SCDO:0000759	Migraine	Phenotype
+SCDO:0000759	Migraine	
+SCDO:0000759	Migraine	
+SCDO:0000760	Migraine Questionnaire	Diagnostic Instrument
+SCDO:0000761	Miscarriage	Phenotype
+SCDO:0000762	Mobile Radiographic Unit	X-Ray Machine
+SCDO:0000762	Mobile Radiographic Unit	
+SCDO:0000763	Mobility Limitation	Physical Health
+SCDO:0000763	Mobility Limitation	
+SCDO:0000763	Mobility Limitation	
+SCDO:0000763	Mobility Limitation	
+SCDO:0000763	Mobility Limitation	
+SCDO:0000764	Moderately Increased Albuminuria	Albuminuria
+SCDO:0000764	Moderately Increased Albuminuria	
+SCDO:0000764	Moderately Increased Albuminuria	
+SCDO:0000765	Gene	Genetic Disease Modifier
+SCDO:0000765	Gene	
+SCDO:0000766	Modifying the Home Environment and Making it Safer For the Patient	from therapeutics
+SCDO:0000768	Molecular Profiling Assay	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000769	Mononeuropathy	Phenotype
+SCDO:0000770	Morbilliform Rash	Phenotype
+SCDO:0000770	Morbilliform Rash	
+SCDO:0000770	Morbilliform Rash	
+SCDO:0000771	Morphine	Opioid
+SCDO:0000773	Motor Aphasia	Phenotype
+SCDO:0000773	Motor Aphasia	
+SCDO:0000773	Motor Aphasia	
+SCDO:0000774	Multicenter Study	Publication Type
+SCDO:0000775	Multicenter Studies as Topic	Study Design
+SCDO:0000776	Multidimensional Health Locus of Control Scales (MHLC)	Quality of Life and Care Measure
+SCDO:0000776	Multidimensional Health Locus of Control Scales (MHLC)	
+SCDO:0000776	Multidimensional Health Locus of Control Scales (MHLC)	
+SCDO:0000777	Muscle Atrophy	Phenotype
+SCDO:0000777	Muscle Atrophy	
+SCDO:0000777	Muscle Atrophy	
+SCDO:0000778	Muscle Cramps	Phenotype
+SCDO:0000778	Muscle Cramps	
+SCDO:0000778	Muscle Cramps	
+SCDO:0000779	Muscle Pain	Pain
+SCDO:0000780	Musculoskeletal System	from phenotype
+SCDO:0000781	Mutation Carrier Screening	Genetic Testing
+SCDO:0000782	"MYB proto-oncogene, transcription factor"	Non-Globin Loci
+SCDO:0000783	Myoglobinuria	Phenotype
+SCDO:0000783	Myoglobinuria	
+SCDO:0000783	Myoglobinuria	
+SCDO:0000784	Myopathy	Phenotype
+SCDO:0000784	Myopathy	
+SCDO:0000784	Myopathy	
+SCDO:0000785	Myositis	Phenotype
+SCDO:0000785	Myositis	
+SCDO:0000785	Myositis	
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Blood Chemistry Measurement
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Personal Attribute
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Quality of Life and Care
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Diagnostic Tool
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Blood Test
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Diagnostic Device
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Measurement
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Personal Attribute
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Phenotype
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Quality of Life and Care
+SCDO:0000788	Nail Dystrophy	Phenotype
+SCDO:0000788	Nail Dystrophy	
+SCDO:0000788	Nail Dystrophy	
+SCDO:0000789	Naloxone	Opioid
+SCDO:0000790	Narcolepsy	Phenotype
+SCDO:0000791	Nasal Decongestants	Supportive Therapeutics
+SCDO:0000792	National Origin	Personal Attribute
+SCDO:0000793	Nephritis	Phenotype
+SCDO:0000793	Nephritis	
+SCDO:0000793	Nephritis	
+SCDO:0000794	Nephrology	Urinary System
+SCDO:0000795	Nephropathy	Phenotype
+SCDO:0000795	Nephropathy	
+SCDO:0000795	Nephropathy	
+SCDO:0000796	Nephrotic Syndrome	Nephropathy
+SCDO:0000796	Nephrotic Syndrome	
+SCDO:0000796	Nephrotic Syndrome	
+SCDO:0000797	Nephrotic-Range Proteinuria	Phenotype
+SCDO:0000797	Nephrotic-Range Proteinuria	
+SCDO:0000798	Nervous System	from phenotype
+SCDO:0000799	Neurocognitive Impairment	Phenotype
+SCDO:0000800	Neurodevelopmental Abnormality	Phenotype
+SCDO:0000800	Neurodevelopmental Abnormality	
+SCDO:0000800	Neurodevelopmental Abnormality	
+SCDO:0000801	Neurological Rehabilitation	Rehabilitation
+SCDO:0000801	Neurological Rehabilitation	
+SCDO:0000801	Neurological Rehabilitation	
+SCDO:0000801	Neurological Rehabilitation	
+SCDO:0000802	Neuron Degeneration	Phenotype
+SCDO:0000802	Neuron Degeneration	
+SCDO:0000802	Neuron Degeneration	
+SCDO:0000803	Neonatal Screening for Sickle Cell	Genetic Screening
+SCDO:0000803	Neonatal Screening for Sickle Cell	Hematology Screening Test
+SCDO:0000804	NIH Stroke Scale (NIHSS)	Stroke Impact Measure
+SCDO:0000804	NIH Stroke Scale (NIHSS)	
+SCDO:0000807	No-Show Patient	Patient Compliance
+SCDO:0000807	No-Show Patient	
+SCDO:0000807	No-Show Patient	
+SCDO:0000808	Nocturia	Phenotype
+SCDO:0000808	Nocturia	
+SCDO:0000809	Non Opioid	Analgesics
+SCDO:0000809	Non Opioid	
+SCDO:0000809	Non Opioid	
+SCDO:0000809	Non Opioid	
+SCDO:0000809	Non Opioid	
+SCDO:0000810	Non-Globin Loci	Gene Product
+SCDO:0000811	Non-Proliferative Sickle Retinopathy	Sickle Retinopathy
+SCDO:0000811	Non-Proliferative Sickle Retinopathy	
+SCDO:0000812	Non-specific Acute Lower Respiratory Tract Episode	Phenotype
+SCDO:0000816	Obesity	Phenotype
+SCDO:0000816	Obesity	
+SCDO:0000816	Obesity	
+SCDO:0000818	Observational Study	Clinical Study
+SCDO:0000819	Observational Studies as Topic	Clinical Studies as Topic
+SCDO:0000820	Obstructive Sleep Apnea	Phenotype
+SCDO:0000820	Obstructive Sleep Apnea	
+SCDO:0000820	Obstructive Sleep Apnea	
+SCDO:0000821	Occupation	Quality of Life
+SCDO:0000821	Occupation	
+SCDO:0000821	Occupation	
+SCDO:0000821	Occupation	
+SCDO:0000822	Occupational Therapy	Rehabilitation
+SCDO:0000822	Occupational Therapy	
+SCDO:0000822	Occupational Therapy	
+SCDO:0000823	Edema	Phenotype
+SCDO:0000823	Edema	
+SCDO:0000823	Edema	
+SCDO:0000827	Oligospermia	Phenotype
+SCDO:0000827	Oligospermia	
+SCDO:0000827	Oligospermia	
+SCDO:0000828	Oliguria	Phenotype
+SCDO:0000828	Oliguria	
+SCDO:0000828	Oliguria	
+SCDO:0000830	Onychodysplasia	Phenotype
+SCDO:0000830	Onychodysplasia	
+SCDO:0000831	Onychomycosis	Infection
+SCDO:0000831	Onychomycosis	
+SCDO:0000831	Onychomycosis	
+SCDO:0000832	Ophthalmologic Complication	Phenotype
+SCDO:0000833	Ophthalmologic Surgical Procedure	Symptomatic Therapeutics
+SCDO:0000834	Ophthalmoscope	Diagnostic Device
+SCDO:0000834	Ophthalmoscope	Measurement
+SCDO:0000835	Ophthalmoscopy	Measurement
+SCDO:0000835	Ophthalmoscopy	Therapeutics
+SCDO:0000835	Ophthalmoscopy	Eye Examination
+SCDO:0000836	Opioid	Analgesics
+SCDO:0000836	Opioid	
+SCDO:0000837	Optical Instrument	Microscope
+SCDO:0000839	Osteomalacia	Phenotype
+SCDO:0000839	Osteomalacia	
+SCDO:0000839	Osteomalacia	
+SCDO:0000840	Osteomyelitis	Phenotype
+SCDO:0000840	Osteomyelitis	
+SCDO:0000840	Osteomyelitis	
+SCDO:0000841	Osteonecrosis	Phenotype
+SCDO:0000841	Osteonecrosis	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000841	Osteonecrosis	
+SCDO:0000841	Osteonecrosis	
+SCDO:0000841	Osteonecrosis	
+SCDO:0000841	Osteonecrosis	
+SCDO:0000841	Osteonecrosis	
+SCDO:0000841	Osteonecrosis	
+SCDO:0000841	Osteonecrosis	
+SCDO:0000841	Osteonecrosis	
+SCDO:0000842	Osteonecrosis of the Femoral Head	Osteonecrosis
+SCDO:0000842	Osteonecrosis of the Femoral Head	
+SCDO:0000842	Osteonecrosis of the Femoral Head	
+SCDO:0000842	Osteonecrosis of the Femoral Head	
+SCDO:0000842	Osteonecrosis of the Femoral Head	
+SCDO:0000843	Osteopenia	Phenotype
+SCDO:0000843	Osteopenia	
+SCDO:0000843	Osteopenia	
+SCDO:0000844	Osteoporosis	Phenotype
+SCDO:0000844	Osteoporosis	
+SCDO:0000844	Osteoporosis	
+SCDO:0000846	Otitis Media	Infection
+SCDO:0000846	Otitis Media	
+SCDO:0000846	Otitis Media	
+SCDO:0000847	Oxycodone	Opioid
+SCDO:0000848	Oxygen Saturation Measurement	Blood Chemistry Measurement
+SCDO:0000849	Oxygen Saturation of Arterial Blood	Diagnostic Device
+SCDO:0000849	Oxygen Saturation of Arterial Blood	Oxygen Saturation Measurement
+SCDO:0000851	Pain	Phenotype
+SCDO:0000851	Pain	
+SCDO:0000851	Pain	
+SCDO:0000852	Pain Status	Physical Health
+SCDO:0000852	Pain Status	
+SCDO:0000852	Pain Status	
+SCDO:0000852	Pain Status	
+SCDO:0000863	Pallor	Phenotype
+SCDO:0000863	Pallor	
+SCDO:0000863	Pallor	
+SCDO:0000864	Palpation of Liver	Liver Examination
+SCDO:0000864	Palpation of Liver	
+SCDO:0000865	Paralysis	Phenotype
+SCDO:0000865	Paralysis	
+SCDO:0000865	Paralysis	
+SCDO:0000866	Parasite	Infectious Agent
+SCDO:0000869	Patient Compliance	Health Behaviour
+SCDO:0000869	Patient Compliance	
+SCDO:0000870	Patient Health Questionnaire-9 (PHQ-9)	Quality of Life and Care Measure
+SCDO:0000870	Patient Health Questionnaire-9 (PHQ-9)	
+SCDO:0000871	Patient Reported Outcomes Measurement Information System (PROMIS)	Quality of Life and Care Measure
+SCDO:0000871	Patient Reported Outcomes Measurement Information System (PROMIS)	
+SCDO:0000872	Patient Symptom Report	Medical Records
+SCDO:0000873	Pediatric Migraine Disability Assessment	Migraine Questionnaire
+SCDO:0000874	Pediatric NIH Stroke Scale (PedNIHSS)	Stroke Impact Measure
+SCDO:0000874	Pediatric NIH Stroke Scale (PedNIHSS)	
+SCDO:0000875	Pediatric Quality of Life Inventory (PedsQL)	Quality of Life and Care Measure
+SCDO:0000875	Pediatric Quality of Life Inventory (PedsQL)	
+SCDO:0000876	Pediatric School Performance	Measurement
+SCDO:0000876	Pediatric School Performance	Personal Attribute
+SCDO:0000876	Pediatric School Performance	Quality of Life and Care
+SCDO:0000876	Pediatric School Performance	Diagnostic Tool
+SCDO:0000877	PedsQL Multidimensional Fatigue Scale	Pediatric Quality of Life Inventory (PedsQL)
+SCDO:0000878	PedsQL Sickle Cell Disease Module	Measurement
+SCDO:0000878	PedsQL Sickle Cell Disease Module	Pediatric Quality of Life Inventory (PedsQL)
+SCDO:0000878	PedsQL Sickle Cell Disease Module	Personal Attribute
+SCDO:0000878	PedsQL Sickle Cell Disease Module	Diagnostic Tool
+SCDO:0000880	Penicillin	Preventative Therapeutics
+SCDO:0000880	Penicillin	Symptomatic Therapeutics
+SCDO:0000881	Penicillin Prophylaxis	Infection Prophylaxis
+SCDO:0000882	Percussion of Liver	Liver Examination
+SCDO:0000882	Percussion of Liver	
+SCDO:0000883	Perinatal Death	Phenotype
+SCDO:0000884	Peripheral Neuropathy	Phenotype
+SCDO:0000884	Peripheral Neuropathy	
+SCDO:0000884	Peripheral Neuropathy	
+SCDO:0000885	Peripheral Oxygen Saturation	Diagnostic Device
+SCDO:0000885	Peripheral Oxygen Saturation	Oxygen Saturation Measurement
+SCDO:0000885	Peripheral Oxygen Saturation	Therapeutics
+SCDO:0000885	Peripheral Oxygen Saturation	Diagnostic Tool
+SCDO:0000888	Increased Hemoglobin F	Abnormal Hemoglobin Level Present in SCD
+SCDO:0000888	Increased Hemoglobin F	
+SCDO:0000890	Personal Attribute	SCDO
+SCDO:0000891	Personal Medical History	Personal Attribute
+SCDO:0000891	Personal Medical History	
+SCDO:0000892	Petechiae	Phenotype
+SCDO:0000892	Petechiae	
+SCDO:0000892	Petechiae	
+SCDO:0000893	Phenotype	SCDO
+SCDO:0000895	Phenotype of Sickle Cell Disease	Phenotype
+SCDO:0000896	Physical Detection Method	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000897	Physical Environment	Environmental Disease Modifier
+SCDO:0000898	Physical Examination	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000900	Physical Health	Quality of Life
+SCDO:0000900	Physical Health	
+SCDO:0000900	Physical Health	
+SCDO:0000900	Physical Health	
+SCDO:0000902	Physiological Assay	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0000903	Physiotherapy	Rehabilitation
+SCDO:0000904	Pica	Behavioral Abnormality
+SCDO:0000904	Pica	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000904	Pica	
+SCDO:0000905	Pilot Projects	Study Design
+SCDO:0000906	Platelet Count	Platelet Measurement
+SCDO:0000906	Platelet Count	
+SCDO:0000906	Platelet Count	
+SCDO:0000907	Platelet Measurement	Blood Cell Measurement
+SCDO:0000908	Pneumatic Retinopexy	Symptomatic Therapeutics
+SCDO:0000909	Pneumococcal 10-Valent Conjugate Vaccine	Conjugate Pneumococcal Vaccine
+SCDO:0000910	Pneumococcal 13-Valent Conjugate Vaccine	Conjugate Pneumococcal Vaccine
+SCDO:0000910	Pneumococcal 13-Valent Conjugate Vaccine	
+SCDO:0000910	Pneumococcal 13-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	Conjugate Pneumococcal Vaccine
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000911	Pneumococcal 7-Valent Conjugate Vaccine	
+SCDO:0000912	Pollution	Physical Environment
+SCDO:0000913	Polymerase Chain Reaction	Genetic Technique
+SCDO:0000914	Polyneuropathy	Peripheral Neuropathy
+SCDO:0000914	Polyneuropathy	
+SCDO:0000914	Polyneuropathy	
+SCDO:0000915	Polyvalent Pneumococcal Vaccine	Streptococcus Pneumoniae Vaccine
+SCDO:0000915	Polyvalent Pneumococcal Vaccine	
+SCDO:0000915	Polyvalent Pneumococcal Vaccine	
+SCDO:0000916	Postpartum Hemorrhage	Phenotype
+SCDO:0000916	Postpartum Hemorrhage	
+SCDO:0000917	Pragmatic Clinical Trial	Randomized Controlled Trial
+SCDO:0000918	Preeclampsia	Comorbid Disease
+SCDO:0000918	Preeclampsia	
+SCDO:0000918	Preeclampsia	
+SCDO:0000919	Prenatal Screening for Sickle Cell	Genetic Screening
+SCDO:0000920	Preterm Delivery	Phenotype
+SCDO:0000920	Preterm Delivery	
+SCDO:0000920	Preterm Delivery	
+SCDO:0000920	Preterm Delivery	
+SCDO:0000922	Preventative Therapeutics	Therapeutics
+SCDO:0000922	Preventative Therapeutics	
+SCDO:0000923	Priapism	Phenotype
+SCDO:0000923	Priapism	Quality of Life Related SCD Symptoms and Complications
+SCDO:0000924	Primary Healthcare	Health System
+SCDO:0000924	Primary Healthcare	
+SCDO:0000925	Proguanil	Malaria Prophylaxis
+SCDO:0000925	Proguanil	
+SCDO:0000925	Proguanil	
+SCDO:0000925	Proguanil	
+SCDO:0000926	Proliferative Sickle Retinopathy	Sickle Retinopathy
+SCDO:0000926	Proliferative Sickle Retinopathy	
+SCDO:0000927	PROMIS Adult Profile 29	Measurement
+SCDO:0000927	PROMIS Adult Profile 29	Patient Reported Outcomes Measurement Information System (PROMIS)
+SCDO:0000927	PROMIS Adult Profile 29	Personal Attribute
+SCDO:0000927	PROMIS Adult Profile 29	Diagnostic Tool
+SCDO:0000928	PROMIS Pediatric Profile 25	Measurement
+SCDO:0000928	PROMIS Pediatric Profile 25	Patient Reported Outcomes Measurement Information System (PROMIS)
+SCDO:0000928	PROMIS Pediatric Profile 25	Personal Attribute
+SCDO:0000928	PROMIS Pediatric Profile 25	Diagnostic Tool
+SCDO:0000930	Infection Prophylaxis	Preventative Therapeutics
+SCDO:0000931	Prospective Studies	Cohort Studies
+SCDO:0000932	Proteinuria	Phenotype
+SCDO:0000932	Proteinuria	
+SCDO:0000932	Proteinuria	
+SCDO:0000933	Prothrombin Time	Blood Coagulation Measurement
+SCDO:0000934	Provider Attitudes Toward Patients with Sickle Cell Disease	Quality of Life and Care Measure
+SCDO:0000935	Pruritus	Cyanosis
+SCDO:0000935	Pruritus	
+SCDO:0000935	Pruritus	
+SCDO:0000936	Psoriasis	Phenotype
+SCDO:0000936	Psoriasis	
+SCDO:0000936	Psoriasis	
+SCDO:0000937	Psychological Stress	Mental Health
+SCDO:0000937	Psychological Stress	
+SCDO:0000938	Psychosocial Deprivation	Mental Health
+SCDO:0000939	Psychosocial Effect	Mental Health
+SCDO:0000939	Psychosocial Effect	
+SCDO:0000939	Psychosocial Effect	
+SCDO:0000939	Psychosocial Effect	
+SCDO:0000940	Psychotherapy	Supportive Therapeutics
+SCDO:0000940	Psychotherapy	
+SCDO:0000941	Publication Type	Evidence Code
+SCDO:0000942	Pulmonary Function Test	Physiological Assay
+SCDO:0000942	Pulmonary Function Test	
+SCDO:0000942	Pulmonary Function Test	
+SCDO:0000943	Pulmonary Hypertension	Phenotype
+SCDO:0000944	Pulse Oximeter	Diagnostic Device
+SCDO:0000944	Pulse Oximeter	Measurement
+SCDO:0000944	Pulse Oximeter	Phenotype
+SCDO:0000944	Pulse Oximeter	Diagnostic Tool
+SCDO:0000945	Pulse Oximetry (Rest)	Diagnostic Device
+SCDO:0000945	Pulse Oximetry (Rest)	Measurement
+SCDO:0000945	Pulse Oximetry (Rest)	Phenotype
+SCDO:0000945	Pulse Oximetry (Rest)	Pulmonary Function Test
+SCDO:0000945	Pulse Oximetry (Rest)	Therapeutics
+SCDO:0000946	Pyoderma	Phenotype
+SCDO:0000946	Pyoderma	
+SCDO:0000946	Pyoderma	
+SCDO:0000947	Quality of Care Measure	Quality of Life and Care Measure
+SCDO:0000948	Quality of Health Care	Quality of Life and Care
+SCDO:0000948	Quality of Health Care	
+SCDO:0000948	Quality of Health Care	
+SCDO:0000949	Quality of Life	Quality of Life and Care
+SCDO:0000949	Quality of Life	
+SCDO:0000950	Quality of Life and Care	SCDO
+SCDO:0000951	Quality of Life and Care Measure	Quality of Life and Care
+SCDO:0000952	Quality of Life in Sickle Cell Disease	Measurement
+SCDO:0000952	Quality of Life in Sickle Cell Disease	Personal Attribute
+SCDO:0000952	Quality of Life in Sickle Cell Disease	Quality of Life and Care Measure
+SCDO:0000952	Quality of Life in Sickle Cell Disease	Diagnostic Tool
+SCDO:0000953	Quality of Life Measure	Measurement
+SCDO:0000953	Quality of Life Measure	Personal Attribute
+SCDO:0000953	Quality of Life Measure	Quality of Life and Care Measure
+SCDO:0000953	Quality of Life Measure	Diagnostic Tool
+SCDO:0000954	Quality of Life Related SCD Symptoms and Complications	Quality of Life
+SCDO:0000955	Quality-Adjusted Life Year (QALY)	Quality of Life and Care Measure
+SCDO:0000955	Quality-Adjusted Life Year (QALY)	
+SCDO:0000956	Quality-Adjusted Life Year (QALY) - removed - see Quality of Life and Care Measure	Health Utility
+SCDO:0000957	Questionnaire	from diagnostics
+SCDO:0000962	Race	Measurement
+SCDO:0000962	Race	Personal Attribute
+SCDO:0000962	Race	Quality of Life and Care
+SCDO:0000962	Race	Diagnostic Tool
+SCDO:0000963	Radiography	Imaging Assay
+SCDO:0000963	Radiography	Measurement
+SCDO:0000963	Radiography	Therapeutics
+SCDO:0000964	Radionuclide Imaging	Imaging Assay
+SCDO:0000964	Radionuclide Imaging	
+SCDO:0000965	Randomized Controlled Trial	Controlled Clinical Trial
+SCDO:0000966	Rapid Estimate of Adolescent Literacy in Medicine (REALM-Teen)	Quality of Life and Care Measure
+SCDO:0000966	Rapid Estimate of Adolescent Literacy in Medicine (REALM-Teen)	
+SCDO:0000970	Recovery and Recurrence Questionnaire (RRQ)	Functionality After Stroke Measure
+SCDO:0000972	Recurrent Wheeze in Sickle Cell Disease	Phenotype
+SCDO:0000973	Red Blood Cell Count	Red Blood Cell Measurement
+SCDO:0000973	Red Blood Cell Count	
+SCDO:0000973	Red Blood Cell Count	
+SCDO:0000974	Red Blood Cell Measurement	Blood Cell Measurement
+SCDO:0000975	Red Blood Cell Microparticles Level	Blood Chemistry Measurement
+SCDO:0000975	Red Blood Cell Microparticles Level	Diagnostic Device
+SCDO:0000975	Red Blood Cell Microparticles Level	
+SCDO:0000976	Reduced Hemoglobin A	Abnormal Hemoglobin Level Present in SCD
+SCDO:0000976	Reduced Hemoglobin A	
+SCDO:0000976	Reduced Hemoglobin A	
+SCDO:0000978	Rehabilitation	Supportive Therapeutics
+SCDO:0000979	Reincarnation	Beliefs About Causes of Illness
+SCDO:0000979	Reincarnation	
+SCDO:0000981	Religion	Culture
+SCDO:0000982	Renal Artery Stenosis	Phenotype
+SCDO:0000982	Renal Artery Stenosis	
+SCDO:0000982	Renal Artery Stenosis	
+SCDO:0000983	Renal Dialysis	Renal Replacement Therapy
+SCDO:0000983	Renal Dialysis	
+SCDO:0000983	Renal Dialysis	
+SCDO:0000983	Renal Dialysis	
+SCDO:0000983	Renal Dialysis	
+SCDO:0000983	Renal Dialysis	
+SCDO:0000984	Renal Ischemia	Phenotype
+SCDO:0000985	Renal Transplant	Renal Replacement Therapy
+SCDO:0000985	Renal Transplant	
+SCDO:0000985	Renal Transplant	
+SCDO:0000985	Renal Transplant	
+SCDO:0000985	Renal Transplant	
+SCDO:0000986	Renal Tubular Acidosis	Phenotype
+SCDO:0000986	Renal Tubular Acidosis	
+SCDO:0000986	Renal Tubular Acidosis	
+SCDO:0000987	Reproductive History	Measurement
+SCDO:0000987	Reproductive History	Personal Medical History
+SCDO:0000987	Reproductive History	Quality of Life and Care
+SCDO:0000987	Reproductive History	Diagnostic Tool
+SCDO:0000988	Reproductive System	from phenotype
+SCDO:0000990	Research Activity	from personal attribute
+SCDO:0000993	Respiratory Rate	Respiratory System Measurement
+SCDO:0000993	Respiratory Rate	
+SCDO:0000993	Respiratory Rate	
+SCDO:0000994	Respiratory System	from phenotype
+SCDO:0000995	Respiratory System Measurement	Measurement
+SCDO:0001000	SCDO	
+SCDO:0001002	Restriction Fragment Length Polymorphism PCR	Polymerase Chain Reaction
+SCDO:0001002	Restriction Fragment Length Polymorphism PCR	
+SCDO:0001004	Reticulocyte Count	Personal Attribute
+SCDO:0001004	Reticulocyte Count	Quality of Life and Care
+SCDO:0001004	Reticulocyte Count	Red Blood Cell Count
+SCDO:0001004	Reticulocyte Count	Diagnostic Tool
+SCDO:0001005	Reticulocyte Count by Hematology Analyzer	Reticulocyte Count
+SCDO:0001006	Reticulocyte Count by Microsocopy	Reticulocyte Count
+SCDO:0001007	Retinal Cryopexy	Ophthalmologic Surgical Procedure
+SCDO:0001008	Retinal Detachment	Ophthalmologic Complication
+SCDO:0001008	Retinal Detachment	
+SCDO:0001009	Retinal Examination	Diagnostic Device
+SCDO:0001009	Retinal Examination	Measurement
+SCDO:0001009	Retinal Examination	Eye Examination
+SCDO:0001010	Retrospective Studies	Cohort Studies
+SCDO:0001011	Rheumatoid Arthritis	Phenotype
+SCDO:0001011	Rheumatoid Arthritis	
+SCDO:0001012	Right Heart Catheterization	Heart Function Test
+SCDO:0001012	Right Heart Catheterization	Measurement
+SCDO:0001012	Right Heart Catheterization	Therapeutics
+SCDO:0001017	Rural Location	Geographic Location
+SCDO:0001017	Rural Location	Healthcare Access
+SCDO:0001019	Salmon Patch Hemorrhage	Ophthalmologic Complication
+SCDO:0001020	Sampling Studies	Study Design
+SCDO:0001023	SCD Related Pain	Pain
+SCDO:0001023	SCD Related Pain	Quality of Life Related SCD Symptoms and Complications
+SCDO:0001024	Sciatica	Phenotype
+SCDO:0001024	Sciatica	
+SCDO:0001024	Sciatica	
+SCDO:0001025	Scleral Buckling	Ophthalmologic Surgical Procedure
+SCDO:0001025	Scleral Buckling	
+SCDO:0001026	Scoliosis	Phenotype
+SCDO:0001026	Scoliosis	
+SCDO:0001026	Scoliosis	
+SCDO:0001027	Secondary Healthcare	Health System
+SCDO:0001027	Secondary Healthcare	
+SCDO:0001028	Secondary Hypothyroidism	Hypothyroidism
+SCDO:0001028	Secondary Hypothyroidism	
+SCDO:0001028	Secondary Hypothyroidism	
+SCDO:0001029	Sedentary Lifestyle	Lifestyle
+SCDO:0001030	Seizure	Phenotype
+SCDO:0001030	Seizure	
+SCDO:0001034	Self Care	Rehabilitation
+SCDO:0001034	Self Care	
+SCDO:0001034	Self Care	
+SCDO:0001035	Self Efficacy	Coping Skill
+SCDO:0001037	Self-Reported Weight	Body Weight
+SCDO:0001038	Sensory Neuropathy	Peripheral Neuropathy
+SCDO:0001038	Sensory Neuropathy	
+SCDO:0001038	Sensory Neuropathy	
+SCDO:0001039	Sepsis	Infection
+SCDO:0001039	Sepsis	
+SCDO:0001039	Sepsis	
+SCDO:0001041	Seroepidemiologic Studies	Epidemiologic Studies
+SCDO:0001042	Serum Creatinine Level	Blood Chemistry Measurement
+SCDO:0001042	Serum Creatinine Level	Diagnostic Device
+SCDO:0001042	Serum Creatinine Level	Personal Attribute
+SCDO:0001042	Serum Creatinine Level	Quality of Life and Care
+SCDO:0001042	Serum Creatinine Level	Diagnostic Tool
+SCDO:0001043	Serum HDL Cholesterol	Blood Chemistry Measurement
+SCDO:0001043	Serum HDL Cholesterol	
+SCDO:0001043	Serum HDL Cholesterol	
+SCDO:0001043	Serum HDL Cholesterol	
+SCDO:0001043	Serum HDL Cholesterol	
+SCDO:0001043	Serum HDL Cholesterol	
+SCDO:0001044	SF-36v2 Health Survey	Quality of Life and Care Measure
+SCDO:0001045	Shoulder Dystocia	Phenotype
+SCDO:0001045	Shoulder Dystocia	
+SCDO:0001045	Shoulder Dystocia	
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Phenotype
+SCDO:0001047	Sickle Cell Disease Health-Related Stigma Scale (SCD-HRSS)	Quality of Life and Care Measure
+SCDO:0001047	Sickle Cell Disease Health-Related Stigma Scale (SCD-HRSS)	
+SCDO:0001048	Sickle Cell Disease Pain Burden Interview - Youth	Quality of Life and Care Measure
+SCDO:0001049	Sickle Cell Disease Screening Test	Diagnostic Device
+SCDO:0001049	Sickle Cell Disease Screening Test	Hematology Screening Test
+SCDO:0001049	Sickle Cell Disease Screening Test	Measurement
+SCDO:0001050	Sickle Cell Disease Self-Efficacy Scale	Measurement
+SCDO:0001050	Sickle Cell Disease Self-Efficacy Scale	Personal Attribute
+SCDO:0001050	Sickle Cell Disease Self-Efficacy Scale	Quality of Life and Care Measure
+SCDO:0001050	Sickle Cell Disease Self-Efficacy Scale	Diagnostic Tool
+SCDO:0001051	Sickle Cell Disease Variant	Sickle cell disease
+SCDO:0001052	Sickle Cell Pain Management	Symptomatic Therapeutics
+SCDO:0001053	Sickle Cell Painful Event	SCD Related Pain
+SCDO:0001053	Sickle Cell Painful Event	
+SCDO:0001053	Sickle Cell Painful Event	
+SCDO:0001054	Sickle Cell Related Cancer	Cancer
+SCDO:0001054	Sickle Cell Related Cancer	
+SCDO:0001055	Sickle Cell Trait	Hemoglobin Trait
+SCDO:0001055	Sickle Cell Trait	SCD Genotype
+SCDO:0001056	Sickle Cell Disease-S Beta Plus Thalassemia	Sickle Cell Disease-S Beta Thalassaemia
+SCDO:0001056	Sickle Cell Disease-S Beta Plus Thalassemia	
+SCDO:0001056	Sickle Cell Disease-S Beta Plus Thalassemia	
+SCDO:0001056	Sickle Cell Disease-S Beta Plus Thalassemia	
+SCDO:0001057	Sickle Cell Disease-S Beta Thalassaemia	Sickle Cell-Thalassemia
+SCDO:0001057	Sickle Cell Disease-S Beta Thalassaemia	
+SCDO:0001057	Sickle Cell Disease-S Beta Thalassaemia	
+SCDO:0001057	Sickle Cell Disease-S Beta Thalassaemia	
+SCDO:0001057	Sickle Cell Disease-S Beta Thalassaemia	
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	Sickle Cell Disease-S Beta Thalassaemia
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	
+SCDO:0001059	Sickle Cell Disease-SC	Sickle Cell Disease Variant
+SCDO:0001059	Sickle Cell Disease-SC	
+SCDO:0001059	Sickle Cell Disease-SC	
+SCDO:0001059	Sickle Cell Disease-SC	
+SCDO:0001059	Sickle Cell Disease-SC	
+SCDO:0001059	Sickle Cell Disease-SC	
+SCDO:0001059	Sickle Cell Disease-SC	
+SCDO:0001059	Sickle Cell Disease-SC	
+SCDO:0001060	Sickle Cell Disease-SD	Sickle Cell Disease Variant
+SCDO:0001060	Sickle Cell Disease-SD	
+SCDO:0001060	Sickle Cell Disease-SD	
+SCDO:0001060	Sickle Cell Disease-SD	
+SCDO:0001060	Sickle Cell Disease-SD	
+SCDO:0001060	Sickle Cell Disease-SD	
+SCDO:0001060	Sickle Cell Disease-SD	
+SCDO:0001060	Sickle Cell Disease-SD	
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	Sickle Cell Disease-SD
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	
+SCDO:0001062	Sickle Cell Disease-SE	Sickle Cell Disease Variant
+SCDO:0001062	Sickle Cell Disease-SE	
+SCDO:0001062	Sickle Cell Disease-SE	
+SCDO:0001062	Sickle Cell Disease-SE	
+SCDO:0001063	Sickle Cell Disease-S/Lepore Boston	Sickle Cell-Thalassemia
+SCDO:0001063	Sickle Cell Disease-S/Lepore Boston	
+SCDO:0001063	Sickle Cell Disease-S/Lepore Boston	
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	Sickle Cell Disease Variant
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	
+SCDO:0001065	"Sickle Cell-Hemoglobin Other than A,C,D,E,O-Arab"	Hemoglobinopathy
+SCDO:0001065	"Sickle Cell-Hemoglobin Other than A,C,D,E,O-Arab"	Phenotype
+SCDO:0001065	"Sickle Cell-Hemoglobin Other than A,C,D,E,O-Arab"	from phenotype
+SCDO:0001066	Sickle Cell-Thalassemia	Phenotype
+SCDO:0001066	Sickle Cell-Thalassemia	Sickle Cell Disease Variant
+SCDO:0001067	Sickle Retinopathy	Ophthalmologic Complication
+SCDO:0001067	Sickle Retinopathy	
+SCDO:0001068	Sickling Test	Hemoglobin S Test
+SCDO:0001069	Sickness Impact Profile (SIP)	Quality of Life and Care Measure
+SCDO:0001069	Sickness Impact Profile (SIP)	
+SCDO:0001069	Sickness Impact Profile (SIP)	
+SCDO:0001070	Skin	from phenotype
+SCDO:0001070	Skin	
+SCDO:0001071	Skin Inflammation	Phenotype
+SCDO:0001071	Skin Inflammation	
+SCDO:0001072	Skin Lesions	Phenotype
+SCDO:0001073	Skin Rash	Phenotype
+SCDO:0001074	Skin Ulcer	Phenotype
+SCDO:0001074	Skin Ulcer	Quality of Life Related SCD Symptoms and Complications
+SCDO:0001074	Skin Ulcer	
+SCDO:0001075	Sleep Breathing Disorder	Phenotype
+SCDO:0001076	Sleeping Disordered Breathing	Diagnostic Instrument
+SCDO:0001077	Slit Lamp	Diagnostic Device
+SCDO:0001077	Slit Lamp	Measurement
+SCDO:0001078	Slit-Lamp Examination	Measurement
+SCDO:0001078	Slit-Lamp Examination	Therapeutics
+SCDO:0001078	Slit-Lamp Examination	Eye Examination
+SCDO:0001079	Smoking	Lifestyle
+SCDO:0001080	Smoking Cessation	Tobacco Use Cessation
+SCDO:0001081	Smoking History	Personal Medical History
+SCDO:0001082	Social Environment	Environmental Disease Modifier
+SCDO:0001083	Social Functioning	Quality of Life
+SCDO:0001083	Social Functioning	
+SCDO:0001084	Social Isolation	Social Functioning
+SCDO:0001085	Social Role	Social Functioning
+SCDO:0001086	Social Role Fulfillment	Social Functioning
+SCDO:0001087	Social Skill	Social Functioning
+SCDO:0001087	Social Skill	
+SCDO:0001087	Social Skill	
+SCDO:0001088	Social Support	Social Functioning
+SCDO:0001088	Social Support	
+SCDO:0001089	Social Values	Culture
+SCDO:0001090	Socioeconomic Factors	Social Environment
+SCDO:0001091	Socioeconomic Status	Social Environment
+SCDO:0001092	Solubility Test	Hemoglobin S Test
+SCDO:0001096	Spectrophotometer	Diagnostic Device
+SCDO:0001097	Sphygmomanometer	Manometer
+SCDO:0001098	Spirituality	Culture
+SCDO:0001099	Spirometer	Diagnostic Device
+SCDO:0001099	Spirometer	Measurement
+SCDO:0001099	Spirometer	Phenotype
+SCDO:0001099	Spirometer	Diagnostic Tool
+SCDO:0001100	Spirometry	Measurement
+SCDO:0001100	Spirometry	Personal Attribute
+SCDO:0001100	Spirometry	Pulmonary Function Test
+SCDO:0001100	Spirometry	Quality of Life and Care
+SCDO:0001100	Spirometry	Therapeutics
+SCDO:0001101	Spleen Examination	Physical Examination
+SCDO:0001102	Spondylolisthesis	Phenotype
+SCDO:0001102	Spondylolisthesis	
+SCDO:0001102	Spondylolisthesis	
+SCDO:0001103	Spontaneous Abortion	Phenotype
+SCDO:0001103	Spontaneous Abortion	
+SCDO:0001103	Spontaneous Abortion	
+SCDO:0001105	Steroid-Resistant Nephrotic Syndrome	Phenotype
+SCDO:0001105	Steroid-Resistant Nephrotic Syndrome	
+SCDO:0001105	Steroid-Resistant Nephrotic Syndrome	
+SCDO:0001107	Stigma	Quality of Life
+SCDO:0001107	Stigma	
+SCDO:0001107	Stigma	
+SCDO:0001108	Stigmatization	Quality of Life
+SCDO:0001109	Streptococcus Pneumoniae Vaccine	Vaccine
+SCDO:0001111	Stroke	Phenotype
+SCDO:0001111	Stroke	Quality of Life Related SCD Symptoms and Complications
+SCDO:0001111	Stroke	
+SCDO:0001111	Stroke	
+SCDO:0001112	Stroke Impact Measure	Measurement
+SCDO:0001112	Stroke Impact Measure	Personal Attribute
+SCDO:0001112	Stroke Impact Measure	Quality of Life and Care
+SCDO:0001112	Stroke Impact Measure	Diagnostic Instrument
+SCDO:0001113	Stroke Impact Scale (SIS)	Functionality After Stroke Measure
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Diagnostic Device
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Measurement
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Personal Attribute
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Phenotype
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Physiological Assay
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Quality of Life and Care
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Therapeutics
+SCDO:0001115	Study Design	Personal Attribute
+SCDO:0001115	Study Design	
+SCDO:0001115	Study Design	
+SCDO:0001115	Study Design	
+SCDO:0001116	Study Outcome Measurement	Research Activity
+SCDO:0001117	Stuttering Priapism	Priapism
+SCDO:0001118	Subarachnoid Hemorrhage	Intracranial Hemorrhage
+SCDO:0001120	Substance Use History	Personal Medical History
+SCDO:0001121	Substances - Lifetime Use	Measurement
+SCDO:0001121	Substances - Lifetime Use	Quality of Life and Care
+SCDO:0001121	Substances - Lifetime Use	Substance Use History
+SCDO:0001121	Substances - Lifetime Use	Diagnostic Tool
+SCDO:0001122	Suicidal Thoughts	Depression
+SCDO:0001123	Support Group	Social Functioning
+SCDO:0001123	Support Group	
+SCDO:0001123	Support Group	
+SCDO:0001129	Supportive Therapeutics	Therapeutics
+SCDO:0001129	Supportive Therapeutics	
+SCDO:0001132	Sustained and Selective Attention Measure	Measurement
+SCDO:0001132	Sustained and Selective Attention Measure	Personal Attribute
+SCDO:0001132	Sustained and Selective Attention Measure	Quality of Life and Care
+SCDO:0001132	Sustained and Selective Attention Measure	Diagnostic Instrument
+SCDO:0001133	Symptomatic Therapeutics	Therapeutics
+SCDO:0001135	Acute sickle cell crisis	Phenotype
+SCDO:0001136	Systemic	from phenotype
+SCDO:0001137	Systemic Lupus Erythematosus	Comorbid Disease
+SCDO:0001137	Systemic Lupus Erythematosus	
+SCDO:0001137	Systemic Lupus Erythematosus	
+SCDO:0001138	Tandem Mass Spectrometry	Chemical Assay
+SCDO:0001140	Tertiary Healthcare	Health System
+SCDO:0001140	Tertiary Healthcare	
+SCDO:0001141	Test of Functional Health Literacy in Adults (TOFHLA)	Quality of Life and Care Measure
+SCDO:0001141	Test of Functional Health Literacy in Adults (TOFHLA)	
+SCDO:0001144	Thalassemia	from phenotype
+SCDO:0001144	Thalassemia	
+SCDO:0001146	The Duke Religion Index (DUREL)	Quality of Life and Care Measure
+SCDO:0001146	The Duke Religion Index (DUREL)	
+SCDO:0001150	Therapeutic Device	Therapeutics
+SCDO:0001151	Therapeutic Irrigation	Supportive Therapeutics
+SCDO:0001151	Therapeutic Irrigation	
+SCDO:0001151	Therapeutic Irrigation	
+SCDO:0001152	Therapeutics	SCDO
+SCDO:0001152	Therapeutics	
+SCDO:0001159	Tobacco Use Cessation	Health Behaviour
+SCDO:0001163	Total White Blood Cell Count	White Blood Cell Count
+SCDO:0001164	Traditional Healer	Beliefs About Remedies and Treatment
+SCDO:0001164	Traditional Healer	
+SCDO:0001164	Traditional Healer	
+SCDO:0001164	Traditional Healer	
+SCDO:0001165	Trail Making Test	Executive Function Measure
+SCDO:0001166	Transcranial Doppler Ultrasonography	Cerebral Blood Flow Assay
+SCDO:0001166	Transcranial Doppler Ultrasonography	Ultrasonography Test
+SCDO:0001166	Transcranial Doppler Ultrasonography	Supportive Therapeutics
+SCDO:0001167	Transcutaneous Electrical Nerve Stimulation	Analgesia
+SCDO:0001167	Transcutaneous Electrical Nerve Stimulation	
+SCDO:0001168	Transient Monocular Blindness	Ophthalmologic Complication
+SCDO:0001168	Transient Monocular Blindness	
+SCDO:0001196	Tubular Proteinuria	Proteinuria
+SCDO:0001196	Tubular Proteinuria	
+SCDO:0001197	Twin Study	Publication Type
+SCDO:0001198	Twin Studies as Topic	Study Design
+SCDO:0001200	"UDP Glucuronosyltransferase 1 Family, Polypeptide A1"	Non-Globin Loci
+SCDO:0001202	Ultrasound Machine	Diagnostic Device
+SCDO:0001204	Urban Location	Geographic Location
+SCDO:0001204	Urban Location	Healthcare Access
+SCDO:0001205	Urinary Albumin Test	Diagnostic Device
+SCDO:0001205	Urinary Albumin Test	Kidney Function Test
+SCDO:0001205	Urinary Albumin Test	Measurement
+SCDO:0001205	Urinary Albumin Test	Personal Attribute
+SCDO:0001205	Urinary Albumin Test	Phenotype
+SCDO:0001205	Urinary Albumin Test	Quality of Life and Care
+SCDO:0001205	Urinary Albumin Test	Urine Test
+SCDO:0001206	Urinary Creatinine Test	Diagnostic Device
+SCDO:0001206	Urinary Creatinine Test	Kidney Function Test
+SCDO:0001206	Urinary Creatinine Test	Measurement
+SCDO:0001206	Urinary Creatinine Test	Personal Attribute
+SCDO:0001206	Urinary Creatinine Test	Phenotype
+SCDO:0001206	Urinary Creatinine Test	Quality of Life and Care
+SCDO:0001206	Urinary Creatinine Test	Urine Test
+SCDO:0001207	Urinary Protein Measurement	Urine Measurement
+SCDO:0001208	Urinary System	from phenotype
+SCDO:0001209	Urine Albumin Concentration	Diagnostic Device
+SCDO:0001209	Urine Albumin Concentration	Personal Attribute
+SCDO:0001209	Urine Albumin Concentration	Quality of Life and Care
+SCDO:0001209	Urine Albumin Concentration	Urinary Protein Measurement
+SCDO:0001209	Urine Albumin Concentration	Diagnostic Tool
+SCDO:0001210	Urine Albumin Excretion Rate	Urinary Protein Measurement
+SCDO:0001212	Urine Albumin-Creatinine Ratio	Urinary Protein Measurement
+SCDO:0001212	Urine Albumin-Creatinine Ratio	
+SCDO:0001212	Urine Albumin-Creatinine Ratio	
+SCDO:0001212	Urine Albumin-Creatinine Ratio	
+SCDO:0001212	Urine Albumin-Creatinine Ratio	
+SCDO:0001212	Urine Albumin-Creatinine Ratio	
+SCDO:0001213	Urine Creatinine Concentration	Diagnostic Device
+SCDO:0001213	Urine Creatinine Concentration	Personal Attribute
+SCDO:0001213	Urine Creatinine Concentration	Quality of Life and Care
+SCDO:0001213	Urine Creatinine Concentration	Urine Measurement
+SCDO:0001213	Urine Creatinine Concentration	Diagnostic Tool
+SCDO:0001214	Urine Measurement	Measurement
+SCDO:0001215	Urine Protein Sulfosalicylic Acid Precipitation Test	Biochemical Assay
+SCDO:0001215	Urine Protein Sulfosalicylic Acid Precipitation Test	
+SCDO:0001215	Urine Protein Sulfosalicylic Acid Precipitation Test	
+SCDO:0001215	Urine Protein Sulfosalicylic Acid Precipitation Test	
+SCDO:0001216	Urine Test	Physiological Assay
+SCDO:0001216	Urine Test	
+SCDO:0001218	Urology	Urinary System
+SCDO:0001219	Urticaria	Phenotype
+SCDO:0001219	Urticaria	
+SCDO:0001219	Urticaria	
+SCDO:0001221	Vaccine	Infection Prophylaxis
+SCDO:0001223	Validation Studies	Publication Type
+SCDO:0001224	Vaping	Tobacco Use Cessation
+SCDO:0001228	Vascular Endothelial Function Test	Physiological Assay
+SCDO:0001228	Vascular Endothelial Function Test	
+SCDO:0001229	Vaso-Occlusive Crisis	SCD Related Pain
+SCDO:0001229	Vaso-Occlusive Crisis	
+SCDO:0001229	Vaso-Occlusive Crisis	
+SCDO:0001229	Vaso-Occlusive Crisis	
+SCDO:0001229	Vaso-Occlusive Crisis	
+SCDO:0001230	Venipuncture	"Diagnostic Technique, Method, Test or Assay"
+SCDO:0001230	Venipuncture	Diagnostic Device
+SCDO:0001230	Venipuncture	Phenotype
+SCDO:0001231	Ventricular Hypertrophy	Phenotype
+SCDO:0001231	Ventricular Hypertrophy	
+SCDO:0001231	Ventricular Hypertrophy	
+SCDO:0001232	"Vineland Adaptive Behavior Scales, Second Edition (Vineland-II)"	Measurement
+SCDO:0001232	"Vineland Adaptive Behavior Scales, Second Edition (Vineland-II)"	Personal Attribute
+SCDO:0001232	"Vineland Adaptive Behavior Scales, Second Edition (Vineland-II)"	Quality of Life and Care
+SCDO:0001232	"Vineland Adaptive Behavior Scales, Second Edition (Vineland-II)"	Diagnostic Instrument
+SCDO:0001233	Viral Infection	Infection
+SCDO:0001233	Viral Infection	
+SCDO:0001234	Virus	Infectious Agent
+SCDO:0001237	Vitrectomy	Ophthalmologic Surgical Procedure
+SCDO:0001238	Vitreous Hemorrhage	Ophthalmologic Complication
+SCDO:0001238	Vitreous Hemorrhage	
+SCDO:0001240	Western Blot	Electrophoresis
+SCDO:0001241	Wheezing Episode with Co-Morbid Asthma	Phenotype
+SCDO:0001243	White Blood Cell Count	White Blood Cell Measurement
+SCDO:0001243	White Blood Cell Count	
+SCDO:0001244	White Blood Cell Measurement	Blood Cell Measurement
+SCDO:0001245	Whole Body Morphological Measurement	Body Morphological Measurement
+SCDO:0001246	Witchcraft	Beliefs About Causes of Illness
+SCDO:0001247	World Health Organisation Quality of Life Instrument (WHOQOL)	Quality of Life and Care Measure
+SCDO:0001247	World Health Organisation Quality of Life Instrument (WHOQOL)	
+SCDO:0001248	Chronic hemolytic anemia	Phenotype
+SCDO:0001249	X-Ray Image	Diagnostic Device
+SCDO:0001249	X-Ray Image	Measurement
+SCDO:0001249	X-Ray Image	Therapeutics
+SCDO:0001249	X-Ray Image	Diagnostic Tool
+SCDO:0001250	X-Ray Image of Chest	Personal Attribute
+SCDO:0001250	X-Ray Image of Chest	Quality of Life and Care
+SCDO:0001250	X-Ray Image of Chest	X-Ray Image
+SCDO:0001251	X-Ray Machine	Diagnostic Device
+SCDO:0001251	X-Ray Machine	Measurement
+SCDO:0001252	X-Ray Therapy	Supportive Therapeutics
+SCDO:0001252	X-Ray Therapy	
+SCDO:0001252	X-Ray Therapy	
+SCDO:0001252	X-Ray Therapy	
+SCDO:0001252	X-Ray Therapy	
+SCDO:0001252	X-Ray Therapy	
+SCDO:0001253	X-Rays	X-Ray Machine
+SCDO:0001253	X-Rays	
+SCDO:0001254	Xylometazoline	Nasal Decongestants
+SCDO:0001254	Xylometazoline	
+SCDO:0001259	Gentamicin	Symptomatic Therapeutics
+SCDO:0001267	EuroQol Five Dimensions Questionnaire (EQ-5D)	Quality of Life and Care Measure
+SCDO:0001267	EuroQol Five Dimensions Questionnaire (EQ-5D)	
+SCDO:0001268	Functional Assessment of Chronic Illness Therapy-Spirituality (FACIT-Sp) Scale	Quality of Life and Care Measure
+SCDO:0001268	Functional Assessment of Chronic Illness Therapy-Spirituality (FACIT-Sp) Scale	
+SCDO:0001272	Reticulocytosis	Phenotype
+SCDO:0001284	Behavior Therapy	Psychotherapy
+SCDO:0001284	Behavior Therapy	
+SCDO:0001284	Behavior Therapy	
+SCDO:0001284	Behavior Therapy	
+SCDO:0001284	Behavior Therapy	
+SCDO:0001288	Cluster Headache	Phenotype
+SCDO:0001288	Cluster Headache	
+SCDO:0001292	"D57.00 Hb-SS disease with crisis, unspecified"	D57.0 Hb-SS disease with crisis
+SCDO:0001292	"D57.00 Hb-SS disease with crisis, unspecified"	
+SCDO:0001293	Developmental Delay	Neurodevelopmental Abnormality
+SCDO:0001295	Electrocardiograph	Diagnostic Device
+SCDO:0001295	Electrocardiograph	
+SCDO:0001296	Erythrocyte Transfusion	Blood Component Transfusion
+SCDO:0001296	Erythrocyte Transfusion	
+SCDO:0001296	Erythrocyte Transfusion	
+SCDO:0001296	Erythrocyte Transfusion	
+SCDO:0001296	Erythrocyte Transfusion	
+SCDO:1000092	Acute severe headache	Phenotype
+SCDO:0001298	Ethnic Group	Measurement
+SCDO:0001298	Ethnic Group	Personal Attribute
+SCDO:0001298	Ethnic Group	Quality of Life and Care
+SCDO:0001298	Ethnic Group	Diagnostic Tool
+SCDO:0001299	Evaluation Studies	Publication Type
+SCDO:0001303	"Exchange Transfusion, Whole Blood"	Blood Transfusion
+SCDO:0001304	Executive Function Measure	Diagnostic Instrument
+SCDO:0001305	Exercise	Lifestyle
+SCDO:0001308	Exercise-Induced Rhabdomyolysis	Phenotype
+SCDO:0001308	Exercise-Induced Rhabdomyolysis	
+SCDO:0001308	Exercise-Induced Rhabdomyolysis	
+SCDO:0001311	Extrapyramidal Symptoms	Phenotype
+SCDO:0001311	Extrapyramidal Symptoms	
+SCDO:0001311	Extrapyramidal Symptoms	
+SCDO:0001311	Extrapyramidal Symptoms	
+SCDO:0001311	Extrapyramidal Symptoms	
+SCDO:0001312	Eye	from phenotype
+SCDO:0001313	Eye Examination	Physical Examination
+SCDO:0001314	Facial Dysmorphisms	Phenotype
+SCDO:0001314	Facial Dysmorphisms	
+SCDO:0001314	Facial Dysmorphisms	
+SCDO:0001314	Facial Dysmorphisms	
+SCDO:0001315	Facial Nerve Palsy	Phenotype
+SCDO:0001315	Facial Nerve Palsy	
+SCDO:0001315	Facial Nerve Palsy	
+SCDO:0001316	Facial Paralysis	Phenotype
+SCDO:0001319	Fatigue	Phenotype
+SCDO:0001319	Fatigue	Quality of Life Related SCD Symptoms and Complications
+SCDO:0001319	Fatigue	
+SCDO:0001319	Fatigue	
+SCDO:0001320	Feasibility Studies	Study Design
+SCDO:0001321	Fentanyl	Opioid
+SCDO:0001322	Ferritin Blood Test	Blood Test
+SCDO:0001322	Ferritin Blood Test	Diagnostic Device
+SCDO:0001322	Ferritin Blood Test	Measurement
+SCDO:0001322	Ferritin Blood Test	Personal Attribute
+SCDO:0001322	Ferritin Blood Test	Phenotype
+SCDO:0001322	Ferritin Blood Test	Quality of Life and Care
+SCDO:0001323	Ferritin Measurement	Blood Chemistry Measurement
+SCDO:0001323	Ferritin Measurement	Diagnostic Device
+SCDO:0001323	Ferritin Measurement	Personal Attribute
+SCDO:0001323	Ferritin Measurement	Quality of Life and Care
+SCDO:0001323	Ferritin Measurement	Diagnostic Tool
+SCDO:0001324	Flexion Contracture	Phenotype
+SCDO:0001324	Flexion Contracture	
+SCDO:0001324	Flexion Contracture	
+SCDO:0001324	Flexion Contracture	
+SCDO:0001325	Flow Cytometer	Diagnostic Device
+SCDO:0001326	Flow Cytometry	Diagnostic Device
+SCDO:0001326	Flow Cytometry	Measurement
+SCDO:0001326	Flow Cytometry	Phenotype
+SCDO:0001326	Flow Cytometry	Physical Detection Method
+SCDO:0001326	Flow Cytometry	Therapeutics
+SCDO:0001327	Fluorescein Angiography	Imaging Assay
+SCDO:0001328	Focal Dystonia	Phenotype
+SCDO:0001329	Folic Acid	Preventative Therapeutics
+SCDO:0001329	Folic Acid	Symptomatic Therapeutics
+SCDO:0001330	Follow-Up Studies	Cohort Studies
+SCDO:0001336	from phenotype	deprecated terms
+SCDO:0001337	Frontal Bossing	Phenotype
+SCDO:0001337	Frontal Bossing	
+SCDO:0001337	Frontal Bossing	
+SCDO:0001339	Functionality After Stroke Measure	Measurement
+SCDO:0001339	Functionality After Stroke Measure	Personal Attribute
+SCDO:0001339	Functionality After Stroke Measure	Quality of Life and Care Measure
+SCDO:0001339	Functionality After Stroke Measure	Diagnostic Tool
+SCDO:0001340	Gastrointestinal System	from phenotype
+SCDO:0001341	Gender	Personal Attribute
+SCDO:0001342	Gene-Environment Interaction	Disease Modifier
+SCDO:0001343	Gene Product	Gene
+SCDO:0001343	Gene Product	Molecule
+SCDO:0001344	Gene Therapy	Curative Therapeutics
+SCDO:0001365	Disease	SCDO
+SCDO:0001367	mode of inheritance	SCDO
+SCDO:0001368	Autosomal Recessive	mode of inheritance
+SCDO:0001369	Genetic variation	Gene
+SCDO:0001370	mutation	Genetic variation
+SCDO:0001371	deletion	mutation
+SCDO:0001372	point mutation	mutation
+SCDO:0001373	beta C mutation	point mutation
+SCDO:0001374	heterozygous beta c mutation	beta C mutation
+SCDO:0001375	homozygous beta c mutation	beta C mutation
+SCDO:0001376	beta E mutation	point mutation
+SCDO:0001377	beta S mutation	point mutation
+SCDO:0001378	HBA1	Alpha-Globins
+SCDO:0001379	HBA2	Alpha-Globins
+SCDO:0001380	Delta-Globin	Globin Loci
+SCDO:0001381	Epsilon-Globin	Globin Loci
+SCDO:0001382	Gamma-Globin	Globin Loci
+SCDO:0001383	imbalanced globin synthesis	Abnormal Hemoglobin Structure Present in SCD
+SCDO:0001384	reduced alpha/gamma synthesis ratio	imbalanced globin synthesis
+SCDO:0001385	absence of alpha globin synthesis with gamma globin synthesis	reduced alpha/gamma synthesis ratio
+SCDO:0001386	deletion in alpha globin gene	deletion
+SCDO:0001387	homozygous deletion of hba1 and hba2	deletion in alpha globin gene
+SCDO:0001388	Haemoglobin Bart Hydrops Fetalis	Haemoglobin Bart Hydrops Fetalis
+SCDO:0001388	Haemoglobin Bart Hydrops Fetalis	
+SCDO:0001388	Haemoglobin Bart Hydrops Fetalis	
+SCDO:0001415	Chronic Pain	Pain
+SCDO:0001423	Reticulocytopenia	Phenotype
+SCDO:0001436	Oxygen therapy	Symptomatic Therapeutics
+SCDO:0001447	secondary amenorrhea	Phenotype
+SCDO:0001488	cirrhosis	Phenotype
+SCDO:0001493	hepatic fibrosis	Phenotype
+SCDO:0001511	Renal Medullary carcinoma	Phenotype
+SCDO:0001604	Steady state	Phenotype
+SCDO:0001611	renal insufficiency	Phenotype
+SCDO:0001673	Hepatic Vein Thrombosis	Phenotype
+SCDO:0001709	reduced beta/alpha synthesis ratio	Alpha-Globins
+SCDO:0001709	reduced beta/alpha synthesis ratio	Beta-Globins
+SCDO:0001715	Neuropathic pain	Phenotype
+SCDO:0001751	homozygous deletion of hba2	deletion
+SCDO:0001765	beta-plus thalassemia mutation	mutation
+SCDO:0001851	Tachycardia	Phenotype
+SCDO:0001945	Iron overload	Phenotype
+SCDO:0001988	Chest pain	Phenotype
+SCDO:0001997	Crystalisation of Hemoglobin	Abnormal hemoglobins
+SCDO:0002039	Zinc deficiency	Phenotype
+SCDO:0002067	Septic arthritis	Phenotype
+SCDO:0002106	Splenic infarction	Phenotype
+SCDO:0002240	Disease Severity	Phenotype
+SCDO:0002240	Disease Severity	
+SCDO:0002305	HBB SER9(A6) TYR; HBB GLU121(GH4)GLN; HBB GLY16ARG; HBB ASN19LYS; HBB GLU22GLN; HBB GLU22VAL; HBB THR87LYS; HBB GLU121ALA	mutation
+SCDO:0002381	Amoxycillin	Symptomatic Therapeutics
+SCDO:0002475	beta-zero thalassemia mutation	mutation
+SCDO:0002700	thrombocytopenia	Phenotype
+SCDO:0002710	Left ventricular dysfunction	Phenotype
+SCDO:0002729	failure to thrive	Phenotype
+SCDO:0002771	Hyperviscosity	Phenotype
+SCDO:0002784	glomerular hypertrophy	Phenotype
+SCDO:0002798	Pharmacogenomic Variants	Genetic Polymorphism
+SCDO:0002803	left ventricular hypertrophy	Phenotype
+SCDO:0002814	Globin Gene	Gene
+SCDO:0002870	Ischemic cholitis	Phenotype
+SCDO:0002903	hypogonadotrophic hypogonadism	Phenotype
+SCDO:0002912	Metronidazole	Preventative Therapeutics
+SCDO:0002939	Polymerisation of Hemoglobin	Abnormal hemoglobins
+SCDO:0003035	Hypovolemia	Phenotype
+SCDO:0003070	neutropenia	Phenotype
+SCDO:0003089	lethargy	Phenotype
+SCDO:0003118	Hyperbilirubinemia	Phenotype
+SCDO:0003119	Erythromycin	Preventative Therapeutics
+SCDO:0003158	oligomenorrhea	Phenotype
+SCDO:0003263	Constipation	Phenotype
+SCDO:0003675	Single nucleotide polymorphism	Genetic Polymorphism
+SCDO:0003696	Peripheral blood film	Blood Cell Measurement
+SCDO:0003712	Molecule	Biological Disease Modifier
+SCDO:0003742	Splenectomy	Symptomatic Therapeutics
+SCDO:0003765	pericarditis	Phenotype
+SCDO:0003769	Ventricular tachycardia	Phenotype
+SCDO:0003776	Neonatal hyperbilirubinemia	Phenotype
+SCDO:0003807	Abnormal hemoglobins	Hemoglobins
+SCDO:0003844	Hemolytic anemia	Phenotype
+SCDO:0003894	gap PCR	Polymerase Chain Reaction
+SCDO:0003901	corticosteroids	Anti-Inflammatory Agent
+SCDO:0003913	Age of Onset	Phenotype
+SCDO:0003913	Age of Onset	
+SCDO:0003929	Multiplex Ligation-dependent Probe Amplification (MLPA)	Polymerase Chain Reaction
+SCDO:0004047	Genetic Polymorphism	Genetic variation
+SCDO:0004061	Genotype	Single nucleotide polymorphism
+SCDO:0004069	Cough	Phenotype
+SCDO:0004078	Girdle syndrome	Phenotype
+SCDO:0004139	Adult hemoglobin	Normal hemoglobins
+SCDO:0004152	Metronidazole	Infection Prophylaxis
+SCDO:0004183	Hypoxia	Phenotype
+SCDO:0004187	Hemolytic crisis	Phenotype
+SCDO:0004190	Amitriptyline	Symptomatic Therapeutics
+SCDO:0004203	myocarditis	Phenotype
+SCDO:0004249	DNA sequencing	Genetic Technique
+SCDO:0004437	mesenteric/portal thrombosis	Phenotype
+SCDO:0004444	delta beta globin chain fusion	Globin Loci
+SCDO:0004565	Analgesia	Symptomatic Therapeutics
+SCDO:0004576	Chronic hypersplenism	Phenotype
+SCDO:0004740	Histologic Smear	Physiological Assay
+SCDO:0004802	Asymptomatic	Phenotype
+SCDO:0004829	Transient ischemic attack	Phenotype
+SCDO:0004832	Avascular necrosis	Phenotype
+SCDO:0004833	Microscopic hematuria	Phenotype
+SCDO:0004836	Angina	Phenotype
+SCDO:0004847	Acute hepatic sequestration	Pain
+SCDO:0004860	Amoxicillin	Infection Prophylaxis
+SCDO:0004877	cardiac failure	Phenotype
+SCDO:0004888	Functional Hyposplenism	Phenotype
+SCDO:0004905	HBB locus deletions	deletion
+SCDO:0005031	Association	SCDO
+SCDO:0005031	Association	
+SCDO:0005061	Renal Vein Thrombosis	Phenotype
+SCDO:0005115	Acute Pancreatitis	Phenotype
+SCDO:0005167	Chronic anemia	Phenotype
+SCDO:0005191	Hyperhemolysis	Phenotype
+SCDO:0005226	Spinal Cord Infarction	Phenotype
+SCDO:0005243	comparative genomic hybridisation (CGH)	Genetic Technique
+SCDO:0005247	IV fluids	Preventative Therapeutics
+SCDO:0005279	High reticulocyte count	Phenotype
+SCDO:0005287	Splenomegaly	Phenotype
+SCDO:0005335	Antipyretic	Preventative Therapeutics
+SCDO:0005446	Fetal hemoglobin	Normal hemoglobins
+SCDO:0005464	Myocardial ischemia	Phenotype
+SCDO:0005490	Bronchiolitis	Phenotype
+SCDO:0005566	Hepatomegaly	Phenotype
+SCDO:0005580	Avascular necrosis of the femoral head	Phenotype
+SCDO:0005660	Anemia	Phenotype
+SCDO:0005671	HBB and HBD deletion	deletion
+SCDO:0005733	Vitamin B12 deficiency	Phenotype
+SCDO:0005758	Pyelonephritis	Phenotype
+SCDO:0005790	Leukocytosis	Phenotype
+SCDO:0005809	Non-steroidal anti-inflammatory drug	Analgesics
+SCDO:0005864	Megaloblastic anemia	Phenotype
+SCDO:0006000	Fever	Phenotype
+SCDO:0006120	Meningococcal Conjugate Vaccine MCV4	Vaccine
+SCDO:0006183	Gentamicin	Symptomatic Therapeutics
+SCDO:0006222	Pulmonary consolidation	Radiography
+SCDO:0006404	reduced alpha/beta synthesis ratio	Alpha-Globins
+SCDO:0006404	reduced alpha/beta synthesis ratio	Beta-Globins
+SCDO:0006429	Gallbladder empyema	Phenotype
+SCDO:0006461	Acutely severe anemia	Phenotype
+SCDO:0006467	Duloxetine	Symptomatic Therapeutics
+SCDO:0006481	mesangial hypercellularity	Phenotype
+SCDO:0006589	cordocentesis	Prenatal Screening for Sickle Cell
+SCDO:0006790	Antibiotic prophylaxis	Infection Prophylaxis
+SCDO:0006832	ascorbic acid deficiency	Phenotype
+SCDO:0006833	Moyamoya Disease	Phenotype
+SCDO:0006835	Normal hemoglobins	Hemoglobins
+SCDO:0006847	Aplastic crisis	Phenotype
+SCDO:0006860	HBG1 and/or HBG2 mutations	mutation
+SCDO:0006905	Hypersplenism	Pain
+SCDO:0006909	Hyper-haemolytic crisis	Phenotype
+SCDO:0007091	Cholelithiasis	Phenotype
+SCDO:0007161	Acute Splenic Sequestration Crisis	Phenotype
+SCDO:0007198	Gastroenteritis	Infection
+SCDO:0007212	Other molecules	Molecule
+SCDO:0007281	adrenal insufficiency	Phenotype
+SCDO:0007326	Hepatosplenomegaly	Phenotype
+SCDO:0007371	hypochromic anemia	Abnormality of Erythrocytes
+SCDO:0007383	Pulmonary infiltrate	Phenotype
+SCDO:0007384	Human life cyle stage	Phenotype
+SCDO:0007386	hypoparathyroidism	Phenotype
+SCDO:0007438	Bone marrow hyperplasia	Phenotype
+SCDO:0007473	Splenic sequestration	Phenotype
+SCDO:0007493	Gabapentin	Preventative Therapeutics
+SCDO:0007493	Gabapentin	
+SCDO:0007618	Avascular necrosis of the humeral head	Phenotype
+SCDO:0007624	beta-thalassemia Genotype	Genotype
+SCDO:0007685	Hypoxia	Phenotype
+SCDO:0007716	Haplotype	Single nucleotide polymorphism
+SCDO:0007744	Urinary Tract Infection	Infection
+SCDO:0007836	Posterior reversible leukoencephalopathy	Phenotype
+SCDO:0007856	Cholecystitis	Phenotype
+SCDO:0007912	pulmonary embolism	Phenotype
+SCDO:0007991	Myocardial infarction	Phenotype
+SCDO:0008037	Acute symptomatic seizure	Phenotype
+SCDO:0008043	diarrhea	Phenotype
+SCDO:0008046	Hyposthenuria	Phenotype
+SCDO:0008062	Hepatitis B Vaccine	Preventative Therapeutics
+SCDO:0008079	Intra-abdominal abscess	Phenotype
+SCDO:0008145	Macroscopic hematuria	Phenotype
+SCDO:0008218	growth hormone deficiency	Phenotype
+SCDO:0008251	homozygous deletion of hba1	deletion
+SCDO:0008272	Hemiparesis	Phenotype
+SCDO:0008273	Cardiomegaly	Phenotype
+SCDO:0008454	Pregabalin	Symptomatic Therapeutics
+SCDO:0008484	Epilepsy	Phenotype
+SCDO:0008538	microcytic anemia	Phenotype
+SCDO:0008553	Syncope	Phenotype
+SCDO:0008595	Chronic arthritis	Phenotype
+SCDO:0008623	vaso-occlusion	Phenotype
+SCDO:0008625	Right Upper Quadrant Syndrome	Phenotype
+SCDO:0008766	Ascending Cholangitis	Phenotype
+SCDO:0008778	Dental radiographs	Radiography
+SCDO:0008801	Hypertension	Phenotype
+SCDO:0008888	Iron chelation therapy	Symptomatic Therapeutics
+SCDO:0008915	blood smear	Blood Test
+SCDO:0008927	Acute cholecystitis	Phenotype
+SCDO:0008937	Central retinal artery occlusion	Phenotype
+SCDO:0008990	Vertebral collapse	Phenotype
+SCDO:0009017	Haemolysis	Phenotype
+SCDO:0009117	folate deficiency	Phenotype
+SCDO:0009201	Chronic cholecystitis	Phenotype
+SCDO:0009279	Unstable of Hemoglobin	Hemoglobins
+SCDO:0009334	Neutropenia	Phenotype
+SCDO:0009350	Splenic Sequestration	Phenotype
+SCDO:0009445	Renal papillary necrosis	Phenotype
+SCDO:0009453	Hemoglobins	Globin Loci
+SCDO:0009488	Molecule	Biological Disease Modifier
+SCDO:0009488	Molecule	
+SCDO:0009619	Arrhythmia	Phenotype
+SCDO:0009620	Low reticulocyte count	Phenotype
+SCDO:0009635	Aplastic Crises	Phenotype
+SCDO:0009656	Respiratory distress	Phenotype
+SCDO:0009664	Abdominal vaso-occlusive crisis	Pain
+SCDO:0009731	beta thalassemia mutation	mutation
+SCDO:0009774	Intrahepatic cholestasis	Phenotype
+SCDO:0009786	other HBB variants	point mutation
+SCDO:0009818	Abnormal Phenotype	Phenotype
+SCDO:0009818	Abnormal Phenotype	
+SCDO:0009838	Pneumonia	Phenotype
+SCDO:0009968	Focal segmental glomerulosclerosis	Phenotype
+SCDO:0010000	Other genotypes	Genotype
+SCDO:1000001	Research Subject ID	Personal Attribute
+SCDO:1000002	Clinic Subject ID	Personal Attribute
+SCDO:1000004	Renal Replacement Therapy	Supportive Therapeutics
+SCDO:1000006	Lifestyle Therapy	Therapeutics
+SCDO:1000007	Hemoglobin D	Phenotype
+SCDO:1000007	Hemoglobin D	from phenotype
+SCDO:1000008	Hemoglobin M	Phenotype
+SCDO:1000008	Hemoglobin M	from phenotype
+SCDO:1000009	Hemoglobin E	Abnormal Hemoglobin Structure Present in SCD
+SCDO:1000010	Sickle Cell Disease-S/HPFH	Sickle Cell Disease Variant
+SCDO:1000010	Sickle Cell Disease-S/HPFH	
+SCDO:1000010	Sickle Cell Disease-S/HPFH	
+SCDO:1000010	Sickle Cell Disease-S/HPFH	
+SCDO:1000010	Sickle Cell Disease-S/HPFH	
+SCDO:1000011	Delta-Globin	Gene Product
+SCDO:1000011	Delta-Globin	
+SCDO:1000012	Beta-Globin	Gene Product
+SCDO:1000012	Beta-Globin	
+SCDO:1000013	HBB1	Beta-Globins
+SCDO:1000014	HBD	Beta-Globins
+SCDO:1000016	Hemoglobin O-Arab	Abnormal Hemoglobin Structure Present in SCD
+SCDO:1000016	Hemoglobin O-Arab	
+SCDO:1000016	Hemoglobin O-Arab	
+SCDO:1000017	Surgery	Symptomatic Therapeutics
+SCDO:1000019	Antifungal	Symptomatic Therapeutics
+SCDO:1000020	Treatment of Precipitating Factors	Therapeutics
+SCDO:1000020	Treatment of Precipitating Factors	
+SCDO:1000020	Treatment of Precipitating Factors	
+SCDO:1000021	Blindness	Visual Impairment
+SCDO:1000021	Blindness	
+SCDO:1000021	Blindness	
+SCDO:1000022	Visual Impairment	Ophthalmologic Complication
+SCDO:1000022	Visual Impairment	
+SCDO:1000022	Visual Impairment	
+SCDO:1000022	Visual Impairment	
+SCDO:1000023	Evidence Code	deprecated terms
+SCDO:1000024	IEA (inferred from electronic annotation)	Evidence Code
+SCDO:1000025	PCS (published clinical study)	Evidence Code
+SCDO:1000026	ICE (individual clinical experience)	Evidence Code
+SCDO:1000027	ITM (inferred by text-mining)	Evidence Code
+SCDO:1000028	TAS (traceable author statement)	Evidence Code
+SCDO:1000029	NAS (non-traceable author statement)	Evidence Code
+SCDO:1000030	IC (inferred by curator)	Evidence Code
+SCDO:1000031	from personal attribute	deprecated terms
+SCDO:1000032	Diagnostic Tool	Diagnostics
+SCDO:1000033	Diagnostic Instrument	Diagnostic Tool
+SCDO:1000034	from diagnostics	deprecated terms
+SCDO:1000035	from therapeutics	deprecated terms
+SCDO:1000038	SCD Causal Mutation	mutation
+SCDO:1000039	"HBB, GLU6VAL"	SCD Causal Mutation
+SCDO:1000040	"HBB, GLU121LYS"	SCD Causal Mutation
+SCDO:1000041	"HBB, GLU6LYS"	SCD Causal Mutation
+SCDO:1000042	"HBB, GLU26LYS"	SCD Causal Mutation
+SCDO:1000043	"HBB, GLU121GLN"	SCD Causal Mutation
+SCDO:1000044	"HBB, ASP73ASN"	SCD Causal Mutation
+SCDO:1000045	"HBB, VAL23ILE"	SCD Causal Mutation
+SCDO:1000046	"HBB, THR87ILE"	SCD Causal Mutation
+SCDO:1000047	"HBB, LEU68PHE"	SCD Causal Mutation
+SCDO:1000048	SCD Genotype	Genotype
+SCDO:1000049	Sickle-hemoglobin C disease	SCD Genotype
+SCDO:1000049	Sickle-hemoglobin C disease	
+SCDO:1000050	S/D-Punjab	SCD Genotype
+SCDO:1000050	S/D-Punjab	
+SCDO:1000051	Haemoglobin S/OArab	SCD Genotype
+SCDO:1000051	Haemoglobin S/OArab	
+SCDO:1000052	Haemoglobin SE	SCD Genotype
+SCDO:1000052	Haemoglobin SE	
+SCDO:1000053	SS Genotype	SCD Genotype
+SCDO:1000053	SS Genotype	
+SCDO:1000054	SD Genotype	SCD Genotype
+SCDO:1000055	Sickle cell disease	Hemoglobinopathy
+SCDO:1000056	S/C-Harlem	SCD Genotype
+SCDO:1000056	S/C-Harlem	
+SCDO:1000058	Hemoglobin C-Harlem	Sickling Hemoglobin with Two Beta-Globin Gene Substitutions
+SCDO:1000058	Hemoglobin C-Harlem	
+SCDO:1000058	Hemoglobin C-Harlem	
+SCDO:1000060	SCD Molecular Phenotype	Phenotype
+SCDO:1000061	Abnormal Hemoglobin Level Present in SCD	SCD Molecular Phenotype
+SCDO:1000062	Sickle Cell Disease-S/C-Harlem	Sickle Cell Disease Variant
+SCDO:1000062	Sickle Cell Disease-S/C-Harlem	
+SCDO:1000063	"HBB, 106-KB DEL"	SCD Causal Mutation
+SCDO:1000064	Hemoglobinopathy Occuring in Heterozygous State in Sickle Cell Disease Variants	Hemoglobinopathy
+SCDO:1000065	S/Beta -Thal	SCD Genotype
+SCDO:1000065	S/Beta -Thal	
+SCDO:1000065	S/Beta -Thal	
+SCDO:1000066	Hemoglobin F Measurement	Hemoglobin Measurement
+SCDO:1000066	Hemoglobin F Measurement	
+SCDO:1000067	Sickle beta zero thalassemia	S/Beta -Thal
+SCDO:1000067	Sickle beta zero thalassemia	
+SCDO:1000067	Sickle beta zero thalassemia	
+SCDO:1000068	Severe S/Beta-Plus-Thal	Sickle beta plus thalassemia
+SCDO:1000068	Severe S/Beta-Plus-Thal	
+SCDO:1000068	Severe S/Beta-Plus-Thal	
+SCDO:1000069	S/HPFH	SCD Genotype
+SCDO:1000070	Haemoglobin S/Lepore	SCD Genotype
+SCDO:1000070	Haemoglobin S/Lepore	
+SCDO:1000070	Haemoglobin S/Lepore	
+SCDO:1000071	A/Jamaica Plain	SCD Genotype
+SCDO:1000072	Hemoglobin Jamaica Plain	Sickling Hemoglobin with Two Beta-Globin Gene Substitutions
+SCDO:1000072	Hemoglobin Jamaica Plain	
+SCDO:1000072	Hemoglobin Jamaica Plain	
+SCDO:1000073	Hemoglobin S-Antilles	Sickling Hemoglobin with Two Beta-Globin Gene Substitutions
+SCDO:1000074	Hemoglobin S-Oman	Sickling Hemoglobin with Two Beta-Globin Gene Substitutions
+SCDO:1000075	A/S-Oman	SCD Genotype
+SCDO:1000076	Mild Sickle Cell Disease-S Beta Plus Thalassemia	Sickle Cell Disease-S Beta Plus Thalassemia
+SCDO:1000077	Moderate Sickle Cell Disease-S Beta Plus Thalassemia	Sickle Cell Disease-S Beta Plus Thalassemia
+SCDO:1000078	Severe Sickle Cell Disease-S Beta Plus Thalassemia	Sickle Cell Disease-S Beta Plus Thalassemia
+SCDO:1000079	Moderate S/Beta-Plus-Thal	Sickle beta plus thalassemia
+SCDO:1000079	Moderate S/Beta-Plus-Thal	
+SCDO:1000080	Mild S/Beta-Plus-Thal	Sickle beta plus thalassemia
+SCDO:1000080	Mild S/Beta-Plus-Thal	
+SCDO:1000081	Hemoglobin C/S Antilles	SCD Genotype
+SCDO:1000082	Sickling Hemoglobin with Two Beta-Globin Gene Substitutions	Abnormal Hemoglobin Structure Present in SCD
+SCDO:1000083	Hemoglobin S-South End	Sickling Hemoglobin with Two Beta-Globin Gene Substitutions
+SCDO:1000084	S/Quebec-Chori	SCD Genotype
+SCDO:1000084	S/Quebec-Chori	
+SCDO:1000085	Hemoglobin Quebec Chori	Abnormal Hemoglobin Structure Present in SCD
+SCDO:1000085	Hemoglobin Quebec Chori	
+SCDO:1000086	Sickle Cell Disease-S/Quebec Chori	Sickle Cell Disease Variant
+SCDO:1000087	"HBB, LYS132ASN"	SCD Causal Mutation
+SCDO:1000088	S/S-South End	SCD Genotype
+SCDO:1000089	Hemoglobin Lepore Boston	Abnormal Hemoglobin Structure Present in SCD
+SCDO:1000089	Hemoglobin Lepore Boston	
+SCDO:1000089	Hemoglobin Lepore Boston	
+SCDO:1000090	Sickle Cell Disease-S/S-South End	Sickle Cell Disease Variant
+SCDO:1000091	Sickle beta plus thalassemia	S/Beta -Thal

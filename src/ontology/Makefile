@@ -33,7 +33,9 @@ prepare_release: all
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
 $(ONT).owl: $(SRC) 
-	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv template  --merge-before --prefix $(PREFIX) --template templates/disease_modifiers.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template templates/AllTermsFinal.tsv template --merge-before --prefix $(PREFIX) --template templates/Topology.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+
+#template --merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv template  --merge-before --prefix $(PREFIX) --template templates/disease_modifiers.tsv 
 
 $(ONT)_hpo_merged.owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
 	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)_hpo_merged.owl -o $@
@@ -48,14 +50,14 @@ $(ONT).obo: $(ONT).owl
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
 
-imports/hp_import.txt: $(SRC) imports/hp.owl
-	$(ROBOT) merge --input imports/hp.owl --input $(SRC) query --select $(SPARQLDIR)/get_hpo_mappings.sparql imports/hp_import.txt 
+imports/hp_import.txt: $(ONT).owl imports/hp.owl
+	$(ROBOT) merge --input imports/hp.owl --input $(ONT).owl query --select $(SPARQLDIR)/get_hpo_mappings.sparql imports/hp_import.txt 
 
 results/hp_module.owl: imports/hp_import.txt
 	$(ROBOT) extract  --method BOT --input imports/hp.owl --term-file imports/hp_import.txt --output results/hp_module.owl
 
-scdo_hp_bridge.owl: $(SRC) imports/hp.owl
-	$(ROBOT) query --input $(SRC) --format ttl --construct $(SPARQLDIR)/construct_hpo_bridge.sparql scdo_hp_bridge.owl
+scdo_hp_bridge.owl: $(ONT).owl imports/hp.owl
+	$(ROBOT) query --input $(ONT).owl --format ttl --construct $(SPARQLDIR)/construct_hpo_bridge.sparql scdo_hp_bridge.owl
 
 
 # ----------------------------------------
