@@ -17,7 +17,7 @@ SPARQLDIR = ../sparql
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports $(ONT).owl $(ONT).obo
+all: sparql_test $(ONT).owl $(ONT).obo $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt
 test: sparql_test all
 prepare_release: all
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
@@ -33,8 +33,12 @@ prepare_release: all
 
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-$(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+$(ONT).owl: $(SRC) 
+	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv template  --merge-before --prefix $(PREFIX) --template templates/disease_modifiers.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+
+$(ONT)_hpo_merged.owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
+	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)_hpo_merged.owl -o $@
+
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
