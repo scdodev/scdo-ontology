@@ -8,23 +8,25 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://scdontology.h3abionet.org/ontology/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/scdo/releases/2017-11-22/scdo.owl"/>
         <dc:LicenseDocument>LicenseDocument</dc:LicenseDocument>
-        <dc:abstract>abstract for SCDO</dc:abstract>
-        <dc:accessRights>description of SCDO&apos;s access rights</dc:accessRights>
-        <dc:accrualMethod>accrualMethod</dc:accrualMethod>
-        <dc:accrualPeriodicity>accrualPeriodicity</dc:accrualPeriodicity>
-        <dc:accrualPolicy>accrualPolicy</dc:accrualPolicy>
         <dc:audience>description of SCDO&apos;s audience</dc:audience>
-        <dc:available>available</dc:available>
-        <dc:conformsTo>the standard(s) to which the SCDO conforms</dc:conformsTo>
         <dc:coverage>coverage of SCDO</dc:coverage>
-        <dc:isReferencedBy>isReferencedBy</dc:isReferencedBy>
-        <dc:issued>issued</dc:issued>
         <dc:language>language</dc:language>
+        <dc:accrualPolicy>accrualPolicy</dc:accrualPolicy>
         <dc:license>license</dc:license>
+        <dc:abstract>abstract for SCDO</dc:abstract>
+        <dc:accrualPeriodicity>accrualPeriodicity</dc:accrualPeriodicity>
+        <dc:conformsTo>the standard(s) to which the SCDO conforms</dc:conformsTo>
+        <dc:accrualMethod>accrualMethod</dc:accrualMethod>
+        <dc:available>available</dc:available>
+        <dc:issued>issued</dc:issued>
+        <dc:accessRights>description of SCDO&apos;s access rights</dc:accessRights>
+        <dc:isReferencedBy>isReferencedBy</dc:isReferencedBy>
     </owl:Ontology>
     
 
@@ -37,6 +39,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -914,6 +922,46 @@ If required later, specify as inverse of &quot;treats&quot; in Protege.</ontolog
     
 
 
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001362 -->
+
+    <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001362">
+        <rdfs:label>results from variant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001363 -->
+
+    <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001363">
+        <rdfs:label>variant in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001364 -->
+
+    <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001364">
+        <rdfs:label>has mode of inheritance</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001389 -->
+
+    <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001389">
+        <rdfs:label xml:lang="en">has subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001390 -->
+
+    <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001390">
+        <rdfs:label xml:lang="en">has object</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_1000005 -->
 
     <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_1000005">
@@ -1303,7 +1351,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000017">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000674"/>
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000663"/>
@@ -1793,7 +1840,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000034">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000695"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -1821,6 +1870,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000035">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -1962,6 +2012,9 @@ macroalbuminuia (possibly now referred to as  &quot;high level albuminuria&quot;
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000038">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -2278,7 +2331,10 @@ and massage.</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000056 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000056">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -2483,6 +2539,8 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000071">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -2654,6 +2712,9 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000078">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -2688,8 +2749,10 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000079">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000500"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000695"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -2724,6 +2787,10 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000080">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -2775,6 +2842,9 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000081">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -3452,6 +3522,7 @@ Perhaps use as Disease Modifier?</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000111">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000279"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3676,7 +3747,12 @@ develop following.</ontology:SCDO_0000661>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000119">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000695"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -3976,6 +4052,10 @@ develop following.</ontology:SCDO_0000661>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000134">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -4206,6 +4286,8 @@ Sometimes, an abnormal result can be due to contamination. This means bacteria m
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000144">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000143"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -4240,6 +4322,7 @@ Sometimes, an abnormal result can be due to contamination. This means bacteria m
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000147 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000147">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000922"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001133"/>
         <rdfs:subClassOf>
@@ -4320,6 +4403,9 @@ Any other relevant terms missing as sub-classes here?</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000151">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -4616,6 +4702,8 @@ Perhaps include below &quot;Pain&quot; under &quot;Nervous System&quot;?</ontolo
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000161">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -4711,7 +4799,11 @@ Perhaps include below &quot;Pain&quot; under &quot;Nervous System&quot;?</ontolo
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000165 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000165">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000995"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -4743,7 +4835,12 @@ Perhaps include below &quot;Pain&quot; under &quot;Nervous System&quot;?</ontolo
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000166 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000166">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000942"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -4908,6 +5005,7 @@ Perhaps include below &quot;Pain&quot; under &quot;Nervous System&quot;?</ontolo
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000183">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -4998,6 +5096,7 @@ Perhaps include below &quot;Pain&quot; under &quot;Nervous System&quot;?</ontolo
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000190">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001150"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5125,6 +5224,8 @@ Link relevant Therapeutics term(s) to this term via &quot;has medical device&quo
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000198">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -5152,6 +5253,7 @@ Link relevant Therapeutics term(s) to this term via &quot;has medical device&quo
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000199">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -5319,6 +5421,7 @@ obstructive hydrocephalus</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000205">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -5345,6 +5448,7 @@ obstructive hydrocephalus</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000206">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -5759,8 +5863,11 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000219 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000219">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001091"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -5951,7 +6058,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000226 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000226">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -6232,7 +6341,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000235 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000235">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001081"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -6719,6 +6831,10 @@ Renal Dysfunction/Renal Failure
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000270">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000135"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -6943,7 +7059,10 @@ Perhaps move below &quot;Behavioral Abnormality&quot;?</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000280 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000280">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -6973,6 +7092,8 @@ Perhaps move below &quot;Behavioral Abnormality&quot;?</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000281">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000500"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -7206,6 +7327,9 @@ Perhaps move below &quot;Behavioral Abnormality&quot;?</ontology:SCDO_0000303>
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000296">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000676"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -7334,6 +7458,7 @@ Women usually have a lower creatinine level than men. This is because women usua
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000300 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000300">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -7399,7 +7524,10 @@ Women usually have a lower creatinine level than men. This is because women usua
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000305 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000305">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -7436,7 +7564,10 @@ Include below the Disease Modifier, Socioeconomic Status? (&quot;Child-Reported 
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000306 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000306">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -7466,7 +7597,10 @@ Include below the Disease Modifier, Socioeconomic Status? (&quot;Child-Reported 
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000307 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000307">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -8405,6 +8539,7 @@ Probably not caused by DM, as it is classified as a type of DM?</ontology:SCDO_0
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000379 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000379">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -8480,7 +8615,10 @@ Probably not caused by DM, as it is classified as a type of DM?</ontology:SCDO_0
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000384 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000384">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000995"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -8541,7 +8679,12 @@ Probably not caused by DM, as it is classified as a type of DM?</ontology:SCDO_0
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000385 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000385">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000942"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -8672,6 +8815,7 @@ Check and show which source was used for the description and whether the descrip
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000391 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000391">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -9072,6 +9216,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000410">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -9260,6 +9405,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000417">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000500"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -9333,6 +9480,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000420">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000208"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -9916,6 +10067,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000445">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000444"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001365"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -10182,7 +10334,6 @@ Note: &quot;Genetic Test&quot; is a SNOMED CT term.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000457">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -10402,6 +10553,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000466">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -10432,6 +10585,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000467">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -10557,7 +10714,10 @@ But this description seems to have changed and no longer refers to the same thin
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000490 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000490">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -10845,7 +11005,10 @@ A pulse that is hard to locate may mean blockages in the artery. These blockages
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000502 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000502">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000500"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -10903,6 +11066,8 @@ A pulse that is hard to locate may mean blockages in the artery. These blockages
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000504">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -11167,6 +11332,7 @@ A pulse that is hard to locate may mean blockages in the artery. These blockages
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000515 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000515">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001343"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11212,6 +11378,7 @@ A pulse that is hard to locate may mean blockages in the artery. These blockages
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000517 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000517">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001336"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11240,6 +11407,7 @@ A pulse that is hard to locate may mean blockages in the artery. These blockages
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000518">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000042"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11268,6 +11436,7 @@ A pulse that is hard to locate may mean blockages in the artery. These blockages
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000519 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000519">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11303,6 +11472,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000520">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000550"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11333,6 +11503,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000521">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000272"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11370,6 +11541,9 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000522">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -11469,6 +11643,7 @@ Birth: mean 16.5 g/dL (-2SD: 13.5 g/dL);
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000524 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000524">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11503,6 +11678,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000525">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000550"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11530,6 +11706,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000526">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000272"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11564,6 +11741,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000527 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000527">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001336"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11657,6 +11835,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000530 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000530">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11690,6 +11869,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000531">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000550"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11717,6 +11897,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000532">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000272"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11768,6 +11949,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000534">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000042"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11919,6 +12101,7 @@ Hemoglobin subunit alpha 2 (UniProt Number: P69905)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000540">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000272"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -11957,6 +12140,7 @@ Hemoglobin subunit alpha 2 (UniProt Number: P69905)</rdfs:comment>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000541">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000559"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000478"/>
@@ -12025,6 +12209,7 @@ Hemoglobin subunit alpha 2 (UniProt Number: P69905)</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000544 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000544">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12084,6 +12269,7 @@ Amino acid substitution:
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000546 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000546">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000543"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12108,6 +12294,8 @@ Amino acid substitution:
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000547 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000547">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000768"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12167,6 +12355,7 @@ Amino acid substitution:
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000549 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000549">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12258,7 +12447,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000552 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000552">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000445"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -12349,6 +12538,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000555 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000555">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12385,6 +12575,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000556">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -12478,6 +12669,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000560 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000560">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12606,6 +12798,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000567 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000567">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12674,6 +12869,9 @@ Personal Attribute---&gt; Personal medical history</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000569 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000569">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12709,6 +12907,9 @@ Personal Attribute---&gt; Personal medical history</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000570 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000570">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12822,7 +13023,10 @@ Personal Attribute---&gt; Personal medical history</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000574 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000574">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -13722,6 +13926,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000614">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000612"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -14164,6 +14370,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000645 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000645">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -14217,6 +14426,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A standardized tool designed to assess an individual’s cognitive abilities. It consists of a battery of tests that allow an investigator to conduct a comprehensive cognitive evaluation of IQ.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820501"/>
+        <ontology:SCDO_0000303>Life stage: Adolescent, Adult</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WAIS-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WAIS-IV and the WISC-V for guidance on selecting an age-appropriate test for individuals.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820501"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - 16 to 90 years #820501</ontology:SCDO_0000479>
@@ -14225,8 +14436,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>WAIS-IV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Adult Intelligence Scale, Fourth Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Adult Intelligence Scale, Fourth Edition (WAIS-IV)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Life stage: Adolescent, Adult</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WAIS-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WAIS-IV and the WISC-V for guidance on selecting an age-appropriate test for individuals.</rdfs:comment>
         <rdfs:label>Intelligence Scale - 16 to 90 years</rdfs:label>
     </owl:Class>
     
@@ -14244,6 +14453,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A standardized tool designed to assess the cognitive development in preschool and young children (up to age 7 years and 7 months). It consists of a battery of tests that allow an investigator to conduct a comprehensive evaluation of IQ.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820502"/>
+        <ontology:SCDO_0000303>Life stage: Toddler, Child</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WPPSI-IV and the Bayley Scales of Infant and Toddler Development, Third Edition (Bayley-III) and between the WPPSI-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WPPSI-IV, Bayley-III, and the WISC-V for guidance on selecting an age-appropriate test.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820502"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - 2 years, 6 months to 7 years, 7 months #820502</ontology:SCDO_0000479>
@@ -14252,8 +14463,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>WPPSI-IV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Preschool and Primary Scale of Intelligenc-Fourth Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Preschool and Primary Scale of Intelligenc-Fourth Edition (WPPSI-IV)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Life stage: Toddler, Child</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the WPPSI-IV and the Bayley Scales of Infant and Toddler Development, Third Edition (Bayley-III) and between the WPPSI-IV and the Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for the WPPSI-IV, Bayley-III, and the WISC-V for guidance on selecting an age-appropriate test.</rdfs:comment>
         <rdfs:label>Intelligence Scale - 2 years, 6 months to 7 years, 7 months</rdfs:label>
     </owl:Class>
     
@@ -14271,6 +14480,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A battery of tests that allow an investigator to conduct a comprehensive evaluation of a child or adolescent’s cognitive ability.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820503"/>
+        <ontology:SCDO_0000303>It consists of a core battery of subtests, which focus on five specific domains (verbal comprehension, processing speed, visual spatial, working memory, and fluid reasoning), as well as optional ancillary subtests. These ancillary subtests measure areas that are important to areas of academic achievement.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>Life stage: Child, Adolescent</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Wechsler Intelligence Scale for Children®-Fifth Edition (WISC-V) and Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI-IV), as well as between the WISC-V and the Wechsler Adult Intelligence Scale, Fourth Edition (WAIS-IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for WISC-V, WPPSI-IV, and WAIS-IV for guidance on selecting an age-appropriate test.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820503"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - 6 to 16 years 11 months #820503</ontology:SCDO_0000479>
@@ -14280,9 +14492,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>WISC-V</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Intelligence Scale for Children-Fifth Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wechsler Intelligence Scale for Children-Fifth Edition (WISC-V)</oboInOwl:hasExactSynonym>
-        <rdfs:comment>It consists of a core battery of subtests, which focus on five specific domains (verbal comprehension, processing speed, visual spatial, working memory, and fluid reasoning), as well as optional ancillary subtests. These ancillary subtests measure areas that are important to areas of academic achievement.</rdfs:comment>
-        <rdfs:comment>Life stage: Child, Adolescent</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Wechsler Intelligence Scale for Children®-Fifth Edition (WISC-V) and Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI-IV), as well as between the WISC-V and the Wechsler Adult Intelligence Scale, Fourth Edition (WAIS-IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for WISC-V, WPPSI-IV, and WAIS-IV for guidance on selecting an age-appropriate test.</rdfs:comment>
         <rdfs:label>Intelligence Scale - 6 to 16 years 11 months</rdfs:label>
     </owl:Class>
     
@@ -14300,6 +14509,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A standardized tool designed to assess a child’s development as compared to same-age peers. It has components that involve both direct observation and interaction with a child as well as caregiver questionnaires. It consists of five domains (cognitive, motor, language, social-emotional, and adaptive behavior).</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820504"/>
+        <ontology:SCDO_0000303>Life stage: Infant, Toddler, Child</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Bayley-III and the Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI - IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for Bayley-III and the WPPSI-IV for guidance on selecting an age-appropriate test.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820504"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
         <ontology:SCDO_0000479>PhenX protocol: Intelligence Scale - Birth to 3.5 years #820504</ontology:SCDO_0000479>
@@ -14308,8 +14519,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>Bayley Scales of Infant and Toddler Development, Third Edition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bayley Scales of Infant and Toddler Development, Third Edition (Bayley-III)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Bayley-III</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Life stage: Infant, Toddler, Child</rdfs:comment>
-        <rdfs:comment>The Sickle Cell Disease Neurology, Quality of Life, and Health Services Working Group recognizes that there is an age overlap between the Bayley-III and the Wechsler Preschool and Primary Scale of Intelligence-Fourth Edition (WPPSI - IV). The Working Group recommends that providers use their clinical judgment, consider the purpose of testing participants, and refer to the frequently asked questions section of the Pearson website for Bayley-III and the WPPSI-IV for guidance on selecting an age-appropriate test.</rdfs:comment>
         <rdfs:label>Intelligence Scale - Birth to 3.5 years</rdfs:label>
     </owl:Class>
     
@@ -15032,6 +15241,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000682">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -15086,6 +15299,11 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000683">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -15382,7 +15600,11 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000704 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000704">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000995"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -15450,7 +15672,13 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000705 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000705">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000942"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -15631,6 +15859,8 @@ These recommendations for standardization of the measurement of lung volume test
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000710">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -15663,7 +15893,10 @@ These recommendations for standardization of the measurement of lung volume test
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000711 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000711">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -15761,6 +15994,9 @@ These recommendations for standardization of the measurement of lung volume test
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000725 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000725">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -15929,7 +16165,10 @@ The SRSP suggests that this protocol could be administered to adolescents younge
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000740 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000740">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -16542,7 +16781,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
         <oboInOwl:hasExactSynonym>Gene, Modifier</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Modifier Genes</oboInOwl:hasExactSynonym>
-        <rdfs:label>Modifier Gene</rdfs:label>
+        <rdfs:label>Gene</rdfs:label>
     </owl:Class>
     
 
@@ -17143,6 +17382,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000786">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -17195,6 +17437,11 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000787">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -18476,6 +18723,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000834">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -18502,6 +18750,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000835 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000835">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001313"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -18678,6 +18928,15 @@ Move/copy below Infection?</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <dc:description>A disease where there is cellular death (necrosis) of bone components due to interruption of the blood supply.</dc:description>
         <dc:source rdf:resource="http://purl.bioontology.org/ontology/MEDLINEPLUS/C0029445"/>
+        <ontology:SCDO_0000303>No one is sure what causes the disease. Risk factors include:
+
+Long-term steroid treatment
+Alcohol abuse
+Joint injuries
+Having certain diseases, including arthritis and cancer
+Doctors use imaging tests and other tests to diagnose osteonecrosis. 
+
+Treatments include medicines, using crutches, limiting activities that put weight on the affected joints, electrical stimulation and surgery.</ontology:SCDO_0000303>
         <ontology:SCDO_0000303>This term replaced &quot;Avascular Necrosis&quot; in QoL.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/MEDLINEPLUS/C0029445"/>
         <ontology:SCDO_0000363>yes</ontology:SCDO_0000363>
@@ -18693,15 +18952,6 @@ Move/copy below Infection?</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym>Ischemic Bone Necrosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Osteochondronecrosis</oboInOwl:hasExactSynonym>
         <rdfs:comment>It is most common in the upper leg. Other common sites are your upper arm and your knees, shoulders and ankles.</rdfs:comment>
-        <rdfs:comment>No one is sure what causes the disease. Risk factors include:
-
-Long-term steroid treatment
-Alcohol abuse
-Joint injuries
-Having certain diseases, including arthritis and cancer
-Doctors use imaging tests and other tests to diagnose osteonecrosis. 
-
-Treatments include medicines, using crutches, limiting activities that put weight on the affected joints, electrical stimulation and surgery.</rdfs:comment>
         <rdfs:label>Osteonecrosis</rdfs:label>
     </owl:Class>
     
@@ -18918,6 +19168,7 @@ Perhaps add &quot;Bone decompression by drilling&quot; to therapeutics and link 
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000849 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000849">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000848"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -19239,6 +19490,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <dc:description>A physical assessment of the various symptoms associated with a stroke, consisting of eleven categories. The PedNIHSS was developed by a panel of pediatric and adult stroke experts and is a modification of the adult NIH stroke scale (NIHSS). Modifications were made to allow individuals age 18 or younger to be assessed and are identified in the PedNIHSS by bold italic text.</dc:description>
         <dc:source rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820802"/>
         <ontology:SCDO_0000004>PedNIHSS</ontology:SCDO_0000004>
+        <ontology:SCDO_0000303>For each category of the PedNIHSS, the examiner asks the respondent to perform an activity or respond to an action by the provider. Respondents receive a score for each category based upon their ability to complete the activity or respond to the action. Each score typically ranges from 0 to 3. Each category of the PedNIHSS is designed to determine the respondent’s level of consciousness (LOC), visual, motor, or language ability.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303>Life stage: Toddler, Child, Adolescent</ontology:SCDO_0000303>
         <ontology:SCDO_0000335>PX820802</ontology:SCDO_0000335>
         <ontology:SCDO_0000340 rdf:resource="http://www.phenxtoolkit.org/index.php?pageLink=browse.protocoldetails&amp;id=820802"/>
         <ontology:SCDO_0000479>PhenX protocol: Pediatric NIH Stroke Scale (PedNIHSS) #820802</ontology:SCDO_0000479>
@@ -19246,8 +19499,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0001335>Examiners must be trained to administer, score, and interpret the NIHSS. The National Institute of Neurological Disorders and Stroke (NINDS) provides a comprehensive interactive training DVD for the National Institutes of Health Stroke Scale (NIHSS). Information and purchasing details for this training is available on the NINDS website.</ontology:SCDO_0001335>
         <oboInOwl:hasExactSynonym>PedNIHSS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pediatric NIH Stroke Scale</oboInOwl:hasExactSynonym>
-        <rdfs:comment>For each category of the PedNIHSS, the examiner asks the respondent to perform an activity or respond to an action by the provider. Respondents receive a score for each category based upon their ability to complete the activity or respond to the action. Each score typically ranges from 0 to 3. Each category of the PedNIHSS is designed to determine the respondent’s level of consciousness (LOC), visual, motor, or language ability.</rdfs:comment>
-        <rdfs:comment>Life stage: Toddler, Child, Adolescent</rdfs:comment>
         <rdfs:label>Pediatric NIH Stroke Scale (PedNIHSS)</rdfs:label>
     </owl:Class>
     
@@ -19282,7 +19533,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000876 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000876">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -19334,7 +19588,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000878 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000878">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000875"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -19363,7 +19620,6 @@ Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000482>Clinic Patients (Children with SCD)</ontology:SCDO_0000482>
         <ontology:SCDO_0001222>Ages 2 to 18</ontology:SCDO_0001222>
         <ontology:SCDO_0001335>The PedsQL™ Sickle Cell Disease Module is a proprietary instrument and administration requires permission and a license from the MAPI Research Trust.</ontology:SCDO_0001335>
-        <rdfs:comment>Life Stage: Toddler, Child, Adolescent</rdfs:comment>
         <rdfs:comment>Life stage: Toddler; Child; Adolescent</rdfs:comment>
         <rdfs:label>PedsQL Sickle Cell Disease Module</rdfs:label>
     </owl:Class>
@@ -19538,7 +19794,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000885 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000885">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000848"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -19590,6 +19849,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000890 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000890">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -19672,6 +19932,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000893 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000893">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -20476,7 +20737,10 @@ Stage V:  retinal detachment.</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000927 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000927">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000871"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -20514,7 +20778,10 @@ Stage V:  retinal detachment.</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000928 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000928">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000871"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -20940,6 +21207,9 @@ Perhaps use description from term in existing ontology?</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000944">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -20972,7 +21242,11 @@ Perhaps use description from term in existing ontology?</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000945 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000945">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000942"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -21118,6 +21392,7 @@ Consumer Assessment of Healthcare Providers and Systems (CAHPS) Health Plan Surv
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000950 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000950">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -21150,7 +21425,10 @@ Consumer Assessment of Healthcare Providers and Systems (CAHPS) Health Plan Surv
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000952 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000952">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -21185,7 +21463,10 @@ ASCQ-Me - Quality of Life in SCD</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000953 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000953">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -21298,7 +21579,10 @@ Check and show which source was used for the description and whether the descrip
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000962 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000962">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -21330,6 +21614,8 @@ The PhenX protocol is U.S. specific.  Is there one relevant to the African setti
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000963">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000612"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -21555,6 +21841,7 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000975">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -21848,7 +22135,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000987 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000987">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000891"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -21988,7 +22278,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001004 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001004">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000973"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -22129,6 +22422,8 @@ If the retinal detachment is confined to the peripheral fundus, visual acuity ma
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001009 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001009">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001313"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -22221,6 +22516,8 @@ If the retinal detachment is confined to the peripheral fundus, visual acuity ma
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001012">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000500"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -22698,6 +22995,10 @@ Perhaps include different types of sepsis (see under D018805 in MESH)?</ontology
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001042">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -22954,7 +23255,9 @@ has translations</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001049 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001049">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000505"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -22976,7 +23279,10 @@ has translations</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001050 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001050">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -23531,6 +23837,8 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001065 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001065">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000552"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001336"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -23574,6 +23882,7 @@ Hemoglobin subunit beta (UniProt Number: P68871)</rdfs:comment>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001066 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001066">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -23882,6 +24191,7 @@ This manual is a proprietary instrument of the AASM and can be obtained through 
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001077">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -23906,6 +24216,8 @@ This manual is a proprietary instrument of the AASM and can be obtained through 
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001078 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001078">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001313"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -24287,6 +24599,9 @@ This manual is a proprietary instrument of the AASM and can be obtained through 
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001099">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -24317,7 +24632,11 @@ This manual is a proprietary instrument of the AASM and can be obtained through 
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001100 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001100">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000942"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -24596,6 +24915,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001112 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001112">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -24663,7 +24985,13 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001114 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001114">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000902"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -24851,7 +25179,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001121 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001121">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001120"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -24942,6 +25273,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001132 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001132">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25224,6 +25558,7 @@ has translations</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001152 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001152">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000471"/>
@@ -25616,7 +25951,12 @@ Include this term below &quot;Eye&quot;.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001205 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001205">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000676"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001216"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25676,7 +26016,12 @@ Include this term below &quot;Eye&quot;.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001206 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001206">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000676"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001216"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25751,7 +26096,11 @@ Include this term below &quot;Eye&quot;.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001209 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001209">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001207"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -25856,7 +26205,11 @@ Include this term below &quot;Eye&quot;.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001213 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001213">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -26088,6 +26441,8 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001230">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000082"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -26140,6 +26495,9 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001232 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001232">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -26482,7 +26840,10 @@ has translations</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001249 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001249">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
@@ -26511,6 +26872,8 @@ has translations</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001250 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001250">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001249"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -26546,6 +26909,7 @@ has translations</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001251">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -26863,7 +27227,10 @@ has translations</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001298 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001298">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -27369,6 +27736,11 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001322">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -27422,6 +27794,10 @@ Provide source for additional info.</ontology:SCDO_0000303>
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001323">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000136"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000483"/>
@@ -27514,7 +27890,11 @@ Provide source for additional info.</ontology:SCDO_0000303>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001326 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001326">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000896"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001152"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
@@ -27692,7 +28072,10 @@ IPR-MUS LD50 85 mg/kg,IVN-GPG LD50 120 mg/kg, IVN-MUS LD50 239 mg/kg, IVN-RAT LD
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001339 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001339">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001297"/>
@@ -27826,6 +28209,241 @@ Treatment that alters a gene. In studies of gene therapy for cancer, researchers
     
 
 
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001365 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001365">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001367 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001367">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">mode of inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001368 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001368">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001367"/>
+        <rdfs:label xml:lang="en">autosomal recessive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001369 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001369">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">Genetic variation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001370 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001370">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001369"/>
+        <rdfs:label xml:lang="en">mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001371 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001371">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001370"/>
+        <rdfs:label xml:lang="en">deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001372 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001372">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001370"/>
+        <rdfs:label xml:lang="en">point mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001373 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001373">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001372"/>
+        <rdfs:label xml:lang="en">beta C mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001374 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001374">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001373"/>
+        <rdfs:label xml:lang="en">heterozygous beta c mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001375 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001375">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001373"/>
+        <rdfs:label xml:lang="en">homozygous beta c mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001376 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001376">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001372"/>
+        <rdfs:label xml:lang="en">beta E mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001377 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001377">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001372"/>
+        <rdfs:label xml:lang="en">beta S mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001378 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001378">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000046"/>
+        <rdfs:label xml:lang="en">HBA1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001379 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001379">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000046"/>
+        <rdfs:label xml:lang="en">HBA2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001380 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001380">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000456"/>
+        <rdfs:label xml:lang="en">Delta-Globin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001381 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001381">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000456"/>
+        <rdfs:label xml:lang="en">Epsilon-Globin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001382 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001382">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000456"/>
+        <rdfs:label xml:lang="en">Gamma-Globin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001383 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001383">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000007"/>
+        <rdfs:label xml:lang="en">imbalanced glogin synthesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001384 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001384">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001383"/>
+        <rdfs:label xml:lang="en">reduced alpha/gamma synthesis ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001385 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001385">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001384"/>
+        <rdfs:label xml:lang="en">absence of alpha globin synthesis with gamma globin synthesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001386 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001386">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001371"/>
+        <rdfs:label xml:lang="en">deletion in alpha globin gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001387 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001387">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001386"/>
+        <rdfs:label xml:lang="en">homozygous deletion of hba1 and hba2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001388 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001388">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000518"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001362"/>
+                <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001387"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001363"/>
+                <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001378"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001363"/>
+                <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000059"/>
+                <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001385"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Normal adult haemoglobin is composed of two chains each of alpha and beta globin. Hb Barts (haemoglobin Barts) is a tetramer with four gamma globin chains, and is essentially pathognomonic for one or another form of alpha thalassemia. Hb Barts has an extremely high affinity for oxygen, resulting in almost no oxygen delivery to the tissues.</obo:IAO_0000115>
+        <ontology:SCDO_0000335 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0005507</ontology:SCDO_0000335>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The description should include the type of mutation, and the gene in which the mutation is found i.e. deletion of all four alpha-globin encoding genes (HBA1 and HBA2). The description explains the tetramer, but not the syndrome. RECOMMEND: Rename as homozygous alpha-thalassemia (recommend that add this to disease ontology). Make clear in description that it is the homozygous deletion of HBA1 and HBA2.</rdfs:comment>
+        <rdfs:label xml:lang="en">Haemoglobin Bart Hydrops Fetalis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemoglobin Bart Hydrops Fetalis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_1000001 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_1000001">
@@ -27898,6 +28516,7 @@ Treatment that alters a gene. In studies of gene therapy for cancer, researchers
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_1000007 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_1000007">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001336"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -27949,6 +28568,7 @@ Treatment that alters a gene. In studies of gene therapy for cancer, researchers
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_1000008 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_1000008">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001336"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -29817,15 +30437,15 @@ Perhaps have parent class Hemoglobinopathy Genotype, with Hemoglobinopathy Trait
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most common Hemoglobin Lepore type and the only type of the three known variants  described in association with HbS. This abnormal hemoglobin consists of two normal alpha globin chains (HBA) and two deltabeta globin fusion chains which occur due to a &quot;crossover&quot; between the delta (HBD) and beta globin (HBB) gene loci during meiosis.</dc:description>
         <dc:source rdf:resource="http://globin.cse.psu.edu/html/huisman/variants/hybrid/Lepore-Boston-Washington.html"/>
         <dc:source rdf:resource="http://www.enerca.org/anaemias/48/haemoglobin-lepore"/>
+        <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore is produced at a reduced rate and this is why the disease is related to the Β-thalassemic syndromes.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantity in heterozygotes 7-13%; found in combination with Hb S, Hb C, beta+-thal, and in the homozygous state.</ontology:SCDO_0000303>
+        <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the most common Hb Lepore type; found mainly in Italian families; it has also been observed in families from Rumania, Yugoslavia, Turkey, Cyprus, Jamaica, Cuba, Greece, England, Australia, Mexico, etc</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:resource="http://en.wikipedia.org/wiki/Hemoglobin_Lepore_syndrome#Homozygous_Hb_Lepore"/>
         <ontology:SCDO_0000340 rdf:resource="http://globin.cse.psu.edu/html/huisman/variants/hybrid/Lepore-Boston-Washington.html"/>
         <ontology:SCDO_0000363 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</ontology:SCDO_0000363>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore-B-W</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore-Boston-Washington</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemoglobin Lepore-Boston-Washington</oboInOwl:hasExactSynonym>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hb Lepore is produced at a reduced rate and this is why the disease is related to the Β-thalassemic syndromes.</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantity in heterozygotes 7-13%; found in combination with Hb S, Hb C, beta+-thal, and in the homozygous state.</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the most common Hb Lepore type; found mainly in Italian families; it has also been observed in families from Rumania, Yugoslavia, Turkey, Cyprus, Jamaica, Cuba, Greece, England, Australia, Mexico, etc</rdfs:comment>
         <rdfs:label>Hemoglobin Lepore Boston</rdfs:label>
     </owl:Class>
     
@@ -29867,6 +30487,27 @@ Perhaps have parent class Hemoglobinopathy Genotype, with Hemoglobinopathy Trait
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_1000091">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000065"/>
         <rdfs:label>S/Beta-Plus-Thal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_9000001 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_9000001">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000391"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001389"/>
+                <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001390"/>
+                <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alpha Thalassemia modifying Sickle Cell Disease</rdfs:label>
     </owl:Class>
     
 
@@ -30054,13 +30695,13 @@ Other tests: Some of the other tests you may have to help diagnose ataxia and de
         <rdfs:label>Surgery</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/R7hfSAL5e64WUzmSuK5ucF9">
-        <rdfs:label> main treatments are lifestyle changes to ensure you remain as healthy as possible
+        <rdfs:label>main treatments are lifestyle changes to ensure you remain as healthy as possible
 medication to control associated problems such as high blood pressure and high cholesterol
 dialysis – treatment to replicate some of the kidney&apos;s functions; this may be necessary in advanced CKD
 kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/R8B2yn4Tm7qG7n6WsVD7ncC">
-        <rdfs:label>Cancer can be caused by genetic factors; lifestyle factors such as tobacco use, diet, and physical activity; certain types of infections; and environmental exposures to different types of chemicals and radiation. </rdfs:label>
+        <rdfs:label>Cancer can be caused by genetic factors; lifestyle factors such as tobacco use, diet, and physical activity; certain types of infections; and environmental exposures to different types of chemicals and radiation.</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/R9ijIu7YgcYBvna4HiMaCxd">
         <rdfs:label>Severely Increased Albuminuria</rdfs:label>
@@ -30097,7 +30738,7 @@ dialysis – treatment to replicate some of the kidney&apos;s functions; this ma
 kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RBz3vjzQ1Bli4AOzvKzRV0K">
-        <rdfs:label> main treatments are:
+        <rdfs:label>main treatments are:
 lifestyle changes to ensure you remain as healthy as possible
 medication to control associated problems such as high blood pressure and high cholesterol
 dialysis – treatment to replicate some of the kidney&apos;s functions; this may be necessary in advanced CKD
@@ -30110,7 +30751,7 @@ kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
         <rdfs:label>Pain Management</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RCSthRzlPCPteW56cLbXFWs">
-        <rdfs:label>Biologic therapy, Antibody therapy, Stem-cell transplantation, Splenectomy, Steroid treatment, Radioimmunotherapy, Surgery, chemotherapy, and radiation therapy, </rdfs:label>
+        <rdfs:label>Biologic therapy, Antibody therapy, Stem-cell transplantation, Splenectomy, Steroid treatment, Radioimmunotherapy, Surgery, chemotherapy, and radiation therapy,</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RCkXVNX5OeyWgsNeYoQp8VL">
         <dc:description>A list of essential measures, measures that are critical to the collection of the measure at hand or are necessary for the interpretation of results for the measure at hand. Without such information, the data collected would be incomplete or misleading.</dc:description>
@@ -30136,7 +30777,7 @@ kidney transplant – this may also be necessary in advanced CKD</rdfs:label>
         <rdfs:label>Test for Stroke Risk in Children with Sickle Cell Disease - TCDi</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RKnp1T8Z6lnu0iMAhHgIiG">
-        <rdfs:label>Peritonitis, intraabdominal abscess, or sepsis, necrotizing myometritis, necrotizing fasciitis of the abdominal wall, septic pelvic thrombophlebitis, and toxic shock syndrome are rare complications, death. Amy be associated to secondary infertility.  </rdfs:label>
+        <rdfs:label>Peritonitis, intraabdominal abscess, or sepsis, necrotizing myometritis, necrotizing fasciitis of the abdominal wall, septic pelvic thrombophlebitis, and toxic shock syndrome are rare complications, death. Amy be associated to secondary infertility.</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/RQubaRAap6eVUQ0Po5yQHd">
         <rdfs:label>Visit your GP if you or your child have unexplained symptomssuch as balance and co-ordination problems or difficulty walking, talking or swallowing.
@@ -30163,5 +30804,5 @@ Other tests: Some of the other tests you may have to help diagnose ataxia and de
 
 
 
-<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
 

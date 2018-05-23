@@ -1,0 +1,18 @@
+PREFIX scdo: <http://scdontology.h3abionet.org/ontology/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+CONSTRUCT {
+?phenotype a owl:Class .
+?uri a owl:Class .
+?phenotype owl:equivalentClass ?uri
+}
+WHERE { 
+
+  ?phenotype scdo:SCDO_0000335 ?xref .
+  FILTER regex( str(?phenotype), "SCDO_.*") 
+  FILTER regex( ?xref, "^HP.*") 
+  BIND ( iri(concat ("http://purl.obolibrary.org/obo/", replace(?xref, "HP:", "HP_") )) as ?uri)
+
+}

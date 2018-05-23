@@ -9,10 +9,10 @@ BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
 ROBOT= ../../bin/robot
-OWLTOOLS= owltools
+OWLTOOLS= ../../bin/owltools
 USECAT= --use-catalog
 SPARQLDIR = ../sparql
-
+PREFIX="SCDO: http://scdontology.h3abionet.org/ontology/SCDO_"
 # ----------------------------------------
 # Top-level targets
 # ----------------------------------------
@@ -20,11 +20,10 @@ SPARQLDIR = ../sparql
 all: sparql_test $(ONT).owl $(ONT).obo $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	cp $(ONT).owl scdo_hpo_merged.owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
-	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
-	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
-	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
+	cp imports/*.owl $(RELEASEDIR)/imports &&\
+	git add $(RELEASEDIR)/imports/*.owl &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 # ----------------------------------------
@@ -49,31 +48,21 @@ $(ONT).obo: $(ONT).owl
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
 
-IMPORTS = 
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+imports/hp_import.txt: $(SRC) imports/hp.owl
+	$(ROBOT) merge --input imports/hp.owl --input $(SRC) query --select $(SPARQLDIR)/get_hpo_mappings.sparql imports/hp_import.txt 
 
-# Make this target to regenerate ALL
-all_imports: $(IMPORTS_OWL)
+results/hp_module.owl: imports/hp_import.txt
+	$(ROBOT) extract  --method BOT --input imports/hp.owl --term-file imports/hp_import.txt --output results/hp_module.owl
 
-# Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
-.PRECIOUS: imports/%_import.owl
+scdo_hp_bridge.owl: $(SRC) imports/hp.owl
+	$(ROBOT) query --input $(SRC) --format ttl --construct $(SPARQLDIR)/construct_hpo_bridge.sparql scdo_hp_bridge.owl
 
-# we use owltools for making the obo file until: https://github.com/ontodev/robot/issues/64
-imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
-
-# clone remote ontology locally, perfoming some excision of relations and annotations
-mirror/%.owl: $(SRC)
-	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
-.PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
 # Release
 # ----------------------------------------
 # copy from staging area (this directory) to top-level
-release: $(ONT).owl $(ONT).obo
+release: $(ONT).owl
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
 
 # ----------------------------------------
