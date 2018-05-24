@@ -32,8 +32,8 @@ prepare_release: all
 
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-$(ONT).owl: $(SRC) 
-	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template templates/AllTermsFinal.tsv template --merge-before --prefix $(PREFIX) --template templates/Topology.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+$(ONT).owl: $(SRC) templates/AllTermsFinal.tsv templates/Topology.tsv templates/haemoglobinopathies.tsv
+	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template templates/AllTermsFinal.tsv template --merge-before --prefix $(PREFIX) --template templates/Topology.tsv template --merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
 #template --merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv template  --merge-before --prefix $(PREFIX) --template templates/disease_modifiers.tsv 
 
