@@ -953,6 +953,22 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     
 
 
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl#caused_by_mutation -->
+
+    <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl#caused_by_mutation">
+        <rdfs:label>caused by mutation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl#has_abnormal_phenotype -->
+
+    <owl:ObjectProperty rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl#has_abnormal_phenotype">
+        <rdfs:label>has abnormal phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">

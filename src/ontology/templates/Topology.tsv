@@ -2191,9 +2191,6 @@ SCDO:0001384	reduced alpha/gamma synthesis ratio	imbalanced globin synthesis
 SCDO:0001385	absence of alpha globin synthesis with gamma globin synthesis	reduced alpha/gamma synthesis ratio
 SCDO:0001386	deletion in alpha globin gene	deletion
 SCDO:0001387	homozygous deletion of hba1 and hba2	deletion in alpha globin gene
-SCDO:0001388	Haemoglobin Bart Hydrops Fetalis	Haemoglobin Bart Hydrops Fetalis
-SCDO:0001388	Haemoglobin Bart Hydrops Fetalis	
-SCDO:0001388	Haemoglobin Bart Hydrops Fetalis	
 SCDO:0001415	Chronic Pain	Pain
 SCDO:0001423	Reticulocytopenia	Phenotype
 SCDO:0001436	Oxygen therapy	Symptomatic Therapeutics
@@ -2520,3 +2517,16 @@ SCDO:1000089	Hemoglobin Lepore Boston
 SCDO:1000089	Hemoglobin Lepore Boston	
 SCDO:1000090	Sickle Cell Disease-S/S-South End	Sickle Cell Disease Variant
 SCDO:1000091	Sickle beta plus thalassemia	S/Beta -Thal
+SCDO:0002107	Nature of mutations	mutation
+SCDO:0004314	Missense mutation	Nature of mutations
+SCDO:0005439	Silent mutation	Nature of mutations
+SCDO:0003789	Nonsense mutation	Nature of mutations
+SCDO:0005593	Genetic code	Genetic structure
+SCDO:0004598	Anticodon	Genetic code
+SCDO:0004623	Codon	Genetic code
+SCDO:0004716	Codon initiation	Codon
+SCDO:0001626	Nonsense codon	Codon
+SCDO:0005722	Genetic structure	Gene
+SCDO:0002130	Transcriptome	Genetic structure
+SCDO:0001158	Indel mutation	mutation
+SCDO:0001388	insertion	mutation
