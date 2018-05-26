@@ -598,8 +598,6 @@ SCDO:0000333	D57.812 Other sickle-cell disorders with splenic sequestration	D57.
 SCDO:0000333	D57.812 Other sickle-cell disorders with splenic sequestration	
 SCDO:0000334	"D57.819 Other sickle-cell disorders with crisis, unspecified"	D57.81 Other sickle-cell disorders with crisis
 SCDO:0000334	"D57.819 Other sickle-cell disorders with crisis, unspecified"	
-SCDO:0000338	Protein Molecule	Gene
-SCDO:0000338	Protein Molecule	Molecule
 SCDO:0000342	Delayed Puberty	Phenotype
 SCDO:0000342	Delayed Puberty	Quality of Life Related SCD Symptoms and Complications
 SCDO:0000342	Delayed Puberty	
@@ -2168,6 +2166,7 @@ SCDO:0001341	Gender	Personal Attribute
 SCDO:0001342	Gene-Environment Interaction	Disease Modifier
 SCDO:0001343	Gene Product	Gene
 SCDO:0001343	Gene Product	Molecule
+SCDO:0000338	Protein Molecule	Gene Product
 SCDO:0001344	Gene Therapy	Curative Therapeutics
 SCDO:0001365	Disease	SCDO
 SCDO:0001367	mode of inheritance	SCDO
@@ -2239,7 +2238,6 @@ SCDO:0003158	oligomenorrhea	Phenotype
 SCDO:0003263	Constipation	Phenotype
 SCDO:0003675	Single nucleotide polymorphism	Genetic Polymorphism
 SCDO:0003696	Peripheral blood film	Blood Cell Measurement
-SCDO:0003712	Molecule	Biological Disease Modifier
 SCDO:0003742	Splenectomy	Symptomatic Therapeutics
 SCDO:0003765	pericarditis	Phenotype
 SCDO:0003769	Ventricular tachycardia	Phenotype
@@ -2377,7 +2375,6 @@ SCDO:0009350	Splenic Sequestration	Phenotype
 SCDO:0009445	Renal papillary necrosis	Phenotype
 SCDO:0009453	Hemoglobins	Globin Loci
 SCDO:0009488	Molecule	Biological Disease Modifier
-SCDO:0009488	Molecule	
 SCDO:0009619	Arrhythmia	Phenotype
 SCDO:0009620	Low reticulocyte count	Phenotype
 SCDO:0009635	Aplastic Crises	Phenotype
