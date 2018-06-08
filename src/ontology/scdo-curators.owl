@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
+<rdf:RDF xmlns="http://scdontology.h3abionet.org/ontology/scdo.owl#"
+     xml:base="http://scdontology.h3abionet.org/ontology/scdo.owl"
+=======
 <rdf:RDF xmlns="http://scdontology.h3abionet.org/ontology/scdo.owl/"
      xml:base="http://scdontology.h3abionet.org/ontology/scdo.owl/"
+>>>>>>> master
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -1720,7 +1725,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000072 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000072">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000002"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Abnormal formation of blood vessels that shunt arterial blood directly into veins without passing through the CAPILLARIES. They usually are crooked, dilated, and with thick vessel walls. A common type is the congenital arteriovenous fistula. The lack of blood flow and oxygen in the capillaries can lead to tissue damage in the affected areas. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.bioontology.org/ontology/MESH/D001165</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11294</oboInOwl:hasDbXref>
@@ -1762,7 +1771,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000075 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000075">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Inflammation of a joint. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0001369</ontology:SCDO_0000340>
@@ -1871,7 +1884,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000086">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000954"/>
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000008"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A form of bronchial disorder with three distinct components: airway hyper-responsiveness, airway inflammation, and intermittent airway obstruction. It is characterized by spasmodic contraction of airway smooth muscle, wheezing and dyspnea. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Further work</ontology:SCDO_0000303>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Include a copy of this term below &quot;Comorbid Disease&quot; and/or below &quot;Respiratory System&quot;.</ontology:SCDO_0000303>
@@ -1940,7 +1957,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000092 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000092">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000049"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absence of any measurable level of sperm in a male&apos;s semen. [Curator team: []]</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14227</oboInOwl:hasDbXref>
@@ -2272,7 +2293,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000118 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000118">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Exaggerated concavity of the anterior or posterior surface of the vertebral body, i.e., the upper and lower vertebral endplates are hollowed inward. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0004586</oboInOwl:hasDbXref>
@@ -2664,7 +2689,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000153 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000153">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An abnormally increased tendency to fractures of bones caused by an abnormal reduction in bone strength that is generally associated with an increased risk of fracture. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0002659</ontology:SCDO_0000340>
@@ -2692,7 +2721,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000155 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000155">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An increase in bone density, such that the bone is more radiopaque than normal on a plain film. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replace with &quot;Osteosclerosis&quot; ?</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/bone+sclerosis</ontology:SCDO_0000340>
@@ -4185,7 +4218,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000308 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000308">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001070"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A darkening of the skin related to an increase in melanin production and deposition. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000953</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000953</oboInOwl:hasDbXref>
@@ -4199,7 +4236,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000309 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000309">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001070"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A bluish or purplish discoloration of the skin and mucous membranes due to an increase in the amount of deoxygenated hemoglobin in the blood or a structural defect in the hemoglobin molecule. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000961</oboInOwl:hasDbXref>
@@ -4666,7 +4707,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000366 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000366">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A state of excessive water excretion and hypotonic (dilute) polyuria. Diabetes insipidus may be due to failure of vasopressin (AVP) release (central or neurogenic diabetes insipidus) or to a failure of the kidney to respond to AVP (nephrogenic diabetes insipidus). [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000873</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9409</oboInOwl:hasDbXref>
@@ -4692,7 +4737,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000369 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000369">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A type of diabetic metabolic abnormality with an accumulation of ketone bodies. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Should this term not be below Diabetes Mellitus (DM)? And also included below DM below &quot;Comorbid Disease&quot;? -- Probably not caused by DM, as it is classified as a type of DM?</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0001953</ontology:SCDO_0000340>
@@ -4991,7 +5040,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000407 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000407">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000007"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A small hemorrhagic spot, larger than a petechia, in the skin or mucous membrane forming a nonelevated, rounded or irregular, blue or purplish patch. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000978</oboInOwl:hasDbXref>
@@ -5214,7 +5267,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000425 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000425">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An increased level of iron in liver tissues. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0012465</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0012465</oboInOwl:hasDbXref>
@@ -5239,7 +5296,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000429 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000429">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000001"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A term that means brain disease, damage, or malfunction. In general, it is manifested by an altered mental state. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info. --  -- Specify which Blood Tests and Which Imaging Tests are used to diagnose.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001298</oboInOwl:hasDbXref>
@@ -5309,7 +5370,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000434">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000954"/>
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000051"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Lack of the ability to control the urinary bladder leading to involuntary urination at an age where control of the bladder should already be possible. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000805</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000805</oboInOwl:hasDbXref>
@@ -9140,6 +9205,10 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000795 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000795">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000006"/>
+=======
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A nonspecific term referring to disease or damage of the kidneys. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000112</oboInOwl:hasDbXref>
@@ -13049,7 +13118,10 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000676"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+<<<<<<< HEAD
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001216"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A bioassay to measure urine concentration of albumin, which is produced by the liver and is the most abundant protein in the blood. [Curator team: []]&apos;</obo:IAO_0000115>
@@ -13067,7 +13139,10 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000676"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+<<<<<<< HEAD
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000950"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001216"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A bioassay to measure urine concentration of creatinine, a muscle metabolite that is filtered out of blood by the kidneys. [Curator team: []]&apos;</obo:IAO_0000115>
@@ -13217,7 +13292,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001219 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001219">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000007"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Raised, well-circumscribed areas of erythema and edema involving the dermis and epidermis. Urticaria is intensely pruritic, and blanches completely with pressure. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1555</oboInOwl:hasDbXref>
@@ -13300,7 +13379,10 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001230">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000082"/>
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000376"/>
+<<<<<<< HEAD
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Extraction of blood from a vein using a needle. In human, the basilic, cephalic and median cubital veins are most commonly used as well as the femoral vein. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/MMO_0000090</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMO:0000090</oboInOwl:hasDbXref>
@@ -13312,7 +13394,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001231 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001231">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000002"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Enlargement of the cardiovascular ventricular muscle tissue with increase in the width of the wall of the ventricle and loss of elasticity. Ventricular hypertrophy is clinically differentiated into left and right ventricular hypertrophy. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0001714</ontology:SCDO_0000340>
@@ -13408,7 +13494,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001241 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001241">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000895"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An acute onset of wheezing in a persons with SCD and co-morbid asthma. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asthma Attack</oboInOwl:hasExactSynonym>
@@ -13804,7 +13894,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001311 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001311">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000001"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A neurological condition related to lesions of the basal ganglia leading to typical abnormalities including akinesia (inability to initiate changes in activity and perform volitional movements rapidly and easily), muscular rigidity (continuous contraction of muscles with constant resistance to passive movement), chorea (widespread arrhythmic movements of a forcible, rapid, jerky, and restless nature), athetosis (inability to sustain the muscles of the fingers, toes, or other group of muscles in a fixed position), and akathisia (inability to remain motionless). [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002071</oboInOwl:hasDbXref>
@@ -14178,7 +14272,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;The pattern in which a particular genetic trait or disorder is passed from one generation to the next. [Curator team: Exact []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000005</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000005</oboInOwl:hasDbXref>
+<<<<<<< HEAD
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mode of inheritance</rdfs:label>
+=======
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mode of inheritance</rdfs:label>
+>>>>>>> master
     </owl:Class>
     
 
@@ -14465,7 +14563,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001488 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001488">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A chronic disorder of the liver in which liver tissue becomes scarred and is partially replaced by regenerative nodules and fibrotic tissue resulting in loss of liver function.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cirrhosis</rdfs:label>
     </owl:Class>
@@ -14633,7 +14735,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0002039 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0002039">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A deficiency of the essential metal Zinc; an essential cofactor for many enzymes. Zinc deficiency is caused by a lack of zinc in the diet, loss of zinc after absorption, for example through loss through burns, inability to absorb Zinc, or increased loss through exercise.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zinc deficiency</rdfs:label>
     </owl:Class>
@@ -14734,7 +14840,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0002700 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0002700">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A reduction in the number of circulating thrombocytes.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thrombocytopenia</rdfs:label>
     </owl:Class>
@@ -14928,7 +15038,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0003263 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0003263">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Infrequent or difficult evacuation of feces. [Curator team: https://cks.nice.org.uk/sickle-cell-disease#!backgroundsub:4 []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0002019</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002019</oboInOwl:hasDbXref>
@@ -14980,7 +15094,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0003769 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0003769">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000002"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A tachycardia originating in the ventricles characterized by rapid heart rate (over 100 beats per minute) and broad QRS complexes (over 120 ms).&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ventricular tachycardia</rdfs:label>
     </owl:Class>
@@ -15309,7 +15427,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0004829 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0004829">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000002"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Brief reversible episodes of focal, nonconvulsive ischemic dysfunction of the brain having a duration of less than 24 hours, and usually less than one hour, caused by transient thrombotic or embolic blood vessel occlusion or stenosis. Events may be classified by arterial distribution, temporal pattern, or etiology (e.g., embolic vs. thrombotic). [Curator team: https://cks.nice.org.uk/sickle-cell-disease#!scenariosub []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0003764</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0003764</oboInOwl:hasDbXref>
@@ -15321,7 +15443,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0004832 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0004832">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Tissue death resulting from an interruption to the blood supply. [Curator team: https://cks.nice.org.uk/sickle-cell-disease#!scenariosub []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a synonym for osteonecrosis in our ontology (SCDO:0000841), which is controversial between different literature. Please check with a clinician if these two terms refer to the same condition.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C118385</ontology:SCDO_0000340>
@@ -15346,7 +15472,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0004836 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0004836">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000002"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;inadequate blood flow to and/or oxygenation of the heart producing chest pain&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angina</rdfs:label>
     </owl:Class>
@@ -15574,7 +15704,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0005490 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0005490">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000008"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Inflammation of the bronchioles. [Curator team: SCD Management guidelines - Jamaica []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0011950</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011950</oboInOwl:hasDbXref>
@@ -15653,7 +15787,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0005733 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0005733">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A vitamin metabolic disorder that results from low blood levels of vitamin B12.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin B12 deficiency</rdfs:label>
     </owl:Class>
@@ -15875,7 +16013,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0006847 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0006847">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000000"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An acute form of acquired red cell aplasia. A significant change in blood picture is observed, characterised by a precipitous fall in the haemoglobin level (&gt;20 g/l beyond steady state level) and reduced (&lt;1%) or absent reticulocytes in the peripheral blood. The total white blood cell or platelet counts may or may not be affected. In addition, there is no significant increase in the unconjugated fraction of serum bilirubin.The most common cause is infection by parvovirus B19, a DNA virus that replicates inside immature red blood cells in the bone marrow, resulting in severe anaemia (hemoglobin levels well below steady state) and low reticulocyte count. It is rarely recurrent. [Curator team: SCD Management guidelines - Nigeria SCD Management guidelines - South Africa SCD Management guidelines - Jamaica []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCD Management guidelines - Nigeria, SCD Management guidelines - South Africa, SCD Management guidelines - Jamaica; Juwah, A. I., Nlemadim, E. U., &amp; Kaine, W. (2004). Types of anaemic crises in paediatric patients with sickle cell anaemia seen in Enugu, Nigeria. Archives of disease in childhood, 89(6), 572-576.</ontology:SCDO_0000340>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplastic crisis</rdfs:label>
@@ -15919,7 +16061,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0007091 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0007091">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Hard, pebble-like deposits that form within the gallbladder. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0001081</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001081</oboInOwl:hasDbXref>
@@ -15963,7 +16109,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0007281 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0007281">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Insufficient production of steroid hormones (primarily cortisol) by the adrenal glands as a result of a primary defect in the glands themselves.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenal insufficiency</rdfs:label>
     </owl:Class>
@@ -16128,7 +16278,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0007856 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0007856">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An acute or chronic inflammation involving the gallbladder wall. It may be associated with the presence of gallstones. [Curator team: https://cks.nice.org.uk/sickle-cell-disease#!diagnosissub:3 []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C34465</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT_C34465</oboInOwl:hasDbXref>
@@ -16174,7 +16328,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0008043 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0008043">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Abnormally increased frequency of loose or watery bowel movements.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diarrhea</rdfs:label>
     </owl:Class>
@@ -16337,7 +16495,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0008623 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0008623">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000851"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;The obstruction of blood vessels by altered erythrocytes that can result in pain, anemia and tissue ischemia&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaso-occlusion</rdfs:label>
     </owl:Class>
@@ -16358,7 +16520,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0008766 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0008766">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Acute infection of the bile ducts caused by bacteria ascending from the small intestine. [Curator team: https://cks.nice.org.uk/sickle-cell-disease#!diagnosissub:3 []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCIT_C35372</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT_C35372</oboInOwl:hasDbXref>
@@ -16435,7 +16601,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0008990 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0008990">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000893"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Can be an acute or chronic bone problem in SCD. Occurs where there is infarction of vertebral bone marrow, leading to collapse of the vertebrae with a typical &apos;fish mouth&apos; appearance. It is often asymptomatic, but may cause acute and/or long term pain requiring analgesia and mechanical support such as a brace. [Curator team: https://cks.nice.org.uk/sickle-cell-disease#!scenariosub []]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebral collapse</rdfs:label>
     </owl:Class>
@@ -16536,7 +16706,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0009488 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0009488">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000017"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000122"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Any single chemical entity that is an electrically neutral entity consisting of more than one atom. Each atom carries a certain number of electrons that orbit around the nucleus.[Curator team: []]&apos;</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25367</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/CHEBI_25367</oboInOwl:hasDbXref>
@@ -16548,7 +16722,11 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0009619 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0009619">
+<<<<<<< HEAD
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000002"/>
+=======
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+>>>>>>> master
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Any cardiac rhythm other than the normal sinus rhythm. Such a rhythm may be either of sinus or ectopic origin and either regular or irregular. An arrhythmia may be due to a disturbance in impulse formation or conduction or both. [Curator team: SCD Management guidelines - Jamaica []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0011675</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011675</oboInOwl:hasDbXref>
@@ -18203,6 +18381,152 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     
 
 
+<<<<<<< HEAD
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000038 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000038">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000043"/>
+        <rdfs:label>Ethnic Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000039 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000039">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000043"/>
+        <rdfs:label>Ethnic Status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000040 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000040">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000041 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000041">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:label>Major Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000042 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000042">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000041"/>
+        <rdfs:label>Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000043 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000043">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000890"/>
+        <rdfs:label>Ethnicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000044 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000044">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000039"/>
+        <rdfs:label>Mixed Ethnicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000045 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000045">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000039"/>
+        <rdfs:label>Conserved Ethnicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <obo:IAO_0000115>An abnormality of the endocrine system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0000818</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>Endocrine system disease</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Abnormality of the endocrine system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000047 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000047">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <obo:IAO_0000115>Abnormality of the adrenal glands, i.e., of the endocrine glands located at the top of the kindneys.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0000834</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Adrenal abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Adrenal gland disease</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Abnormality of the adrenal glands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <obo:IAO_0000115>An abnormality of the form, structure, or size of the skeletal system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0011842</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormally shaped skeletal</oboInOwl:hasExactSynonym>
+        <rdfs:label>Abnormality of skeletal system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000049 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000049">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <obo:IAO_0000115>A structural or developmental anomaly of any of the tissues involved in the genital system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0012243</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormal genital system morphology</oboInOwl:hasExactSynonym>
+        <rdfs:label>Abnormal reproductive system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <ontology:SCDO_0000303>Any anomaly of the digestive system, a collection of organs that is made up of the gastrointestinal tract and the liver, pancreas, and gallbladder. The gastrointestinal tract is a series of hollow organs joined in a long, twisting tube from the mouth to the anus, including the mouth, esophagus, stomach, small intestine, large intestine and anus.</ontology:SCDO_0000303>
+        <rdfs:label>Abnormality of the digestive system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000051 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000051">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <obo:IAO_0000115>An abnormality of the urinary system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0000079</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Urinary tract abnormalities</oboInOwl:hasExactSynonym>
+        <rdfs:label>Abnormality of the urinary system</rdfs:label>
+    </owl:Class>
+    
+
+
+=======
+>>>>>>> master
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -18490,5 +18814,9 @@ Other tests: Some of the other tests you may have to help diagnose ataxia and de
 
 
 
+<<<<<<< HEAD
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+=======
 <!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+>>>>>>> master
 
