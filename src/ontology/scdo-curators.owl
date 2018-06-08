@@ -15773,7 +15773,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0006429 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0006429">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An uncommon complication of cholecystitis and refers to a situation where the gallbladder lumen is filled and distended by purulent material (pus). [Curator team: https://cks.nice.org.uk/sickle-cell-disease#!diagnosissub:3 []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://radiopaedia.org/articles/gallbladder-empyema</ontology:SCDO_0000340>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gallbladder empyema</rdfs:label>
