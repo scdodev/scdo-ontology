@@ -12431,7 +12431,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001102 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001102">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Complete bilateral fractures of the pars interarticularis resulting in the anterior slippage of the vertebra. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0003302</ontology:SCDO_0000340>
@@ -18350,6 +18350,33 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000031"/>
         <oboInOwl:hasExactSynonym>Sickle Cell Disease plus alpha thalassemia</oboInOwl:hasExactSynonym>
         <rdfs:label>SCD plus Alpha thalassemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000053 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000053">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0005660"/>
+        <rdfs:label>None Anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000054 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000054">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0005660"/>
+        <rdfs:label>Mild Anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000055 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000055">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0005660"/>
+        <rdfs:label>Severe Anemia</rdfs:label>
     </owl:Class>
     
 
