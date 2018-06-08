@@ -7151,7 +7151,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000587 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000587">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An increased concentration of insulin in the blood. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000842</ontology:SCDO_0000340>
@@ -7165,7 +7165,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000588 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000588">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Abnormally high potassium concentration in the blood, most often due to defective renal excretion. It is characterized clinically by electrocardiographic abnormalities (elevated T waves and depressed P waves, and eventually by atrial asystole). In severe cases, weakness and flaccid paralysis may occur. (Dorland, 27th ed). [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.bioontology.org/ontology/MESH/D006947</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002153</oboInOwl:hasDbXref>
@@ -7194,7 +7194,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000590 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000590">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An elevated lipid concentration in the blood. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0003077</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003077</oboInOwl:hasDbXref>
@@ -7206,7 +7206,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000591 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000591">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Excessive growth or abnormal thickening of bone tissue. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0100774</ontology:SCDO_0000340>
@@ -7222,7 +7222,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000592 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000592">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Excessive production of parathyroid hormone (PTH) by the parathyroid glands. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000843</ontology:SCDO_0000340>
@@ -7249,7 +7249,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000595 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000595">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of thyroid physiology characterized by excessive secretion of the thyroid hormones thyroxine (i.e., T4) and/or 3,3&apos;,5-triiodo-L-thyronine zwitterion (i.e., triiodothyronine or T3). [Curator team: []]</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000836</ontology:SCDO_0000340>
@@ -7264,7 +7264,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000596 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000596">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An abnormally high level of uric acid in the blood. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1920</oboInOwl:hasDbXref>
@@ -14894,7 +14894,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0003118 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0003118">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An increased amount of bilirubin in the blood.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbilirubinemia</rdfs:label>
     </owl:Class>
@@ -15455,7 +15455,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0005191 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0005191">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Typified by an acute reduction in hemoglobin level associated with higher than usual reticulocyte counts and perhaps an unaccountable and sudden increase in LDH.&apos;</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperhemolysis</rdfs:label>
     </owl:Class>
@@ -18377,6 +18377,18 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000055">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0005660"/>
         <rdfs:label>Severe Anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <obo:IAO_0000115>An abnormality of the metabolism.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0001939</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Metabolism abnormality</oboInOwl:hasExactSynonym>
+        <rdfs:label>Abnormality of metabolism</rdfs:label>
     </owl:Class>
     
 
