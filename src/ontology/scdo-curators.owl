@@ -9140,6 +9140,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000795 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000795">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A nonspecific term referring to disease or damage of the kidneys. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check and show which source was used for the description and whether the description was adapted from the source. -- Provide source for additional info.</ontology:SCDO_0000303>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000112</oboInOwl:hasDbXref>
