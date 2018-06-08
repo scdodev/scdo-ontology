@@ -18348,7 +18348,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000052">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000031"/>
-        <oboInOwl:hasExactSynonym>Sickle Cell Disease alpha thalassemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sickle Cell Disease plus alpha thalassemia</oboInOwl:hasExactSynonym>
         <rdfs:label>SCD plus Alpha thalassemia</rdfs:label>
     </owl:Class>
     
