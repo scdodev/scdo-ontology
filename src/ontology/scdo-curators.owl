@@ -7305,7 +7305,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000599 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000599">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000056"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A decreased concentration of glucose in the blood. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0001943</ontology:SCDO_0000340>
@@ -7346,7 +7346,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000603 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000603">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000046"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Deficiency of thyroid hormone. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000821</ontology:SCDO_0000340>
@@ -9583,7 +9583,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000839 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000839">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Osteomalacia is a general term for bone weakness owing to a defect in mineralization of the protein framework known as osteoid. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0002749</ontology:SCDO_0000340>
@@ -9597,7 +9597,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000840 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000840">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An infection of bone. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info. --  -- Move/copy below Infection?</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0002754</ontology:SCDO_0000340>
@@ -9613,7 +9613,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000841">
         <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000954"/>
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;A disease where there is cellular death (necrosis) of bone components due to interruption of the blood supply. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No one is sure what causes the disease. Risk factors include: --  -- Long-term steroid treatment -- Alcohol abuse -- Joint injuries -- Having certain diseases, including arthritis and cancer -- Doctors use imaging tests and other tests to diagnose osteonecrosis.  --  -- Treatments include medicines, using crutches, limiting activities that put weight on the affected joints, electrical stimulation and surgery.</ontology:SCDO_0000303>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term replaced &quot;Avascular Necrosis&quot; in QoL.</ontology:SCDO_0000303>
@@ -9655,7 +9655,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000843 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000843">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Osteopenia refers to a reduction in bone mineral density (BMD) below normal peak BMD but not low enough to be classified as osteoporosis. According to the WHO, osteopenia is characterized by a value of BMD more than 1 standard deviation below the young adult mean, but less than 2 standard deviations below this value. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000938</ontology:SCDO_0000340>
@@ -9670,7 +9670,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0000844 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0000844">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Osteoporosis is a systemic skeletal disease characterized by low bone density and microarchitectural deterioration of bone tissue with a consequent increase in bone fragility. According to the WHO, osteoporosis is characterized by a value of BMD 2.5 standard deviations or more below the young adult mean, based on age and sex. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0000939</ontology:SCDO_0000340>
@@ -11437,7 +11437,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0001026 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0001026">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;The presence of an abnormal lateral curvature of the spine. [Curator team: []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provide source for additional info.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0002650</ontology:SCDO_0000340>
@@ -14641,7 +14641,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0002067 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0002067">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000048"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;An arthritis that involves infection by a pathogen located_in joint. [Curator team: SCD Management guidelines - South Africa []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/DOID_813</ontology:SCDO_0000340>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:813</oboInOwl:hasDbXref>
@@ -16580,7 +16580,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0009656 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0009656">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000008"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Difficulty in breathing. The physical presentation of respiratory distress is generally referred to as labored breathing, while the sensation of respiratory distress is called shortness of breath or dyspnea. [Curator team: SCD Management guidelines - Tanzania []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is a symptom of acute chest syndrome</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0002098</ontology:SCDO_0000340>
@@ -16615,7 +16615,7 @@ If required later, specify as inverse of &quot;treated with&quot; in Protege.</o
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0009774 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0009774">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009818"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/scdo.owl/SCDO_1000050"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Impairment of bile flow due to obstruction in the small bile ducts within the liver. [Curator team: SCD Management guidelines - Tanzania []]&apos;</obo:IAO_0000115>
         <ontology:SCDO_0000303 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is managed by: analgesia, hydration, antibiotics, and in severe cases exchange transfusion may be needed.</ontology:SCDO_0000303>
         <ontology:SCDO_0000340 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/HP_0001406</ontology:SCDO_0000340>
