@@ -65,7 +65,7 @@ scdo_hp_bridge.owl: $(ONT).owl imports/hp.owl
 # Release
 # ----------------------------------------
 # copy from staging area (this directory) to top-level
-release: $(ONT).owl
+release: $(ONT).o*
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
 
 # ----------------------------------------
