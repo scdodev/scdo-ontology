@@ -8,6 +8,11 @@ The latest version of the ontology can always be found at:
 
 http://scdontology.h3abionet.org/ontology/scdo.owl
 
+### Release notes
+
+Release notes can be viewed here:
+https://docs.google.com/document/d/e/2PACX-1vSXWXuKCHmMrOKGQOzObuy6jLVnUuOR4-jGLGLhoE8qcJeywwIzAAC0VQVGT0EUuZ0gOWT59wxpxCU6/pub
+
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/scdo-edit.owl](src/ontology/scdo-edit.owl)
