@@ -104,9 +104,3 @@ interoperability/scdo-sssom-xrefs.tsv: scdo-edit.owl | interoperability/
 	$(ROBOT) query -i $< -f tsv --query $(SPARQLDIR)/sssom-xrefs.sparql $@
 	sed -i -E 's/[<>?"]//g' $@
 
-	#curie_map: 
-	#  HP: "http://purl.obolibrary.org/obo/HP_"
-	#  MP: "http://purl.obolibrary.org/obo/MP_"
-	#  skos: "http://www.w3.org/2004/02/skos/core"
-	#license: "https://creativecommons.org/publicdomain/zero/1.0/"
-	#mapping_provider: "http://purl.obolibrary.org/obo/upheno.owl"
