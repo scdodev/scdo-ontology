@@ -1,0 +1,9 @@
+id	Term	induced by
+ID		C 'induced by' some %
+SCDO:0000581	Hydroxyurea-Induced Adverse Event	Hydroxyurea
+SCDO:0000291	Corticosteroid-Induced Adverse Event	Corticosteroid
+SCDO:0001308	Exercise-Induced Rhabdomyolysis	Exercise
+SCDO:0000402	Drug-Induced Neuropathy AE	Drug
+SCDO:0000582	Hydroxyurea-Induced Cutaneous Adverse Event	Hydroxyurea
+SCDO:0000583	Hydroxyurea-Induced Splenomegaly Adverse Event	Hydroxyurea
+SCDO:0000292	Corticosteroid-Induced Vaso-Occlusive Adverse Event	Corticosteroid

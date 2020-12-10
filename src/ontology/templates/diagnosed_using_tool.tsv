@@ -1,0 +1,220 @@
+id	Term	diagnosed using tool
+ID		C 'diagnosed using tool' some %
+SCDO:0007656	Sickle Cell Thalassemia	Hemoglobin Profile Assay
+SCDO:0007656	Sickle Cell Thalassemia	Genetic Testing
+SCDO:0007656	Sickle Cell Thalassemia	Blood Smear
+SCDO:0001051	Variant Sickle Cell Syndrome	Hemoglobin Profile Assay
+SCDO:0001051	Variant Sickle Cell Syndrome	Genetic Testing
+SCDO:0001051	Variant Sickle Cell Syndrome	Blood Smear
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	Hemoglobin Profile Assay
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	Genetic Testing
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	Blood Smear
+SCDO:1000166	Sickle Cell Disease C/S Antilles	Hemoglobin Profile Assay
+SCDO:1000166	Sickle Cell Disease C/S Antilles	Isoelectric Focusing
+SCDO:1000166	Sickle Cell Disease C/S Antilles	Genetic Testing
+SCDO:1000090	Sickle Cell Disease-S/S-South End	Hemoglobin Profile Assay
+SCDO:1000090	Sickle Cell Disease-S/S-South End	Genetic Testing
+SCDO:1000062	Sickle Cell Disease-S/C-Harlem	Genetic Testing
+SCDO:0008713	Sickle Cell Anemia Associated with Alpha Thalassemia	Gap PCR
+SCDO:0000518	Hemoglobin Barts Hydrops Fetalis	Electrophoresis
+SCDO:0000518	Hemoglobin Barts Hydrops Fetalis	Cordocentesis
+SCDO:0000518	Hemoglobin Barts Hydrops Fetalis	Gap PCR
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	Hemoglobin Profile Assay
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	Genetic Testing
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	Blood Smear
+SCDO:0001056	Sickle Cell Disease-S Beta Minus Thalassemia	Hemoglobin Profile Assay
+SCDO:0001056	Sickle Cell Disease-S Beta Minus Thalassemia	Genetic Testing
+SCDO:0001056	Sickle Cell Disease-S Beta Minus Thalassemia	Blood Smear
+SCDO:0000534	Hemoglobin H Disease	Hemoglobin Profile Assay
+SCDO:0000534	Hemoglobin H Disease	Gap PCR
+SCDO:0000115	Beta Zero Thalassemia	Hemoglobin Profile Assay
+SCDO:0000115	Beta Zero Thalassemia	Genetic Testing
+SCDO:0000115	Beta Zero Thalassemia	Blood Smear
+SCDO:0000530	Hemoglobin E Disease	Electrophoresis
+SCDO:0000530	Hemoglobin E Disease	High-Performance Liquid Chromatography
+SCDO:0000530	Hemoglobin E Disease	Blood Smear
+SCDO:0000519	Hemoglobin C Disease	Electrophoresis
+SCDO:0000519	Hemoglobin C Disease	High-Performance Liquid Chromatography
+SCDO:0000519	Hemoglobin C Disease	Blood Smear
+SCDO:0000110	Beta Minus Thalassemia	Hemoglobin Profile Assay
+SCDO:0000110	Beta Minus Thalassemia	Genetic Testing
+SCDO:0000110	Beta Minus Thalassemia	Blood Smear
+SCDO:0000113	Beta Thalassemia Major	Hemoglobin Profile Assay
+SCDO:0000113	Beta Thalassemia Major	Genetic Testing
+SCDO:0000113	Beta Thalassemia Major	Blood Smear
+SCDO:0000112	Beta Thalassemia Intermedia	Hemoglobin Profile Assay
+SCDO:0000112	Beta Thalassemia Intermedia	Genetic Testing
+SCDO:0000112	Beta Thalassemia Intermedia	Blood Smear
+SCDO:0000549	Sickle Cell Disease-SS	Hemoglobin Profile Assay
+SCDO:0000549	Sickle Cell Disease-SS	Genetic Testing
+SCDO:0000549	Sickle Cell Disease-SS	Blood Smear
+SCDO:0001059	Sickle Cell Disease-SC	Hemoglobin Profile Assay
+SCDO:0001059	Sickle Cell Disease-SC	Genetic Testing
+SCDO:0001059	Sickle Cell Disease-SC	Blood Smear
+SCDO:0001057	Sickle Beta Thalassemia	Hemoglobin Profile Assay
+SCDO:0001057	Sickle Beta Thalassemia	Genetic Testing
+SCDO:0001057	Sickle Beta Thalassemia	Blood Smear
+SCDO:0001144	Thalassemia	Hemoglobin Profile Assay
+SCDO:0001144	Thalassemia	Genetic Testing
+SCDO:0000536	Hemoglobin Lepore Boston Disease	High-Performance Liquid Chromatography
+SCDO:0000536	Hemoglobin Lepore Boston Disease	Isoelectric Focusing
+SCDO:0000536	Hemoglobin Lepore Boston Disease	Genetic Testing
+SCDO:0000538	Hemoglobin Lepore Syndrome	High-Performance Liquid Chromatography
+SCDO:0000538	Hemoglobin Lepore Syndrome	Isoelectric Focusing
+SCDO:0000538	Hemoglobin Lepore Syndrome	Genetic Testing
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	Hemoglobin Profile Assay
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	Genetic Testing
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	Electrophoresis
+SCDO:0001063	Sickle Cell Disease-S/Lepore Boston	Hemoglobin Profile Assay
+SCDO:0001060	Sickle Cell Disease-SD	Hemoglobin Profile Assay
+SCDO:0001060	Sickle Cell Disease-SD	Genetic Testing
+SCDO:0001060	Sickle Cell Disease-SD	Blood Smear
+SCDO:1000086	Sickle Cell Disease-S/Quebec Chori	Genetic Testing
+SCDO:1000086	Sickle Cell Disease-S/Quebec Chori	High-Performance Liquid Chromatography
+SCDO:0001062	Sickle Cell Disease-SE	Genetic Testing
+SCDO:0001062	Sickle Cell Disease-SE	Electrophoresis
+SCDO:0000544	Hemoglobin O-Arab Disease	Electrophoresis
+SCDO:0000545	Hemoglobin O-Arab Trait	Electrophoresis
+SCDO:0000541	Hemoglobin M Disease	Electrophoresis
+SCDO:0000541	Hemoglobin M Disease	Enzymatic Assay
+SCDO:1000010	Sickle Cell Disease-S/HPFH	Genetic Testing
+SCDO:1000010	Sickle Cell Disease-S/HPFH	Gap PCR
+SCDO:0000015	Acute Chest Syndrome	Personal Medical History
+SCDO:0000015	Acute Chest Syndrome	Chest X-Ray
+SCDO:0000015	Acute Chest Syndrome	Physical Examination
+SCDO:0000018	Acute Non-Specific Wheezing Episode	Physical Examination
+SCDO:0000018	Acute Non-Specific Wheezing Episode	Pulmonary Function Test
+SCDO:0000018	Acute Non-Specific Wheezing Episode	Personal Medical History
+SCDO:0000021	Acute Upper Respiratory Tract Infection	Chest X-Ray
+SCDO:0000021	Acute Upper Respiratory Tract Infection	Physical Examination
+SCDO:0000021	Acute Upper Respiratory Tract Infection	Personal Medical History
+SCDO:0000032	Agenesis of Corpus Callosum	Magnetic Resonance Imaging
+SCDO:0000032	Agenesis of Corpus Callosum	Ultrasound Test
+SCDO:0000087	Ataxia	Personal Medical History
+SCDO:0000087	Ataxia	Patient Symptom Report
+SCDO:0000087	Ataxia	Genetic Testing
+SCDO:0000087	Ataxia	Magnetic Resonance Imaging
+SCDO:0000087	Ataxia	Blood Test
+SCDO:0000132	Black Sunburst Lesion	Ophthalmoscopy
+SCDO:0000132	Black Sunburst Lesion	Slit-Lamp Examination
+SCDO:0000159	Brain Abscess	Blood Culture
+SCDO:0000159	Brain Abscess	Chest X-Ray
+SCDO:0000159	Brain Abscess	Magnetic Resonance Imaging
+SCDO:0000159	Brain Abscess	Electroencephalography
+SCDO:0000159	Brain Abscess	Radiography
+SCDO:0000202	Cerebral Aneurysm	Magnetic Resonance Imaging
+SCDO:0000209	Cerebral Hemorrhage	Fluorescein Angiography
+SCDO:0000209	Cerebral Hemorrhage	Magnetic Resonance Imaging
+SCDO:0000209	Cerebral Hemorrhage	Imaging Assay
+SCDO:0000209	Cerebral Hemorrhage	Blood Test
+SCDO:0000211	Cerebral Venous Thrombosis	Fluorescein Angiography
+SCDO:0000211	Cerebral Venous Thrombosis	Magnetic Resonance Imaging
+SCDO:0000211	Cerebral Venous Thrombosis	Blood Test
+SCDO:0000211	Cerebral Venous Thrombosis	Ultrasound Test
+SCDO:0000214	Cervical Cord Compression	Magnetic Resonance Imaging
+SCDO:0000214	Cervical Cord Compression	Radiography
+SCDO:0000226	Chronic Kidney Disease	Urinary Albumin Test
+SCDO:0000226	Chronic Kidney Disease	Urinary Creatinine Test
+SCDO:0000226	Chronic Kidney Disease	Blood Test
+SCDO:0001288	Cluster Headache	Patient Symptom Report
+SCDO:0000265	Coma	Blood Test
+SCDO:0000265	Coma	Blood Culture
+SCDO:0000265	Coma	Personal Medical History
+SCDO:0000265	Coma	Magnetic Resonance Imaging
+SCDO:0000276	Conjunctival Comma Sign	Slit-Lamp Examination
+SCDO:0000345	Dementia	Physical Examination
+SCDO:0000345	Dementia	Personal Medical History
+SCDO:0000403	Dysarthria	Personal Medical History
+SCDO:0000403	Dysarthria	Physical Examination
+SCDO:0000403	Dysarthria	Magnetic Resonance Imaging
+SCDO:0000403	Dysarthria	Blood Test
+SCDO:0000429	Encephalopathy	Blood Test
+SCDO:0000429	Encephalopathy	Imaging Assay
+SCDO:0000429	Encephalopathy	Electroencephalography
+SCDO:0001311	Extrapyramidal Symptoms	Liver Function Test
+SCDO:0001311	Extrapyramidal Symptoms	Genetic Testing
+SCDO:0001311	Extrapyramidal Symptoms	Magnetic Resonance Imaging
+SCDO:0001311	Extrapyramidal Symptoms	Blood Test
+SCDO:0001311	Extrapyramidal Symptoms	Serum Ferritin Test
+SCDO:0001315	Facial Nerve Palsy	Patient Symptom Report
+SCDO:0001315	Facial Nerve Palsy	Magnetic Resonance Imaging
+SCDO:0001315	Facial Nerve Palsy	Physical Examination
+SCDO:0001315	Facial Nerve Palsy	Blood Test
+SCDO:0001315	Facial Nerve Palsy	Personal Medical History
+SCDO:0000454	Glaucoma (Secondary to Presence of Blood in the Anterior Chamber of the Eye)	Personal Medical History
+SCDO:0000454	Glaucoma (Secondary to Presence of Blood in the Anterior Chamber of the Eye)	Physical Examination
+SCDO:0000454	Glaucoma (Secondary to Presence of Blood in the Anterior Chamber of the Eye)	Retinal Examination
+SCDO:0000554	Hemoglobinuria	Urine Test
+SCDO:0000597	Hyphema	Personal Medical History
+SCDO:0000597	Hyphema	Physical Examination
+SCDO:0000652	Interstitial Nephritis	Personal Medical History
+SCDO:0000652	Interstitial Nephritis	Urine Test
+SCDO:0000654	Intracranial Hemorrhage	Magnetic Resonance Imaging
+SCDO:0000654	Intracranial Hemorrhage	Magnetic Resonance Imaging
+SCDO:0000654	Intracranial Hemorrhage	Personal Medical History
+SCDO:0000654	Intracranial Hemorrhage	Fluorescein Angiography
+SCDO:0000674	Kidney Failure	Urine Test
+SCDO:0000744	Meningitis	Magnetic Resonance Imaging
+SCDO:0000759	Migraine	Patient Symptom Report
+SCDO:0000769	Mononeuropathy	Magnetic Resonance Imaging
+SCDO:0000769	Mononeuropathy	Personal Medical History
+SCDO:0000769	Mononeuropathy	Radiography
+SCDO:0000790	Narcolepsy	Patient Symptom Report
+SCDO:0000790	Narcolepsy	Physical Examination
+SCDO:0000793	Nephritis	Urine Test
+SCDO:0000795	Nephropathy	Urinary Albumin Test
+SCDO:0000795	Nephropathy	Urine Test
+SCDO:0000795	Nephropathy	Urinary Creatinine Test
+SCDO:0000796	Nephrotic Syndrome	Urinary Creatinine Test
+SCDO:0000796	Nephrotic Syndrome	Urinary Albumin Test
+SCDO:0000797	Nephrotic Range Proteinuria	Urinary Albumin Test
+SCDO:0000797	Nephrotic Range Proteinuria	Urinary Creatinine Test
+SCDO:0000812	Non-specific Acute Lower Respiratory Tract Episode	Physical Examination
+SCDO:0000812	Non-specific Acute Lower Respiratory Tract Episode	Personal Medical History
+SCDO:0000820	Obstructive Sleep Apnea	Electroencephalography
+SCDO:0000820	Obstructive Sleep Apnea	Pulse Oximetry (Rest)
+SCDO:0000820	Obstructive Sleep Apnea	Electrocardiography
+SCDO:0000884	Peripheral Neuropathy	Blood Test
+SCDO:0000884	Peripheral Neuropathy	Patient Symptom Report
+SCDO:0000884	Peripheral Neuropathy	Personal Medical History
+SCDO:0000884	Peripheral Neuropathy	Clinical Neuropathy Assessment
+SCDO:0000914	Polyneuropathy	Physical Examination
+SCDO:0000914	Polyneuropathy	Urine Test
+SCDO:0000914	Polyneuropathy	Blood Test
+SCDO:0000914	Polyneuropathy	Spirometry
+SCDO:0000926	Proliferative Sickle Retinopathy	Fluorescein Angiography
+SCDO:0000926	Proliferative Sickle Retinopathy	Retinal Examination
+SCDO:0000926	Proliferative Sickle Retinopathy	Slit-Lamp Examination
+SCDO:0000943	Pulmonary Hypertension	N-terminal Pro-brain Natriuretic Peptide Test
+SCDO:0000943	Pulmonary Hypertension	Physical Examination
+SCDO:0000943	Pulmonary Hypertension	Personal Medical History
+SCDO:0000984	Renal Ischemia	Personal Medical History
+SCDO:0001008	Retinal Detachment	Slit-Lamp Examination
+SCDO:0001008	Retinal Detachment	Ophthalmoscopy
+SCDO:0001008	Retinal Detachment	Retinal Examination
+SCDO:0001019	Salmon Patch Hemorrhage	Slit-Lamp Examination
+SCDO:0001019	Salmon Patch Hemorrhage	Ophthalmoscopy
+SCDO:0001039	Sepsis	Blood Culture
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Personal Medical History
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Pulmonary Function Test
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Arterial Blood Gas Test
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Physical Examination
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Chest X-Ray
+SCDO:0001118	Subarachnoid Hemorrhage	Magnetic Resonance Imaging
+SCDO:0001137	Systemic Lupus Erythematosus	Chest X-Ray
+SCDO:0001137	Systemic Lupus Erythematosus	Urine Test
+SCDO:0001168	Transient Monocular Blindness	Eye Examination
+SCDO:0001168	Transient Monocular Blindness	Electrocardiography
+SCDO:0001168	Transient Monocular Blindness	Blood Test
+SCDO:0001241	Wheezing Episode with Co-Morbid Asthma	Physical Examination
+SCDO:0001241	Wheezing Episode with Co-Morbid Asthma	Bronchodilator Responsiveness Test
+SCDO:0001241	Wheezing Episode with Co-Morbid Asthma	Pulmonary Function Test
+SCDO:0001241	Wheezing Episode with Co-Morbid Asthma	Personal Medical History
+SCDO:1000332	Executive Dysfunction	Executive Function Measure
+SCDO:0001075	Sleep Breathing Disorder	Sleep Disorders Screener - Adult
+SCDO:0001075	Sleep Breathing Disorder	Sleep Disorders Screener - Children
+SCDO:0000519	Hemoglobin C Disease	Complete Blood Count
+SCDO:0001063	Sickle Cell Disease-S/Lepore Boston	Complete Blood Count
+SCDO:0000159	Brain Abscess	Complete Blood Count
+SCDO:0001315	Facial Nerve Palsy	Complete Blood Count
+SCDO:0001137	Systemic Lupus Erythematosus	Complete Blood Count

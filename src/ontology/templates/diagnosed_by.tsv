@@ -1,0 +1,8 @@
+id	Term	diagnosed by
+ID		C 'diagnosed by' some %
+SCDO:0000210	Cerebral Vasculitis	Cerebrospinal Fluid Pleocytosis
+SCDO:0000430	End Stage Kidney Disease	Hyperkalemia
+SCDO:0001315	Facial Nerve Palsy	Seizure
+SCDO:0000458	Glomerulonephritis	Proteinuria
+SCDO:0000458	Glomerulonephritis	Hematuria
+SCDO:0001105	Steroid-Resistant Nephrotic Syndrome	Nephrotic Syndrome

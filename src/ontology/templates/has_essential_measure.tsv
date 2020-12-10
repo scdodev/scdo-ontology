@@ -1,0 +1,169 @@
+id	Term	has essential measure
+ID		C 'has essential measure' some %
+SCDO:0000027	Adult Sickle Cell Quality-of-Life Measurement Information System (ASCQ-Me)	Current Age
+SCDO:0000027	Adult Sickle Cell Quality-of-Life Measurement Information System (ASCQ-Me)	Gender
+SCDO:0000027	Adult Sickle Cell Quality-of-Life Measurement Information System (ASCQ-Me)	Current Age
+SCDO:0000038	Alcohol - Lifetime Use	Current Age
+SCDO:0000038	Alcohol - Lifetime Use	Gender
+SCDO:0000056	Annual Family Income	Household Roster-Relationships
+SCDO:0000056	Annual Family Income	Current Age
+SCDO:0000080	Aspartate Aminotransferase Level	Current Age
+SCDO:0000080	Aspartate Aminotransferase Level	Ethnic Group
+SCDO:0000080	Aspartate Aminotransferase Level	Race
+SCDO:0000119	Bilirubin Blood Test	Race
+SCDO:0000119	Bilirubin Blood Test	Ethnic Group
+SCDO:0000119	Bilirubin Blood Test	Current Age
+SCDO:0000134	Blood Bilirubin Level	Race
+SCDO:0000134	Blood Bilirubin Level	Ethnic Group
+SCDO:0000134	Blood Bilirubin Level	Current Age
+SCDO:0000151	Body Temperature	Current Age
+SCDO:0000151	Body Temperature	Gender
+SCDO:0000166	Bronchodilator Responsiveness Test	Spirometry
+SCDO:0000219	Child-Reported Parental Education Attainment	Current Age
+SCDO:0000235	Cigarette Smoking Status	Current Age
+SCDO:0000270	Complete Blood Count	Gender
+SCDO:0000270	Complete Blood Count	History of Transfusion Diagnostic Instrument
+SCDO:0000270	Complete Blood Count	Current Age
+SCDO:0000270	Complete Blood Count	Medication Inventory
+SCDO:0000280	Consumer Assessment of Healthcare Providers and Systems (CAHPS) Health Plan Survey 4.0 Child Medicaid Questionnaire	Current Age
+SCDO:0000296	Creatinine Blood Test	History of Type I and Type 2 Diabetes Diagnostic Instrument
+SCDO:0000296	Creatinine Blood Test	Race
+SCDO:0000296	Creatinine Blood Test	Gender
+SCDO:0000296	Creatinine Blood Test	Serum Creatinine Level
+SCDO:0000296	Creatinine Blood Test	Current Age
+SCDO:0000296	Creatinine Blood Test	History of Kidney Failure Diagnostic Instrument
+SCDO:0000305	Current Educational Attainment	Current Age
+SCDO:0000305	Current Educational Attainment	Annual Family Income
+SCDO:0000306	Current Employment Status	Current Age
+SCDO:0000307	Current Marital Status	Current Age
+SCDO:0000385	Diffusion Capacity Test	Current Age
+SCDO:0000385	Diffusion Capacity Test	Gender
+SCDO:0000385	Diffusion Capacity Test	Body Weight
+SCDO:0000385	Diffusion Capacity Test	Body Height
+SCDO:0000385	Diffusion Capacity Test	Race
+SCDO:0000385	Diffusion Capacity Test	Ethnic Group
+SCDO:0000384	Diffusion Capacity of Lung	Body Weight
+SCDO:0000384	Diffusion Capacity of Lung	Body Height
+SCDO:0000384	Diffusion Capacity of Lung	Race
+SCDO:0000384	Diffusion Capacity of Lung	Ethnic Group
+SCDO:0000384	Diffusion Capacity of Lung	Current Age
+SCDO:0000384	Diffusion Capacity of Lung	Gender
+SCDO:0001298	Ethnic Group	Race
+SCDO:0001322	Serum Ferritin Test	Ethnic Group
+SCDO:0001322	Serum Ferritin Test	Current Age
+SCDO:0001322	Serum Ferritin Test	Gender
+SCDO:0001322	Serum Ferritin Test	Race
+SCDO:0001323	Serum Ferritin Level	Ethnic Group
+SCDO:0001323	Serum Ferritin Level	Current Age
+SCDO:0001323	Serum Ferritin Level	Gender
+SCDO:0001323	Serum Ferritin Level	Race
+SCDO:0001339	Functionality After Stroke Measure	Current Age
+SCDO:0001339	Functionality After Stroke Measure	Gender
+SCDO:0000467	Serum Haptoglobin Level	Race
+SCDO:0000467	Serum Haptoglobin Level	Ethnic Group
+SCDO:0000467	Serum Haptoglobin Level	Current Age
+SCDO:0000490	Health Insurance Coverage	Current Age
+SCDO:0000547	Hemoglobin Profile Assay	Complete Blood Count
+SCDO:0000547	Hemoglobin Profile Assay	Medication Inventory
+SCDO:0000547	Hemoglobin Profile Assay	Current Age
+SCDO:0000547	Hemoglobin Profile Assay	Gender
+SCDO:0000547	Hemoglobin Profile Assay	History of Transfusion Diagnostic Instrument
+SCDO:0000567	History of Kidney Failure Diagnostic Instrument	Blood Pressure Measurement
+SCDO:0000567	History of Kidney Failure Diagnostic Instrument	Current Age
+SCDO:0000567	History of Kidney Failure Diagnostic Instrument	History of Type I and Type 2 Diabetes Diagnostic Instrument
+SCDO:1000342	History of Transfusion Diagnostic Instrument	Current Age
+SCDO:1000342	History of Transfusion Diagnostic Instrument	Gender
+SCDO:0000570	History of Type I and Type 2 Diabetes Diagnostic Instrument	Current Age
+SCDO:0000570	History of Type I and Type 2 Diabetes Diagnostic Instrument	Gender
+SCDO:0000570	History of Type I and Type 2 Diabetes Diagnostic Instrument	Reproductive History Diagnostic Instrument
+SCDO:0000574	Household Roster-Relationships	Current Age
+SCDO:0000574	Household Roster-Relationships	Gender
+SCDO:0000574	Household Roster-Relationships	Current Marital Status
+SCDO:0000645	Intelligence Scale	Current Age
+SCDO:0000645	Intelligence Scale	Gender
+SCDO:0000645	Intelligence Scale	Race
+SCDO:0000645	Intelligence Scale	Ethnic Group
+SCDO:0000682	Lactate Dehydrogenase Level	Race
+SCDO:0000682	Lactate Dehydrogenase Level	Ethnic Group
+SCDO:0000682	Lactate Dehydrogenase Level	Current Age
+SCDO:0000683	Lactate Dehydrogenase Test	Race
+SCDO:0000683	Lactate Dehydrogenase Test	Ethnic Group
+SCDO:0000683	Lactate Dehydrogenase Test	Current Age
+SCDO:0000704	Lung Volume Measurement	Current Age
+SCDO:0000704	Lung Volume Measurement	Race
+SCDO:0000704	Lung Volume Measurement	Ethnic Group
+SCDO:0000704	Lung Volume Measurement	Gender
+SCDO:0000704	Lung Volume Measurement	Body Weight
+SCDO:0000704	Lung Volume Measurement	Body Height
+SCDO:0000705	Lung Volume Test	Current Age
+SCDO:0000705	Lung Volume Test	Race
+SCDO:0000705	Lung Volume Test	Ethnic Group
+SCDO:0000705	Lung Volume Test	Gender
+SCDO:0000705	Lung Volume Test	Body Weight
+SCDO:0000705	Lung Volume Test	Body Height
+SCDO:0000711	Marital Status of Primary Caregiver	Current Age
+SCDO:0000725	Measure of Frequency of Sickle Cell Pain Episodes	Current Age
+SCDO:0000740	Medication Inventory	Current Age
+SCDO:0000740	Medication Inventory	Gender
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Current Age
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Race
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Ethnic Group
+SCDO:0000786	N-Terminal Pro-Brain Natriuretic Peptide Level	Gender
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Current Age
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Race
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Ethnic Group
+SCDO:0000787	N-terminal Pro-brain Natriuretic Peptide Test	Gender
+SCDO:0000804	NIH Stroke Scale (NIHSS)	Current Age
+SCDO:0000927	PROMIS Adult Profile 29	Gender
+SCDO:0000927	PROMIS Adult Profile 29	Current Age
+SCDO:0000928	PROMIS Pediatric Profile 25	Gender
+SCDO:0000928	PROMIS Pediatric Profile 25	Current Age
+SCDO:0000874	Pediatric NIH Stroke Scale (PedNIHSS)	Current Age
+SCDO:0000876	Pediatric School Performance Measure	Current Age
+SCDO:0000878	PedsQL Sickle Cell Disease Module	Gender
+SCDO:0000878	PedsQL Sickle Cell Disease Module	Current Age
+SCDO:0000953	Quality of Life Measure	Gender
+SCDO:0000953	Quality of Life Measure	Current Age
+SCDO:0000952	Quality of Life in Sickle Cell Disease Measure	Gender
+SCDO:0000952	Quality of Life in Sickle Cell Disease Measure	Current Age
+SCDO:0000962	Race	Ethnic Group
+SCDO:0000970	Recovery and Recurrence Questionnaire (RRQ)	Current Age
+SCDO:0000970	Recovery and Recurrence Questionnaire (RRQ)	Gender
+SCDO:0000987	Reproductive History Diagnostic Instrument	Gender
+SCDO:0001004	Reticulocyte Count	Current Age
+SCDO:0001004	Reticulocyte Count	Race
+SCDO:0001004	Reticulocyte Count	Ethnic Group
+SCDO:0001042	Serum Creatinine Level	Gender
+SCDO:0001042	Serum Creatinine Level	Current Age
+SCDO:0001042	Serum Creatinine Level	History of Kidney Failure Diagnostic Instrument
+SCDO:0001042	Serum Creatinine Level	Race
+SCDO:0001042	Serum Creatinine Level	History of Type I and Type 2 Diabetes Diagnostic Instrument
+SCDO:0001050	Sickle Cell Disease Self-Efficacy Scale	Gender
+SCDO:0001050	Sickle Cell Disease Self-Efficacy Scale	Current Age
+SCDO:0001100	Spirometry	Gender
+SCDO:0001100	Spirometry	Current Age
+SCDO:0001112	Stroke Impact Measure	Current Age
+SCDO:0001113	Stroke Impact Scale (SIS)	Current Age
+SCDO:0001113	Stroke Impact Scale (SIS)	Gender
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Current Age
+SCDO:1000337	Substances - Lifetime Use Diagnostic Instrument	Current Age
+SCDO:0001132	Sustained and Selective Attention Diagnostic Instrument	Current Age
+SCDO:0001205	Urinary Albumin Test	Blood Pressure Measurement
+SCDO:0001205	Urinary Albumin Test	Gender
+SCDO:0001205	Urinary Albumin Test	Current Age
+SCDO:0001205	Urinary Albumin Test	History of Kidney Failure Diagnostic Instrument
+SCDO:0001205	Urinary Albumin Test	History of Type I and Type 2 Diabetes Diagnostic Instrument
+SCDO:0001206	Urinary Creatinine Test	Gender
+SCDO:0001206	Urinary Creatinine Test	Current Age
+SCDO:0001209	Urine Albumin Concentration	Blood Pressure Measurement
+SCDO:0001209	Urine Albumin Concentration	Current Age
+SCDO:0001209	Urine Albumin Concentration	History of Kidney Failure Diagnostic Instrument
+SCDO:0001209	Urine Albumin Concentration	History of Type I and Type 2 Diabetes Diagnostic Instrument
+SCDO:0001209	Urine Albumin Concentration	Gender
+SCDO:0001213	Urine Creatinine Concentration	Gender
+SCDO:0001213	Urine Creatinine Concentration	Current Age
+SCDO:0001232	Vineland Adaptive Behavior Scales, Second Edition (Vineland-II)	Gender
+SCDO:0001232	Vineland Adaptive Behavior Scales, Second Edition (Vineland-II)	Current Age
+SCDO:0001250	X-Ray Image of Chest	Current Age
+SCDO:0000502	Heart Valve Measurement	Current Age
+SCDO:0000502	Heart Valve Measurement	Gender
