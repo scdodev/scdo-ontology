@@ -1,0 +1,5 @@
+id	Term	has clinical code
+ID		C 'has clinical code' some %
+SCDO:1000106	Sickle Cell Disease	D57 Sickle-Cell Disorders
+SCDO:0001055	Sickle Cell Trait	D57.3 Sickle-cell trait
+SCDO:0001059	Sickle Cell Disease-SC	D57.2 Sickle-cell/Hb-C disease

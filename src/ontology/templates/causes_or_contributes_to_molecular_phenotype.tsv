@@ -1,0 +1,27 @@
+id	Term	causes or contributes to molecular phenotype
+ID		C 'causes or contributes to molecular phenotype' some %
+SCDO:1000040	HBB, GLU121LYS	Hemoglobin S-Oman
+SCDO:1000039	HBB, GLU6VAL	Hemoglobin S-Oman
+SCDO:1000042	HBB, GLU26LYS	Hemoglobin E
+SCDO:1000039	HBB, GLU6VAL	Hemoglobin S
+SCDO:1000209	Crossover between delta (HBD) and beta globin (HBB) gene loci	Hemoglobin Lepore Boston
+SCDO:1000039	HBB, GLU6VAL	Hemoglobin Jamaica Plain
+SCDO:1000047	HBB, LEU68PHE	Hemoglobin Jamaica Plain
+SCDO:1000039	HBB, GLU6VAL	Hemoglobin S-Antilles
+SCDO:1000045	HBB, VAL23ILE	Hemoglobin S-Antilles
+SCDO:1000041	HBB, GLU6LYS	Hemoglobin C
+SCDO:1000044	HBB, ASP73ASN	Hemoglobin C-Harlem
+SCDO:1000039	HBB, GLU6VAL	Hemoglobin C-Harlem
+SCDO:1000111	HBB, ASN19LYS	Hemoglobin D
+SCDO:1000115	HBB, GLU121ALA	Hemoglobin D
+SCDO:1000112	HBB, GLU22GLN	Hemoglobin D
+SCDO:1000113	HBB, GLU22VAL	Hemoglobin D
+SCDO:1000110	HBB, GLY16ARG	Hemoglobin D
+SCDO:1000108	HBB, SER9TYR	Hemoglobin D
+SCDO:1000114	HBB, THR87LYS	Hemoglobin D
+SCDO:1000109	HBB, GLU121GLN	Hemoglobin D-Punjab
+SCDO:1000063	HBB, 106-KB DEL	Increased Hemoglobin F
+SCDO:1000040	HBB, GLU121LYS	Hemoglobin O-Arab
+SCDO:1000046	HBB, THR87ILE	Hemoglobin Quebec Chori
+SCDO:1000087	HBB, LYS132ASN	Hemoglobin S-South End
+SCDO:1000039	HBB, GLU6VAL	Hemoglobin S-South End

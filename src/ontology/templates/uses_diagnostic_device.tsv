@@ -1,0 +1,17 @@
+id	Term	uses diagnostic device
+ID		C 'uses diagnostic device' some %
+SCDO:0000217	Chest X-Ray	X-Ray Machine
+SCDO:0000281	Continuous Ambulatory ECG	Electrocardiographic Monitor
+SCDO:0000417	Electrocardiography	Cardioscope
+SCDO:0000417	Electrocardiography	Electrocardiograph
+SCDO:0000420	Electroencephalography	Electroencephalograph
+SCDO:0001326	Flow Cytometry	Flow Cytometer
+SCDO:0000705	Lung Volume Test	Spirometer
+SCDO:0000835	Ophthalmoscopy	Ophthalmoscope
+SCDO:0000945	Pulse Oximetry (Rest)	Pulse Oximeter
+SCDO:0000963	Radiography	X-Ray Machine
+SCDO:0001012	Right Heart Catheterization	Catheter
+SCDO:0001078	Slit-Lamp Examination	Slit Lamp
+SCDO:0001100	Spirometry	Spirometer
+SCDO:0001114	Stroke Risk Test in Children with Sickle Cell Disease	Doppler Ultrasound Machine - 2 Megahertz
+SCDO:0000614	Ultrasound Test	Ultrasound Machine
