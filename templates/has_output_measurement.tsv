@@ -1,9 +1,0 @@
-id	Term	has output measurement
-ID		C 'has output measurement' some %
-SCDO:0000504	Hematology Analyzer	Platelet Count
-SCDO:0000504	Hematology Analyzer	Red Blood Cell Count
-SCDO:0000504	Hematology Analyzer	White Blood Cell Count
-SCDO:0000710	Manometer	Intraosseous Pressure
-SCDO:0000944	Pulse Oximeter	Peripheral Oxygen Saturation
-SCDO:0001099	Spirometer	Lung Volume Measurement
-SCDO:0000410	Echocardiography Machine	Heart Valve Measurement
