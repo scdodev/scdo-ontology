@@ -1,0 +1,90 @@
+id	Term	is question type
+ID		C 'is question type' some %
+SCDO:1000512	SickleInAfrica CDE - Informed Consent Obtained Question	Multiple Choice Single Selection Question
+SCDO:1000548	SickleInAfrica CDE - Current Marital Status Question	Multiple Choice Single Selection Question
+SCDO:1000551	SickleInAfrica CDE - Sex Question	Multiple Choice Single Selection Question
+SCDO:1000552	SickleInAfrica CDE - Date of Diagnosis Known Question	Yes-No Question
+SCDO:1000573	SickleInAfrica CDE - SCD Test Result Question	Multiple Choice Single Selection Question
+SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Multiple Choice Single Selection Question
+SCDO:1000579	SickleInAfrica CDE - Blood Group Question	Multiple Choice Single Selection Question
+SCDO:1000591	SickleInAfrica CDE - Hydroxyurea Use Question	Yes-No Question
+SCDO:1000595	SickleInAfrica CDE - Penicillin V Use Question	Multiple Choice Single Selection Question
+SCDO:1000597	SickleInAfrica CDE - Folic Acid Use Question	Yes-No Question
+SCDO:1000600	SickleInAfrica CDE - Malaria Prophylaxis Question	Multiple Choice Single Selection Question
+SCDO:1000601	SickleInAfrica CDE - Pneumococcal Vaccination Question	Yes-No Question
+SCDO:1000759	SickleInAfrica CDE - Type of Temperature Question	Multiple Choice Single Selection Question
+SCDO:1000520	SickleInAfrica CDE - Type of Informed Consent Obtained Question	Multiple Choice Multiple Selection Question
+SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Multiple Choice Multiple Selection Question
+SCDO:1000533	SickleInAfrica CDE - Consented By Question	Open-Ended Question - Free Text
+SCDO:1000542	SickleInAfrica CDE - Site Participant Number Question	Open-Ended Question - Free Text
+SCDO:1000578	SickleInAfrica CDE - SCD Test Other Result Question	Open-Ended Question - Free Text
+SCDO:1000550	SickleInAfrica CDE - SCD Other Test Question	Open-Ended Question - Free Text
+SCDO:1000532	SickleInAfrica CDE - Date of Signing Consent Question	Open-Ended Question - Restricted
+SCDO:1000539	SickleInAfrica CDE - Visit Date Question	Open-Ended Question - Restricted
+SCDO:1000543	SickleInAfrica CDE - Date of Birth Question	Open-Ended Question - Restricted
+SCDO:1000547	SickleInAfrica CDE - Self-Reported Age Question	Open-Ended Question - Restricted
+SCDO:1000556	SickleInAfrica CDE - Date of Diagnosis Question	Open-Ended Question - Restricted
+SCDO:1000593	SickleInAfrica CDE - Hydroxyurea Initiation Date Question	Open-Ended Question - Restricted
+SCDO:1000607	SickleInAfrica CDE - Red Blood Cell Count Question	Open-Ended Question - Restricted
+SCDO:1000611	SickleInAfrica CDE - White Blood Cell Count Question	Open-Ended Question - Restricted
+SCDO:1000615	SickleInAfrica CDE - Platelet Count Question	Open-Ended Question - Restricted
+SCDO:1000619	SickleInAfrica CDE - Hemoglobin - CBC Question	Open-Ended Question - Restricted
+SCDO:1000621	SickleInAfrica CDE - Mean Cell Volume Question	Open-Ended Question - Restricted
+SCDO:1000627	SickleInAfrica CDE - Mean Cell Hemoglobin Question	Open-Ended Question - Restricted
+SCDO:1000630	SickleInAfrica CDE - Mean Cell Hemoglobin Concentration Question	Open-Ended Question - Restricted
+SCDO:1000637	SickleInAfrica CDE - Red Cell Distribution Width Question	Open-Ended Question - Restricted
+SCDO:1000645	SickleInAfrica CDE - Serum Creatinine Concentration Question	Open-Ended Question - Restricted
+SCDO:1000510	SickleInAfrica CDE - Urinary Albumin Concentration Question	Open-Ended Question - Restricted
+SCDO:1000650	SickleInAfrica CDE - Urinary Creatinine Concentration Question	Open-Ended Question - Restricted
+SCDO:1000657	SickleInAfrica CDE - Alanine Aminotransferase Level Question	Open-Ended Question - Restricted
+SCDO:1000660	SickleInAfrica CDE - Aspartate Aminotransferase Level Question	Open-Ended Question - Restricted
+SCDO:1000662	SickleInAfrica CDE - Alkaline Phosphatase Level Question	Open-Ended Question - Restricted
+SCDO:1000680	SickleInAfrica CDE - Total Bilirubin Concentration Question	Open-Ended Question - Restricted
+SCDO:1000682	SickleInAfrica CDE - Lactate Dehydrogenase Level Question	Open-Ended Question - Restricted
+SCDO:1000685	SickleInAfrica CDE - Reticulocyte Count Question	Open-Ended Question - Restricted
+SCDO:1000691	SickleInAfrica CDE - Hemoglobin A Level Question	Open-Ended Question - Restricted
+SCDO:1000693	SickleInAfrica CDE - Hemoglobin S Level Question	Open-Ended Question - Restricted
+SCDO:1000694	SickleInAfrica CDE - Hemoglobin C Level Question	Open-Ended Question - Restricted
+SCDO:1000696	SickleInAfrica CDE - Hemoglobin E Level Question	Open-Ended Question - Restricted
+SCDO:1000699	SickleInAfrica CDE - Hemoglobin A2 Level Question	Open-Ended Question - Restricted
+SCDO:1000700	SickleInAfrica CDE - Hemoglobin D-Punjab Level Question	Open-Ended Question - Restricted
+SCDO:1000702	SickleInAfrica CDE - Hemoglobin G-Philadelphia Level Question	Open-Ended Question - Restricted
+SCDO:1000704	SickleInAfrica CDE - Hemoglobin O-Arab Level Question	Open-Ended Question - Restricted
+SCDO:1000706	SickleInAfrica CDE - Hemoglobin F Level Question	Open-Ended Question - Restricted
+SCDO:1000711	SickleInAfrica CDE - Body Temperature Question	Open-Ended Question - Restricted
+SCDO:1000714	SickleInAfrica CDE - Respiratory Rate Question	Open-Ended Question - Restricted
+SCDO:1000717	SickleInAfrica CDE - Partial Pressure CO2 Question	Open-Ended Question - Restricted
+SCDO:1000722	SickleInAfrica CDE - Partial Pressure O2 Question	Open-Ended Question - Restricted
+SCDO:1000751	SickleInAfrica CDE - Total Hemoglobin Question	Open-Ended Question - Restricted
+SCDO:1000724	SickleInAfrica CDE - Oxyhemoglobin Saturation Question	Open-Ended Question - Restricted
+SCDO:1000725	SickleInAfrica CDE - Carboxyhemoglobin Question	Open-Ended Question - Restricted
+SCDO:1000726	SickleInAfrica CDE - Methemoglobin Question	Open-Ended Question - Restricted
+SCDO:1000847	SickleInAfrica CDE - Type of Visit Question	Multiple Choice Single Selection Question
+SCDO:1000850	SickleInAfrica CDE - Medical Record Number Question	Open-Ended Question - Free Text
+SCDO:1000854	SickleInAfrica CDE - Hospital Name Question	Open-Ended Question - Free Text
+SCDO:1000856	SickleInAfrica CDE - First Name Question	Open-Ended Question - Free Text
+SCDO:1000857	SickleInAfrica CDE - Middle Name Question	Open-Ended Question - Free Text
+SCDO:1000862	SickleInAfrica CDE - Last Name Question	Open-Ended Question - Free Text
+SCDO:1000863	SickleInAfrica CDE - Height Question	Open-Ended Question - Restricted
+SCDO:1000866	SickleInAfrica CDE - Weight Question	Open-Ended Question - Restricted
+SCDO:1000868	SickleInAfrica CDE - Ethnic Group Question	Open-Ended Question - Free Text
+SCDO:1000869	SickleInAfrica CDE - Religion Question	Open-Ended Question - Free Text
+SCDO:1000870	SickleInAfrica CDE - Region Question	Open-Ended Question - Free Text
+SCDO:1000872	SickleInAfrica CDE - Street Question	Open-Ended Question - Free Text
+SCDO:1000873	SickleInAfrica CDE - Nearest Landmark Question	Open-Ended Question - Free Text
+SCDO:1000876	SickleInAfrica CDE - Telephone 1 Question	Open-Ended Question - Free Text
+SCDO:1000877	SickleInAfrica CDE - Telephone 2 Question	Open-Ended Question - Free Text
+SCDO:1000878	SickleInAfrica CDE - Next of Kin Name Question	Open-Ended Question - Free Text
+SCDO:1000879	SickleInAfrica CDE - Next of Kin Number Question	Open-Ended Question - Free Text
+SCDO:1000880	SickleInAfrica CDE - Relationship to Participant Question	Open-Ended Question - Free Text
+SCDO:1000886	SickleInAfrica CDE - Blood Transfusion Question	Yes-No Question
+SCDO:1000549	SickleInAfrica CDE - Date of Transfusion Question	Open-Ended Question - Restricted
+SCDO:1000887	SickleInAfrica CDE - Units Transfused Question	Open-Ended Question - Restricted
+SCDO:1000889	SickleInAfrica CDE - Difficulty in Breathing Question	Yes-No Question
+SCDO:1000890	SickleInAfrica CDE - Systolic Blood Pressure Question	Open-Ended Question - Restricted
+SCDO:1000891	SickleInAfrica CDE - Diastolic Blood Pressure Question	Open-Ended Question - Restricted
+SCDO:1000894	SickleInAfrica CDE - Priapism Question	Yes-No Question
+SCDO:1000895	SickleInAfrica CDE - Chest Pain Question	Yes-No Question
+SCDO:1000896	SickleInAfrica CDE - Anaemia Question	Yes-No Question
+SCDO:1000897	SickleInAfrica CDE - Jaundice Question	Yes-No Question
+SCDO:1000898	SickleInAfrica CDE - Urea Question	Open-Ended Question - Restricted

@@ -1,0 +1,41 @@
+id	Term	has answer standard unit
+ID		C 'has answer standard unit' some %
+SCDO:1000607	SickleInAfrica CDE - Red Blood Cell Count Question	million cells per microliter
+SCDO:1000611	SickleInAfrica CDE - White Blood Cell Count Question	thousand cells per microliter
+SCDO:1000615	SickleInAfrica CDE - Platelet Count Question	thousand cells per microliter
+SCDO:1000619	SickleInAfrica CDE - Hemoglobin - CBC Question	g/dL
+SCDO:1000621	SickleInAfrica CDE - Mean Cell Volume Question	fL
+SCDO:1000627	SickleInAfrica CDE - Mean Cell Hemoglobin Question	pg
+SCDO:1000630	SickleInAfrica CDE - Mean Cell Hemoglobin Concentration Question	g/dL
+SCDO:1000637	SickleInAfrica CDE - Red Cell Distribution Width Question	Percent
+SCDO:1000645	SickleInAfrica CDE - Serum Creatinine Concentration Question	mg/dL
+SCDO:1000510	SickleInAfrica CDE - Urinary Albumin Concentration Question	microgram per millilitre
+SCDO:1000650	SickleInAfrica CDE - Urinary Creatinine Concentration Question	mg/dL
+SCDO:1000657	SickleInAfrica CDE - Alanine Aminotransferase Level Question	IU/L
+SCDO:1000660	SickleInAfrica CDE - Aspartate Aminotransferase Level Question	IU/L
+SCDO:1000662	SickleInAfrica CDE - Alkaline Phosphatase Level Question	IU/L
+SCDO:1000680	SickleInAfrica CDE - Total Bilirubin Concentration Question	mg/dL
+SCDO:1000682	SickleInAfrica CDE - Lactate Dehydrogenase Level Question	IU/L
+SCDO:1000685	SickleInAfrica CDE - Reticulocyte Count Question	thousand cells per microliter
+SCDO:1000691	SickleInAfrica CDE - Hemoglobin A Level Question	Percent
+SCDO:1000693	SickleInAfrica CDE - Hemoglobin S Level Question	Percent
+SCDO:1000694	SickleInAfrica CDE - Hemoglobin C Level Question	Percent
+SCDO:1000696	SickleInAfrica CDE - Hemoglobin E Level Question	Percent
+SCDO:1000699	SickleInAfrica CDE - Hemoglobin A2 Level Question	Percent
+SCDO:1000700	SickleInAfrica CDE - Hemoglobin D-Punjab Level Question	Percent
+SCDO:1000702	SickleInAfrica CDE - Hemoglobin G-Philadelphia Level Question	Percent
+SCDO:1000704	SickleInAfrica CDE - Hemoglobin O-Arab Level Question	Percent
+SCDO:1000706	SickleInAfrica CDE - Hemoglobin F Level Question	Percent
+SCDO:1000711	SickleInAfrica CDE - Body Temperature Question	Degree Celsius
+SCDO:1000714	SickleInAfrica CDE - Respiratory Rate Question	Breaths per Minute
+SCDO:1000717	SickleInAfrica CDE - Partial Pressure CO2 Question	mmHg
+SCDO:1000722	SickleInAfrica CDE - Partial Pressure O2 Question	mmHg
+SCDO:1000751	SickleInAfrica CDE - Total Hemoglobin Question	g/dL
+SCDO:1000724	SickleInAfrica CDE - Oxyhemoglobin Saturation Question	Percent
+SCDO:1000725	SickleInAfrica CDE - Carboxyhemoglobin Question	Percent
+SCDO:1000726	SickleInAfrica CDE - Methemoglobin Question	Percent
+SCDO:1000863	SickleInAfrica CDE - Height Question	Centimeter
+SCDO:1000866	SickleInAfrica CDE - Weight Question	Kilogram
+SCDO:1000890	SickleInAfrica CDE - Systolic Blood Pressure Question	mmHg
+SCDO:1000891	SickleInAfrica CDE - Diastolic Blood Pressure Question	mmHg
+SCDO:1000898	SickleInAfrica CDE - Urea Question	Millimole per Liter

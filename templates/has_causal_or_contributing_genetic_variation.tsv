@@ -1,0 +1,124 @@
+id	Term	has causal or contributing genetic variation
+ID		C 'has causal or contributing genetic variation' some %
+SCDO:0001055	Sickle Cell Trait	HBB, GLU6VAL
+SCDO:0000549	Sickle Cell Disease-SS	HBB, GLU6VAL
+SCDO:0000514	Hemoglobin S	HBB, GLU6VAL
+SCDO:0001063	Sickle Cell Disease-S/Lepore Boston	HBB, GLU6VAL
+SCDO:0001063	Sickle Cell Disease-S/Lepore Boston	Crossover between delta (HBD) and beta globin (HBB) gene loci
+SCDO:0000536	Hemoglobin Lepore Boston Disease	Crossover between delta (HBD) and beta globin (HBB) gene loci
+SCDO:1000164	Sickle Cell Disease A/Jamaica Plain	HBB, GLU6VAL
+SCDO:1000164	Sickle Cell Disease A/Jamaica Plain	HBB, LEU68PHE
+SCDO:1000072	Hemoglobin Jamaica Plain	HBB, LEU68PHE
+SCDO:1000072	Hemoglobin Jamaica Plain	HBB, GLU6VAL
+SCDO:1000165	Sickle Cell Disease A/S-Oman	HBB, GLU121LYS
+SCDO:1000165	Sickle Cell Disease A/S-Oman	HBB, GLU6VAL
+SCDO:1000074	Hemoglobin S-Oman	HBB, GLU6VAL
+SCDO:1000074	Hemoglobin S-Oman	HBB, GLU121LYS
+SCDO:1000166	Sickle Cell Disease C/S Antilles	HBB, GLU6VAL
+SCDO:1000166	Sickle Cell Disease C/S Antilles	HBB, VAL23ILE
+SCDO:1000166	Sickle Cell Disease C/S Antilles	HBB, GLU6LYS
+SCDO:1000073	Hemoglobin S-Antilles	HBB, GLU6VAL
+SCDO:1000073	Hemoglobin S-Antilles	HBB, VAL23ILE
+SCDO:0000343	Delta Beta Thalassemia	Crossover between delta (HBD) and beta globin (HBB) gene loci
+SCDO:0000343	Delta Beta Thalassemia	HBB and HBD Deletion
+SCDO:0000520	Hemoglobin C Trait	HBB, GLU6LYS
+SCDO:0000519	Hemoglobin C Disease	HBB, GLU6LYS
+SCDO:0001059	Sickle Cell Disease-SC	HBB, GLU6VAL
+SCDO:0001059	Sickle Cell Disease-SC	HBB, GLU6LYS
+SCDO:0000513	Hemoglobin C	HBB, GLU6LYS
+SCDO:1000062	Sickle Cell Disease-S/C-Harlem	HBB, ASP73ASN
+SCDO:1000062	Sickle Cell Disease-S/C-Harlem	HBB, GLU6VAL
+SCDO:1000205	Hemoglobin C-Harlem Disease	HBB, ASP73ASN
+SCDO:1000205	Hemoglobin C-Harlem Disease	HBB, GLU6VAL
+SCDO:1000058	Hemoglobin C-Harlem	HBB, ASP73ASN
+SCDO:1000058	Hemoglobin C-Harlem	HBB, GLU6VAL
+SCDO:1000059	Hemoglobin D-Punjab Trait	HBB, GLU121GLN
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	HBB, GLU6VAL
+SCDO:0001061	Sickle Cell Disease-S/D-Punjab	HBB, GLU121GLN
+SCDO:0000528	Hemoglobin D-Punjab	HBB, GLU121GLN
+SCDO:0000531	Hemoglobin E Trait	HBB, GLU26LYS
+SCDO:0001062	Sickle Cell Disease-SE	HBB, GLU26LYS
+SCDO:0001062	Sickle Cell Disease-SE	HBB, GLU6VAL
+SCDO:1000009	Hemoglobin E	HBB, GLU26LYS
+SCDO:0000545	Hemoglobin O-Arab Trait	HBB, GLU121LYS
+SCDO:0000544	Hemoglobin O-Arab Disease	HBB, GLU121LYS
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	HBB, GLU6VAL
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	HBB, GLU121LYS
+SCDO:1000016	Hemoglobin O-Arab	HBB, GLU121LYS
+SCDO:1000086	Sickle Cell Disease-S/Quebec Chori	HBB, GLU6VAL
+SCDO:1000086	Sickle Cell Disease-S/Quebec Chori	HBB, THR87ILE
+SCDO:1000085	Hemoglobin Quebec Chori	HBB, THR87ILE
+SCDO:1000090	Sickle Cell Disease-S/S-South End	HBB, LYS132ASN
+SCDO:1000090	Sickle Cell Disease-S/S-South End	HBB, GLU6VAL
+SCDO:1000083	Hemoglobin S-South End	HBB, GLU6VAL
+SCDO:1000083	Hemoglobin S-South End	HBB, LYS132ASN
+SCDO:0000560	Hereditary Persistence of Fetal Hemoglobin	HBB, 106-KB DEL
+SCDO:0000560	Hereditary Persistence of Fetal Hemoglobin	HBG1 and/or HBG2 Mutations
+SCDO:1000010	Sickle Cell Disease-S/HPFH	HBB, GLU6VAL
+SCDO:1000010	Sickle Cell Disease-S/HPFH	HBB, 106-KB DEL
+SCDO:1000010	Sickle Cell Disease-S/HPFH	HBG1 and/or HBG2 Mutations
+SCDO:0000042	Alpha Thalassemia	Alpha-Globin Locus Deletion
+SCDO:0000043	Alpha Thalassemia Silent Carrier	Alpha-Globin Locus Deletion
+SCDO:0000044	Alpha Thalassemia Trait	Alpha-Globin Locus Deletion
+SCDO:0000518	Hemoglobin Barts Hydrops Fetalis	Homozygous Deletion of HBA1 and HBA2
+SCDO:0001056	Sickle Cell Disease-S Beta Minus Thalassemia	HBB, GLU6VAL
+SCDO:0001056	Sickle Cell Disease-S Beta Minus Thalassemia	Beta-Minus Thalassemia Mutation
+SCDO:0007656	Sickle Cell Thalassemia	HBB, GLU6VAL
+SCDO:0007656	Sickle Cell Thalassemia	Beta Thalassemia Mutation
+SCDO:0001385	Absence of Alpha Globin Synthesis with Gamma Globin Synthesis	Homozygous Deletion of HBA1 and HBA2
+SCDO:0001384	Reduced Alpha/Gamma Synthesis Ratio	Alpha-Globin Locus Deletion
+SCDO:1000076	Mild Sickle Cell Disease-S Beta Minus Thalassemia	HBB, GLU6VAL
+SCDO:1000076	Mild Sickle Cell Disease-S Beta Minus Thalassemia	Beta-Minus Thalassemia Mutation
+SCDO:1000078	Severe Sickle Cell Disease-S Beta Minus Thalassemia	HBB, GLU6VAL
+SCDO:1000078	Severe Sickle Cell Disease-S Beta Minus Thalassemia	Beta-Minus Thalassemia Mutation
+SCDO:1000077	Moderate Sickle Cell Disease-S Beta Minus Thalassemia	HBB, GLU6VAL
+SCDO:1000077	Moderate Sickle Cell Disease-S Beta Minus Thalassemia	Beta-Minus Thalassemia Mutation
+SCDO:1000106	Sickle Cell Disease	HBB, GLU6VAL
+SCDO:1000106	Sickle Cell Disease	Other HBB Variants
+SCDO:1000007	Hemoglobin D	HBB, GLU121GLN
+SCDO:1000007	Hemoglobin D	HBB, SER9TYR
+SCDO:1000007	Hemoglobin D	HBB, GLU121GLN
+SCDO:1000007	Hemoglobin D	HBB, GLY16ARG
+SCDO:1000007	Hemoglobin D	HBB, ASN19LYS
+SCDO:1000007	Hemoglobin D	HBB, GLU22GLN
+SCDO:1000007	Hemoglobin D	HBB, GLU22VAL
+SCDO:1000007	Hemoglobin D	HBB, THR87LYS
+SCDO:1000007	Hemoglobin D	HBB, GLU121ALA
+SCDO:0001057	Sickle Beta Thalassemia	HBB, GLU6VAL
+SCDO:0001057	Sickle Beta Thalassemia	Beta Thalassemia Mutation
+SCDO:0001997	Crystallisation of Hemoglobin	HBB, GLU6LYS
+SCDO:0002939	Polymerised Hemoglobin	HBB, GLU6VAL
+SCDO:0006404	Reduced Alpha/Beta Synthesis Ratio	Alpha-Globin Locus Deletion
+SCDO:0001709	Reduced Beta/Alpha Synthesis Ratio	Beta Thalassemia Mutation
+SCDO:0001060	Sickle Cell Disease-SD	HBB, GLU6VAL
+SCDO:0001060	Sickle Cell Disease-SD	HBB, GLU121GLN
+SCDO:0001060	Sickle Cell Disease-SD	HBB, SER9TYR
+SCDO:0001060	Sickle Cell Disease-SD	HBB, GLU121GLN
+SCDO:0001060	Sickle Cell Disease-SD	HBB, GLY16ARG
+SCDO:0001060	Sickle Cell Disease-SD	HBB, ASN19LYS
+SCDO:0001060	Sickle Cell Disease-SD	HBB, GLU22GLN
+SCDO:0001060	Sickle Cell Disease-SD	HBB, GLU22VAL
+SCDO:0001060	Sickle Cell Disease-SD	HBB, THR87LYS
+SCDO:0001060	Sickle Cell Disease-SD	HBB, GLU121ALA
+SCDO:0000976	Reduced Hemoglobin A	Beta Thalassemia Mutation
+SCDO:0000976	Reduced Hemoglobin A	Alpha Thalassemia
+SCDO:0000525	Hemoglobin D Trait	HBB, GLU121GLN
+SCDO:0000525	Hemoglobin D Trait	HBB, SER9TYR
+SCDO:0000525	Hemoglobin D Trait	HBB, GLU121GLN
+SCDO:0000525	Hemoglobin D Trait	HBB, GLY16ARG
+SCDO:0000525	Hemoglobin D Trait	HBB, ASN19LYS
+SCDO:0000525	Hemoglobin D Trait	HBB, GLU22GLN
+SCDO:0000525	Hemoglobin D Trait	HBB, GLU22VAL
+SCDO:0000525	Hemoglobin D Trait	HBB, THR87LYS
+SCDO:0000525	Hemoglobin D Trait	HBB, GLU121ALA
+SCDO:0000515	Hemoglobin H	Alpha-Globin Locus Deletion
+SCDO:0000517	Hemoglobin Barts	Homozygous Deletion of HBA1 and HBA2
+SCDO:0000524	Hemoglobin D Disease	HBB, GLU121GLN
+SCDO:0000524	Hemoglobin D Disease	HBB, SER9TYR
+SCDO:0000524	Hemoglobin D Disease	HBB, GLU121GLN
+SCDO:0000524	Hemoglobin D Disease	HBB, GLY16ARG
+SCDO:0000524	Hemoglobin D Disease	HBB, ASN19LYS
+SCDO:0000524	Hemoglobin D Disease	HBB, GLU22GLN
+SCDO:0000524	Hemoglobin D Disease	HBB, GLU22VAL
+SCDO:0000524	Hemoglobin D Disease	HBB, THR87LYS
+SCDO:0000524	Hemoglobin D Disease	HBB, GLU121ALA
