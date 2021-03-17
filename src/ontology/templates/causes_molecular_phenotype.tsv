@@ -1,0 +1,46 @@
+id	Term	causes molecular phenotype
+ID		C 'causes molecular phenotype' some %
+SCDO:1000216	Alpha Thalassemia Genotype	Reduced or Absent Hemoglobin A
+SCDO:0007624	Beta Thalassemia Genotype	Reduced or Absent Hemoglobin A
+SCDO:1000071	Hemoglobin Genotype A/Jamaica Plain	Hemoglobin Jamaica Plain
+SCDO:1000075	Hemoglobin Genotype A/S-Oman	Hemoglobin S-Oman
+SCDO:1000161	Hemoglobin Genotype AS	Hemoglobin S
+SCDO:1000081	Hemoglobin Genotype C/S Antilles	Hemoglobin S-Antilles
+SCDO:1000081	Hemoglobin Genotype C/S Antilles	Hemoglobin C
+SCDO:1000107	Hemoglobin Genotype S/Beta Thalassemia	Hemoglobin S
+SCDO:1000107	Hemoglobin Genotype S/Beta Thalassemia	Reduced or Absent Hemoglobin A
+SCDO:1000159	Hemoglobin Genotype S/Beta Minus Thalassaemia	Hemoglobin S
+SCDO:1000159	Hemoglobin Genotype S/Beta Minus Thalassaemia	Reduced Hemoglobin A
+SCDO:1000067	Hemoglobin Genotype S/Beta Zero Thalassaemia	Hemoglobin S
+SCDO:1000067	Hemoglobin Genotype S/Beta Zero Thalassaemia	Absent Hemoglobin A
+SCDO:1000070	Hemoglobin Genotype S/Lepore Boston	Hemoglobin Lepore Boston
+SCDO:1000070	Hemoglobin Genotype S/Lepore Boston	Hemoglobin S
+SCDO:1000056	Hemoglobin Genotype S/C-Harlem	Hemoglobin S
+SCDO:1000056	Hemoglobin Genotype S/C-Harlem	Hemoglobin C-Harlem
+SCDO:1000054	Hemoglobin Genotype SD	Hemoglobin S
+SCDO:1000054	Hemoglobin Genotype SD	Hemoglobin D
+SCDO:1000050	Hemoglobin Genotype S/D-Punjab	Hemoglobin S
+SCDO:1000050	Hemoglobin Genotype S/D-Punjab	Hemoglobin D-Punjab
+SCDO:1000069	Hemoglobin Genotype S/HPFH	Hemoglobin S
+SCDO:1000069	Hemoglobin Genotype S/HPFH	Increased Hemoglobin F
+SCDO:1000051	Hemoglobin Genotype S/O-Arab	Hemoglobin S
+SCDO:1000051	Hemoglobin Genotype S/O-Arab	Hemoglobin O-Arab
+SCDO:1000084	Hemoglobin Genotype S/Quebec-Chori	Hemoglobin S
+SCDO:1000084	Hemoglobin Genotype S/Quebec-Chori	Hemoglobin Quebec Chori
+SCDO:1000088	Hemoglobin Genotype S/S-South End	Hemoglobin S
+SCDO:1000088	Hemoglobin Genotype S/S-South End	Hemoglobin S-South End
+SCDO:1000049	Hemoglobin Genotype SC	Hemoglobin S
+SCDO:1000049	Hemoglobin Genotype SC	Hemoglobin C
+SCDO:1000052	Hemoglobin Genotype SE	Hemoglobin S
+SCDO:1000052	Hemoglobin Genotype SE	Hemoglobin E
+SCDO:1000053	Hemoglobin Genotype SS	Hemoglobin S
+SCDO:1000221	Alpha Thalassemia Silent Genotype	Reduced Alpha/Beta Synthesis Ratio
+SCDO:1000235	Hereditary Persistence of Fetal Hemoglobin Genotype	Increased Hemoglobin F
+SCDO:1000232	Hemoglobin Genotype CC	Hemoglobin C
+SCDO:1000230	Hemoglobin Genotype DD	Hemoglobin D
+SCDO:1000229	Hemoglobin Genotype EE	Hemoglobin E
+SCDO:1000231	Hemoglobin Genotype O-Arab	Hemoglobin O-Arab
+SCDO:1000225	Hemoglobin Genotype AC	Hemoglobin C
+SCDO:1000226	Hemoglobin Genotype AD	Hemoglobin D
+SCDO:1000227	Hemoglobin Genotype AE	Hemoglobin E
+SCDO:1000228	Hemoglobin Genotype AO-Arab	Hemoglobin O-Arab

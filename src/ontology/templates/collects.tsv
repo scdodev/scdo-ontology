@@ -1,0 +1,92 @@
+id	Term	collects
+ID		C 'collects' some %
+SCDO:1000512	SickleInAfrica CDE - Informed Consent Obtained Question	Informed Consent Obtained
+SCDO:1000548	SickleInAfrica CDE - Current Marital Status Question	Current Marital Status
+SCDO:1000551	SickleInAfrica CDE - Sex Question	Sex
+SCDO:1000552	SickleInAfrica CDE - Date of Diagnosis Known Question	Date of SCD Diagnosis Known
+SCDO:1000573	SickleInAfrica CDE - SCD Test Result Question	SCD Test Result
+SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Type of SCD Test
+SCDO:1000579	SickleInAfrica CDE - Blood Group Question	ABO Blood Group
+SCDO:1000591	SickleInAfrica CDE - Hydroxyurea Use Question	Hydroxyurea Use Status
+SCDO:1000595	SickleInAfrica CDE - Penicillin V Use Question	Penicillin V Prophylaxis Use Status
+SCDO:1000597	SickleInAfrica CDE - Folic Acid Use Question	Folic Acid Use Status
+SCDO:1000600	SickleInAfrica CDE - Malaria Prophylaxis Question	Malaria Prophylaxis Status
+SCDO:1000601	SickleInAfrica CDE - Pneumococcal Vaccination Question	Pneumococcal Vaccination Status
+SCDO:1000759	SickleInAfrica CDE - Type of Temperature Question	Type of Body Temperature
+SCDO:1000520	SickleInAfrica CDE - Type of Informed Consent Obtained Question	Type of Informed Consent Obtained
+SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin Assay Results Recorded
+SCDO:1000533	SickleInAfrica CDE - Consented By Question	Consented By
+SCDO:1000542	SickleInAfrica CDE - Site Participant Number Question	Site Participant Number
+SCDO:1000578	SickleInAfrica CDE - SCD Test Other Result Question	SCD Test Result
+SCDO:1000550	SickleInAfrica CDE - SCD Other Test Question	Type of SCD Test
+SCDO:1000532	SickleInAfrica CDE - Date of Signing Consent Question	Date of Signing Consent
+SCDO:1000539	SickleInAfrica CDE - Visit Date Question	Visit Date
+SCDO:1000543	SickleInAfrica CDE - Date of Birth Question	Birth Date
+SCDO:1000547	SickleInAfrica CDE - Self-Reported Age Question	Self-Reported Current Age (Years)
+SCDO:1000556	SickleInAfrica CDE - Date of Diagnosis Question	Date of SCD Diagnosis
+SCDO:1000593	SickleInAfrica CDE - Hydroxyurea Initiation Date Question	Date of Hydroxyurea Therapy Initiation
+SCDO:1000607	SickleInAfrica CDE - Red Blood Cell Count Question	Red Blood Cell Count
+SCDO:1000611	SickleInAfrica CDE - White Blood Cell Count Question	White Blood Cell Count
+SCDO:1000615	SickleInAfrica CDE - Platelet Count Question	Platelet Count
+SCDO:1000619	SickleInAfrica CDE - Hemoglobin - CBC Question	Hemoglobin Concentration
+SCDO:1000621	SickleInAfrica CDE - Mean Cell Volume Question	Mean Corpuscular Volume
+SCDO:1000627	SickleInAfrica CDE - Mean Cell Hemoglobin Question	Mean Corpuscular Hemoglobin Level
+SCDO:1000630	SickleInAfrica CDE - Mean Cell Hemoglobin Concentration Question	Mean Corpuscular Hemoglobin Concentration
+SCDO:1000637	SickleInAfrica CDE - Red Cell Distribution Width Question	Red Blood Cell Distribution Width
+SCDO:1000645	SickleInAfrica CDE - Serum Creatinine Concentration Question	Serum Creatinine Level
+SCDO:1000510	SickleInAfrica CDE - Urinary Albumin Concentration Question	Urine Albumin Concentration
+SCDO:1000650	SickleInAfrica CDE - Urinary Creatinine Concentration Question	Urine Creatinine Concentration
+SCDO:1000657	SickleInAfrica CDE - Alanine Aminotransferase Level Question	Alanine Aminotransferase Level
+SCDO:1000660	SickleInAfrica CDE - Aspartate Aminotransferase Level Question	Aspartate Aminotransferase Level
+SCDO:1000662	SickleInAfrica CDE - Alkaline Phosphatase Level Question	Alkaline Phosphatase Level
+SCDO:1000680	SickleInAfrica CDE - Total Bilirubin Concentration Question	Total Serum Bilirubin Level
+SCDO:1000682	SickleInAfrica CDE - Lactate Dehydrogenase Level Question	Lactate Dehydrogenase Level
+SCDO:1000685	SickleInAfrica CDE - Reticulocyte Count Question	Reticulocyte Count
+SCDO:1000691	SickleInAfrica CDE - Hemoglobin A Level Question	Hemoglobin A Level
+SCDO:1000693	SickleInAfrica CDE - Hemoglobin S Level Question	Hemoglobin S Level
+SCDO:1000694	SickleInAfrica CDE - Hemoglobin C Level Question	Hemoglobin C Level
+SCDO:1000696	SickleInAfrica CDE - Hemoglobin E Level Question	Hemoglobin E Level
+SCDO:1000699	SickleInAfrica CDE - Hemoglobin A2 Level Question	Hemoglobin A2 Level
+SCDO:1000700	SickleInAfrica CDE - Hemoglobin D-Punjab Level Question	Hemoglobin D-Punjab Level
+SCDO:1000702	SickleInAfrica CDE - Hemoglobin G-Philadelphia Level Question	Hemoglobin G-Philadelphia Level
+SCDO:1000704	SickleInAfrica CDE - Hemoglobin O-Arab Level Question	Hemoglobin O-Arab Level
+SCDO:1000706	SickleInAfrica CDE - Hemoglobin F Level Question	Hemoglobin F Level
+SCDO:1000711	SickleInAfrica CDE - Body Temperature Question	Body Temperature
+SCDO:1000714	SickleInAfrica CDE - Respiratory Rate Question	Respiratory Rate
+SCDO:1000717	SickleInAfrica CDE - Partial Pressure CO2 Question	Partial Pressure of Carbon Dioxide
+SCDO:1000722	SickleInAfrica CDE - Partial Pressure O2 Question	Partial Pressure of Oxygen
+SCDO:1000751	SickleInAfrica CDE - Total Hemoglobin Question	Hemoglobin Concentration
+SCDO:1000724	SickleInAfrica CDE - Oxyhemoglobin Saturation Question	Arterial Oxygen Saturation
+SCDO:1000725	SickleInAfrica CDE - Carboxyhemoglobin Question	Carboxyhemoglobin to Total Hemoglobin Ratio
+SCDO:1000726	SickleInAfrica CDE - Methemoglobin Question	Methemoglobin to Total Hemoglobin Ratio
+SCDO:1000732	SickleInAfrica CDE - SickleInAfrica Participant Number	SickleInAfrica Participant Number
+SCDO:1000734	SickleInAfrica CDE - Age In Months Calculation	Calculated Current Age (Months)
+SCDO:1000847	SickleInAfrica CDE - Type of Visit Question	Subject Visit Type
+SCDO:1000850	SickleInAfrica CDE - Medical Record Number Question	Medical Record Number
+SCDO:1000854	SickleInAfrica CDE - Hospital Name Question	Hospital Name
+SCDO:1000856	SickleInAfrica CDE - First Name Question	First Name
+SCDO:1000857	SickleInAfrica CDE - Middle Name Question	Middle Name
+SCDO:1000862	SickleInAfrica CDE - Last Name Question	Last Name
+SCDO:1000863	SickleInAfrica CDE - Height Question	Body Height
+SCDO:1000866	SickleInAfrica CDE - Weight Question	Measured Weight
+SCDO:1000868	SickleInAfrica CDE - Ethnic Group Question	Ethnic Group
+SCDO:1000869	SickleInAfrica CDE - Religion Question	Religion
+SCDO:1000870	SickleInAfrica CDE - Region Question	Geographic Area
+SCDO:1000872	SickleInAfrica CDE - Street Question	Street Name
+SCDO:1000873	SickleInAfrica CDE - Nearest Landmark Question	Nearest Geographical Landmark
+SCDO:1000876	SickleInAfrica CDE - Telephone 1 Question	Telephone Number 1
+SCDO:1000877	SickleInAfrica CDE - Telephone 2 Question	Telephone Number 2
+SCDO:1000878	SickleInAfrica CDE - Next of Kin Name Question	Next of Kin Name
+SCDO:1000879	SickleInAfrica CDE - Next of Kin Number Question	Next of Kin Telephone Number
+SCDO:1000880	SickleInAfrica CDE - Relationship to Participant Question	Next of Kin Relationship to Participant
+SCDO:1000886	SickleInAfrica CDE - Blood Transfusion Question	Blood Transfusion Since Last Visit
+SCDO:1000549	SickleInAfrica CDE - Date of Transfusion Question	Date of Blood Transfusion
+SCDO:1000887	SickleInAfrica CDE - Units Transfused Question	Number of Units Transfused
+SCDO:1000889	SickleInAfrica CDE - Difficulty in Breathing Question	Respiratory Distress
+SCDO:1000890	SickleInAfrica CDE - Systolic Blood Pressure Question	Systolic Blood Pressure
+SCDO:1000891	SickleInAfrica CDE - Diastolic Blood Pressure Question	Diastolic Blood Pressure
+SCDO:1000894	SickleInAfrica CDE - Priapism Question	Priapism
+SCDO:1000895	SickleInAfrica CDE - Chest Pain Question	Chest Pain
+SCDO:1000896	SickleInAfrica CDE - Anaemia Question	Anemia
+SCDO:1000897	SickleInAfrica CDE - Jaundice Question	Jaundice
+SCDO:1000898	SickleInAfrica CDE - Urea Question	Blood Urea Concentration

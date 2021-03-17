@@ -1,0 +1,290 @@
+id	Term	treated with
+ID		C 'treated with' some %
+SCDO:0000560	Hereditary Persistence of Fetal Hemoglobin	Hydroxyurea
+SCDO:1000078	Severe Sickle Cell Disease-S Beta Minus Thalassemia	Hematopoietic Stem Cell Transplantation
+SCDO:1000078	Severe Sickle Cell Disease-S Beta Minus Thalassemia	Blood Transfusion
+SCDO:1000077	Moderate Sickle Cell Disease-S Beta Minus Thalassemia	Hematopoietic Stem Cell Transplantation
+SCDO:1000077	Moderate Sickle Cell Disease-S Beta Minus Thalassemia	Blood Transfusion
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	Hematopoietic Stem Cell Transplantation
+SCDO:0001058	Sickle Cell Disease-S Beta Zero Thalassemia	Blood Transfusion
+SCDO:0001056	Sickle Cell Disease-S Beta Minus Thalassemia	Ibuprofen
+SCDO:0001056	Sickle Cell Disease-S Beta Minus Thalassemia	Acetaminophen
+SCDO:0000519	Hemoglobin C Disease	Hematopoietic Stem Cell Transplantation
+SCDO:0000519	Hemoglobin C Disease	Hydroxyurea
+SCDO:0000519	Hemoglobin C Disease	Blood Transfusion
+SCDO:1000055	Severe Anemia	Hydroxyurea
+SCDO:1000055	Severe Anemia	Antibiotic
+SCDO:1000055	Severe Anemia	Morphine
+SCDO:1000055	Severe Anemia	Blood Transfusion
+SCDO:1000055	Severe Anemia	Iron Chelation Therapy
+SCDO:1000055	Severe Anemia	Gene Therapy
+SCDO:1000055	Severe Anemia	Folic Acid
+SCDO:1000055	Severe Anemia	Hematopoietic Stem Cell Transplantation
+SCDO:0001064	Sickle Cell Disease-S/O-Arab	Blood Transfusion
+SCDO:0000530	Hemoglobin E Disease	Hydroxyurea
+SCDO:0000530	Hemoglobin E Disease	Blood Transfusion
+SCDO:0000534	Hemoglobin H Disease	Antibiotic
+SCDO:0000534	Hemoglobin H Disease	Blood Transfusion
+SCDO:0000534	Hemoglobin H Disease	Iron Chelation Therapy
+SCDO:0000115	Beta Zero Thalassemia	Iron Chelation Therapy
+SCDO:0000115	Beta Zero Thalassemia	Folic Acid
+SCDO:0000530	Hemoglobin E Disease	Folic Acid
+SCDO:0000519	Hemoglobin C Disease	Folic Acid
+SCDO:0000518	Hemoglobin Barts Hydrops Fetalis	Iron Chelation Therapy
+SCDO:0000518	Hemoglobin Barts Hydrops Fetalis	Hematopoietic Stem Cell Transplantation
+SCDO:0000518	Hemoglobin Barts Hydrops Fetalis	Gene Therapy
+SCDO:0000744	Meningitis	Antibiotic
+SCDO:0001196	Tubular Proteinuria	Angiotensin-Converting Enzyme Inhibitors
+SCDO:0001060	Sickle Cell Disease-SD	Hydroxyurea
+SCDO:0001060	Sickle Cell Disease-SD	Antibiotic
+SCDO:0001060	Sickle Cell Disease-SD	Morphine
+SCDO:0001060	Sickle Cell Disease-SD	Blood Transfusion
+SCDO:0001060	Sickle Cell Disease-SD	Iron Chelation Therapy
+SCDO:0001060	Sickle Cell Disease-SD	Gene Therapy
+SCDO:0001060	Sickle Cell Disease-SD	Folic Acid
+SCDO:0001060	Sickle Cell Disease-SD	Hematopoietic Stem Cell Transplantation
+SCDO:0000530	Hemoglobin E Disease	Folic Acid
+SCDO:0000012	Acne	Antibiotic
+SCDO:0000015	Acute Chest Syndrome	Hydration Therapy
+SCDO:0000015	Acute Chest Syndrome	Physiotherapy
+SCDO:0000015	Acute Chest Syndrome	Hydroxyurea
+SCDO:0000015	Acute Chest Syndrome	Antibiotic
+SCDO:0000015	Acute Chest Syndrome	Blood Transfusion
+SCDO:0000015	Acute Chest Syndrome	Gene Therapy
+SCDO:0000015	Acute Chest Syndrome	Hematopoietic Stem Cell Transplantation
+SCDO:0000017	Acute Kidney Injury	Renal Dialysis
+SCDO:0000017	Acute Kidney Injury	Supportive Therapeutics
+SCDO:0000020	Acute Tubular Necrosis	Renal Dialysis
+SCDO:0000020	Acute Tubular Necrosis	Supportive Therapeutics
+SCDO:0000021	Acute Upper Respiratory Tract Infection	Symptomatic Therapeutics
+SCDO:0000032	Agenesis of Corpus Callosum	Symptomatic Therapeutics
+SCDO:0000032	Agenesis of Corpus Callosum	Physiotherapy
+SCDO:0000032	Agenesis of Corpus Callosum	Supportive Therapeutics
+SCDO:0000032	Agenesis of Corpus Callosum	Genetic Counseling
+SCDO:0000037	Albuminuria	Angiotensin-Converting Enzyme Inhibitors
+SCDO:0000037	Albuminuria	Treatment of Precipitating Factors
+SCDO:0000074	Arthralgia	Analgesic
+SCDO:0000074	Arthralgia	Anti-Inflammatory Agent
+SCDO:0000074	Arthralgia	Treatment of Precipitating Factors
+SCDO:0000075	Arthritis	Analgesic
+SCDO:0000075	Arthritis	Physiotherapy
+SCDO:0000087	Ataxia	Physiotherapy
+SCDO:0000087	Ataxia	Supportive Therapeutics
+SCDO:0000087	Ataxia	Treatment of Precipitating Factors
+SCDO:0000087	Ataxia	Occupational Therapy
+SCDO:0000088	Atopic Dermatitis	Antibiotic
+SCDO:0000093	Azotaemia	Renal Dialysis
+SCDO:0000093	Azotaemia	Treatment of Precipitating Factors
+SCDO:0000095	Back Pain	Treatment of Precipitating Factors
+SCDO:0000095	Back Pain	Analgesic
+SCDO:0000095	Back Pain	Surgery
+SCDO:0000095	Back Pain	Anti-Inflammatory Agent
+SCDO:0000099	Bacterial Endocarditis	Antifungal
+SCDO:0000099	Bacterial Endocarditis	Antibiotic
+SCDO:0000118	Biconcave Vertebral Bodies	Analgesic
+SCDO:0000154	Bone Pain	Analgesic
+SCDO:0000154	Bone Pain	Anti-Inflammatory Agent
+SCDO:0000154	Bone Pain	Surgery
+SCDO:0000159	Brain Abscess	Surgery
+SCDO:0000159	Brain Abscess	Antifungal
+SCDO:0000159	Brain Abscess	Antibiotic
+SCDO:0000180	Cancer	Surgery
+SCDO:0000180	Cancer	X-Ray Therapy
+SCDO:0000209	Cerebral Hemorrhage	Physiotherapy
+SCDO:0000209	Cerebral Hemorrhage	Surgery
+SCDO:0000209	Cerebral Hemorrhage	Occupational Therapy
+SCDO:0000209	Cerebral Hemorrhage	Analgesic
+SCDO:0000214	Cervical Cord Compression	Physiotherapy
+SCDO:0000214	Cervical Cord Compression	Ibuprofen
+SCDO:0000214	Cervical Cord Compression	Surgery
+SCDO:0000226	Chronic Kidney Disease	Renal Transplant
+SCDO:0000226	Chronic Kidney Disease	Renal Dialysis
+SCDO:0000226	Chronic Kidney Disease	Antihypertensive Agents
+SCDO:0000265	Coma	Treatment of Precipitating Factors
+SCDO:0000309	Cyanosis	Treatment of Precipitating Factors
+SCDO:0000342	Delayed Puberty	Treatment of Precipitating Factors
+SCDO:0000360	Depression	Psychotherapy
+SCDO:0000367	Diabetes Mellitus	Lifestyle Therapy
+SCDO:0000367	Diabetes Mellitus	Healthy Diet
+SCDO:0000369	Diabetic Ketoacidosis	Hydration Therapy
+SCDO:0000395	Diuresis	Treatment of Precipitating Factors
+SCDO:0000403	Dysarthria	Surgery
+SCDO:0000404	Dyslipidemia	Exercise
+SCDO:0000404	Dyslipidemia	Healthy Lifestyle
+SCDO:0000404	Dyslipidemia	Healthy Diet
+SCDO:1000224	Easy Bruisability	Treatment of Precipitating Factors
+SCDO:0000411	Eclampsia	Antihypertensive Agents
+SCDO:0000429	Encephalopathy	Renal Dialysis
+SCDO:0000429	Encephalopathy	Treatment of Precipitating Factors
+SCDO:0000429	Encephalopathy	Diet, Food, and Nutrition
+SCDO:0000430	End Stage Kidney Disease	Renal Dialysis
+SCDO:0000430	End Stage Kidney Disease	Renal Transplant
+SCDO:0000432	Endometriosis	Analgesic
+SCDO:0000432	Endometriosis	Antibiotic
+SCDO:0000432	Endometriosis	Surgery
+SCDO:0001308	Exercise-Induced Rhabdomyolysis	Renal Replacement Therapy
+SCDO:0001308	Exercise-Induced Rhabdomyolysis	Supportive Therapeutics
+SCDO:0001315	Facial Nerve Palsy	Surgery
+SCDO:0001315	Facial Nerve Palsy	Occupational Therapy
+SCDO:0001315	Facial Nerve Palsy	Treatment of Precipitating Factors
+SCDO:0001315	Facial Nerve Palsy	Physiotherapy
+SCDO:0001337	Frontal Bossing	Treatment of Precipitating Factors
+SCDO:0000454	Glaucoma (Secondary to Presence of Blood in the Anterior Chamber of the Eye)	Surgery
+SCDO:0000458	Glomerulonephritis	Treatment of Precipitating Factors
+SCDO:0000460	Glomerulosclerosis	Treatment of Precipitating Factors
+SCDO:0000464	Granulomatosis	Treatment of Precipitating Factors
+SCDO:0000465	Growth Delay	Cognitive Therapy
+SCDO:0000465	Growth Delay	Treatment of Precipitating Factors
+SCDO:0000554	Hemoglobinuria	Supportive Therapeutics
+SCDO:0000554	Hemoglobinuria	Treatment of Precipitating Factors
+SCDO:0000578	Hydrops Fetalis	Blood Transfusion
+SCDO:0000578	Hydrops Fetalis	Treatment of Precipitating Factors
+SCDO:0000578	Hydrops Fetalis	Exchange Transfusion, Whole Blood
+SCDO:0000586	Hypergonadotropic Hypogonadism	Surgery
+SCDO:0000586	Hypergonadotropic Hypogonadism	Treatment of Precipitating Factors
+SCDO:0000587	Hyperinsulinemia	Exercise
+SCDO:0000589	Hyperkeratosis	Surgery
+SCDO:0000591	Hyperostosis	Physiotherapy
+SCDO:0000591	Hyperostosis	Surgery
+SCDO:0000591	Hyperostosis	Anti-Inflammatory Agent
+SCDO:0000591	Hyperostosis	Analgesic
+SCDO:0000592	Hyperparathyroidism	Treatment of Precipitating Factors
+SCDO:0000597	Hyphema	Surgery
+SCDO:0000621	Impaired Renal Concentrating Ability	Blood Transfusion
+SCDO:0000622	Impaired Wound Healing	Treatment of Precipitating Factors
+SCDO:0000629	Increased Bone Mineral Density	Treatment of Precipitating Factors
+SCDO:0000632	Increased Susceptibility to Bacterial Infection	Infection Prophylaxis
+SCDO:0000632	Increased Susceptibility to Bacterial Infection	Antibiotic
+SCDO:0000644	Insulin Resistance	Exercise
+SCDO:0000644	Insulin Resistance	Healthy Diet
+SCDO:0000644	Insulin Resistance	Healthy Lifestyle
+SCDO:0000652	Interstitial Nephritis	Treatment of Precipitating Factors
+SCDO:0000654	Intracranial Hemorrhage	Surgery
+SCDO:0000654	Intracranial Hemorrhage	Antihypertensive Agents
+SCDO:0000656	Intracranial Hypotension	Surgery
+SCDO:0000658	Intrauterine Growth Restriction	Treatment of Precipitating Factors
+SCDO:0000671	Jaundice	Treatment of Precipitating Factors
+SCDO:0000672	Joint Hypermobility	Anti-Inflammatory Agent
+SCDO:0000672	Joint Hypermobility	Exercise
+SCDO:0000672	Joint Hypermobility	Analgesic
+SCDO:0000674	Kidney Failure	Treatment of Precipitating Factors
+SCDO:0000674	Kidney Failure	Renal Replacement Therapy
+SCDO:0000679	Kyphosis	Exercise
+SCDO:0000679	Kyphosis	Surgery
+SCDO:0000686	Leg Weakness	Treatment of Precipitating Factors
+SCDO:0000707	Lymphoma	Surgery
+SCDO:0000707	Lymphoma	Hematopoietic Stem Cell Transplantation
+SCDO:0000743	Membranous Nephropathy	Treatment of Precipitating Factors
+SCDO:0000744	Meningitis	Antibiotic
+SCDO:0000745	Menorrhagia	Antibiotic
+SCDO:0000745	Menorrhagia	Anti-Inflammatory Agent
+SCDO:0000759	Migraine	Healthy Diet
+SCDO:0000759	Migraine	Antihypertensive Agents
+SCDO:0000759	Migraine	Diet, Food, and Nutrition
+SCDO:0000759	Migraine	Exercise
+SCDO:0000769	Mononeuropathy	Surgery
+SCDO:0000769	Mononeuropathy	Treatment of Precipitating Factors
+SCDO:0000769	Mononeuropathy	Physiotherapy
+SCDO:0000769	Mononeuropathy	Occupational Therapy
+SCDO:0000770	Morbilliform Rash	Treatment of Precipitating Factors
+SCDO:0000779	Muscle Pain	Anti-Inflammatory Agent
+SCDO:0000779	Muscle Pain	Cognitive Therapy
+SCDO:0000779	Muscle Pain	Treatment of Precipitating Factors
+SCDO:0000779	Muscle Pain	Analgesic
+SCDO:0000783	Myoglobinuria	Renal Dialysis
+SCDO:0000783	Myoglobinuria	Supportive Therapeutics
+SCDO:0000784	Myopathy	Supportive Therapeutics
+SCDO:0000784	Myopathy	Treatment of Precipitating Factors
+SCDO:0000784	Myopathy	Anti-Inflammatory Agent
+SCDO:0000784	Myopathy	Analgesic
+SCDO:0000788	Nail Dystrophy	Antifungal
+SCDO:0000788	Nail Dystrophy	Antibiotic
+SCDO:0000793	Nephritis	Treatment of Precipitating Factors
+SCDO:0000795	Nephropathy	Hydroxyurea
+SCDO:0000795	Nephropathy	Blood Transfusion
+SCDO:0000795	Nephropathy	Angiotensin-Converting Enzyme Inhibitors
+SCDO:0000796	Nephrotic Syndrome	Treatment of Precipitating Factors
+SCDO:0000796	Nephrotic Syndrome	Angiotensin-Converting Enzyme Inhibitors
+SCDO:0000797	Nephrotic Range Proteinuria	Treatment of Precipitating Factors
+SCDO:0000797	Nephrotic Range Proteinuria	Angiotensin-Converting Enzyme Inhibitors
+SCDO:0000812	Non-specific Acute Lower Respiratory Tract Episode	Hydration Therapy
+SCDO:0000812	Non-specific Acute Lower Respiratory Tract Episode	Blood Transfusion
+SCDO:0000812	Non-specific Acute Lower Respiratory Tract Episode	Physiotherapy
+SCDO:0000812	Non-specific Acute Lower Respiratory Tract Episode	Antibiotic
+SCDO:0000816	Obesity	Behaviour Therapy
+SCDO:0000816	Obesity	Healthy Diet
+SCDO:0000820	Obstructive Sleep Apnea	Lifestyle
+SCDO:0000820	Obstructive Sleep Apnea	Healthy Lifestyle
+SCDO:0000828	Oliguria	Treatment of Precipitating Factors
+SCDO:0000830	Nail Dysplasia	Surgery
+SCDO:0000831	Onychomycosis	Surgery
+SCDO:0000831	Onychomycosis	Antifungal
+SCDO:0000832	Ophthalmologic Complication	Surgery
+SCDO:0000832	Ophthalmologic Complication	Treatment of Precipitating Factors
+SCDO:0000839	Osteomalacia	Treatment of Precipitating Factors
+SCDO:0000840	Osteomyelitis	Surgery
+SCDO:0000840	Osteomyelitis	Antibiotic
+SCDO:0000841	Osteonecrosis	Analgesic
+SCDO:0000841	Osteonecrosis	Surgery
+SCDO:0000843	Osteopenia	Healthy Diet
+SCDO:0000843	Osteopenia	Exercise
+SCDO:0000843	Osteopenia	Diet, Food, and Nutrition
+SCDO:0000843	Osteopenia	Healthy Lifestyle
+SCDO:0000844	Osteoporosis	Exercise
+SCDO:0000846	Otitis Media	Antibiotic
+SCDO:0000846	Otitis Media	Antifungal
+SCDO:0000851	Pain	Transcutaneous Electrical Nerve Stimulation
+SCDO:0000851	Pain	Treatment of Precipitating Factors
+SCDO:0000863	Pallor	Treatment of Precipitating Factors
+SCDO:0000884	Peripheral Neuropathy	Treatment of Precipitating Factors
+SCDO:0000884	Peripheral Neuropathy	Diet, Food, and Nutrition
+SCDO:0000884	Peripheral Neuropathy	Surgery
+SCDO:0000892	Petechiae	Treatment of Precipitating Factors
+SCDO:0000914	Polyneuropathy	Physiotherapy
+SCDO:0000914	Polyneuropathy	Occupational Therapy
+SCDO:0000914	Polyneuropathy	Treatment of Precipitating Factors
+SCDO:0000916	Postpartum Hemorrhage	Blood Transfusion
+SCDO:0000932	Proteinuria	Treatment of Precipitating Factors
+SCDO:0000932	Proteinuria	Angiotensin-Converting Enzyme Inhibitors
+SCDO:0000946	Pyoderma	Antibiotic
+SCDO:0000972	Recurrent Wheeze in Sickle Cell Disease	Hydroxyurea
+SCDO:0000972	Recurrent Wheeze in Sickle Cell Disease	Blood Transfusion
+SCDO:0000982	Renal Artery Stenosis	Surgery
+SCDO:0000984	Renal Ischemia	Supportive Therapeutics
+SCDO:0000986	Renal Tubular Acidosis	Treatment of Precipitating Factors
+SCDO:0001011	Rheumatoid Arthritis	Occupational Therapy
+SCDO:0001011	Rheumatoid Arthritis	Physiotherapy
+SCDO:0001024	Sciatica	Surgery
+SCDO:0001024	Sciatica	Anti-Inflammatory Agent
+SCDO:0001024	Sciatica	Analgesic
+SCDO:0001024	Sciatica	Physiotherapy
+SCDO:0001026	Scoliosis	Physiotherapy
+SCDO:0001026	Scoliosis	Surgery
+SCDO:0001039	Sepsis	Antibiotic
+SCDO:0001039	Sepsis	Antifungal
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Hydroxyurea
+SCDO:0001046	Sickle Cell Chronic Lung Disease	Blood Transfusion
+SCDO:0001073	Skin Rash	Antihistamine
+SCDO:0001073	Skin Rash	Antibiotic
+SCDO:0001102	Spondylolisthesis	Physiotherapy
+SCDO:0001102	Spondylolisthesis	Anti-Inflammatory Agent
+SCDO:0001102	Spondylolisthesis	Surgery
+SCDO:0001102	Spondylolisthesis	Analgesic
+SCDO:0001105	Steroid-Resistant Nephrotic Syndrome	Treatment of Precipitating Factors
+SCDO:0001111	Stroke	Transcranial Doppler Ultrasonography
+SCDO:0001118	Subarachnoid Hemorrhage	Healthy Diet
+SCDO:0001118	Subarachnoid Hemorrhage	Tobacco Use Cessation
+SCDO:0001118	Subarachnoid Hemorrhage	Surgery
+SCDO:0001137	Systemic Lupus Erythematosus	Malaria Prophylaxis
+SCDO:0001137	Systemic Lupus Erythematosus	Anti-Inflammatory Agent
+SCDO:0001168	Transient Monocular Blindness	Surgery
+SCDO:0001168	Transient Monocular Blindness	Exercise
+SCDO:0001168	Transient Monocular Blindness	Treatment of Precipitating Factors
+SCDO:0001168	Transient Monocular Blindness	Healthy Lifestyle
+SCDO:0001168	Transient Monocular Blindness	Healthy Diet
+SCDO:0001238	Vitreous Hemorrhage	Vitrectomy
+SCDO:0000228	Chronic Neuropathic Pain	Amitriptyline
+SCDO:0000228	Chronic Neuropathic Pain	Pregabalin
+SCDO:0007091	Cholelithiasis	Gentamicin
+SCDO:0007091	Cholelithiasis	Amoxycillin
+SCDO:0007091	Cholelithiasis	Metronidazole
