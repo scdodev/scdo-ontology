@@ -6,3 +6,6 @@ scdo_hpo_merged.owl
 src/ontology/scdo_hp_bridge.owl
 src/ontology/imports/hp_import.txt
 src/ontology/diff.txt
+src/ontology/mappings/scdo-sssom-xrefs-rename.tsv-E
+src/ontology/mappings/scdo-sssom-xrefs.tsv-E
+src/ontology/scdo-edit-with-obo-ids.owl

@@ -18,14 +18,14 @@ PREFIX="SCDO: http://scdontology.h3abionet.org/ontology/SCDO_"
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test $(ONT).owl $(ONT).obo $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt interoperability/scdo-sssom-xrefs.tsv
+all: sparql_test $(ONT).owl $(ONT).obo $(ONT)_hpo_merged.owl scdo_hp_bridge.owl results/hp_module.owl imports/hp_import.txt mappings/scdo-sssom-xrefs.tsv
 test: sparql_test all
 prepare_release: all
 	cp $(ONT).owl scdo_hpo_merged.owl $(RELEASEDIR) &&\
-	mkdir -p $(RELEASEDIR)/imports $(RELEASEDIR)/interoperability &&\
+	mkdir -p $(RELEASEDIR)/imports $(RELEASEDIR)/mappings &&\
 	cp imports/*.owl $(RELEASEDIR)/imports &&\
-	cp interoperability/*.tsv $(RELEASEDIR)/interoperability &&\
-	cp interoperability/*.yml $(RELEASEDIR)/interoperability &&\
+	cp mappings/*.tsv $(RELEASEDIR)/mappings &&\
+	cp mappings/*.yml $(RELEASEDIR)/mappings &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
