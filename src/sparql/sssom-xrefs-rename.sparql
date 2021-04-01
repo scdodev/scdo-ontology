@@ -4,16 +4,32 @@ prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
 prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT distinct ?subject_id ?subject_label ?predicate_id ?predicate_label ?object_id ?object_label ?match_type ?mapping_provider WHERE 
+SELECT distinct ?subject_id ?object_id WHERE 
 {
-  ?subject ?predicate ?object  .
+  ?subject oio:hasDbXref ?object  .
   ?subject <http://scdontology.h3abionet.org/ontology/SCDO_1000288> ?sufficient .
-  OPTIONAL { ?subject rdfs:label ?subject_label } .
-  OPTIONAL { ?object rdfs:label ?object_label } .
-  OPTIONAL { ?predicate rdfs:label ?predicate_label } .
-  OPTIONAL { ?mapping_provider rdf:type owl:Ontology } .
-  FILTER (?predicate = oio:hasDbXref)
   FILTER (str(?sufficient) = "Sufficient")
+  FILTER (!regex(str(?object),"^AERO"))
+  FILTER (!regex(str(?object),"^APAONTO"))
+  FILTER (!regex(str(?object),"^BAO"))
+  FILTER (!regex(str(?object),"^CRISP"))
+  FILTER (!regex(str(?object),"^CSP"))
+  FILTER (!regex(str(?object),"^EDDA"))
+  FILTER (!regex(str(?object),"^EFO"))
+  FILTER (!regex(str(?object),"^ERO"))
+  FILTER (!regex(str(?object),"^FaBiO"))
+  FILTER (!regex(str(?object),"^FYPO"))
+  FILTER (!regex(str(?object),"^ICD10CM"))
+  FILTER (!regex(str(?object),"^IDODEN"))
+  FILTER (!regex(str(?object),"^MESH"))
+  FILTER (!regex(str(?object),"^MMO"))
+  FILTER (!regex(str(?object),"^NPO"))
+  FILTER (!regex(str(?object),"^OAE"))
+  FILTER (!regex(str(?object),"^ORPHA"))
+  FILTER (!regex(str(?object),"^phenX"))
+  FILTER (!regex(str(?object),"^SIO"))
+  FILTER (!regex(str(?object),"^sio"))
+  FILTER (!regex(str(?object),"^VSO"))
   FILTER(isIRI(?subject) && regex(str(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]"))
   BIND(REPLACE(STR(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]", "SCDO:", "i") AS ?subject_id)
   BIND(IF(regex(str(?object), "http[:][/][/]www[.]ebi[.]ac[.]uk[/]efo[/]EFO[_]")
@@ -23,6 +39,4 @@ SELECT distinct ?subject_id ?subject_label ?predicate_id ?predicate_label ?objec
 			REPLACE(STR(?object), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]|http[:][/][/]www[.]ebi[.]ac[.]uk[/]efo[/]|http[:][/][/]www[.]orpha.net[/]ORDO[/]", "", "i"),
 		"[_]", ":", "i")
 		,?object) AS ?object_id)
-  BIND(REPLACE(STR(?predicate), "http[:][/][/]www[.]geneontology[.]org[/]formats[/]oboInOwl[#]", "oio:", "i") AS ?predicate_id)
-  BIND("HumanCurated" as ?match_type)
 }

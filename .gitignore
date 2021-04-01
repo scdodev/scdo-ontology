@@ -2,3 +2,7 @@
 *~
 src/ontology/scdo.owl
 src/ontology/scdo.obo
+scdo_hpo_merged.owl
+src/ontology/scdo_hp_bridge.owl
+src/ontology/imports/hp_import.txt
+src/ontology/diff.txt
