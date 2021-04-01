@@ -7,6 +7,7 @@ OBO=http://purl.obolibrary.org/obo
 ONT=scdo
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
+SRC_OBO=$(ONT)-edit-with-obo-ids.owl
 RELEASEDIR=../..
 ROBOT= ../../bin/robot
 OWLTOOLS= ../../bin/owltools
@@ -44,7 +45,7 @@ $(ONT)_hpo_merged.owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
 	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)_hpo_merged.owl -o $@
 
 $(ONT).obo: $(ONT).owl
-	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
+	$(ROBOT) convert -i $< --check false -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 # ----------------------------------------
 # Import modules
@@ -97,10 +98,25 @@ all_reports: $(SRC)
 # SSSOM file
 # ----------------------------------------
 
-interoperability/:
+mappings/:
 	mkdir -p $@
 
-interoperability/scdo-sssom-xrefs.tsv: scdo-edit.owl | interoperability/
+mappings/scdo-sssom-xrefs.tsv: $(SRC) | mappings/
 	$(ROBOT) query -i $< -f tsv --query $(SPARQLDIR)/sssom-xrefs.sparql $@
 	sed -i -E 's/[<>?"]//g' $@
+	
+mappings/scdo-sssom-xrefs-rename.tsv: $(SRC) | mappings/
+	$(ROBOT) query -i $< -f tsv --query $(SPARQLDIR)/sssom-xrefs-rename.sparql $@
+	sed -i -E 's/[<>?"]//g' $@
 
+$(SRC_OBO): $(SRC)
+	$(ROBOT) query -i $< --update $(SPARQLDIR)/sssom-xrefs-rename-scdoid.ru convert -f owx -o $@
+
+rename_classes_to_obo_ids: $(SRC) mappings/scdo-sssom-xrefs-rename.tsv
+	$(ROBOT) rename -i $< --prefix "SCDO: http://scdontology.h3abionet.org/ontology/SCDO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv convert -f owx -o $(SRC)
+
+obo_release:
+	make annotate_classes_to_be_replaced
+	make mappings/scdo-sssom-xrefs.tsv
+	make rename_classes_to_obo_ids
+	make SRC=$(SRC_OBO) all release
