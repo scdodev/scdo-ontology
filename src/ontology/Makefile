@@ -34,19 +34,28 @@ prepare_release: all
 # Main release targets
 # ----------------------------------------
 
+TEMPLATES=caused_by causes_condition causes_molecular_phenotype causes_or_contributes_to_condition causes_or_contributes_to_molecular_phenotype code_requires_phenotype collects contributes_to_genotype diagnosed_by diagnosed_using_measurement diagnosed_using_tool has_answer_option has_answer_standard_unit has_causal_genotype has_causal_molecular_phenotype has_causal_or_contributing_genetic_variation has_clinical_code has_contributing_genetic_variation has_essential_measure has_manifestation has_mode_of_inheritance has_output_measurement has_possible_finding induced_by in_guideline is_question_type measures modified_by modifies obtained_via_diagnostic_tool output_of_diagnostic_device treated_with treats used_by_diagnostic_tool uses_diagnostic_device
+TEMPLATE_FILES = $(patsubst %, templates/%.tsv, $(TEMPLATES))
 # by default we use Elk to perform a reason-relax-reduce chain
 # after that we annotate the ontology with the release versionInfo
-$(ONT).owl: $(SRC) templates/caused_by.tsv templates/causes_condition.tsv templates/causes_molecular_phenotype.tsv templates/causes_or_contributes_to_condition.tsv templates/causes_or_contributes_to_molecular_phenotype.tsv templates/code_requires_phenotype.tsv templates/collects.tsv templates/contributes_to_genotype.tsv templates/diagnosed_by.tsv templates/diagnosed_using_measurement.tsv templates/diagnosed_using_tool.tsv templates/has_answer_option.tsv templates/has_answer_standard_unit.tsv templates/has_causal_genotype.tsv templates/has_causal_molecular_phenotype.tsv templates/has_causal_or_contributing_genetic_variation.tsv templates/has_clinical_code.tsv templates/has_contributing_genetic_variation.tsv templates/has_essential_measure.tsv templates/has_manifestation.tsv templates/has_mode_of_inheritance.tsv templates/has_output_measurement.tsv templates/has_possible_finding.tsv templates/induced_by.tsv templates/in_guideline.tsv templates/is_question_type.tsv templates/measures.tsv templates/modified_by.tsv templates/modifies.tsv templates/obtained_via_diagnostic_tool.tsv templates/output_of_diagnostic_device.tsv templates/treated_with.tsv templates/treats.tsv templates/used_by_diagnostic_tool.tsv templates/uses_diagnostic_device.tsv
-	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template templates/caused_by.tsv --merge-before --prefix $(PREFIX) --template templates/causes_condition.tsv --merge-before --prefix $(PREFIX) --template templates/causes_molecular_phenotype.tsv --merge-before --prefix $(PREFIX) --template templates/causes_or_contributes_to_condition.tsv --merge-before --prefix $(PREFIX) --template templates/causes_or_contributes_to_molecular_phenotype.tsv --merge-before --prefix $(PREFIX) --template templates/code_requires_phenotype.tsv --merge-before --prefix $(PREFIX) --template templates/collects.tsv --merge-before --prefix $(PREFIX) --template templates/contributes_to_genotype.tsv --merge-before --prefix $(PREFIX) --template templates/diagnosed_by.tsv --merge-before --prefix $(PREFIX) --template templates/diagnosed_using_measurement.tsv --merge-before --prefix $(PREFIX) --template templates/diagnosed_using_tool.tsv --merge-before --prefix $(PREFIX) --template templates/has_answer_option.tsv --merge-before --prefix $(PREFIX) --template templates/has_answer_standard_unit.tsv --merge-before --prefix $(PREFIX) --template templates/has_causal_genotype.tsv --merge-before --prefix $(PREFIX) --template templates/has_causal_molecular_phenotype.tsv --merge-before --prefix $(PREFIX) --template templates/has_causal_or_contributing_genetic_variation.tsv --merge-before --prefix $(PREFIX) --template templates/has_clinical_code.tsv --merge-before --prefix $(PREFIX) --template templates/has_contributing_genetic_variation.tsv --merge-before --prefix $(PREFIX) --template templates/has_essential_measure.tsv --merge-before --prefix $(PREFIX) --template templates/has_manifestation.tsv --merge-before --prefix $(PREFIX) --template templates/has_mode_of_inheritance.tsv --merge-before --prefix $(PREFIX) --template templates/has_output_measurement.tsv --merge-before --prefix $(PREFIX) --template templates/has_possible_finding.tsv --merge-before --prefix $(PREFIX) --template templates/induced_by.tsv --merge-before --prefix $(PREFIX) --template templates/in_guideline.tsv --merge-before --prefix $(PREFIX) --template templates/is_question_type.tsv --merge-before --prefix $(PREFIX) --template templates/measures.tsv --merge-before --prefix $(PREFIX) --template templates/modified_by.tsv --merge-before --prefix $(PREFIX) --template templates/modifies.tsv --merge-before --prefix $(PREFIX) --template templates/obtained_via_diagnostic_tool.tsv --merge-before --prefix $(PREFIX) --template templates/output_of_diagnostic_device.tsv --merge-before --prefix $(PREFIX) --template templates/treated_with.tsv --merge-before --prefix $(PREFIX) --template templates/treats.tsv --merge-before --prefix $(PREFIX) --template templates/used_by_diagnostic_tool.tsv --merge-before --prefix $(PREFIX) --template templates/uses_diagnostic_device.tsv reason -s true -m false --exclude-tautologies all -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+$(ONT).owl: $(TEMPLATE_FILES) mappings/scdo-sssom-xrefs-rename.tsv
+	$(ROBOT) template --input $(SRC) $(patsubst %, --merge-before --prefix $(PREFIX) --template %, $(TEMPLATE_FILES)) \
+		query --update $(SPARQLDIR)/sssom-xrefs-rename-scdoid.ru \
+		reason -s true -m false --exclude-tautologies structural -r ELK \
+		rename --prefix "SCDO: http://scdontology.h3abionet.org/ontology/SCDO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv --allow-missing-entities true \
+		annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl convert -f owl -o $@
 
 #$(ONT).owl: $(SRC) /home/gaston/SCDO-Ontologygithub/templates/AllTermsFinal.tsv /home/gaston/SCDO-Ontologygithub/templates/Topology.tsv templates/haemoglobinopathies.tsv
-#	$(ROBOT) template --input $(SRC) --merge-before --prefix $(PREFIX) --template /home/gaston/SCDO-Ontologygithub/templates/AllTermsFinal.tsv template --merge-before --prefix $(PREFIX) --template /home/gaston/SCDO-Ontologygithub/templates/Topology.tsv template --merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+#	$(ROBOT) template --input $(SRC) \
+--merge-before --prefix $(PREFIX) --template /home/gaston/SCDO-Ontologygithub/templates/AllTermsFinal.tsv template \
+--merge-before --prefix $(PREFIX) --template /home/gaston/SCDO-Ontologygithub/templates/Topology.tsv template \
+--merge-before --prefix $(PREFIX) --template templates/haemoglobinopathies.tsv reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
 $(ONT)_hpo_merged.owl: $(SRC) scdo_hp_bridge.owl results/hp_module.owl
 	$(ROBOT) merge --input $(SRC) --input scdo_hp_bridge.owl --input results/hp_module.owl reason -s true -m false -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)_hpo_merged.owl -o $@
 
 $(ONT).obo: $(ONT).owl
-	$(ROBOT) convert -i $< --check false -f obo -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+	$(ROBOT) convert -i $(ONT).owl --check false -f obo -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 
 # ----------------------------------------
 # Import modules
@@ -83,7 +92,7 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference xref-synt
 # run all violation checks
 VQUERIES = $(foreach V,$(VCHECKS),$(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
-	$(ROBOT) verify -i $< --queries $(VQUERIES) -O reports/
+	$(ROBOT) verify -i $(SRC) --queries $(VQUERIES) -O reports/
 
 # ----------------------------------------
 # Sparql queries: Reports
@@ -92,7 +101,7 @@ sparql_test: $(SRC)
 REPORTS = basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
 all_reports: $(SRC)
-	$(ROBOT) query -f tsv -i $< $(REPORT_ARGS)
+	$(ROBOT) query -f tsv -i $(SRC) $(REPORT_ARGS)
 	
 	
 # ----------------------------------------
@@ -103,20 +112,12 @@ mappings/:
 	mkdir -p $@
 
 mappings/scdo-sssom-xrefs.tsv: scdo-edit.owl | mappings/
-	$(ROBOT) query -i $< -f tsv --query $(SPARQLDIR)/sssom-xrefs.sparql $@
+	$(ROBOT) query -i scdo-edit.owl -f tsv --query $(SPARQLDIR)/sssom-xrefs.sparql $@
 	sed -i -E 's/[<>?"]//g' $@
 	
 mappings/scdo-sssom-xrefs-rename.tsv: $(SRC) | mappings/
-	$(ROBOT) query -i $< -f tsv --query $(SPARQLDIR)/sssom-xrefs-rename.sparql $@
+	$(ROBOT) query -i $(SRC) -f tsv --query $(SPARQLDIR)/sssom-xrefs-rename.sparql $@
 	sed -i -E 's/[<>?"]//g' $@
 
-$(SRC_OBO):
-	$(ROBOT) query -i $(SRC) --update $(SPARQLDIR)/sssom-xrefs-rename-scdoid.ru convert -f owx -o $@
-
-rename_classes_to_obo_ids: $(SRC_OBO) mappings/scdo-sssom-xrefs-rename.tsv
-	$(ROBOT) rename -i $< --prefix "SCDO: http://scdontology.h3abionet.org/ontology/SCDO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv --allow-missing-entities true convert -f owx -o $<
-
 obo_release:
-	#make mappings/scdo-sssom-xrefs.tsv
-	make $(SRC_OBO) rename_classes_to_obo_ids
-	make SRC=scdo-edit-with-obo-ids.owl all release
+	make all release
