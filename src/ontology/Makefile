@@ -112,11 +112,10 @@ mappings/scdo-sssom-xrefs-rename.tsv: $(SRC) | mappings/
 $(SRC_OBO): $(SRC)
 	$(ROBOT) query -i $< --update $(SPARQLDIR)/sssom-xrefs-rename-scdoid.ru convert -f owx -o $@
 
-rename_classes_to_obo_ids: $(SRC) mappings/scdo-sssom-xrefs-rename.tsv
-	$(ROBOT) rename -i $< --prefix "SCDO: http://scdontology.h3abionet.org/ontology/SCDO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv convert -f owx -o $(SRC)
+rename_classes_to_obo_ids: $(SRC_OBO) mappings/scdo-sssom-xrefs-rename.tsv
+	$(ROBOT) rename -i $< --prefix "SCDO: http://scdontology.h3abionet.org/ontology/SCDO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv convert -f owx -o $<
 
 obo_release:
-	make annotate_classes_to_be_replaced
 	make mappings/scdo-sssom-xrefs.tsv
-	make rename_classes_to_obo_ids
+	make $(SRC_OBO) rename_classes_to_obo_ids
 	make SRC=$(SRC_OBO) all release
