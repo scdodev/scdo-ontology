@@ -30,7 +30,12 @@ SCDO:1000711	SickleInAfrica CDE - Body Temperature Question	Degree Celsius
 SCDO:1000714	SickleInAfrica CDE - Respiratory Rate Question	Breaths per Minute
 SCDO:1000717	SickleInAfrica CDE - Partial Pressure CO2 Question	mmHg
 SCDO:1000722	SickleInAfrica CDE - Partial Pressure O2 Question	mmHg
-SCDO:1000751	SickleInAfrica CDE - Hemoglobin - ABG Question	g/dL
+SCDO:1000751	SickleInAfrica CDE - Total Hemoglobin Question	g/dL
 SCDO:1000724	SickleInAfrica CDE - Oxyhemoglobin Saturation Question	Percent
 SCDO:1000725	SickleInAfrica CDE - Carboxyhemoglobin Question	Percent
 SCDO:1000726	SickleInAfrica CDE - Methemoglobin Question	Percent
+SCDO:1000863	SickleInAfrica CDE - Height Question	Centimeter
+SCDO:1000866	SickleInAfrica CDE - Weight Question	Kilogram
+SCDO:1000890	SickleInAfrica CDE - Systolic Blood Pressure Question	mmHg
+SCDO:1000891	SickleInAfrica CDE - Diastolic Blood Pressure Question	mmHg
+SCDO:1000898	SickleInAfrica CDE - Urea Question	Millimole per Liter

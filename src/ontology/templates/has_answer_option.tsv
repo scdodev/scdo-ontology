@@ -4,35 +4,17 @@ SCDO:1000512	SickleInAfrica CDE - Informed Consent Obtained Question	Yes
 SCDO:1000512	SickleInAfrica CDE - Informed Consent Obtained Question	No
 SCDO:1000512	SickleInAfrica CDE - Informed Consent Obtained Question	Refused
 SCDO:1000512	SickleInAfrica CDE - Informed Consent Obtained Question	Do Not Know
-SCDO:1000534	SickleInAfrica CDE - Consent Form Uploaded Question	Yes
-SCDO:1000534	SickleInAfrica CDE - Consent Form Uploaded Question	No
 SCDO:1000548	SickleInAfrica CDE - Current Marital Status Question	Married
 SCDO:1000548	SickleInAfrica CDE - Current Marital Status Question	Widowed
 SCDO:1000548	SickleInAfrica CDE - Current Marital Status Question	Divorced
 SCDO:1000548	SickleInAfrica CDE - Current Marital Status Question	Separated
 SCDO:1000548	SickleInAfrica CDE - Current Marital Status Question	Never Been Married
-SCDO:1000549	SickleInAfrica CDE - Spouse Sex Question	Male
-SCDO:1000549	SickleInAfrica CDE - Spouse Sex Question	Female
-SCDO:1000549	SickleInAfrica CDE - Spouse Sex Question	Intersex
-SCDO:1000549	SickleInAfrica CDE - Spouse Sex Question	Refused
-SCDO:1000669	SickleInAfrica CDE - Partner Status Question	Yes
-SCDO:1000669	SickleInAfrica CDE - Partner Status Question	No
-SCDO:1000710	SickleInAfrica CDE - Partner Sex Question	Male
-SCDO:1000710	SickleInAfrica CDE - Partner Sex Question	Female
-SCDO:1000710	SickleInAfrica CDE - Partner Sex Question	Intersex
-SCDO:1000710	SickleInAfrica CDE - Partner Sex Question	Refused
-SCDO:1000670	SickleInAfrica CDE - Past Partner Status Question	Yes
-SCDO:1000670	SickleInAfrica CDE - Past Partner Status Question	No
 SCDO:1000551	SickleInAfrica CDE - Sex Question	Male
 SCDO:1000551	SickleInAfrica CDE - Sex Question	Female
 SCDO:1000551	SickleInAfrica CDE - Sex Question	Intersex
 SCDO:1000551	SickleInAfrica CDE - Sex Question	Refused
 SCDO:1000552	SickleInAfrica CDE - Date of Diagnosis Known Question	Yes
 SCDO:1000552	SickleInAfrica CDE - Date of Diagnosis Known Question	No
-SCDO:1000566	SickleInAfrica CDE - Year of Diagnosis Question	Do Not Know
-SCDO:1000566	SickleInAfrica CDE - Year of Diagnosis Question	Year 1900 - Current
-SCDO:1000571	SickleInAfrica CDE - Month of Diagnosis Question	Do Not Know
-SCDO:1000571	SickleInAfrica CDE - Month of Diagnosis Question	Month 1 - 12
 SCDO:1000573	SickleInAfrica CDE - SCD Test Result Question	Sickle Cell Disease-SS
 SCDO:1000573	SickleInAfrica CDE - SCD Test Result Question	Sickle Beta Thalassemia
 SCDO:1000573	SickleInAfrica CDE - SCD Test Result Question	Sickle Cell Disease-SC
@@ -43,6 +25,7 @@ SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Hemoglobin Electroph
 SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Isoelectric Focusing
 SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Basique
 SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Acide
+SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Sickle SCAN Rapid Test
 SCDO:1000575	SickleInAfrica CDE - Type of SCD Test Question	Other
 SCDO:1000579	SickleInAfrica CDE - Blood Group Question	Blood Type A Positive
 SCDO:1000579	SickleInAfrica CDE - Blood Group Question	Blood Type A Negative
@@ -79,5 +62,21 @@ SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin 
 SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin E
 SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin A2
 SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin D-Punjab
-SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin G-Philidelphia
+SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin G-Philadelphia
 SCDO:1000687	SickleInAfrica CDE - Hb Assay Results Recorded Question	Hemoglobin O-Arab
+SCDO:1000847	SickleInAfrica CDE - Type of Visit Question	Routine Clinical Visit
+SCDO:1000847	SickleInAfrica CDE - Type of Visit Question	Acute Clinical Visit
+SCDO:1000847	SickleInAfrica CDE - Type of Visit Question	Follow-Up Visit
+SCDO:1000847	SickleInAfrica CDE - Type of Visit Question	First Visit
+SCDO:1000886	SickleInAfrica CDE - Blood Transfusion Question	Yes
+SCDO:1000886	SickleInAfrica CDE - Blood Transfusion Question	No
+SCDO:1000889	SickleInAfrica CDE - Difficulty in Breathing Question	Yes
+SCDO:1000889	SickleInAfrica CDE - Difficulty in Breathing Question	No
+SCDO:1000894	SickleInAfrica CDE - Priapism Question	Yes
+SCDO:1000894	SickleInAfrica CDE - Priapism Question	No
+SCDO:1000895	SickleInAfrica CDE - Chest Pain Question	Yes
+SCDO:1000895	SickleInAfrica CDE - Chest Pain Question	No
+SCDO:1000896	SickleInAfrica CDE - Anaemia Question	Yes
+SCDO:1000896	SickleInAfrica CDE - Anaemia Question	No
+SCDO:1000897	SickleInAfrica CDE - Jaundice Question	Yes
+SCDO:1000897	SickleInAfrica CDE - Jaundice Question	No
