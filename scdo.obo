@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: scdo/releases/2021-04-01/scdo.owl
+data-version: scdo/releases/2021-04-09/scdo.owl
 synonymtypedef: abbreviation "abbreviation"
 synonymtypedef: layperson "layperson term"
 synonymtypedef: obsolete_synonym "discarded/obsoleted synonym"
@@ -18,7 +18,7 @@ property_value: http://purl.org/dc/elements/1.1/isReferencedBy https://academic.
 property_value: http://purl.org/dc/elements/1.1/isReferencedBy https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6947307/
 property_value: http://purl.org/dc/elements/1.1/isReferencedBy https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7411326/
 property_value: http://purl.org/dc/elements/1.1/isReferencedBy https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7549008/
-property_value: http://purl.org/dc/elements/1.1/issued "March 2021" xsd:string
+property_value: http://purl.org/dc/elements/1.1/issued "April 2021" xsd:string
 property_value: http://purl.org/dc/elements/1.1/language "English" xsd:string
 property_value: http://purl.org/dc/elements/1.1/license "GPL-3.0" xsd:string
 property_value: http://purl.org/dc/elements/1.1/LicenseDocument https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -667,7 +667,7 @@ xref: CMO:0000291
 is_a: CMO:0001356 ! Red Blood Cell Measurement
 relationship: SCDO:1000190 CMO:0000364 ! obtained via diagnostic tool Complete Blood Count
 relationship: SCDO:1000772 HP:0025547 ! has possible finding Decreased Mean Corpuscular Hemoglobin Concentration
-relationship: SCDO:1000772 SCDO:1000636 ! has possible finding Increased Mean Corpuscular Hemoglobin Concentration
+relationship: SCDO:1000772 HP:0025548 ! has possible finding Increased Mean Corpuscular Hemoglobin Concentration
 relationship: SCDO:1000772 SCDO:1000827 ! has possible finding Normal Mean Corpuscular Hemoglobin Concentration
 property_value: SCDO:0000303 "Add the sub-class \"mean corpuscular sickle hemoglobin concentration (MCSHC)\"? (see https://www.ncbi.nlm.nih.gov/pmc/articles/PMC290884/pdf/jcinvest00309-0076.pdf)" xsd:string
 property_value: SCDO:0000340 http://purl.obolibrary.org/obo/CMO_0000291 xsd:string
@@ -1198,9 +1198,9 @@ property_value: SCDO:1000910 SCDO:1000216 xsd:string
 [Term]
 id: EUPATH:0000050
 name: Routine Clinical Visit
+def: "A clinical visit that is primarily for a regular examination." []
 xref: EUPATH:0000050
 is_a: NCIT:C103165 ! Subject Visit Type
-property_value: http://purl.org/dc/elements/1.1/description "A clinical visit that is primarily for a regular examination." xsd:string
 property_value: SCDO:0000340 EUPATH:0000050
 property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:1000848 xsd:string
@@ -3750,7 +3750,7 @@ synonym: "High Serum Alkaline Phosphatase" EXACT []
 synonym: "Increased Alkaline Phosphatase" EXACT []
 synonym: "Reduced Circulating ALP" EXACT []
 xref: HP:0003155
-is_a: SCDO:1000666 ! Abnormality of Alkaline Phosphatase Level
+is_a: HP:0004379 ! Abnormality of Alkaline Phosphatase Level
 property_value: SCDO:0000340 HP:0003155
 property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:1000664 xsd:string
@@ -3802,6 +3802,19 @@ is_a: NCIT:C27088 ! Hyperbilirubinemia
 property_value: SCDO:0000340 HP:0003265
 property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:0003776 xsd:string
+
+[Term]
+id: HP:0003282
+name: Decreased Serum Alkaline Phosphatase
+def: "Abnormally reduced serum levels of alkaline phosphatase." []
+synonym: "Low Alkaline Phosphatase" EXACT []
+synonym: "Low ALP" EXACT []
+synonym: "Reduced Serum Alkaline Phosphatase" EXACT []
+xref: HP:0003282
+is_a: HP:0004379 ! Abnormality of Alkaline Phosphatase Level
+property_value: SCDO:0000340 HP:0003282
+property_value: SCDO:1000288 "Sufficient" xsd:string
+property_value: SCDO:1000910 SCDO:1000667 xsd:string
 
 [Term]
 id: HP:0003302
@@ -4015,6 +4028,21 @@ is_a: HP:0032180 ! Abnormal Circulating Metabolite Concentration
 property_value: SCDO:0000340 HP:0004364
 property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:1000647 xsd:string
+
+[Term]
+id: HP:0004379
+name: Abnormality of Alkaline Phosphatase Level
+def: "An abnormality of alkaline phosphatase level." []
+comment: Note that the alkaline phosphatase family has four isoenzymes in humans, each of which additionally can have different isoforms. The primary clinical importance of measuring alkaline phosphatase is to check the possibility of bone disease or liver disease.
+synonym: "Abnormality Alkaline Phosphatase Level" EXACT []
+synonym: "Abnormality of Alkaline Phosphatase Activity" EXACT []
+synonym: "Abnormality of ALP Level" EXACT []
+synonym: "Alkaline Phosphatase Abnormal" EXACT []
+xref: HP:0004379
+is_a: HP:0012379 ! Abnormal Enzyme/Coenzyme Activity
+property_value: SCDO:0000340 HP:0004379
+property_value: SCDO:1000288 "Sufficient" xsd:string
+property_value: SCDO:1000910 SCDO:1000666 xsd:string
 
 [Term]
 id: HP:0004447
@@ -5156,6 +5184,21 @@ property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:1000635 xsd:string
 
 [Term]
+id: HP:0025548
+name: Increased Mean Corpuscular Hemoglobin Concentration
+def: "Greater than the normal Hgb/Hct; the average hemoglobin concentration in a given volume of packed red cells, calculated from the hemoglobin therein and the hematocrit, in erythrocyte indices." []
+synonym: "High MCHC" EXACT []
+synonym: "High Mean Corpuscular Haemoglobin Concentration" EXACT []
+synonym: "High Mean Corpuscular Hemoglobin Concentration" EXACT []
+synonym: "Increased MCHC" EXACT []
+synonym: "Increased Mean Corpuscular Haemoglobin Concentration" EXACT []
+xref: HP:0025548
+is_a: HP:0025546 ! Abnormal Mean Corpuscular Hemoglobin Concentration
+property_value: SCDO:0000340 MP:0005641
+property_value: SCDO:1000288 "Sufficient" xsd:string
+property_value: SCDO:1000910 SCDO:1000636 xsd:string
+
+[Term]
 id: HP:0025636
 name: Endometritis
 def: "Inflammation of the inner lining of the uterus" []
@@ -5686,6 +5729,20 @@ property_value: SCDO:0000303 "Perhaps include here an \"Alpha Thalassemia Mutati
 property_value: SCDO:0000340 http://purl.obolibrary.org/obo/IDOMAL_50000026 xsd:string
 property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:0001370 xsd:string
+
+[Term]
+id: LNC:LP16433-2
+name: Hemoglobin G-Philadelphia
+def: "Hemoglobin G Philadelphia (HbG Phil) is a structural variant of the hemoglobin molecule that involves the alpha chain rather than the beta chain. It has a frequency of about 1 in 5,000 African Americans, but has been reported in other ethnic groups in the Mediterranean region as well, HbG Phil itself has no clinical consequences. The only finding of clinical interest is the mild microcytosis. While this molecule has no clinical consequences, the presence helps to distinguish HbG from HbD that shares its electrophoretic migration on HPLC and gel electrophoresis and which does have consequences when it occurs with sickle trait." []
+synonym: "Hb G-Phil" EXACT []
+synonym: "Hb G-Philadelphia" EXACT []
+synonym: "HbG Phil" EXACT []
+synonym: "Hemoglobin G Philadelphia" EXACT []
+xref: LNC:LP16433-2
+is_a: SCDO:0006921 ! Hemoglobin Variant
+property_value: SCDO:0000340 https://loinc.org/80655-4/
+property_value: SCDO:1000288 "Sufficient" xsd:string
+property_value: SCDO:1000910 SCDO:1000689 xsd:string
 
 [Term]
 id: MP:0001212
@@ -8270,6 +8327,19 @@ is_a: SCDO:0004061 ! Genotype
 property_value: SCDO:0000340 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C63547
 property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:0007716 xsd:string
+
+[Term]
+id: NCIT:C64387
+name: Millimole per Liter
+def: "A unit of concentration (molarity unit) equal to one millimole of solute per liter of solution." []
+synonym: "Millimolar" EXACT []
+synonym: "mM" EXACT []
+synonym: "mmol/L" EXACT []
+xref: NCIT:C64387
+is_a: UO:0000051 ! Concentration Unit
+property_value: SCDO:0000340 NCIT:C64387
+property_value: SCDO:1000288 "Sufficient" xsd:string
+property_value: SCDO:1000910 SCDO:1000899 xsd:string
 
 [Term]
 id: NCIT:C64572
@@ -25620,19 +25690,6 @@ property_value: SCDO:1000739 "7" xsd:integer
 property_value: SCDO:1000749 "text" xsd:string
 
 [Term]
-id: SCDO:1000636
-name: Increased Mean Corpuscular Hemoglobin Concentration
-def: "Greater than the normal Hgb/Hct; the average hemoglobin concentration in a given volume of packed red cells, calculated from the hemoglobin therein and the hematocrit, in erythrocyte indices." []
-synonym: "High MCHC" EXACT []
-synonym: "High Mean Corpuscular Haemoglobin Concentration" EXACT []
-synonym: "High Mean Corpuscular Hemoglobin Concentration" EXACT []
-synonym: "Increased MCHC" EXACT []
-synonym: "Increased Mean Corpuscular Haemoglobin Concentration" EXACT []
-xref: HP:0025548
-is_a: HP:0025546 ! Abnormal Mean Corpuscular Hemoglobin Concentration
-property_value: SCDO:0000340 MP:0005641
-
-[Term]
 id: SCDO:1000637
 name: SickleInAfrica CDE - Red Cell Distribution Width Question
 def: "The Sickle in Africa core data element that collects the respondent's red cell distribution width, as measured by a complete blood count." []
@@ -25773,30 +25830,6 @@ property_value: http://purl.org/dc/elements/1.1/creator "SCDO (Jade Hotchkiss)" 
 property_value: SCDO:1000288 "Few but definitions not available" xsd:string
 
 [Term]
-id: SCDO:1000666
-name: Abnormality of Alkaline Phosphatase Level
-def: "An abnormality of alkaline phosphatase level." []
-comment: Note that the alkaline phosphatase family has four isoenzymes in humans, each of which additionally can have different isoforms. The primary clinical importance of measuring alkaline phosphatase is to check the possibility of bone disease or liver disease.
-synonym: "Abnormality Alkaline Phosphatase Level" EXACT []
-synonym: "Abnormality of Alkaline Phosphatase Activity" EXACT []
-synonym: "Abnormality of ALP Level" EXACT []
-synonym: "Alkaline Phosphatase Abnormal" EXACT []
-xref: HP:0004379
-is_a: HP:0012379 ! Abnormal Enzyme/Coenzyme Activity
-property_value: SCDO:0000340 HP:0004379
-
-[Term]
-id: SCDO:1000667
-name: Decreased Serum Alkaline Phosphatase
-def: "Abnormally reduced serum levels of alkaline phosphatase." []
-synonym: "Low Alkaline Phosphatase" EXACT []
-synonym: "Low ALP" EXACT []
-synonym: "Reduced Serum Alkaline Phosphatase" EXACT []
-xref: HP:0003282
-is_a: SCDO:1000666 ! Abnormality of Alkaline Phosphatase Level
-property_value: SCDO:0000340 HP:0003282
-
-[Term]
 id: SCDO:1000669
 name: Sickle SCAN Rapid Test
 def: "A multiplexed qualitative point-of-care immunoassay used for the rapid diagnosis of sickle cell disorders. The test is made up of three indicators which detect the presence of hemoglobins A, S, and C, allowing the user to rapidly distinguish between normal, carrier, and sickle cell samples." []
@@ -25812,6 +25845,7 @@ name: Current Partner Status
 def: "An indication of a person's current status in terms of living with a person as though married (in a romantic relationship and living together but not married)." []
 is_a: NCIT:C16495 ! Demographic Factor
 property_value: http://purl.org/dc/elements/1.1/creator "SCDO (Jade Hotchkiss)" xsd:string
+property_value: SCDO:1000288 "None" xsd:string
 
 [Term]
 id: SCDO:1000679
@@ -25819,6 +25853,7 @@ name: Past Partner Status
 def: "An indication of whether a person has previously lived with someone as though married (in a romantic relationship and lived together but were not married)." []
 is_a: NCIT:C16495 ! Demographic Factor
 property_value: http://purl.org/dc/elements/1.1/creator "SCDO (Jade Hotchkiss)" xsd:string
+property_value: SCDO:1000288 "None" xsd:string
 
 [Term]
 id: SCDO:1000680
@@ -25896,6 +25931,7 @@ name: SickleInAfrica CDE - Hb Assay Results Recorded Question
 def: "The Sickle in Africa core data element that records the hemoglobins for which assay results were recorded." []
 is_a: SCDO:1000509 ! SickleInAfrica Core Data Element
 relationship: SCDO:1000525 SCDO:1000495 ! is question type Multiple Choice Multiple Selection Question
+relationship: SCDO:1000526 LNC:LP16433-2 ! has answer option Hemoglobin G-Philadelphia
 relationship: SCDO:1000526 SCDO:0000513 ! has answer option Hemoglobin C
 relationship: SCDO:1000526 SCDO:0000514 ! has answer option Hemoglobin S
 relationship: SCDO:1000526 SCDO:0000528 ! has answer option Hemoglobin D-Punjab
@@ -25904,7 +25940,6 @@ relationship: SCDO:1000526 SCDO:0005446 ! has answer option Fetal Hemoglobin
 relationship: SCDO:1000526 SCDO:1000009 ! has answer option Hemoglobin E
 relationship: SCDO:1000526 SCDO:1000016 ! has answer option Hemoglobin O-Arab
 relationship: SCDO:1000526 SCDO:1000364 ! has answer option Hemoglobin A2
-relationship: SCDO:1000526 SCDO:1000689 ! has answer option Hemoglobin G-Philidelphia
 relationship: SCDO:1000528 SCDO:1000688 ! collects Hemoglobin Assay Results Recorded
 property_value: SCDO:1000517 "1, Hb A\n2, Hb  F\n3, Hb  S\n4, Hb  C\n5, Hb  E\n6, Hb A2\n7, Hb  D-Punjab\n8, Hb  G-Philadelphia\n9, Hb  O-Arab" xsd:string
 property_value: SCDO:1000518 "For which hemoglobins were assay results recorded?" xsd:string
@@ -25924,27 +25959,15 @@ property_value: http://purl.org/dc/elements/1.1/creator "SCDO (Jade Hotchkiss)" 
 property_value: SCDO:1000288 "None" xsd:string
 
 [Term]
-id: SCDO:1000689
-name: Hemoglobin G-Philidelphia
-def: "Hemoglobin G Philadelphia (HbG Phil) is a structural variant of the hemoglobin molecule that involves the alpha chain rather than the beta chain. It has a frequency of about 1 in 5,000 African Americans, but has been reported in other ethnic groups in the Mediterranean region as well, HbG Phil itself has no clinical consequences. The only finding of clinical interest is the mild microcytosis. While this molecule has no clinical consequences, the presence helps to distinguish HbG from HbD that shares its electrophoretic migration on HPLC and gel electrophoresis and which does have consequences when it occurs with sickle trait." []
-synonym: "Hb G-Phil" EXACT []
-synonym: "Hb G-Philidelphia" EXACT []
-synonym: "HbG Phil" EXACT []
-synonym: "Hemoglobin G Philidelphia" EXACT []
-xref: LNC:LP16433-2
-is_a: SCDO:0006921 ! Hemoglobin Variant
-property_value: SCDO:0000340 https://loinc.org/80655-4/
-
-[Term]
 id: SCDO:1000690
 name: Hemoglobin A Level
-def: "SCDO (Jade Hotchkiss)" []
 def: "The amount of hemoglobin A present in a specified volume of blood." []
 synonym: "Haemoglobin A Level" EXACT []
 is_a: SCDO:0000546 ! Hemoglobin Profile
 relationship: SCDO:1000190 SCDO:0000547 ! obtained via diagnostic tool Hemoglobin Profile Assay
 relationship: SCDO:1000772 SCDO:0000976 ! has possible finding Reduced Hemoglobin A
 relationship: SCDO:1000772 SCDO:1000241 ! has possible finding Absent Hemoglobin A
+property_value: http://purl.org/dc/elements/1.1/creator "SCDO (Jade Hotchkiss)" xsd:string
 property_value: SCDO:1000288 "Negligible" xsd:string
 
 [Term]
@@ -26528,6 +26551,8 @@ synonym: "Axillary (armpit) Temperature" EXACT []
 xref: VSO:0000003
 is_a: CMO:0000015 ! Body Temperature
 property_value: SCDO:0000340 VSO:0000003
+property_value: SCDO:1000288 "Sufficient" xsd:string
+property_value: SCDO:1000910 SCDO:1000758 xsd:string
 
 [Term]
 id: SCDO:1000759
@@ -27870,7 +27895,7 @@ def: "The Sickle in Africa core data element that collects the concentration of 
 is_a: SCDO:1000509 ! SickleInAfrica Core Data Element
 relationship: SCDO:1000525 SCDO:1000501 ! is question type Open-Ended Question - Restricted
 relationship: SCDO:1000528 EUPATH:0021227 ! collects Blood Urea Concentration
-relationship: SCDO:1000771 SCDO:1000899 ! has answer standard unit Millimole per Liter
+relationship: SCDO:1000771 NCIT:C64387 ! has answer standard unit Millimole per Liter
 property_value: SCDO:1000518 "Urea" xsd:string
 property_value: SCDO:1000519 "urea" xsd:string
 property_value: SCDO:1000735 "Kidney Function Assay (Phenx protocols PX141401, PX141501 and PX141601 unless stated otherwise)" xsd:string
@@ -27878,17 +27903,6 @@ property_value: SCDO:1000737 "mmol/L" xsd:string
 property_value: SCDO:1000739 "2" xsd:integer
 property_value: SCDO:1000741 "Number" xsd:string
 property_value: SCDO:1000749 "text" xsd:string
-
-[Term]
-id: SCDO:1000899
-name: Millimole per Liter
-def: "A unit of concentration (molarity unit) equal to one millimole of solute per liter of solution." []
-synonym: "Millimolar" EXACT []
-synonym: "mM" EXACT []
-synonym: "mmol/L" EXACT []
-xref: NCIT:C64387
-is_a: UO:0000051 ! Concentration Unit
-property_value: SCDO:0000340 NCIT:C64387
 
 [Term]
 id: SCDO:1000900
@@ -28221,7 +28235,7 @@ xref: VT:0000202
 is_a: CMO:0000023 ! Blood Chemistry Measurement
 relationship: SCDO:1000190 SCDO:1000663 ! obtained via diagnostic tool Alkaline Phosphatase Blood Test
 relationship: SCDO:1000772 HP:0003155 ! has possible finding Elevated Serum Alkaline Phosphatase
-relationship: SCDO:1000772 SCDO:1000667 ! has possible finding Decreased Serum Alkaline Phosphatase
+relationship: SCDO:1000772 HP:0003282 ! has possible finding Decreased Serum Alkaline Phosphatase
 relationship: SCDO:1000772 SCDO:1000832 ! has possible finding Normal Serum Alkaline Phosphatase
 property_value: SCDO:0000340 VT:0000202
 property_value: SCDO:1000288 "Sufficient" xsd:string

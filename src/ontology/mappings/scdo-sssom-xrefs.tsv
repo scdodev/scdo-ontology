@@ -17,6 +17,7 @@ SCDO:0001038	Sensory Neuropathy	oio:hasDbXref	database cross reference	HP:000076
 SCDO:0000822	Occupational Therapy	oio:hasDbXref	database cross reference	MESH:D009788		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0001116	Study Outcome Measurement	oio:hasDbXref	database cross reference	NCIT:C93407		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0000789	Naloxone	oio:hasDbXref	database cross reference	MESH:D009270		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
+SCDO:1000666	Abnormality of Alkaline Phosphatase Level	oio:hasDbXref	database cross reference	HP:0004379		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0004437	Mesenteric Venous Thrombosis	oio:hasDbXref	database cross reference	HP:0030248		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000011	Hemoglobin Subunit Delta	oio:hasDbXref	database cross reference	NCIT:C84980		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000665	Abnormal Enzyme/Coenzyme Activity	oio:hasDbXref	database cross reference	HP:0012379		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
@@ -271,6 +272,7 @@ SCDO:0001325	Flow Cytometer	oio:hasDbXref	database cross reference	NPO:1769		Hum
 SCDO:0000487	Health Behaviour	oio:hasDbXref	database cross reference	APAONTO:Health_Behavior		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0003572	Consent Form	oio:hasDbXref	database cross reference	MESH:D032962		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000541	Abnormal Circulating Creatinine Level	oio:hasDbXref	database cross reference	HP:0012100		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
+SCDO:1000667	Decreased Serum Alkaline Phosphatase	oio:hasDbXref	database cross reference	HP:0003282		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000756	Tympanic Temperature	oio:hasDbXref	database cross reference	VSO:0000045		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000142	Spectrophotometry	oio:hasDbXref	database cross reference	BAO:0000049		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000427	Ethical Principle	oio:hasDbXref	database cross reference	GSSO:003239		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
@@ -402,8 +404,10 @@ SCDO:1000653	Abnormal Urine Amino Acid Level	oio:hasDbXref	database cross refere
 SCDO:1000676	Divorced	oio:hasDbXref	database cross reference	NCIT:C51776		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000368	Abnormal Cardiovascular System Physiology	oio:hasDbXref	database cross reference	HP:0011025		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0005335	Antipyretic	oio:hasDbXref	database cross reference	CHEBI:35493		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
+SCDO:1000899	Millimole per Liter	oio:hasDbXref	database cross reference	NCIT:C64387		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000658	IU/L	oio:hasDbXref	database cross reference	NCIT:C67376		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000491	Concentration Unit	oio:hasDbXref	database cross reference	UO:0000051		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
+SCDO:1000636	Increased Mean Corpuscular Hemoglobin Concentration	oio:hasDbXref	database cross reference	HP:0025548		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0001284	Behaviour Therapy	oio:hasDbXref	database cross reference	MESH:D001521		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0000439	Epigenetic Disorder	oio:hasDbXref	database cross reference	OGMS:0000046		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000143	Disease Management Guideline	oio:hasDbXref	database cross reference	FaBiO:d4e2515		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
@@ -682,6 +686,7 @@ SCDO:0009453	Hemoglobin	oio:hasDbXref	database cross reference	NCIT:C16676		Huma
 SCDO:0000819	Observational Studies as Topic	oio:hasDbXref	database cross reference	MESH:D064887		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0001057	Sickle Beta Thalassemia	oio:hasDbXref	database cross reference	NCIT:C95539		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0000250	Clinical Neuropathy Assessment	oio:hasDbXref	database cross reference	phenX:130201		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
+SCDO:1000689	Hemoglobin G-Philadelphia	oio:hasDbXref	database cross reference	LNC:LP16433-2		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0300007	Parental Notification	oio:hasDbXref	database cross reference	MESH:D035622		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0000367	Diabetes Mellitus	oio:hasDbXref	database cross reference	HP:0000819		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0006832	Ascorbic Acid Deficiency	oio:hasDbXref	database cross reference	MESH:D001206		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
@@ -837,6 +842,7 @@ SCDO:1000347	Tachypnea	oio:hasDbXref	database cross reference	NCIT:C50767		Human
 SCDO:0008079	Intra-Abdominal Abscess	oio:hasDbXref	database cross reference	NCIT:C128326		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0003913	Age of Onset	oio:hasDbXref	database cross reference	HP:0011007		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000103	Genetic Locus	oio:hasDbXref	database cross reference	MESH:D056426		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
+SCDO:1000758	Axillary Temperature	oio:hasDbXref	database cross reference	VSO:0000003		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:1000186	Abnormal Hemoglobin Concentration	oio:hasDbXref	database cross reference	HP:0020061		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0001321	Fentanyl	oio:hasDbXref	database cross reference	MESH:D005283		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
 SCDO:0006467	Duloxetine	oio:hasDbXref	database cross reference	NCIT:65495		HumanCurated	http://scdontology.h3abionet.org/ontology/scdo.owl
