@@ -26,7 +26,6 @@ prepare_release: all
 	mkdir -p $(RELEASEDIR)/imports $(RELEASEDIR)/mappings &&\
 	cp imports/*.owl $(RELEASEDIR)/imports &&\
 	cp mappings/*.tsv $(RELEASEDIR)/mappings &&\
-	cp mappings/*.yml $(RELEASEDIR)/mappings &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
@@ -42,7 +41,7 @@ $(ONT).owl: $(TEMPLATE_FILES) mappings/scdo-sssom-xrefs-rename.tsv
 	$(ROBOT) template --input $(SRC) $(patsubst %, --merge-before --prefix $(PREFIX) --template %, $(TEMPLATE_FILES)) \
 		query --update $(SPARQLDIR)/sssom-xrefs-rename-scdoid.ru \
 		reason -s true -m false --exclude-tautologies structural -r ELK \
-		rename --prefix "SCDO: http://scdontology.h3abionet.org/ontology/SCDO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv --allow-missing-entities true \
+		rename --prefix "ExO: http://purl.obolibrary.org/obo/ExO_" --prefix "GSSO: http://purl.obolibrary.org/obo/GSSO_" --prefix "SCDO: http://scdontology.h3abionet.org/ontology/SCDO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv --allow-missing-entities true \
 		annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl convert -f owl -o $@
 
 #$(ONT).owl: $(SRC) /home/gaston/SCDO-Ontologygithub/templates/AllTermsFinal.tsv /home/gaston/SCDO-Ontologygithub/templates/Topology.tsv templates/haemoglobinopathies.tsv

@@ -25,6 +25,7 @@ SELECT distinct ?subject_id ?object_id WHERE
   FILTER (!regex(str(?object),"^MMO"))
   FILTER (!regex(str(?object),"^NPO"))
   FILTER (!regex(str(?object),"^OAE"))
+  FILTER (!regex(str(?object),"^LNC"))
   FILTER (!regex(str(?object),"^ORPHA"))
   FILTER (!regex(str(?object),"^phenX"))
   FILTER (!regex(str(?object),"^SIO"))

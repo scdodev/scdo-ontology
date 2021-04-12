@@ -14,7 +14,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="http://scdontology.h3abionet.org/ontology/">
     <owl:Ontology rdf:about="http://scdontology.h3abionet.org/ontology/scdo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/scdo/releases/2021-04-09/scdo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/scdo/releases/2021-04-12/scdo.owl"/>
         <dc:LicenseDocument rdf:resource="https://www.gnu.org/licenses/gpl-3.0.en.html"/>
         <dc:abstract>Sickle cell disease (SCD) is one of the most common monogenic diseases in humans with multiple phenotypic expressions that can manifest as both acute and chronic complications. Although described more than a century ago, challenges in comprehensive disease management and collaborative research on this disease are compounded by the complex molecular and clinical phenotypes of SCD, environmental and psychosocial factors, limited therapeutic options and ambiguous terminology. This ambiguous terminology has hampered the integration and interoperability of existing SCD knowledge, and SCD research translation. The SCD Ontology (SCDO), which is a community-driven integrative and universal knowledge representation system for SCD, overcomes this issue by providing a controlled vocabulary developed by a group of experts in both SCD and ontology design. SCDO is the first and most comprehensive standardized human- and machine-readable resource that unambiguously represents terminology and concepts about SCD for researchers, patients and clinicians. It is built around the central concept ‘hemoglobinopathy’, allowing inclusion of non-SCD haemoglobinopathies, such as thalassaemias, which may interfere with or influence SCD phenotypic manifestations. This collaboratively developed ontology constitutes a comprehensive knowledge management system and standardized terminology of various SCD-related factors. The SCDO will promote interoperability of different research datasets, facilitate seamless data sharing and collaborations, including meta-analyses within the SCD community, and support the development and curation of data-basing and clinical informatics in SCD.</dc:abstract>
         <dc:accessRights>Anyone can access the resource.</dc:accessRights>
@@ -1878,68 +1878,6 @@ None</rdfs:comment>
     
 
 
-    <!-- ExO:0000034 -->
-
-    <owl:Class rdf:about="ExO:0000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001090"/>
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000157"/>
-        <obo:IAO_0000115>An individual attribute that is the usual or principal work or business of an individual.</obo:IAO_0000115>
-        <ontology:SCDO_0000340>http://purl.obolibrary.org/obo/ExO_0000034</ontology:SCDO_0000340>
-        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
-        <ontology:SCDO_1000910>SCDO:0000821</ontology:SCDO_1000910>
-        <oboInOwl:hasDbXref>ExO:0000034</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Career</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Employment</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Job</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Vocation</oboInOwl:hasExactSynonym>
-        <rdfs:label>Occupation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- ExO:0000048 -->
-
-    <owl:Class rdf:about="ExO:0000048">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000897"/>
-        <obo:IAO_0000115>Human-made surroundings that provide the setting for human activity, ranging in scale from personal shelter and buildings to neighborhoods and cite, and can often include their supporting infrastructure, such as water supply or energy networks.</obo:IAO_0000115>
-        <ontology:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/ExO_0000048"/>
-        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
-        <ontology:SCDO_1000910>SCDO:0000167</ontology:SCDO_1000910>
-        <oboInOwl:hasDbXref>ExO:0000048</oboInOwl:hasDbXref>
-        <rdfs:label>Built Environment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- GSSO:000109 -->
-
-    <owl:Class rdf:about="GSSO:000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C91106"/>
-        <obo:IAO_0000115>Intersex is an umbrella term with a complex history. It is usually used to refer to persons with congenital conditions which involve differences in the many intertwined processes of sexual development.</obo:IAO_0000115>
-        <ontology:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/GSSO/GSSO_000109"/>
-        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
-        <ontology:SCDO_1000910>SCDO:1000672</ontology:SCDO_1000910>
-        <oboInOwl:hasDbXref>GSSO:000109</oboInOwl:hasDbXref>
-        <rdfs:label>Intersex</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- GSSO:003239 -->
-
-    <owl:Class rdf:about="GSSO:003239">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000430"/>
-        <obo:IAO_0000115>Principles which provide a framework within which ethical dilemmas and other problems may be analyzed.</obo:IAO_0000115>
-        <ontology:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
-        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
-        <ontology:SCDO_1000910>SCDO:1000427</ontology:SCDO_1000910>
-        <oboInOwl:hasDbXref>GSSO:003239</oboInOwl:hasDbXref>
-        <rdfs:label>Ethical Principle</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- HsapDv:0000000 -->
 
     <owl:Class rdf:about="HsapDv:0000000">
@@ -1952,24 +1890,6 @@ None</rdfs:comment>
         <oboInOwl:hasDbXref>HsapDv:0000000</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Developmental Stage</oboInOwl:hasExactSynonym>
         <rdfs:label>Human Life Cycle Stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- LNC:LP16433-2 -->
-
-    <owl:Class rdf:about="LNC:LP16433-2">
-        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0006921"/>
-        <obo:IAO_0000115>Hemoglobin G Philadelphia (HbG Phil) is a structural variant of the hemoglobin molecule that involves the alpha chain rather than the beta chain. It has a frequency of about 1 in 5,000 African Americans, but has been reported in other ethnic groups in the Mediterranean region as well, HbG Phil itself has no clinical consequences. The only finding of clinical interest is the mild microcytosis. While this molecule has no clinical consequences, the presence helps to distinguish HbG from HbD that shares its electrophoretic migration on HPLC and gel electrophoresis and which does have consequences when it occurs with sickle trait.</obo:IAO_0000115>
-        <ontology:SCDO_0000340 rdf:resource="https://loinc.org/80655-4/"/>
-        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
-        <ontology:SCDO_1000910>SCDO:1000689</ontology:SCDO_1000910>
-        <oboInOwl:hasDbXref>LNC:LP16433-2</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Hb G-Phil</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Hb G-Philadelphia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>HbG Phil</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Hemoglobin G Philadelphia</oboInOwl:hasExactSynonym>
-        <rdfs:label>Hemoglobin G-Philadelphia</rdfs:label>
     </owl:Class>
     
 
@@ -4539,6 +4459,40 @@ However, the definition did not seem to come from this source, so the DO term wa
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ExO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001090"/>
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000157"/>
+        <obo:IAO_0000115>An individual attribute that is the usual or principal work or business of an individual.</obo:IAO_0000115>
+        <ontology:SCDO_0000340>http://purl.obolibrary.org/obo/ExO_0000034</ontology:SCDO_0000340>
+        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
+        <ontology:SCDO_1000910>SCDO:0000821</ontology:SCDO_1000910>
+        <oboInOwl:hasDbXref>ExO:0000034</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Career</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Employment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Job</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vocation</oboInOwl:hasExactSynonym>
+        <rdfs:label>Occupation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ExO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000048">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000897"/>
+        <obo:IAO_0000115>Human-made surroundings that provide the setting for human activity, ranging in scale from personal shelter and buildings to neighborhoods and cite, and can often include their supporting infrastructure, such as water supply or energy networks.</obo:IAO_0000115>
+        <ontology:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/ExO_0000048"/>
+        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
+        <ontology:SCDO_1000910>SCDO:0000167</ontology:SCDO_1000910>
+        <oboInOwl:hasDbXref>ExO:0000048</oboInOwl:hasDbXref>
+        <rdfs:label>Built Environment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
@@ -4550,6 +4504,34 @@ However, the definition did not seem to come from this source, so the DO term wa
         <oboInOwl:hasDbXref>GAZ:00000448</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Geographic Region</oboInOwl:hasExactSynonym>
         <rdfs:label>Geographic Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C91106"/>
+        <obo:IAO_0000115>Intersex is an umbrella term with a complex history. It is usually used to refer to persons with congenital conditions which involve differences in the many intertwined processes of sexual development.</obo:IAO_0000115>
+        <ontology:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/GSSO/GSSO_000109"/>
+        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
+        <ontology:SCDO_1000910>SCDO:1000672</ontology:SCDO_1000910>
+        <oboInOwl:hasDbXref>GSSO:000109</oboInOwl:hasDbXref>
+        <rdfs:label>Intersex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GSSO_003239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_003239">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000430"/>
+        <obo:IAO_0000115>Principles which provide a framework within which ethical dilemmas and other problems may be analyzed.</obo:IAO_0000115>
+        <ontology:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
+        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
+        <ontology:SCDO_1000910>SCDO:1000427</ontology:SCDO_1000910>
+        <oboInOwl:hasDbXref>GSSO:003239</oboInOwl:hasDbXref>
+        <rdfs:label>Ethical Principle</rdfs:label>
     </owl:Class>
     
 
@@ -41791,7 +41773,7 @@ Symptom of splenic sequestration, or increased haemolysis.</ontology:SCDO_000030
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0005927 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0005927">
-        <rdfs:subClassOf rdf:resource="GSSO:003239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
         <obo:IAO_0000115>An ethical principle that obligates one to treat people fairly. Distributive justice refers to allocating benefits and harms fairly; procedural justice refers to using fair processes to make decisions that affect people; formal justice refers to treating similar cases in the same way. In human subjects research, the principle of justice implies that subjects should be selected equitably.</obo:IAO_0000115>
         <dc:creator>SCDO</dc:creator>
         <ontology:SCDO_0000303>Request inclusion into relevant ontology</ontology:SCDO_0000303>
@@ -42863,7 +42845,7 @@ Haematologica Jan 2000, 85 (7) 690-693;</ontology:SCDO_0000340>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0008925 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0008925">
-        <rdfs:subClassOf rdf:resource="GSSO:003239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
         <obo:IAO_0000115>The capacity for self-governance, i.e. the ability to make reasonable decisions.</obo:IAO_0000115>
         <dc:creator>SCDO</dc:creator>
         <dc:source>https://www.hhs.gov/ohrp/sites/default/files/the-belmont-report-508c_FINAL.pdf</dc:source>
@@ -42956,7 +42938,7 @@ Haematologica Jan 2000, 85 (7) 690-693;</ontology:SCDO_0000340>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0009089 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0009089">
-        <rdfs:subClassOf rdf:resource="GSSO:003239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
         <obo:IAO_0000115>Principle dictating that harm should not come to individuals as a result of their participation in a research project.</obo:IAO_0000115>
         <ontology:SCDO_0000303>Request inclusion into relevant ontology</ontology:SCDO_0000303>
         <ontology:SCDO_0000340>Shamoo AE and Resnik DB, Responsible Conduct of Research, 3rd ed. (New York: Oxford University Press, 2015).</ontology:SCDO_0000340>
@@ -43173,7 +43155,7 @@ Haematologica Jan 2000, 85 (7) 690-693;</ontology:SCDO_0000340>
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_0009532 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_0009532">
-        <rdfs:subClassOf rdf:resource="GSSO:003239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003239"/>
         <obo:IAO_0000115>Effort made to secure the well-being of persons, maximizing possible benefits and minimizing possible harms.</obo:IAO_0000115>
         <dc:creator>SCDO</dc:creator>
         <ontology:SCDO_0000340>https://www.hhs.gov/ohrp/sites/default/files/the-belmont-report-508c_FINAL.pdf</ontology:SCDO_0000340>
@@ -50338,7 +50320,7 @@ PhenX uses this as their label for a questionnaire, but we&apos;re going to sugg
     <!-- http://scdontology.h3abionet.org/ontology/SCDO_1000355 -->
 
     <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_1000355">
-        <rdfs:subClassOf rdf:resource="ExO:0000048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ExO_0000048"/>
         <obo:IAO_0000115>Physical surroundings or conditions of a hospital or other health facility and influence of these factors on patients and staff.</obo:IAO_0000115>
         <ontology:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/MESH/D006272"/>
         <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
@@ -52081,7 +52063,7 @@ Request inclusion into relevant ontology.</ontology:SCDO_0000303>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000526"/>
-                <owl:someValuesFrom rdf:resource="GSSO:000109"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GSSO_000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -53877,12 +53859,6 @@ Request inclusion into relevant ontology.</ontology:SCDO_0000303>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000526"/>
-                <owl:someValuesFrom rdf:resource="LNC:LP16433-2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000526"/>
                 <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000513"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -53930,6 +53906,12 @@ Request inclusion into relevant ontology.</ontology:SCDO_0000303>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000526"/>
+                <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000528"/>
                 <owl:someValuesFrom rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000688"/>
             </owl:Restriction>
@@ -53964,6 +53946,24 @@ Request inclusion into relevant ontology.</ontology:SCDO_0000303>
         <dc:creator>SCDO (Jade Hotchkiss)</dc:creator>
         <ontology:SCDO_1000288>None</ontology:SCDO_1000288>
         <rdfs:label>Hemoglobin Assay Results Recorded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://scdontology.h3abionet.org/ontology/SCDO_1000689 -->
+
+    <owl:Class rdf:about="http://scdontology.h3abionet.org/ontology/SCDO_1000689">
+        <rdfs:subClassOf rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0006921"/>
+        <obo:IAO_0000115>Hemoglobin G Philadelphia (HbG Phil) is a structural variant of the hemoglobin molecule that involves the alpha chain rather than the beta chain. It has a frequency of about 1 in 5,000 African Americans, but has been reported in other ethnic groups in the Mediterranean region as well, HbG Phil itself has no clinical consequences. The only finding of clinical interest is the mild microcytosis. While this molecule has no clinical consequences, the presence helps to distinguish HbG from HbD that shares its electrophoretic migration on HPLC and gel electrophoresis and which does have consequences when it occurs with sickle trait.</obo:IAO_0000115>
+        <ontology:SCDO_0000340 rdf:resource="https://loinc.org/80655-4/"/>
+        <ontology:SCDO_1000288>Sufficient</ontology:SCDO_1000288>
+        <ontology:SCDO_1000910>SCDO:1000689</ontology:SCDO_1000910>
+        <oboInOwl:hasDbXref>LNC:LP16433-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Hb G-Phil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hb G-Philadelphia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HbG Phil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hemoglobin G Philadelphia</oboInOwl:hasExactSynonym>
+        <rdfs:label>Hemoglobin G-Philadelphia</rdfs:label>
     </owl:Class>
     
 
@@ -57843,8 +57843,8 @@ Brain scans: Brain scans can be used to check for physical abnormalities in the 
 Other tests: Some of the other tests you may have to help diagnose ataxia and determine how severe it is can include: a lumbar puncture – where a sample of cerebrospinal fluid is taken from the base of the spine to check it for infection and any other abnormalities. nerve conduction studies and electromyography (EMG) – tests used to assess the electrical activity in nerves and muscles. videofluoroscopy – a continuous moving X-ray taken while you swallow different types of food and drink. an electrocardiogram (ECG) –  an assessment of the electrical activity of the heart. an echocardiogram – an ultrasound scan of the heart.</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://webprotege.stanford.edu/Rl7Bppx8EVih65HcfLeX3K">
-        <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
         <oboInOwl:hasNarrowSynonym>Neurological disorders</oboInOwl:hasNarrowSynonym>
+        <ontology:SCDO_0000363>no</ontology:SCDO_0000363>
         <rdfs:label>Neurology</rdfs:label>
         <dc:source rdf:resource="http://edamontology.org/topic_3334"/>
         <obo:IAO_0000115>The branch of medicine that deals with the anatomy, functions and disorders of the nervous system.</obo:IAO_0000115>
