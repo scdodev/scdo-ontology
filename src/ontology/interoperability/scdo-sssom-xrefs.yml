@@ -1,7 +1,0 @@
-curie_map: 
-  SCDO: "http://scdontology.h3abionet.org/ontology/SCDO_"
-  HP: "http://purl.obolibrary.org/obo/HP_"
-  MP: "http://purl.obolibrary.org/obo/MP_"
-  skos: "http://www.w3.org/2004/02/skos/core"
-license: "https://creativecommons.org/publicdomain/zero/1.0/"
-mapping_provider: "http://scdontology.h3abionet.org/ontology/scdo.owl"
