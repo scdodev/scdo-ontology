@@ -5,13 +5,13 @@ prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 
 INSERT {
-  ?subject <http://scdontology.h3abionet.org/ontology/SCDO_1000910> ?subject_id .
+  ?subject <http://purl.obolibrary.org/obo/SCDO_1000910> ?subject_id .
 }
 WHERE 
 {
   ?subject oio:hasDbXref ?object  .
-  ?subject <http://scdontology.h3abionet.org/ontology/SCDO_1000288> ?sufficient .
+  ?subject <http://purl.obolibrary.org/obo/SCDO_1000288> ?sufficient .
   FILTER (str(?sufficient) = "Sufficient")
-  FILTER(isIRI(?subject) && regex(str(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]"))
-  BIND(REPLACE(STR(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]", "SCDO:", "i") AS ?subject_id)
+  FILTER(isIRI(?subject) && regex(str(?subject), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]SCDO[_]"))
+  BIND(REPLACE(STR(?subject), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]SCDO[_]", "SCDO:", "i") AS ?subject_id)
 }

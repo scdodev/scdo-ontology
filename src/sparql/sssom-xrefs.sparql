@@ -7,15 +7,15 @@ prefix owl: <http://www.w3.org/2002/07/owl#>
 SELECT distinct ?subject_id ?subject_label ?predicate_id ?predicate_label ?object_id ?object_label ?match_type ?mapping_provider WHERE 
 {
   ?subject ?predicate ?object  .
-  ?subject <http://scdontology.h3abionet.org/ontology/SCDO_1000288> ?sufficient .
+  ?subject <http://purl.obolibrary.org/obo/SCDO_1000288> ?sufficient .
   OPTIONAL { ?subject rdfs:label ?subject_label } .
   OPTIONAL { ?object rdfs:label ?object_label } .
   OPTIONAL { ?predicate rdfs:label ?predicate_label } .
   OPTIONAL { ?mapping_provider rdf:type owl:Ontology } .
   FILTER (?predicate = oio:hasDbXref)
   FILTER (str(?sufficient) = "Sufficient")
-  FILTER(isIRI(?subject) && regex(str(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]"))
-  BIND(REPLACE(STR(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]", "SCDO:", "i") AS ?subject_id)
+  FILTER(isIRI(?subject) && regex(str(?subject), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]SCDO[_]"))
+  BIND(REPLACE(STR(?subject), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]SCDO[_]", "SCDO:", "i") AS ?subject_id)
   BIND(IF(regex(str(?object), "http[:][/][/]www[.]ebi[.]ac[.]uk[/]efo[/]EFO[_]")
 				|| regex(str(?object), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]")
 				|| regex(str(?object), "http[:][/][/]www[.]orpha.net[/]ORDO[/]"),
