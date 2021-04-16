@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: scdo/releases/2021-04-09/scdo.owl
+data-version: releases/2021-04-15
 synonymtypedef: abbreviation "abbreviation"
 synonymtypedef: layperson "layperson term"
 synonymtypedef: obsolete_synonym "discarded/obsoleted synonym"
 synonymtypedef: plural_form "plural form"
-ontology: http://scdontology.h3abionet.org/ontology/scdo.owl
+ontology: scdo
 property_value: http://purl.org/dc/elements/1.1/abstract "Sickle cell disease (SCD) is one of the most common monogenic diseases in humans with multiple phenotypic expressions that can manifest as both acute and chronic complications. Although described more than a century ago, challenges in comprehensive disease management and collaborative research on this disease are compounded by the complex molecular and clinical phenotypes of SCD, environmental and psychosocial factors, limited therapeutic options and ambiguous terminology. This ambiguous terminology has hampered the integration and interoperability of existing SCD knowledge, and SCD research translation. The SCD Ontology (SCDO), which is a community-driven integrative and universal knowledge representation system for SCD, overcomes this issue by providing a controlled vocabulary developed by a group of experts in both SCD and ontology design. SCDO is the first and most comprehensive standardized human- and machine-readable resource that unambiguously represents terminology and concepts about SCD for researchers, patients and clinicians. It is built around the central concept ‘hemoglobinopathy’, allowing inclusion of non-SCD haemoglobinopathies, such as thalassaemias, which may interfere with or influence SCD phenotypic manifestations. This collaboratively developed ontology constitutes a comprehensive knowledge management system and standardized terminology of various SCD-related factors. The SCDO will promote interoperability of different research datasets, facilitate seamless data sharing and collaborations, including meta-analyses within the SCD community, and support the development and curation of data-basing and clinical informatics in SCD." xsd:string
 property_value: http://purl.org/dc/elements/1.1/accessRights "Anyone can access the resource." xsd:string
 property_value: http://purl.org/dc/elements/1.1/accrualMethod "Manually, based on terms in existing ontologies and in collaboration with sickle cell disease (SCD) experts where necessary." xsd:string
@@ -5729,20 +5729,6 @@ property_value: SCDO:0000303 "Perhaps include here an \"Alpha Thalassemia Mutati
 property_value: SCDO:0000340 http://purl.obolibrary.org/obo/IDOMAL_50000026 xsd:string
 property_value: SCDO:1000288 "Sufficient" xsd:string
 property_value: SCDO:1000910 SCDO:0001370 xsd:string
-
-[Term]
-id: LNC:LP16433-2
-name: Hemoglobin G-Philadelphia
-def: "Hemoglobin G Philadelphia (HbG Phil) is a structural variant of the hemoglobin molecule that involves the alpha chain rather than the beta chain. It has a frequency of about 1 in 5,000 African Americans, but has been reported in other ethnic groups in the Mediterranean region as well, HbG Phil itself has no clinical consequences. The only finding of clinical interest is the mild microcytosis. While this molecule has no clinical consequences, the presence helps to distinguish HbG from HbD that shares its electrophoretic migration on HPLC and gel electrophoresis and which does have consequences when it occurs with sickle trait." []
-synonym: "Hb G-Phil" EXACT []
-synonym: "Hb G-Philadelphia" EXACT []
-synonym: "HbG Phil" EXACT []
-synonym: "Hemoglobin G Philadelphia" EXACT []
-xref: LNC:LP16433-2
-is_a: SCDO:0006921 ! Hemoglobin Variant
-property_value: SCDO:0000340 https://loinc.org/80655-4/
-property_value: SCDO:1000288 "Sufficient" xsd:string
-property_value: SCDO:1000910 SCDO:1000689 xsd:string
 
 [Term]
 id: MP:0001212
@@ -25931,7 +25917,6 @@ name: SickleInAfrica CDE - Hb Assay Results Recorded Question
 def: "The Sickle in Africa core data element that records the hemoglobins for which assay results were recorded." []
 is_a: SCDO:1000509 ! SickleInAfrica Core Data Element
 relationship: SCDO:1000525 SCDO:1000495 ! is question type Multiple Choice Multiple Selection Question
-relationship: SCDO:1000526 LNC:LP16433-2 ! has answer option Hemoglobin G-Philadelphia
 relationship: SCDO:1000526 SCDO:0000513 ! has answer option Hemoglobin C
 relationship: SCDO:1000526 SCDO:0000514 ! has answer option Hemoglobin S
 relationship: SCDO:1000526 SCDO:0000528 ! has answer option Hemoglobin D-Punjab
@@ -25940,6 +25925,7 @@ relationship: SCDO:1000526 SCDO:0005446 ! has answer option Fetal Hemoglobin
 relationship: SCDO:1000526 SCDO:1000009 ! has answer option Hemoglobin E
 relationship: SCDO:1000526 SCDO:1000016 ! has answer option Hemoglobin O-Arab
 relationship: SCDO:1000526 SCDO:1000364 ! has answer option Hemoglobin A2
+relationship: SCDO:1000526 SCDO:1000689 ! has answer option Hemoglobin G-Philadelphia
 relationship: SCDO:1000528 SCDO:1000688 ! collects Hemoglobin Assay Results Recorded
 property_value: SCDO:1000517 "1, Hb A\n2, Hb  F\n3, Hb  S\n4, Hb  C\n5, Hb  E\n6, Hb A2\n7, Hb  D-Punjab\n8, Hb  G-Philadelphia\n9, Hb  O-Arab" xsd:string
 property_value: SCDO:1000518 "For which hemoglobins were assay results recorded?" xsd:string
@@ -25957,6 +25943,20 @@ def: "The hemoglobins for which assay results were recorded." []
 is_a: SCDO:1000576 ! Diagnostic Measurement Descriptor
 property_value: http://purl.org/dc/elements/1.1/creator "SCDO (Jade Hotchkiss)" xsd:string
 property_value: SCDO:1000288 "None" xsd:string
+
+[Term]
+id: SCDO:1000689
+name: Hemoglobin G-Philadelphia
+def: "Hemoglobin G Philadelphia (HbG Phil) is a structural variant of the hemoglobin molecule that involves the alpha chain rather than the beta chain. It has a frequency of about 1 in 5,000 African Americans, but has been reported in other ethnic groups in the Mediterranean region as well, HbG Phil itself has no clinical consequences. The only finding of clinical interest is the mild microcytosis. While this molecule has no clinical consequences, the presence helps to distinguish HbG from HbD that shares its electrophoretic migration on HPLC and gel electrophoresis and which does have consequences when it occurs with sickle trait." []
+synonym: "Hb G-Phil" EXACT []
+synonym: "Hb G-Philadelphia" EXACT []
+synonym: "HbG Phil" EXACT []
+synonym: "Hemoglobin G Philadelphia" EXACT []
+xref: LNC:LP16433-2
+is_a: SCDO:0006921 ! Hemoglobin Variant
+property_value: SCDO:0000340 https://loinc.org/80655-4/
+property_value: SCDO:1000288 "Sufficient" xsd:string
+property_value: SCDO:1000910 SCDO:1000689 xsd:string
 
 [Term]
 id: SCDO:1000690

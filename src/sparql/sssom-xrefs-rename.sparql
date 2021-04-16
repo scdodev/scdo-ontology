@@ -7,7 +7,7 @@ prefix owl: <http://www.w3.org/2002/07/owl#>
 SELECT distinct ?subject_id ?object_id WHERE 
 {
   ?subject oio:hasDbXref ?object  .
-  ?subject <http://scdontology.h3abionet.org/ontology/SCDO_1000288> ?sufficient .
+  ?subject <http://purl.obolibrary.org/obo/SCDO_1000288> ?sufficient .
   FILTER (str(?sufficient) = "Sufficient")
   FILTER (!regex(str(?object),"^AERO"))
   FILTER (!regex(str(?object),"^APAONTO"))
@@ -31,8 +31,8 @@ SELECT distinct ?subject_id ?object_id WHERE
   FILTER (!regex(str(?object),"^SIO"))
   FILTER (!regex(str(?object),"^sio"))
   FILTER (!regex(str(?object),"^VSO"))
-  FILTER(isIRI(?subject) && regex(str(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]"))
-  BIND(REPLACE(STR(?subject), "http[:][/][/]scdontology[.]h3abionet[.]org[/]ontology[/]SCDO[_]", "SCDO:", "i") AS ?subject_id)
+  FILTER(isIRI(?subject) && regex(str(?subject), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]SCDO[_]"))
+  BIND(REPLACE(STR(?subject), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]SCDO[_]", "SCDO:", "i") AS ?subject_id)
   BIND(IF(regex(str(?object), "http[:][/][/]www[.]ebi[.]ac[.]uk[/]efo[/]EFO[_]")
 				|| regex(str(?object), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]")
 				|| regex(str(?object), "http[:][/][/]www[.]orpha.net[/]ORDO[/]"),

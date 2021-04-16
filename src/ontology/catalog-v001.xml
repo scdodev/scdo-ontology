@@ -3,11 +3,10 @@
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
         <uri id="Automatically generated entry, Timestamp=1544591653217" name="http://purl.obolibrary.org/obo/hp.owl" uri="results/hp_module.owl"/>
         <uri id="Automatically generated entry, Timestamp=1544591653217" name="duplicate:http://scdontology.h3abionet.org/ontology/scdo.owl" uri="scdo-edit_Before18September2018.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544591653217" name="duplicate:http://scdontology.h3abionet.org/ontology/scdo.owl" uri="scdo-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544591653217" name="http://purl.obolibrary.org/obo/scdo.owl" uri="scdo-edit.owl"/>
         <uri id="Automatically generated entry, Timestamp=1544591653217" name="duplicate:http://scdontology.h3abionet.org/ontology/scdo.owl" uri="scdo_Before18September.owl"/>
         <uri id="Automatically generated entry, Timestamp=1544591653217" name="duplicate:http://scdontology.h3abionet.org/ontology/scdo.owl" uri="scdo.owl"/>
         <uri id="Automatically generated entry, Timestamp=1544591653217" name="duplicate:http://scdontology.h3abionet.org/ontology/scdo.owl" uri="scdo_hpo_merged.owl"/>
         <uri id="Automatically generated entry, Timestamp=1544591653217" name="duplicate:http://scdontology.h3abionet.org/ontology/scdo.owl" uri="tmp.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544591653217" name="shadowed:http://scdontology.h3abionet.org/ontology/scdo.owl" uri="old_versions/scdo-original-22-05-2018.owl"/>
     </group>
 </catalog>
