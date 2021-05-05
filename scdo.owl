@@ -1877,9 +1877,9 @@ None</rdfs:comment>
     
 
 
-    <!-- HsapDv:0000000 -->
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000000 -->
 
-    <owl:Class rdf:about="HsapDv:0000000">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43646"/>
         <obo:IAO_0000115>A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
         <obo:SCDO_0000303>See specific stages in the &quot;Human Developmental Stages Ontology&quot;</obo:SCDO_0000303>
