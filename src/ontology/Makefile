@@ -41,7 +41,7 @@ $(ONT).owl: $(TEMPLATE_FILES) mappings/scdo-sssom-xrefs-rename.tsv
 	$(ROBOT) template --input $(SRC) $(patsubst %, --merge-before --prefix $(PREFIX) --template %, $(TEMPLATE_FILES)) \
 		query --update $(SPARQLDIR)/sssom-xrefs-rename-scdoid.ru \
 		reason -s true -m false --exclude-tautologies structural -r ELK \
-		rename --prefix "ExO: http://purl.obolibrary.org/obo/ExO_" --prefix $(PREFIX) --prefix "GSSO: http://purl.obolibrary.org/obo/GSSO_" --mappings mappings/scdo-sssom-xrefs-rename.tsv --allow-missing-entities true \
+		rename --prefix "ExO: http://purl.obolibrary.org/obo/ExO_" --prefix $(PREFIX) --prefix "GSSO: http://purl.obolibrary.org/obo/GSSO_" --prefix "HsapDv: http://purl.obolibrary.org/obo/HsapDv_" --mappings mappings/scdo-sssom-xrefs-rename.tsv --allow-missing-entities true \
 		annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl convert -f owl -o $@
 
 #$(ONT).owl: $(SRC) /home/gaston/SCDO-Ontologygithub/templates/AllTermsFinal.tsv /home/gaston/SCDO-Ontologygithub/templates/Topology.tsv templates/haemoglobinopathies.tsv
