@@ -13,7 +13,7 @@ http://scdontology.h3abionet.org/ontology/scdo.owl
 Release notes for the main (English) version can be viewed here:
 https://docs.google.com/document/d/e/2PACX-1vSXWXuKCHmMrOKGQOzObuy6jLVnUuOR4-jGLGLhoE8qcJeywwIzAAC0VQVGT0EUuZ0gOWT59wxpxCU6/pub
 
-Release notes for the French version (fr-t-en.owl) can be viewed here:
+Release notes for the French version (scdo_fr-t-en.owl) can be viewed here:
 https://docs.google.com/document/d/e/2PACX-1vRkh20T-h_Mo4bC2FnzogL0VODDLtsXg4_8I6q3VgDHU_6s33ZtASYg9ctrfELPO_sfPfVMS-7VJDnX/pub
 
 ### Editors' version
