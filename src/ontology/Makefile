@@ -22,11 +22,11 @@ all: sparql_test $(ONT).owl $(ONT).obo $(ONT)_hpo_merged.owl scdo_hp_bridge.owl 
 test: sparql_test all
 
 prepare_release: all
-	cp $(ONT).owl scdo_hpo_merged.owl $(RELEASEDIR) &&\
-	mkdir -p $(RELEASEDIR)/imports $(RELEASEDIR)/mappings &&\
-	cp imports/*.owl $(RELEASEDIR)/imports &&\
-	cp mappings/*.tsv $(RELEASEDIR)/mappings &&\
-	git add $(RELEASEDIR)/imports/*.owl &&\
+	mkdir -p $(RELEASEDIR)/
+	cp $(ONT).owl scdo_hpo_merged.owl $(RELEASEDIR)
+	mkdir -p $(RELEASEDIR)/imports $(RELEASEDIR)/mappings
+	cp imports/*.owl $(RELEASEDIR)/imports
+	cp mappings/*.tsv $(RELEASEDIR)/mappings
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 # ----------------------------------------
