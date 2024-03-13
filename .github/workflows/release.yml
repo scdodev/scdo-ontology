@@ -1,0 +1,34 @@
+name: Run and deploy release
+on:
+  workflow_dispatch:
+#  schedule:
+#    - cron: "0 0 1 * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.5
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+
+      - name: work around permission issue
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+        
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      
+      - name: Update release files
+        run: cd src/ontology/ && make prepare_release -B
+      
+      - name: Run release
+        uses: gaoDean/action-gh-release@6b61bb5648ddc1241deb73ea6b72c3a1e1f9e445
+        with:
+          generate_release_notes: true
+          draft: true
+          tag_name: v${{ steps.date.outputs.date }}
+          files: |
+            scdo.owl
+            scdo.obo
+            mappings/scdo-sssom-xrefs.tsv
