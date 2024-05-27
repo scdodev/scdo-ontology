@@ -2,6 +2,8 @@
 
 [SCDO Website](http://scdontology.h3abionet.org)
 
+[License: CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
 ### Stable release versions
 
 The latest English only version of the SCDO can always be found at:
