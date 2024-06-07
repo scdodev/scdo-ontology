@@ -32,8 +32,7 @@ Please use this GitHub repository's [Issue tracker](https://github.com/scdodev/s
 
 ## Acknowledgements
 
-The Sickle Cell Disease Ontology (SCDO) project was originally a collaboration between [H3ABioNet (Pan African Bioinformatics Network)](http://www.h3abionet.org/) and SPAN (Sickle Cell Disease Pan African Network), but has since become an undertaking of the [SickleInAfrica Consortium](https://sickleinafrica.org/), through the work of dedicated SADaCC (Sickle Africa Data Coordinating Centre) curators and developers.
-
+The Sickle Cell Disease Ontology (SCDO) project was originally a collaboration between [H3ABioNet (Pan African Bioinformatics Network)](http://www.h3abionet.org/) and SPAN (Sickle Cell Disease Pan African Network), but is now maintained and extended by the [Sickle Africa Data Coordinating Centre (SADaCC)](https://www.sadacc.org/article/73), with contributions from members of the SickleInAfrica Consortium's SCDO Working Group.
 
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
